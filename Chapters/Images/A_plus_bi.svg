@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182" height="122" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="a" overflow="visible" orient="auto">
+   <path transform="scale(.35) rotate(180) translate(6)" d="m0 0 5-5-17.5 5 17.5 5-5-5z" stroke-width="1" stroke="#000" fill="#000"/>
+  </marker>
+  <marker id="b" overflow="visible" orient="auto">
+   <path transform="scale(.25) rotate(180) translate(6)" d="m0 0 5-5-17.5 5 17.5 5-5-5z" stroke-width="1" stroke="#00d" fill="#00d"/>
+  </marker>
+ </defs>
+ 
+ <g stroke="#000" stroke-width="1.2">
+  <line x1="30" x2="30" y1="120" y2="10" marker-end="url(#a)"/>
+  <line x1="10" x2="170" y1="100" y2="100" marker-end="url(#a)"/>
+ </g>
+ 
+ <g stroke="#000" stroke-width="1" stroke-dasharray="3, 3">
+  <line x1="30" x2="140" y1="30" y2="30" />
+  <line x1="140" x2="140" y1="30" y2="100"/>
+ </g>
+ 
+ <circle cx="140" cy="30" r="3" fill="#f00"/>
+ 
+ <line x1="30" y1="100" x2="137" y2="32" marker-end="url(#b)" stroke="#00d" stroke-linecap="round" stroke-width="2.4" />
+ 
+ <g font-size="14" font-family="serif" font-style="italic" text-anchor="middle" fill="#000">
+  <text x="15.5" y="15">Im</text>
+  <text x="168.5" y="116">Re</text>
+  <text x="20" y="116">O</text>
+  <text x="140" y="113">a</text>
+  <text x="21.5" y="34">b</text>
+  <text x="153" y="23">z=a+bi</text>
+ </g>
+</svg>

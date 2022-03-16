@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+! TITLE:        One5Root.svg
+! AUTHOR:       David R. Tribble (commons.wikimedia.org/wiki/User:Loadmaster)
+! CREATED:      2011-04-11
+! PERMISSIONS:  Licensed under GFDL and Commons Share and Share-Alike licenses
+!-->
+<svg version="1.0"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="-160 -160 +161 +161"
+   width="480" height="480">
+
+  <title>Fifth roots of unity</title>
+  <desc>
+   Fifth roots of unity (1) in the complex plane.
+  </desc>
+
+<g transform="scale(0.5 0.5) translate(-157 -157)"
+    font-family="Georgia,Palatino,Tahoma,Constantia,Nina,Consolas,Trebuchet,Times,Arial"
+    font-size="9pt">
+
+  <!-- Unit circle -->
+  <circle cx="0" cy="0" r="100"
+    stroke="#C0C0C0" fill="none" style="stroke-dasharray:2,2;"/>
+
+  <!-- X axis -->
+  <line x1="-157" y1="0" x2="157" y2="0"
+    stroke="#000000" fill="#000000"/>
+  <path d="M -144 -4 -158 0 -144 4 Z" fill="#000000"/>
+  <path d="M +144 -4 +158 0 +144 4 Z" fill="#000000"/>
+
+  <!-- Y axis -->
+  <line x1="0" y1="-157" x2="0" y2="157"
+    stroke="#000000" fill="#000000"/>
+  <path d="M -4 -144 0 -158 4 -144 Z" fill="#000000"/>
+  <path d="M -4 +144 0 +158 4 +144 Z" fill="#000000"/>
+
+  <!-- Point (0,0) -->
+  <circle cx="0" cy="0"  r="2.0"
+    stroke="none" fill="#000000"/>
+  <text x="12" y="15">
+    0 </text>
+
+  <!-- Point (0,+i) -->
+<!--omitted
+  <circle cx="0" cy="-100"  r="2.0"
+    stroke="none" fill="#000000"/>
+-->
+  <text x="7" y="-107"
+    font-style="italic"> +i </text>
+
+  <!-- Point (0,-i) -->
+<!--omitted
+  <circle cx="0" cy="100" r="2.0"
+    stroke="none" fill="#000000"/>
+-->
+  <text x="7" y="114"
+    font-style="italic"> &#x2212;i </text>
+
+  <!-- Point (-1,0) -->
+<!--omitted
+  <circle cx="-100"  cy="0" r="2.0"
+    stroke="none" fill="#000000"/>
+-->
+  <text x="-120" y="15">
+    &#x2212;1 </text>
+
+  <!-- Point (+1,0) -->
+<!--omitted
+  <circle cx="100" cy="0" r="2.0"
+    stroke="none" fill="#000000"/>
+-->
+  <text x="104" y="15">
+    +1 </text>
+
+  <!-- Point: root5(1) = (1, 0), 0 deg -->
+  <line x1="0" y1="0" x2="+100.00" y2="+0.00"
+    stroke="#0000C0" fill="none" style="stroke-dasharray:2,2;"/>
+  <circle cx="+100.00" cy="+0.00"  r="4.0"
+    stroke="none" fill="#0000C0"/>
+
+  <!-- Point: root5(1) = 72 deg -->
+  <line x1="0" y1="0" x2="+30.90" y2="-95.11"
+    stroke="#0000C0" fill="none" style="stroke-dasharray:2,2;"/>
+  <circle cx="+30.90" cy="-95.11"  r="4.0"
+    stroke="none" fill="#0000C0"/>
+
+  <!-- Point: root5(1) = 144 deg -->
+  <line x1="0" y1="0" x2="-80.90" y2="-58.78"
+    stroke="#0000C0" fill="none" style="stroke-dasharray:2,2;"/>
+  <circle cx="-80.90" cy="-58.78"  r="4.0"
+    stroke="none" fill="#0000C0"/>
+
+  <!-- Point: root5(1) = 216 deg -->
+  <line x1="0" y1="0" x2="-80.90" y2="+58.78"
+    stroke="#0000C0" fill="none" style="stroke-dasharray:2,2;"/>
+  <circle cx="-80.90" cy="+58.78"  r="4.0"
+    stroke="none" fill="#0000C0"/>
+
+  <!-- Point: root5(1) = 288 deg -->
+  <line x1="0" y1="0" x2="+30.90" y2="+95.11"
+    stroke="#0000C0" fill="none" style="stroke-dasharray:2,2;"/>
+  <circle cx="+30.90" cy="+95.11"  r="4.0"
+    stroke="none" fill="#0000C0"/>
+</g>
+
+</svg>
