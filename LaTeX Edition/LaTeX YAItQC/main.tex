@@ -1,0 +1,957 @@
+\documentclass{book}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{braket}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\graphicspath{ {./images/} }
+
+\title{Yet Another Introduction to Quantum Computing}
+\author{Thomas R Clarke}
+\date{September 2022}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{What is quantum?}
+
+
+Before we can talk about quantum computing, we first have to understand the basic concepts of quantum that make it work. 
+
+\subsection{ Common misconceptions about quantum}
+ 
+In science fiction *quantum* is often used to explain away a technology that seems to defy the laws of physics. In the 2018 superhero movie *Ant-Man*, the protagonist is able to become smaller and smaller until they enter the mysterious *Quantum Realm*, described as “a reality where all concepts of time and space become irrelevant”. 
+
+If this was how subatomic physics worked, there would be no subatomic physics $^*$.
+
+Quantum mechanics is described by the Schrödinger equation that is built on space and time. There are some differences to classical physics, the physics everyone is used to experiencing in everyday life. Quantum it is not some magical concept which allows for anything that violates classical physics to be explained away. There are however, some small but significant features of quantum mechanics that allow for the development of new technologies. 
+
+
+\subsection{ How many physicists does it take to change a light bulb?}
+
+In the early 20th century, a German physicist (by the cool name of Max Planck) was tasked with modelling the emission of light from a filament bulb (basically a wire that gets hot enough to glow). He came up with what is known as the black body radiation spectrum. It turns out, from his model, the energy emitted by an object with a finite temperature is not emitted in a continuous spectrum. That's to say rather than all possible wavelengths of light being emitted by this bulb only certain wavelengths were allowed. This is known as a discrete spectrum. What this in turn means is that energy is emitted are chunks, or *quanta*, with a well-defined energy. We can't have energy between these chunks. It's a bit like taking the lift (elevator in American English). One can only get on or off the lift at specific heights corresponding to the floor level. Each floor is separated by a distance and the lift can go up or down in any multiple of these distances limited by the number of floors. In between those levels the doors of the lift won't open.
+
+\includegraphics{images/Energy_Levels.png}
+
+\includegraphics{images/Light_bulb_quantised.png}
+
+This concept of quantisation of energy is where the quantum comes from. Whilst this concept is less significant to quantum computing, it is still worth mentioning. The reason for this is that the transistor that powers all digital electronics is built upon this concept. Thus all computations using this technology (the integrated circuit) are computers running on quantum mechanics. Which is not to say they are quantum computers simply that they are fundamentally built upon quantum physics, as are you, I, and everything we can see and touch. 
+
+Beyond the quantisation of energy, there are quantum phenomena which are very much more significant to quantum computing: *superposition \& entanglement*. 
+
+\subsection{ So what happened to Schrödinger’s cat?}
+
+You may have heard of a very special cat associated with another German physicist, Schrodinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released and the cat dies. otherwise the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
+\includegraphics{images/standard_cat.png}
+[2]
+
+Schrodinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
+
+
+<p align="center">
+    It is as simple as tossing a coin.
+</p>
+
+
+A normal coin has two faces: heads & tails. Assuming the coin is unbiased, When the coin is tossed there should be an equal probability of landing on a heads, $P(H)$ or a tails, $P(T)$, both equal to $1/2$. Here the extremely unlikely case where the coin lands on its round edge is not considered. When the coin has not yet landed, we can say it is in a particular state where it is *like being both* heads and tails at the same time. That's not to say there are 2 coins where 1 coin is heads up and the other coin is tails facing up*. Instead this means there is some uncertainty in the state of the coin. 
+
+In quantum mechanics we call this particular state a *superposition*. And this is the state we say the Schrodinger's cat is in before the box is opened. 
+
+When the coin lands, it faces either heads or tails up. Now there is no uncertainty in the state of the coin. If we were to cover the coin and then look at it again some time later, it would still have the same side facing up. The superposition the coin was in before has been collapsed. The concept of looking at the coin, or opening the box, is what in quantum mechanics is known as *performing a measurement*.
+
+$*$ According to the many worlds interpretation of quantum mechanics it is not quite so simple...
+
+\subsection{ Not so spooky action at a distance}
+
+The more conceptually difficult phenomena quintessential to quantum computing can also be explained using coins (but with one small modification). For this example 2 coins will be required. 
+
+Tossing two unbiased coins is effectively the same as tossing the same coin twice and recording the outcome each time. Guessing whether the coin is H or T is 50% for each coin or 25% for getting both of them correct. 
+
+For the next step some removable adhesive will be required. Imagine placing the coins together with each coin having the H facing outwards and the T's stuck together to make one coin twice as thick. Tossing this coin will always result in one coin with the H facing upwards. But before the coin is revealed, the two coins are separated. The coin at the bottom must have its T side up, leaving 2 coins one H and the other T. After shuffling the coins they are separated. 
+
+\includegraphics{images/Entanglement.png}
+[3]
+
+
+
+At this point, guessing either of the coin would have a 50% chance of getting the right outcome- the same as for two coins tossed separately. 
+
+But if only one of the coins is revealed, say the H coin, then it is instantly known that the other one must be a T. Suddenly guessing the state of the second coin has a 100% chance of success whereas with the separate coin tosses revealing one made no difference to guessing the other. These linked probabilities is what is known as an *entangled state*.
+
+\subsection{Quantum Technology}
+
+Quantum Technologies, as they are defined by John Morton, director of UCLQ (as of the time of writing) are *"ones which exploit quantum superposition and entanglement to achieve major advances over current technologies in areas including communication, sensing and information processing."*
+
+These are devices that take advantage of the aforementioned phenomena for practical applications to do something better than what can be done without using them. Quantum computation is one of the most exciting quantum technologies even if it is much less mature than others like quantum metrology (sensing) and encryption (communications).
+
+
+\subsection{Chapter 1 Summary} 
+
+\begin{itemize}
+
+    \item The word quantum comes from quantised or in discrete units 
+    \item A superposition happens when there are two possible states
+    \item Entanglement happens when the outcomes of two individually random systems are correlated very strongly 
+    \item Quantum technologies use superposition \& entanglement in their operation 
+    
+\end{itemize}
+
+\section{What is Quantum Computing?}
+
+
+In the previous chapter, the fundamental concepts of quantum mechanics were demystified and their relevance to quantum computing was explained. Building on that, this chapter will explain how quantum computers can unlock real-world value.
+
+\subsection{What computers do}
+
+Before we add quantum spice to our computers, it would be wise to first describe what it is that our classical computers do. 
+
+Computers work by executing logical operations (think addition/subtraction/multiplication/...) that take the machine from a starting point to a finishing point. The starting point that is fed into the computer is congenitally known as the input and what the computer ends up with is usually referred to as the output. An *algorithm* is a set of instructions that allow the computer to take the input and generate an output. For example, an algorithm for doubling a number could take an input of 3, multiply it by 2 and return an output of 6. 
+
+Going back to the coins here, this is a bit like laying them out in a row and then proceeding to shuffle and flip the coins according to a script that allows something to be done. For example, you could add 2 numbers expressed in binary by following a simple series of rules that allows for addition. This is similar to using an abacus as a calculator. Since the advent of the digital computer in the 1940's, these operations have been carried out by increasingly advanced machines to do more complex computations a lot faster.
+
+\subsection{More than flipping coins} 
+
+The example of coins being flipped can be helpful in explaining how quantum effects behave but it would not be practical to use coins for quantum computation. There are a few obvious reasons for this: 
+
+- Flipping coins is not very fast. Modern computers have clock speeds in the GHz or billions of complete clock cycles per second. We would need an astronomical number of coins to try and replicate that. 
+
+- Tossing coins can only really be used to generate random numbers. Beyond the conventional deterministic computing operations we can already do, the only real advantage from quantum theory would be the 'random' nature of the coin flips. 
+
+- Sticking coins together is even slower than just flipping them. Not to mention the part where they get shuffled in a pseudo random way. 
+
+
+These coins represent the qubits in a quantum computer. We should be able to control these qubits faster and more precisely than with coins:
+
+- Perform operations on qubits quickly 
+- Have a precise control over the probabilities 
+- Be able to effectively control multiple qubits at once 
+
+\subsection{Quantum Algorithms} 
+
+ Conventional computers are really great at what they do. The field of high-performance computing has had many decades to mature. According to Top500, an index tracking the most powerful supercomputers, the most powerful supercomputer, Fugaku is a \$1bn powerhouse. It consumes 29,899 kilowatts to power 7,630,848 cores. For context, a mid-range laptop today might have 6 cores and consume a total of around 20 watts of power. 
+
+ Both the laptop and the supercomputer execute algorithms that take some inputs and generate outputs. Whilst they are both excellent at solving a great many problems, there are two things they can't handle so well: superposition & entanglement. 
+
+ Starting with a simple coin toss there are 2 possible outcomes. If we add a second coin there are 4 possible outcomes (HH, HT, TH, TT). As more and more coins are added, the number of possible outcomes doubles with each coin that is added. This number $N$, grows as $N = 2^n$. If we had 300 coins, that would mean a single toss has more possible outcomes than we estimate the total number of atoms in the universe. That's roughly 2 followed by 90 0's different combinations of H & T. Now imagine tossing these coins 300 times...
+
+ A quantum computer could handle this problem easily. Instead of needing a universe of atoms, 300 qubits *of sufficiently high quality* would be enough to run a quantum algorithm that could simulate these coins (including sticking of them together) to arbitrary precision. 
+
+ Quantum algorithms are similar to the input and output of classical algorithms but with the addition of superposition and entanglement in the middle.  If an algorithm doesn't feature superposition & entanglement, it would always be better to use the classical computer. 
+
+ > Quantum computers are __*not*__ faster versions of regular computers
+
+ > 
+
+ > Quantum computers are __*not*__ used to run conventional algorithms, or do things that are already very well done on a classical computer
+
+\subsection{Quantum Advantage} 
+
+If our conventional computers perform so many tasks better, there must be some motivation for quantum computing being such an exciting area of research. Aside from the elegance of manipulating quantum states, quantum computing is expected to be more useful than a glorified coin tossing simulator. Despite the limitations in state-of-the-art quantum computing machines, it is known of a few valuable applications where quantum algorithms *theoretically outperform* the best available classical solution.
+
+> Quantum advantage occurs when a quantum computer gives significant benefit to the user compared to the best available classical alternative. 
+
+There are a few different ways a quantum computer could add value: 
+
+\begin{itemize}
+    \item Solve a problem faster for better decision making
+    \item Provide more accurate solutions that are more useful 
+    \item Consume less energy and thus cost less to run 
+    \item Enable entirely new models & solutions to solve problems that previously couldn't be solved
+\end{itemize}
+
+    
+
+Quantum advantage is described in terms of how the solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some 
+
+![Quantum_advantage](Images/Q_advantage.png)[1]
+
+As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
+
+
+\subsection{Applications of Quantum Computing}
+
+There are a great many practical difficulties in implementing QC. Even still, in 2021 [over $3 billion was invested into quantum computing](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/quantum-computing-funding-remains-strong-but-talent-gap-raises-concern). Why is there so much hype around such an early-stage technology? 
+
+There are many industries expecting significant value creation from quantum computing: 
+
+\begin{itemize}
+        
+    \item Pharmaceuticals: Develop better medicine by simulating drugs more quickly & accurately  
+    \item \hyperlink{https://www.youtube.com/watch?v=jA7iopqDm94}{Supply chain & logistics}: Quantum computing to optimise supply chains 
+    \item Finance: Portfolio optimisation & fraud detection by simulation of stochastic variables
+    \item Environmental: Simulation of chemistry for batteries, solar cells & materials
+    \item Science: Simulation of quantum systems to better understand the universe
+    
+\end{itemize}
+
+
+Across each of these areas, there are multiple established companies and start-ups developing quantum solutions. It is expected that the combined value creation by 2030 will be in the $10's of billions. 
+
+In addition to potential direct impacts, there are a lot of potential benefits to developing the hardware. Being able to measure qubits better can help develop quantum sensors with applications in healthcare & navigation. 
+
+
+## Chapter 2 Summary 
+
+- Quantum computers are more than just random objects that have superposition
+- Algorithms are sets of instructions that we give a computer to process information 
+- Quantum algorithms are like conventional algorithms but they allow us to use superposition & entanglement 
+- For some applications, quantum algorithms have shown to be much better than classical algorithms
+- When a quantum computer completes a task better than the best available classical solution, there is quantum advantage
+
+\section{The Mathematical Minimum for QC}
+\subsection{Complex Numbers}
+
+So far everything in this textbook has been described using *real* numbers- that is the set numbers you can produce on most calculators. For quantum computing, we require going beyond to complex numbers. You may be wondering why we need imaginary numbers. The most important equation in all of quantum mechanics, the Schrodinger equation, features imaginary numbers. 
+
+$$ i\hbar \frac{\partial{}}{\partial{t}}\ket{\psi} = \hat{H}\ket{\psi} $$
+
+Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planc constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the statevector for the quantum system. 
+
+This equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, it is not needed for this introductory course. Neither will there be any calculus.
+
+### 3.1.1 The square root of -1 
+
+There are two square roots of $4$: $+2$ \& $-2$. For numbers that aren't integers there are algorithms we can run on our calculators to work out the roots to arbitrary precision. In physics there are many situations in which the only valid solution to an equation calls for the square root of a negative number. To make this work, it is necessary to first define the square root of $-1$ as $i = \sqrt{-1}$. 
+
+Using some basic algebra we can factorise any surd (square root number) into a product of two surds $ \sqrt{ab} = \sqrt{a} \times \sqrt{b}$. This holds true for negative numbers allowing us to take the square root of any negative number by breaking it down into the square root of $-1$ and the positive magnitude of that number. This can be written as:
+
+$$ \sqrt{-a} = \sqrt{-1} \times \sqrt{a} $$
+
+$$ \sqrt{-a} = \pm i \sqrt{a} $$
+For example the square root of $-4$ can be written as $+2i$, $-2i$.
+These numbers that can be written as $ai$ are known as imaginary numbers. 
+
+### 3.1.2 Complex numbers 
+
+Imaginary numbers work similarly to the real numbers everyone uses on a  daily basis. One can divide, multiply, add & subtract them just as you can for real numbers. What this also means is that any of $ \div ,\times, +, - $ operations can be applied to a combination of both real and imaginary numbers. For instance, the positive root of $-4$, $2i$ can be added to $3$ as $3 + 2i $. Any such number that can be written as a sum of a real and imaginary number is called a *complex number*. More generally we can define this mathematically as:
+
+$$ z = a + ib $$
+
+Where $a$ and $b$ are purely real numbers. The real part of $z$ is known as $ Re(z) = a$ and similarly the imaginary component of is $ Im(z) = b$. 
+
+### 3.1.3 The Argand Diagram
+
+Complex numbers can be represented on a graph by splitting them into their real & imaginary parts. In the Argand diagram the x axis represents the real part and the y axis represents the imaginary part. 
+
+\includegraphics{images/A_plus_bi.svg}
+
+If a were negative, the real part would be negative so the arrow would point to the left instead. If b were negative, the imaginary part would be negative, so the arrow would point downwards instead. 
+
+
+>### Exercise 3.1
+>
+>Consider the complex numbers 
+>
+>z = 4 + 5i <br>
+>y = -3 + i 
+>
+>i.What is $Re(z)$? <br>
+>ii. What is $Im(m)$? 
+<!-- >$$m = -2 - 2i $$ -->
+<!-- ii. Sketch z,y,m on the Argand diagram -->
+
+
+### 3.1.3 Complex conjugate
+
+Every complex number has a real & imaginary part. By taking the imaginary part of the complex number and making it negative, we get the complex conjugate. For example if the complex number $z$ is 
+
+$z = x + iy$ 
+
+The complex conjugate would be $z^*$ written as 
+
+$z^* = x - iy$ 
+
+In the figure below the complex number $z$ is shown along with its complex conjugate. In this diagram $\bar{z}$ is used rather than $z^*$ but it means the same thing.  
+
+\includegraphics{images/Complex_conjugate_picture.svg.png}
+ [3]
+
+ Note how the real part is the same, but the imaginary part is on the negative axis. 
+
+ ### 3.1.4 Magnitude of complex numbers 
+
+ It can be very useful to describe how big a complex number is. Since it has a real component and an imaginary component, the magnitude of a complex number indicates how big it is across both these components. 
+
+ The magnitude of a complex number $z$ is denoted by two vertical bars as $|z|$. It is calculated the same was as the Euclidean distance as 
+
+ $$|z| = \sqrt{x^2 + y^2}$$
+
+ With $z = x + yi$. 
+
+ The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.
+
+> ### Exercise 3.2 
+>
+> Consider the complex number $z = 3 + 5i$ . 
+>
+> i. What is the complex conjugate of $z$, $z^*$?
+> 
+> ii. What is the magnitude of $z$?
+>
+>iii. What is the magnitude of $z^*$?
+
+### 3.1.5 Interlude on Trigonometry 
+
+Trigonometry is defined as "*the branch of mathematics dealing with the relations of the sides and angles of triangles and with the relevant functions of any angles*" but for our use it is much better to consider trigonometry the study of rotations. In later chapters, quantum gates will be described as rotations. 
+
+Consider a circle with radius 1. Any point on the circle can be reached by rotating on the surface by an angle. The figure below shows how we can reach any point.
+
+![Unit_circle\includegraphics{images/TrigonometryUnitCircle_700.png}
+[2]
+
+The point P is reached by the angle $\theta$. It has coordinates $x = \cos(\theta)$ and $ y = \sin(\theta)$.
+
+In chapter 5, quantum gates will be described in terms of rotations around a higher dimensional sphere. 
+
+### 3.2.5 Euler's formula
+
+*Euler's formula* is very useful and can be stated as:
+
+$$ e^{i \theta} = cos(\theta) + i sin(\theta) $$
+
+Where $\theta$ is an angle in radians. 
+
+The significance of this is that one can represent any complex number in this fashion simply by multiplying the left-hand side by some magnitude. 
+
+For example, the complex number $ z = \frac{1}{2}( 1 + \sqrt{3}i)$ 
+
+Can be written as 
+
+$$ z = cos(\pi/3) + i sin(\pi/3) $$
+
+With Euler's formula this becomes 
+
+$$ z = e^{i \pi/3} $$
+
+In the context of quantum information this object $ e^{i\theta}$ is called a phase and is of exceptional importance. To explain why $\theta$ is so significant would require its own chapter. Instead it shall be incorporated into later chapters as needed.
+
+
+### 3.2.6 Polar form of complex numbers 
+
+We can represent any complex number on the **Argand diagram** in terms of its real and imaginary parts. From trigonometry, we can also represent any point on a circle using an angle and a given radius. 
+
+Euler's formula allows us to put these two together, representing any complex number as a point on a circle. 
+
+\includegraphics{images/Polar_Argand-diagram.png}
+[4]
+
+There are some complex numbers that are too big to be written as $e^{i\theta}$. For instance, the complex number z = 5 + 12i cannot be written as $cos(\theta)$ because $cos(\theta)$ only goes up to 1. To overcome this, we can multiply by some magnitude to allow for bigger numbers. By multiplying by 13 we can write 
+
+$$ z = 13(cos(1.176) + i sin(1.176) )= 5 + 12i $$
+
+$$ z = 13e^{i 1.176}$$
+
+Where did the 13 come from? 
+
+The factor in front of the $e$ is the magnitude of the complex number. This is the same magnitude described in 3.2.5. This is found by taking the norm of the real and complex part 
+
+$$ 13 = \sqrt{ 5^2 + 12^2} $$
+
+
+Using Euler's formula, any complex number can be written in terms of its magnitude and an angle. This gives us 
+
+$$z = x + iy = re^{i\theta}$$ 
+
+Where $r$ is the magnitude of the complex number $r = |z| = \sqrt{x^2 + y^2}$ and $\theta$ is the angle made between the real and the imaginary plane
+
+
+
+\subsection{Linear Algebra}
+
+# 3 Part 2 Linear Algebra
+
+The second part of chapter 3 will cover linear algebra. Linear algebra is the framework for quantum computing, so it is very important to be familiar with. 
+
+Like trigonometry, linear algebra underpins most of physics, engineering and computer science. Its importance is difficult to overstate. In 1939, Paul Dirac reformulated quantum mechanics using linear algebra [1]. Linear algebra is so important that this way of describing quantum mechanics is known as matrix mechanics. There are two key elements to linear algebra: vectors and matrices. 
+
+### 3.2.1 Vectors
+
+Vectors are objects that have both direction & magnitude. Velocity is a vector because it has a magnitude, the speed at which the object travels with, and a direction, where it's moving towards. We will use a different notation to represent a vector with a straight line and an angled bracket as $ \ket{v} $ .
+
+Imagine a car travelling diagonally across a road. At the same time, the car is travelling along the direction of the road as well as perpendicularly across the road. It can be said that the velocity of the car has a component pointing along the road and another component across the road. 
+
+What makes vectors useful to work with is the fact that a vector has components. These are the individual magnitudes of the vector in each direction. We can encode the speed of the car along the road ($v_{alon}$)and the speed of the car across the road ($v_{acro}$) in a vector with two components: 
+
+$$
+\ket{v} = \begin{bmatrix}v_{alon} \\ v_{acro}
+\end{bmatrix}
+$$
+
+Here the vector $\ket{v}$ has two components, $v_{alon}$ & $v_{acro}$ so the vector has a dimension of 2. In 3D space, any point can be described by 3 vectors. In general, a vector can be of any dimension, with any number of components. 
+
+We can write any n-dimensional vector as
+
+$$
+\ket{v} = \begin{bmatrix} v_0 \\ v_1 \\ \vdots \\ v_{n-1} \end{bmatrix}
+$$
+
+Where the subscript $v_i$ indicates the i $^{th}$ component of $\ket{v}$. 
+
+*Important note:* We start counting from 0 and end at $n-1$. This convention of counting from 0 is widely used in QC and conveniently is also used in python too. 
+
+### 3.2.2 Adding vectors
+
+It can be useful to add vectors. All this requires is adding the corresponding components of each vector. Adding two vectors, $\ket{a}$ & $\ket{b}$
+
+$$\ket{a} + \ket{b} = \begin{bmatrix} a_0 \\ a_1 \\ \vdots \\ a_{n-1} \end{bmatrix} + \begin{bmatrix} b_0 \\ b_1 \\ \vdots \\ b_{n-1} \end{bmatrix}
+$$
+
+The same can be done in reverse, a vector can be split into different components. For example 
+
+$$
+\ket{a} = \begin{bmatrix} 3 \\ 2 \end{bmatrix} = \begin{bmatrix} 3 \\ 0 \end{bmatrix} + \begin{bmatrix} 0 \\ 2 \end{bmatrix}
+$$
+
+This can be useful for expressing a vector in terms of its components. 
+
+### 3.2.3 Multiplying a vector by a scalar 
+
+Vectors can be made smaller or bigger by enlarging them by some scale factor. To make a vector bigger by some scale factor, the vector is multiplied by a scalar. To scale the vector $\ket{v}$ by some scalar quantity, $a$, this would be done by multiplying each component of the vector by the scalar factor. 
+
+$$
+a \ket{v} = a\begin{bmatrix} v_0 \\ v_1 \\ \vdots \\ v_{n-1} \end{bmatrix} = \begin{bmatrix} a \times v_0 \\ a \times v_1 \\ \vdots \\ a \times v_{n-1} \end{bmatrix} 
+$$
+
+>### Exercise 3.3
+>
+>Imagine the vector $\ket{v}$ given by 
+>
+>$$\ket{v} = \begin{bmatrix} 2 \\ 1 \end{bmatrix}$$
+>
+>i. What is the $0^{th}$ component of $\ket{v}$ ? What about the $1^{st}$ component?
+>
+>ii. Write $\ket{v}$ in the form 
+>
+>$$
+>\ket{v} = a\begin{bmatrix} 1 \\ 0 \end{bmatrix} + b \begin{bmatrix} 0 \\ 1 \end{bmatrix}
+>$$
+>
+>iii. Write down the vector $5\ket{v}$ and describe what has changed to the vector
+
+### 3.2.4 The inner product  
+
+It can be very useful to compare two vectors by measuring how aligned they are. Imagine two vectors pointing the same way. These two vectors would have a lot in common, and so would be perfectly aligned. The measure of how similar two vectors are is the inner product. The inner product can be calculated by multiplying each component of the vectors and adding them up. 
+
+For example take the vectors $\ket{a}$ & $\ket{b}$ as 
+
+ $$
+ \ket{a} = \begin{bmatrix} 1 \\ 2 \end{bmatrix} ;  \ket{b} = \begin{bmatrix} 3 \\ 1 \end{bmatrix} 
+ $$
+
+ The inner product between them is $\braket{a|b}$. This can be computed by taking the column vector $\ket{a}$ and turning it into a row vector where every element of $\ket{a}$ has taken the complex conjugate. 
+
+ $$
+\braket{a|b} = \begin{bmatrix} 1^* & 2^* \end{bmatrix}  \begin{bmatrix} 3 \\ 1 \end{bmatrix}
+ $$
+
+Here the 1st component of $\bra{u}$ is multiplied by the 1st component of $\ket{v}$ and the second component of of $\bra{u}$ is multiplied by the second component of $\ket{v}$.
+
+$$
+= (1 \times 3) + (2 \times 1) = 3 + 2 = 5 
+$$
+
+This gives a scalar quantity from two vectors and is used to indicate how aligned they are. The figure below shows this, where the length of $\ket{a}$ shows the component of $\ket{u}$ in the direction of $\ket{v}$. This is then scaled by the length of $\ket{v}$ to give the inner product . 
+
+\includegraphics{images/Dot_product_visualisation.png}
+
+
+The inner product depends on the angle between the vectors. If the vectors are pointing the same way, it will be bigger, if the vectors are pointing in completely opposite directions, it will be smaller. 
+
+### 3.2.5 Perpendicular vectors 
+
+If two vectors have no components in common, their inner product will be zero. This can be shown by two vectors that have an angle of $90\degree$ between them.  We call these vectors perpendicular. In quantum mechanics, the preferred term is *orthogonal* which means the same thing but applies to more than just vectors. 
+
+For example the vectors $\ket{p} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ & $\ket{q} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$ have a inner product  of 0. 
+
+$$ \begin{bmatrix} 1^* & 0^* \end{bmatrix}  \begin{bmatrix} 0 \\ 1 \end{bmatrix} = (1 \times 0) + (0 \times 1) = 0$$
+
+
+
+>### Exercise 3.4 
+>
+>Let the vector $\ket{q}$ be given as 
+>
+>$$ \ket{q} = \frac{1}{4} \begin{bmatrix} -3 \\ 4 \end{bmatrix} $$
+>
+>i. Using $\ket{v}$ from the last exercise, compute 
+>
+>$$ \ket{y} = \ket{v} + \ket{q} $$
+>
+>ii. Compute the inner product $ \braket{q | v} $
+>
+>iii. Compute the inner product $ \braket{v | q} $ 
+>
+>iv. Bonus question: Compare your answers for ii. & iii. Explain any differences, if any, or why there is no difference. Does this hold for all pairs of vectors?
+>
+>v. Using the result from either ii. or iii. are the vectors $\ket{v}$ & $\ket{q}$ perpendicular?
+
+
+>### Exercise 3.5
+>
+>Compute the inner product for the vectors 
+>
+>$$ \ket{w} = \frac{1}{\sqrt{2}} \begin{bmatrix} i \\ 1 \end{bmatrix} ; \ket{z} = \frac{1}{\sqrt{3}} \begin{bmatrix} \sqrt{2} \\ i \end{bmatrix}$$
+>
+>i. $\braket{w|z}$
+>
+>ii. $\braket{z|w}$
+>
+>iii. Bonus question: Compare i. ii. . Is the result the same as from Exercise 3.2 iv? 
+>If not, what has changed?
+### 3.3.1 Matrices
+
+Another object, closely related to a vector, is a matrix. A matrix is just an array of numbers which you can perform a matrix product on. All the quantum gates will be represented as matrices, so understanding how they work will be essential for quantum computations. Matrices are usually denoted by capital letters, for example $M$
+
+$$
+M = \begin{bmatrix} 1 & 2  \\ 3 & 4 \end{bmatrix}
+$$
+
+$M$ has 4 elements: 1,2,3 & 4. 
+
+### 3.3.2 Matrix-vector product 
+
+As well as storing information, matrices can be used to transform vectors. This is done using the matrix-vector product. The matrix $M$ acting on the vector $\ket{a}$ is denoted as $M\ket{a}$. The matrix multiplication is done by multiplying the corresponding elements of $M$ & $\ket{a}$. Starting from the first row of $M$ we multiply out the elements of $M$ & $\ket{a}$ starting from the left and add them up. Let's call the transformed vector $\ket{a'}$. We can compute $\ket{a'}$ by doing the matrix-vector product of $M$ on $\ket{a}$ as
+
+
+$$
+\ket{a'} = M\ket{a}
+$$
+
+Explicity calculating this gives us
+
+$$
+\ket{a'} =  \begin{bmatrix} 1 & 2  \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix}
+$$
+
+$$
+= \begin{bmatrix} (1 \times 1) + (2 \times 2) \\ (3 \times 1) + (4 \times 2) \end{bmatrix}
+$$
+
+$$
+\ket{a'} = \begin{bmatrix} 5 \\ 11 \end{bmatrix}
+$$
+
+### 3.3.3 Inverse matrices
+
+For many matrix-vector products, we can go back and get the original vector from the transformed vector. This means, if we know the transformed vector $\ket{a'}$ &  the matrix $M$ we can work out the original vector $\ket{a}$. 
+
+To get the original vector, we do the matrix-vector product, but with the transformed vector and the inverse of the matrix. This gives us 
+
+$$
+M^{-1}\ket{a'} = \ket{a}
+$$
+
+By using our equation for $\ket{v'} = M\ket{a}$ from earlier, this gives us 
+
+$$
+M^{-1}M\ket{a} = \ket{a}
+$$
+
+Notice how $\ket{a}$ is completely unchanged from applying $M$ and then $M^{-1}$. The operation $M^{-1}M$ effectively does nothing. The same would be true if we applied $M^{-1}$ first and then $M$ as $MM^{-1}$. The general name for the "do nothing" matrix is the identity. The identity is
+
+$$M^{-1}M = MM^{-1} = I $$
+
+As a matrix, the identity looks like 
+
+$$ 
+I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
+$$
+
+Before we had $\ket{a'} = M\ket{a}$. And now we would like to go backwards from $\ket{a'}$ to $\ket{a}$. This is done using the inverse of $M$: $M^{-1}$
+
+$$
+ M^{-1}\ket{a'} = \ket{a} 
+$$
+
+Notice how we can take the original equation and do the matrix multiplication by $M^{-1}$ and get the same result
+
+$$
+M^{-1}\ket{a'} = M^{-1}M\ket{a} = \ket{a}
+$$
+
+$M^{-1}$ is cancelling out $M$ so that there is no effect on $\ket{a}$. The matrix that represents this "no effect" is called the identity $I$ defined by 
+
+
+$$ I\ket{v} = \ket{v}$$
+
+This gives us the important relation 
+
+
+$$ M^{-1}M = MM^{-1} = I $$
+
+### 3.3.4 Unitary matrices 
+
+For all quantum gates, an important property they have is that they are unitary. Unitary matrices have an inverse equal to their conjugate transpose (the dagger at the top).
+
+$$ U^\dagger = U^{-1} $$
+
+This means 
+
+$$ U^\dagger U = U^{-1}U = I $$
+
+The conjugate transpose is the same process as it is to turn a ket (column vector) into a bra (row vector). Take You swap the rows and the columns and then replace every imaginary number with the negative version. 
+
+All quantum gates are unitary matrices, it is very common to see the term unitary when talking about any quantum circuit. 
+
+
+### Chapter 3 Part 2 Summary 
+
+- Vectors are a collection of numbers stored in a row or column
+- Vectors can be added to each other or multiplied by a scalar
+- The inner product of two vectors tells us how aligned they are
+- Perpendicular (orthogonal) vectors have an inner product of 0
+- Matrices are arrays of numbers that can act on vectors 
+- Applying a matrix to a vector turns the vector into another vector
+- Matrices can have an inverse which does the reverse of the matrix 
+- Unitary matrices have an inverse equal to their conjugate transpose
+
+
+\section{Dirac Notation}
+This chapter explains a bit of the framework for quantum computing using the maths from the last chapter. It's like learning the language of quantum computing, first the grammar was introduced in chapter 3, now we are defining the words.  
+
+## 4.1 Information inside a computer
+
+When using a computer every day, it's important to be able to extract useful information from the computer. For instance, reading emails requires being able to access the information in your inbox. 
+
+Unlike reading emails, quantum computing works at the lowest level of the system. It would be like directly accessing the bits in a classical computer. Instead of working with bits, quantum computing works with qubits. To do anything at all with qubits, it's important to describe what state they're in. The state of a qubit is described by something known as a ket. 
+
+
+### 4.1.1 How to describe qubits?
+
+
+How do we describe the state of our qubits? It is easy to think this would require a very complicated mechanism. For us, it is as simple as a column vector! The state of our quantum computer can be described with a __column vector known as a ket__. Because it is a state represented by a vector, we call this the __state vector__. Usually, the state of our quantum computer is given by the ket $\ket{\psi}$.
+
+The coins still work as an example for the state vector. If the coin is heads up we can use the ket $\ket{H}$, if it's tails up it is $\ket{T}$. When the coin is spinning in the air, the superposition state (see section 1.3), this state can be represented by the state $\ket{\psi}$: 
+
+$$
+\ket{\psi} = \frac{1}{\sqrt{2}}(\ket{H} + \ket{T})
+$$
+
+Since the coin has a $\frac{1}{2}$ probability of being in either heads or tails, you might have expected to see $\frac{1}{2}$ instead of $\frac{1}{\sqrt{2}}$. The reason for this is that in quantum mechanics, a state is described with an amplitude (the number outside the ket) proportional to the square root of the probability. 
+
+We can write out our kets as the simplest column vectors
+
+$$
+\ket{H} = 
+
+\begin{bmatrix}
+1 \\ 0
+\end{bmatrix}
+$$
+
+Similarly, the tails side up can be represented by the ket
+
+$$
+\ket{T} = 
+
+\begin{bmatrix}
+0 \\ 1
+\end{bmatrix}
+$$
+
+This allows $\ket{\psi} $ to be expanded as 
+
+$$
+\ket{\psi} = \frac{1}{\sqrt{2}}\left(\begin{bmatrix}
+1 \\ 0
+\end{bmatrix}+ \begin{bmatrix}
+0 \\ 1
+\end{bmatrix}\right)
+$$
+
+By adding the corresponding elements of each vector, this can be simplified to
+
+$$ \ket{\psi} = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \\ 1 \end{bmatrix} = \ket{+}$$
+
+
+> This superposition state has its own symbol, $\ket{+}$.
+
+Instead, if there were a biased coin which had a probability of heads given by $P$, we would have a different state. The probability amplitude for $H$ is $\sqrt{P}$. The probability of getting tails would be $ P(T) = 1 - P(H)$ which gives $P(T) = 1 -P$. So our probability amplitude for $T$ is $\sqrt{1 - P}$. The state of our coin is then 
+
+$$
+\ket{\psi} = \sqrt{P}\ket{H} + \sqrt{1-P}\ket{T}
+$$
+
+We can write this as a column vector as
+
+$$
+\ket{\psi} = \begin{bmatrix}
+\sqrt{P} \\ \sqrt{1-P}
+\end{bmatrix}
+$$
+
+
+
+> ### Exercise 4.1 
+>
+>Imagine a biased coin which is three times more likely to land on tails than on heads. Write down the corresponding state vector for such a coin.
+
+
+### 4.1.2 How to describe the qubits 
+
+In general, our quantum computer can take a lot more than 2 possible outcomes. Thankfully we can just add a row to our column vector for every possible outcome. So we can describe our state in terms of each possible outcomes it can take. Our quantum computer can output any number up to some maximum.  We can write the state of any quantum computer in terms of all the possible states (numbers) we can get from it
+
+$$
+\ket{\psi} = \sum_{i = 0}^{N_1} c_i \ket{i}
+$$
+
+
+Where the index $i$ indicates a possible state we can observe the quantum system in. There are $N$ such possible states. Each state has a probability of being measured given by $|c_i|^2$  with $c_i$ being the probability amplitude. 
+
+Writing this as a state vector gives us 
+
+$$
+\ket{\psi} = \begin{bmatrix} c_0 \\ c_1 \\ c_2 \\ \vdots \\ c_{N-2} \\ c_{N-1} \end{bmatrix}
+$$
+
+A little note here: to model the state of a quantum computer requires keeping track of $N$ complex numbers. That doesn't seem too bad.  But for $n$ qubits we have $N = 2^n$ complex numbers to keep track of. Just 20 qubits would have more than a million complex amplitudes to keep track of! Adding 1 more qubit to get 21 qubits gives us more than 2 million complex amplitudes. 
+
+
+### 4.1.2 Bra: Row vectors with a complex twist
+
+
+Another important quantity to define is the row vector version of the state vector. This is called a __bra__ and is represented by $\bra{\psi}$. The big difference between normal row vectors and bras is that we always take the complex conjugate for every element of the column vector (ket). 
+
+For instance, the state with ket
+$$\ket{\psi} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ i \end{bmatrix} $$
+
+Would have a bra given by 
+
+$$
+\bra{\psi} = (\ket{\psi}^*)^T 
+$$
+
+First, all the imaginary numbers in $\ket{\psi}$ get a minus sign in front 
+
+ $$= \frac{1}{\sqrt{2}} \left(\begin{bmatrix} 1 \\ -i \end{bmatrix} \right)^T $$
+
+Then we transpose, shown by the $^T$, by swapping the rows with the columns. We're left with our bra
+
+$$\bra{\psi} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & -i \end{bmatrix} $$
+
+
+In the same way, we can get the coin bras. The $\bra{H}$ is the same as the ket $\ket{H} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ but a row vector where the imaginary part of the complex numbers are all multiplied by $-1$. Since there are no imaginary numbers in $\ket{H}$, the bra $\bra{H}$ is just the transpose of the column vector as
+
+$$
+\bra{H} = (\ket{H}^*)^T = \begin{bmatrix} 1 & 0 \end{bmatrix}
+$$
+
+Just as with the column vector, we can write a general expression for any bra
+
+$$
+\bra{\psi} = \begin{bmatrix} c_0^* & c_1^* & c_2^* & \dots & c_{N-2}^* & c_{N-1}^* \end{bmatrix}
+$$
+
+
+## 4.2 Probability of measurement
+
+
+One of the most important features of quantum computing is measurement. Whenever we do a quantum computation, we change the state of the qubits. The strange thing is that we never actually see the state itself! 
+
+In the example with the coins, we never see two coins with opposite sides up. The superposition can't be observed directly. Instead, we perform a measurement on the qubits to get some information out of them. The measurement has outcomes with different probabilities, described by the state vector. It's like the lift analogy in Chapter 1, the lift is never observed between two floors, we only see it at the floors. We also don't observe part of the lift on one floor and part of the lift on another floor. Something has gone terribly wrong if the lift is split across multiple floors! 
+. 
+
+For the coins, one may wish to know the probability of flipping the coin and getting heads or tails up. With Dirac notation, the probability of an outcome (heads up) can be calculated using the inner product (see section 3.2.4 for a refresher on the inner product).
+
+### 4.2.1 Probabilities come from the inner product
+
+Using the coin example, the probability of the coin ending up in the heads state $\ket{H}$ can be calculated as
+
+$$ P(H) = |\braket{H|\psi}|^2  $$
+
+The state we want to measure $\ket{H}$ is always on the left (in a bra) and the state we have, $\psi$ is always on the right in a ket.
+
+First we do the inner product $\braket{H|\psi}$
+
+$$
+\braket{H|\psi} = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+$$
+
+$$ = \frac{1}{\sqrt{2}} (1 + 0 ) = \frac{1}{\sqrt{2}}$$
+
+Then we get the probability by taking the magnitude and squaring 
+
+$$ P(H) = \left| \frac{1}{\sqrt{2}} \right|^2 = \frac{1}{2} $$
+
+Since all the probabilities of the coin landing on $\ket{H}$ or $\ket{T}$ must add to 1, for a biased or unbiased coin, it must be that $P(H) + P(T) = 1$. Let the probability of getting heads be $P$. This gives us a state of 
+$$
+\ket{\psi} = \begin{bmatrix} \sqrt{P} \\ \sqrt{1-P} \end{bmatrix}
+$$
+
+
+
+>### Exercise 4.2
+>
+>Using the definition of the measurement probability, calculate the probability of measuring heads and the probability of measuring tails. Verify that these add to 1. 
+
+
+
+For any quantum state, the probability of measuring it to be in the state that it is must be 1. For example, if the coin were heads up, and nothing happened to the coin, the probability of measuring heads would be 1. The probability of getting a tails would be 0. This can be verified by working out the probability of measuring tails. The probability of measuring tails $P(T)$ is still given by the same equation 
+
+$$ P(T) = |\braket{T|\psi}|^2 $$ 
+
+where the coin is in the state $\ket{\psi}$ = $\ket{H}$. 
+
+$$  
+\left| \begin{bmatrix} 0 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} \right|^2 
+$$
+
+$$
+= \left| (0 \times 1) + (1 \times 0) \right|^2 = 0 
+$$
+
+
+On the other hand, the proability of measuring a heads is 1. Whilst this result may seem obvious, it is worth emphasising that for any quantum state, the probability of measuring it in that state should be 1 (neglecting measurement error). This leaves us the important result
+
+$$ |\braket{\psi|\psi}|^2 = 1 $$
+
+Another way of thinking about this is that for any quantum system, the probabilities of finding it in each of its states must add up to 1. 
+
+> $ \braket{\psi|\psi} = 1 $ must hold for any quantum state. 
+
+This simplifies a lot of the maths. 
+
+## 4.3 Operators: A trip to the casino 
+
+### 4.3.1 What is an operator?
+
+An operator is a mathematical object that acts on a ket and returns a new ket. Operators are matrices that allow us to process quantum states. This is how we do quantum computing. 
+
+Our operators are denoted by a capital letter, such as  $O$. They act on a quantum state $\ket{\psi}$ to return a new state $\ket{\psi'}$ as 
+
+$$O\ket{\psi} = \ket{\psi'}$$
+
+This is just a matrix-vector product. 
+
+
+
+In gambling, the outcome of some event results in the gambler winning or losing money. Imagine a very simple game where everytime you roll a heads you win $1, everytime you roll a tails, you lose $1. 
+
+We can define an operator, let's call it $Z$ that encodes the winnings and loses for each coin toss. 
+
+If we roll a heads $\ket{H}$ we should get +1, so we can encode that as 
+
+$$
+Z\ket{H} = +1 \ket{H}
+$$
+
+Where the coefficient +1 is the winnings and the final state $\ket{H}$ is what we end up with. 
+
+Similarly for tails we lose a dollar so 
+
+$$
+Z\ket{T} = -1 \ket{T}
+$$
+
+Using the vector representation of $\ket{H}, \ket{T}$ we can write the matrix $Z$
+
+$$ Z = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} $$
+
+It turns out $Z$ is an important quantum logic gate!
+
+
+We can invent another operator to perform the coin flip, we will call $F$ for now can be represented as 
+
+$$
+F =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
+$$
+
+>### Exercise 4.3 Flip the coin 
+>
+>By applying the flip operator to a coin that is heads up, show that it gives us the superposition state. 
+>
+>Hint: compute the matrix-vector product of $F\ket{H}$. 
+>
+> Bonus question: what would you get if you did the same with the coin starting tails up?
+
+## 4.4 What do we expect to get?
+
+In life there are many processes where we want to predict something. For instance, a farmer would want to know how good their next harvest would be, or a stockbroker would want to know whether or not a stock is going to go up or down in price. In those cases, the farmer is not interested in the probability of getting an exact crop yield, but wants to know what yield they should expect. Quantum mechanics allows us to calculate these expectation values.
+
+### 4.4.1 Classical probability 
+
+What would we expect to get from our coin gambling example? 
+
+We know that half the time we will get $1, and half the time we will lose $1. 
+
+So our expected winnings, $\braket{W}$ would be
+$$
+\braket{W} = \frac{1}{2} \times 1 + \frac{1}{2} \times -1 
+=0
+$$
+
+We win as much as we lose, so we'd expect to get nothing. 
+
+More generally we can write the expectation value in terms of the value of each outcome and the probability 
+
+$$ \braket{W} = \sum_{i = 0}^{N-1} X_i \times P(i) $$
+
+Where $X_i$ is the outcome for event $i$ with probability $P(i)$ . 
+
+ 
+>### Exercise 4.4 Expectation value
+>
+>For this question, we're graduating from a coin to a dice. Let's call $N$ the number on a dice. Work out the expectation value by working out the number on each dice multiplied by the probability of rolling that number. 
+
+### 4.4.2 A quantum description of probability 
+
+So far this description of probability is entirely classical, even the use of angled brackets! A quantum description is more elegant. A perceptive reader might have noticed the similarities between the probability
+
+$$ \braket{W} = \sum_{i = 0}^{N-1} X_i \times P(i) $$
+
+And the state vector
+
+$$
+\ket{\psi} = \sum_{i = 0}^{N_1} c_i \ket{i}
+$$ 
+
+We can even get $P(i) = |c_i|^2$ so perhaps we can express the expectation value in terms of the state vector and something that gives us the outcome for each state,$X$. 
+
+The previous example with the \$1 gain/loss coin can be repeated with some quantum sauce. Recall the operator $Z$ that gave us the win/loss for heads and tails. We would like to work out the expected earnings. We know that we can get the amount earned $X_i$
+
+$$ X_i (\ket{i}) = Z\ket{i}$$
+
+Where $i$ can either be $H$ or $T$. 
+
+And we can get the probability of getting $i$ from $\braket{i|\psi}$.
+
+Adding up all the probabilities gives us the important result
+$$
+\braket{Z} = \braket{\psi|Z|\psi}
+$$
+
+We have defined the expectation value of the operator $Z$. Assuming our coin is unbiased, it has the general superposition state. We can then compute the expectation value as
+
+$$
+\frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+$$
+$$
+= \frac{1}{2}\begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ -1 \end{bmatrix}
+$$
+$$ = \frac{1}{2} ( 1 - 1) = 0 $$ 
+
+## Chapter 4 Summary 
+
+- Quantum states can be represented by column vectors 
+- We can seperate out a quantum state into orthogonal components 
+- The number in front of the component is the probability amplitude
+- The probability of measuring a quantum system in a given state is given by the square of the modulus of the inner product
+- The inner product of a quantum state with itself always has magnitude 1
+- Operators transform quantum states and are represented by matrices
+- The expectation value for any operator, $\hat{O}$  is given by $\braket{O} = \braket{\psi|O|\psi}$
+\section{Single Qubits}
+\section{Multiple Qubits}
+\section{Quantum Circuits}
+\section{Quantum Algorithms}
+
+
+\end{document}
