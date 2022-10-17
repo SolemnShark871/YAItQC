@@ -166,4 +166,3 @@ export interface ICompletionItemProvider extends ILifecycleHookComponent
 export const l = String.raw;
 export const SCOPE: ScopeAbstract = null;
 export const RESOLVER: IResolver = null;
-
