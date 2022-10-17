@@ -12,11 +12,12 @@
 \usepackage{braket}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{hyperref}
 \graphicspath{ {./images/} }
 
 \title{Yet Another Introduction to Quantum Computing}
 \author{Thomas R Clarke}
-\date{September 2022}
+\date{October 2022}
 
 \begin{document}
 \maketitle
@@ -79,13 +80,10 @@ Tossing two unbiased coins is effectively the same as tossing the same coin twic
 For the next step some removable adhesive will be required. Imagine placing the coins together with each coin having the H facing outwards and the T's stuck together to make one coin twice as thick. Tossing this coin will always result in one coin with the H facing upwards. But before the coin is revealed, the two coins are separated. The coin at the bottom must have its T side up, leaving 2 coins one H and the other T. After shuffling the coins they are separated. 
 
 \includegraphics{images/Entanglement.png}
-[3]
 
+At this point, guessing either of the coin would have a 50\% chance of getting the right outcome- the same as for two coins tossed separately. 
 
-
-At this point, guessing either of the coin would have a 50% chance of getting the right outcome- the same as for two coins tossed separately. 
-
-But if only one of the coins is revealed, say the H coin, then it is instantly known that the other one must be a T. Suddenly guessing the state of the second coin has a 100% chance of success whereas with the separate coin tosses revealing one made no difference to guessing the other. These linked probabilities is what is known as an *entangled state*.
+But if only one of the coins is revealed, say the H coin, then it is instantly known that the other one must be a T. Suddenly guessing the state of the second coin has a 100\% chance of success whereas with the separate coin tosses revealing one made no difference to guessing the other. These linked probabilities is what is known as an *entangled state*.
 
 \section{Quantum Technology}
 
@@ -147,11 +145,10 @@ These coins represent the qubits in a quantum computer. We should be able to con
 
  Quantum algorithms are similar to the input and output of classical algorithms but with the addition of superposition and entanglement in the middle.  If an algorithm doesn't feature superposition & entanglement, it would always be better to use the classical computer. 
 
- > Quantum computers are __*not*__ faster versions of regular computers
 
- > 
+\emph{Quantum computers are \textbf{not} faster versions of regular computers}
 
- > Quantum computers are __*not*__ used to run conventional algorithms, or do things that are already very well done on a classical computer
+\emph{ Quantum computers are \textbf{not} used to run conventional algorithms, or do things that are already very well done on a classical computer }
 
 \section{Quantum Advantage} 
 
@@ -172,14 +169,14 @@ There are a few different ways a quantum computer could add value:
 
 Quantum advantage is described in terms of how the solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some 
 
-![Quantum_advantage](Images/Q_advantage.png)[1]
+\includegraphics{images/Q_advantage.png}
 
 As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
 
 
 \section{Applications of Quantum Computing}
 
-There are a great many practical difficulties in implementing QC. Even still, in 2021 [over $3 billion was invested into quantum computing](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/quantum-computing-funding-remains-strong-but-talent-gap-raises-concern). Why is there so much hype around such an early-stage technology? 
+There are a great many practical difficulties in implementing QC. Even still, in 2021 \href{https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/quantum-computing-funding-remains-strong-but-talent-gap-raises-concern}{over \$3 billion was invested into quantum computing}. Why is there so much hype around such an early-stage technology? 
 
 There are many industries expecting significant value creation from quantum computing: 
 
@@ -194,7 +191,7 @@ There are many industries expecting significant value creation from quantum comp
 \end{itemize}
 
 
-Across each of these areas, there are multiple established companies and start-ups developing quantum solutions. It is expected that the combined value creation by 2030 will be in the $10's of billions. 
+Across each of these areas, there are multiple established companies and start-ups developing quantum solutions. It is expected that the combined value creation by 2030 will be in the \$10's of billions. 
 
 In addition to potential direct impacts, there are a lot of potential benefits to developing the hardware. Being able to measure qubits better can help develop quantum sensors with applications in healthcare & navigation. 
 
@@ -246,19 +243,21 @@ Complex numbers can be represented on a graph by splitting them into their real 
 
 If a were negative, the real part would be negative so the arrow would point to the left instead. If b were negative, the imaginary part would be negative, so the arrow would point downwards instead. 
 
+\hline
+\subsection{Exercise 3.1}
 
->\subsection{}Exercise 3.1
->
->Consider the complex numbers 
->
->z = 4 + 5i <br>
->y = -3 + i 
->
->i.What is $Re(z)$? <br>
->ii. What is $Im(m)$? 
-<!-- >$$m = -2 - 2i $$ -->
-<!-- ii. Sketch z,y,m on the Argand diagram -->
+Consider the complex numbers 
 
+$$ z = 4 + 5i , y = -3 + i $$
+
+i.What is $Re(z)$? 
+ii. What is $Im(m)$? 
+
+
+$$m = -2 - 2i $$ 
+iii. Sketch z,y,m on the Argand diagram 
+
+\hline
 
 \subsection{ Complex conjugate}
 
@@ -290,6 +289,10 @@ In the figure below the complex number $z$ is shown along with its complex conju
  The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.
 
 > \subsection{}Exercise 3.2 
+
+\begin{question}[subtitle=This is the Name of the first Exercise,ID=Q1]
+
+\end{question}
 >
 > Consider the complex number $z = 3 + 5i$ . 
 >
@@ -941,13 +944,17 @@ $$ = \frac{1}{2} ( 1 - 1) = 0 $$
 
 \section{Chapter 4 Summary }
 
-- Quantum states can be represented by column vectors 
-- We can seperate out a quantum state into orthogonal components 
-- The number in front of the component is the probability amplitude
-- The probability of measuring a quantum system in a given state is given by the square of the modulus of the inner product
-- The inner product of a quantum state with itself always has magnitude 1
-- Operators transform quantum states and are represented by matrices
-- The expectation value for any operator, $\hat{O}$  is given by $\braket{O} = \braket{\psi|O|\psi}$
+\begin{itemize}
+
+    \item Quantum states can be represented by column vectors 
+    \item We can separate out a quantum state into orthogonal components 
+    \item The number in front of the component is the probability amplitude
+    \item The probability of measuring a quantum system in a given state is given by the square of the modulus of the inner product
+    \item The inner product of a quantum state with itself always has magnitude 1
+    \item Operators transform quantum states and are represented by matrices
+    \item The expectation value for any operator, $\hat{O}$  is given by $\braket{O} = \braket{\psi|O|\psi}$
+\end{itemize}
+
 
 \chapter{Single Qubits}
 
@@ -977,7 +984,8 @@ Dirac notation is really useful for doing algebra with quantum states. We can mo
 
 The Bloch sphere is a useful tool used to represent the state of a qubit. Below, the quantum state $\ket{\psi}$ is represented on the Bloch Sphere. 
 
-![Bloch_sphere](Images/Bloch_Sphere.png) [1]
+
+\includegraphics{images/Bloch_Sphere.png}
 
 At the top of the sphere  is the state $\ket{0}$, at the botom is the state $\ket{1}$. Our state $\ket{\psi}$ is somewhere in between so it is a superposition of $\ket{0}$ & $\ket{1}$. The closer $\ket{\psi}$  is to the top, the greater the probability of measuring $\ket{0}$, the same is true for the bottom with $\ket{1}$. The angle $\theta$ between the $\ket{0}$ & $\ket{\psi}$ gives us these probabilities. 
 
@@ -1018,7 +1026,7 @@ $$
 F =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
 
-In quantum computing, this operator is known as a __Hadamard gate__ with symbol $H$. 
+In quantum computing, this operator is known as a Hadamard gate with symbol $H$. 
 
 If we apply $H$ to $\ket{0}$ we get the superposition state 
 
@@ -1192,12 +1200,17 @@ Qudits are much less commonly used than qubits for a few reasons
 
 \section{Chapter 5 Summary }
 
-- The state of a qubit can be represented on the Bloch sphere
-- The BS shows the probability and phase of a qubit 
-- The phase of a qubit is the $e^{i\theta}$ difference between the $\ket{0}$ & $\ket{1}$ states
-- There are many qubit gates we can use to perform operations on qubits
-- Some qubit gates are rotations specified by a parameter which describes what the gate does
-\subsection{}References 
+\begin{itemize}
+    \item 
+    \item The state of a qubit can be represented on the Bloch sphere
+    \item The BS shows the probability and phase of a qubit 
+    \item The phase of a qubit is the $e^{i\theta}$ difference between the $\ket{0}$ & $\ket{1}$ states
+    \item There are many qubit gates we can use to perform operations on qubits
+    \item Some qubit gates are rotations specified by a parameter which describes what the gate does
+    
+\end{itemize}
+
+\section{References}
 
 [1] Chetan Wake, 2019, Introduction to quantum computing part -1 Representation of qubit using Bloch sphere
 
@@ -1223,11 +1236,11 @@ Which in decimal would be
 
 0,1,2,3,4,5,6,7 
 
-\subsection{}6.2.1 Reading binary 
+\subsection{ Reading binary }
 
-To read a binary number
-
-
+To read a binary number:  
+  
+  
 1. Count the number of digits in the number and take this number -1 as n
 2. Starting from the first digit on the left, if that digit is 1, calculate $2^n$. 
 3. Moving to the next digit on the right, if that digit has a 1, calculate $2^{n-1}$. 
@@ -1237,7 +1250,7 @@ To read a binary number
 An example of this is shown below
 
 
-![Binary](Images/binary_conversion.png)
+\includegraphics{Chapters/Images/binary_conversion.png}
 [1]
 
 1. Here there are 8 digits, so we take $n = 8 - 1 = 7 $. 
@@ -1377,9 +1390,9 @@ What makes quantum operators different is that we can apply them to the superpos
 
 
 
-> Entanglement allows the superposition of one qubit to define the superpotion of another
+Entanglement allows the superposition of one qubit to define the superposition of another
 
-This means we can't treat our qubits as seperate 2x1 vectors anymore. 
+This means we can't treat our qubits as separate 2x1 vectors anymore. 
 
 
 \subsection{ Can the qubit not? }
@@ -1388,12 +1401,17 @@ Entanglement can be created by gates that act on multiple qubits together. This 
 
 We can represent this with a table
 
-Control | target | $\rightarrow{}$ | control | target
------ |----- |----- |----- |----- |
-0 | 0 | | 0 | 0
-0 | 1 | | 0 | 1
-1 | 0 | | 1 | 1
-1 | 1 | | 1 | 0
+\begin{center}
+\begin{tabular}{ c c c c c}
+ Control & target & $\rightarrow{}$ & control & target \\ 
+ 0 & 0 &  & 0 & 0 \\ 
+ 0 & 1 &  & 0 & 1 \\
+ 1 & 0 &  & 1 & 1 \\
+ 1 & 1 &  & 1 & 0 \\
+  
+\end{tabular}
+\end{center}
+
 
 
 If we have two qubits $\ket{\psi_1}_1\ket{\psi_0}_0$ where qubit 0 is in the state $\ket{\psi_0}$ and qubit 1 is in the state $\ket{\psi_1}$, there are two CNOT's we can have. One where qubit 0 is the target and qubit 1 is control or the other way around, qubit 1 is the control and qubit 0 is the target. Each of these has a different 4x4 matrix
@@ -1427,45 +1445,269 @@ $$ \ket{\Phi^-} = \frac{1}{2} \left( \ket{00} - \ket{11} \right) $$
 $$ \ket{\Psi^+} = \frac{1}{2} \left( \ket{01} + \ket{10} \right) $$
 $$ \ket{\Psi^-} = \frac{1}{2} \left( \ket{01} - \ket{01} \right) $$
 
-For each of these states, we can't seperate out our two qubits as a product state. 
+For each of these states, we can't separate out our two qubits as a product state. 
 
 <!-- 
 The following circuit generates the Bell states
 
-![GenerateBellStates](Images/Bell_State_circuit.png)
+\includegraphics{Chapters/Images/Bell_State_circuit.png}
 
- -->
-\subsection{}6.5.4 General controlled unitaries
+
+\subsection{General controlled unitaries }
 
 Instead of having a not-gate being applied, we can have any single quantum gate. 
 
-
-\subsection{ Multiple-control qubit gates }
+\subsection{Multiple-control qubit gates }
 
 We can have controlled quantum gates where there are more than one qubit as control. In this case, the target qubit is only affected if all the control qubits are 1. 
 
 The Toffoli gate is the same as the controlled-not gate but with two qubits needing to be 1.
 
+\section{Chapter 6 Summary}
 
+\begin{itemize}
+    \item Quantum computers work in binary
+    \item Many qubits have quantum states represented as a binary number
+    \item Quantum states are read right-to-left with the first qubit at the end
+    \item We can apply single qubit gates individually across multiple qubits 
+    \item When qubits are independent of one another, they are in a product state
+    \item When one qubit influences the state of another qubit they are entangled 
+    \item We can use entanglement to apply logic gates
+\end{itemize}
 
-
-\section{ Chapter 6 Summary}
-
-- Quantum computers work in binary
-- Many qubits have quantum states represented as a binary number
-- Quantum states are read right-to-left with the first qubit at the end
-- We can apply single qubit gates individually across multiple qubits 
-- When qubits are independent of one another, they are in a product state
-- When one qubit influences the state of another qubit they are entangled 
-- We can use entanglement to apply logic gates
 
 
 $^*$ There have been proposals for using a base other than 2 for quantum computing. This has some advantages but the difficulty in constructing algorithms combined with the difficulties in error correction such a device has prevented any significant machine from being built.
+\section{References}
 
 [1] L.Vivah, [Learn How to Read Binary in 5 minutes](https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e), 2018
 
 \chapter{Quantum Circuits}
+\chapter{Quantum Random Number Generators}
+
+
+Pick a random number between 1 and 10. 
+
+Was it 7?    
+
+Humans are really bad at picking random numbers. For instance, choosing 1 or 10 doesn’t seem so random because they are the largest and smallest numbers. A number picked near the middle intuitively feels more random than one at the higher or lower end. Even numbers seem less random than odd ones (though there is no reason for this to be true). 
+
+
+\section{Why do we want random numbers?}
+
+For much of human history, random numbers were only used in games of chance. Dice go back 5,000 years (Piovano, 2011/2016). During WW2, random numbers became an important statistical tool for von Neumann when he was working on the Manhattan project (Metropolis, 1987) and for use by the Germans in sending encrypted messages. 
+From the Manhattan project (Metropolis, 1987) came Monte Carlo methods. These are simulations that take a large number of samples from a model using random numbers to compute something that would be difficult to solve otherwise. They are a powerful and ubiquitous tool in physics, economics and data science. It became clear that random numbers were increasingly useful in areas of science, cryptography and statistics. More recently, with the abundance of private information sent over the internet, there is considerable need to generate a large number of random numbers for various encryptions standards (Zhou & Tang, 2011).
+
+\section{The limitations of peudorandom number generators} 
+
+
+Pseudorandom number generators (PRNGs) and do not actually produce random numbers. Anyone who knows the seed (initial random number) and the algorithm can generate the entire sequence with complete certainty. If left to run for long enough, both the middle square method and linear congruential method will repeat. This is fine for videogames where it is the feeling of randomness which matters, but not so great for encrypting communications (Li, 2013). With insider knowledge of the PRNG, an attacker could decrypt the communication.
+
+\section{Quantum RNG}
+
+Thankfully there are ways of generating truly random numbers based on physical processes. Atmospheric noise, the cosmic microwave background (the effect that caused static on old TVs) and radioactive decay are good examples. We can measure radio wave or microwave radiation, or the number of clicks from a Geiger counter.
+Quantum computers can also be used for this purpose. They are effectively controlled physical experiments leveraging quantum mechanics to perform some computation. Since randomness is an inherent part of quantum mechanics, quantum computers, unlike classical ones used by von Neumann, can serve as a True Random Number Generator (TRNG) (Jacak, 2021). This is because a quantum system can exist in a superposition of possible states, and following a measurement takes on one of these states. Whilst we can know the probability of the system taking each of these states, we cannot know with absolute certainty which it will take (Nielsen & Chuang, 2000).
+
+Below is an example of how n random numbers (from 0 to nmax) can be generated using IBM’s quantum computer. The code creates a quantum circuit with enough qubits to represent the power of 2 greater than nmax. The qubits are then put into a superposition and measured to obtain the random number. This process is repeated 1000 times and sampled n times to produce the numbers.  
+
+The TRNG implemented here is hardly the most practical implementation. It is rather slow, requires access to IBM’s cloud infrastructure, is vulnerable to interception, and runs on a device cooled to nearly absolute zero. A more useful implementation of this concept was done 20 years ago by the Swiss company ID Quantique, using a photonic chip. Newer models can be integrated in desktop PCs with PCIe connectivity or even USB (ID Quantique, n.d.).
+\chapter{Quantum computers now and of the future}
+
 \chapter{Quantum Algorithms}
+
+
+\section{ Complexity theory isn't that complicated}
+
+When doing a computation, we are really interested in how long it will take. How long it takes to solve a problem depends on the algorithm. If the algorithm has a lot of steps, it will take the computer longer to solve them problem. It also depends on how fast the computers is/ speed of the memory or ability to use hardware acceleration (GPUs) or parallelise the problem. 
+
+Since the speed of the hardware varies for every computer, we prefer to consider how many steps the algorithm has. 
+
+In computer science, complexity theory is the study of how hard problems are to solve. The hardness is described by the number of steps an algorithm needs to solve a problem.
+
+For example, adding two n-digit numbers will require on the order of n operations. Multiplication 
+
+
+
+\section{ Types of quantum algorithms} 
+
+
+- NISQ quantum algorithms 
+- Variational quantum algorithms 
+    -Variational Quantum Eigensolver, Quantum Approximate Optimisation Ansatz
+- Fault-tolerant quantum algorithms 
+    - Shor's Algorithm, Grover's algorithm, Quantum Monte Carlo,  HHL algorithm 
+
+
+\section{Fault-tolerant Quantum Algorithms} 
+
+\subsection{ Grover's Search Algorithm}
+
+
+\
+
+
+
+## 8.5 How much do we need?
+
+It is extremely important to keep track of the resource requirements for any quantum algorithm. 
+
+If it turns out that an algorithm requires thousands of qubits with circuit depths in the thousands, or millions, this will not be feasable with a quantum computer in the next decade. 
+
+Across many of the proposed quantum algorithms, significant work has been done in reducing the requirements. This can be done by making circuits more efficient- using fewer gates and fewer qubits.  It is hoped that continued progress in circuit optimisation and improved hardware specifications will allow for better quantum algorithms to be implemented in the near-term. 
+
+
+\section{Practical considerations: Quantum Strategy}
+
+- Try a small-scale proof of concept project first 
+    - Small scale QC can be simulated on a classical computer. This can be a lot cheaper than buying access to an expensive QPU
+
+
+- Does the problem require QC?
+    - Quantum computing is a rather exotic solution proposed largely for problems tackled by supercomputers. Consider more conventional solutions before trying quantum
+    - How strong is the evidence that QC has an advantage for this problem. 
+
+- Hardware 
+
+    - Number of qubits (is it enough to run our algorithm)
+    - Quality of qubits (are the outputs reliable or just noise)
+    - Pricing/ availability (can you afford it)
+    - Software features/support (how user-friendly is it, is it compatible with qiksit/ML libraries, does it support optimisation of quantum circuits ect)
+
+
+- Cost 
+    - Currently, access to QPU time is dominated by fixed cloud overheads (i.e. the provider). This means the costs can come down very quickly as the hardware scales. 
+    - Energy costs are a large part of the costs of running conventional HPC clusters. For QPU's almost all the energy requirements are in cooling (with very little in control electronics). How this scales in the future depends on the qubit type. Optimistically, energy requirements could remain fixed for the next few years as the cooling requirements are constant for a significant growth in qubit quantity & quality. 
+
+\section{Limitations of quantum computing}
+
+- Quantum computers are very small scale. As of the time of writing, the gate-based quantum processing unit (QPU) with the most qubits has 127 qubits. However this machine from IBM (named eagle) is not currently available for public use. At the time of writing the QPU with the most available qubits has [INSERT REFERENCE TO QPU WITH MOST QUBITS]
+- Current QPU have high error rates. [INSERT FIGURE]
+- Quantum computing is very expensive [Reference]
+
+- QC is not a solution to every problem. For the vast majority of computational tasks, there is no proposed quantum algorithm. Thus, the vast majority of consumers are unlikely to benefit from QC in the medium term.
+
+
+\section{Chapter 10 Summary}
+
+
+\chapter{Quantum Machine Learning}
+
+\section{Mysteries of machine learning}
+
+
+In recent decades the rapid development of cheap and powerful classical processing units has transformed all aspects of society. Artificial intelligence has been pondered by humanity from as far back as the 1800's but has remained the realm of science fiction until numerous great advances in the capability of computers has facilitated many implementations of AI across various industries from medicine to the military. 
+
+Many of these AI technologies are based on machine learning. 
+
+\section{QC is a lot like machine learning}
+
+There are quite a few similarities between quantum computing & machine learning. They are both:
+
+\begin{itemize}
+    \item Built on linear algebra
+    \item Held back by expensive computational resource
+    \item Sometimes very difficult to explain outcomes 
+    \item Likely to go through period of hype & stagnation as technological development pace changes
+    \item Often associated with optimisation problems 
+    \item Using Python & Jupyter notebooks 
+\end{itemize}
+
+
+It's an open question as to whether or not quantum computing can improve machine learning. There have been some early experiments showing quantum machine learning performing better, but there have equally been experiments showing classical machine learning outperforming quantum machine learning. 
+
+ Given the very limited number (& quality) of qubits available there haven't been any large-scale tests yet. This is likely to change in the near future...
+
+\section{Why machine learning could benefit from a quantum advantage}
+
+There are a few reasons motivating the use of quantum computers for machine learning:
+\begin{itemize}
+    \item Better sampling from true randomness of quantum states
+    \item Higher dimensionality from $2^n$ dimension only requiring $n$ qubits
+    \item Entanglement could be better for modelling correlations in joint-probability distributions
+    \item For data generated by quantum systems can be used much [more effectively on a quantum model](https://www.science.org/doi/10.1126/science.abn7293)
+\end{itemize}
+
+\section{Variants of QML} 
+
+\subsection{VQE}
+
+The variational quantum eigensolver is one of the most well-known quantum algorithms. 
+
+\subsection{QAOA}
+
+\subsection{Generative Quantum Modelling}
+
+\subsection{Quantum SVM} 
+
+\section{Additional considerations}
+
+There are quite a few things to consider with QML 
+\begin{itemize}
+    \item There are no proven advantages to using QML over classical ML 
+    \item Quantum computers struggle to load large classical data sets 
+    \item Many proposed quantum algorithms depend on quantum ram, which has yet to be scaled and integrated into QPU's. 
+    \item There is significant academic scepticism, [even in companies that promote QML](https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w)
+    \item If a classical ML solution works perfectly well for a given problem, it is much better to use that than a quantum version. 
+\end{itemize}
+
+
+
+
+Some optimism: 
+
+Quantum machine learning is still a very new field. It may take quite some time to offer benefits, but that doesn't mean it isn't worth exploring.
+
+Conventional ML doesn't have much theoretical guarantees, but we know it works really well in practice. Given there are so many diverse applications of ML, one of them is likely to be well-suited to a quantum model.
+
+Even if our current QML approaches don't offer any value at the moment, further research may uncover models better suited to the hardware we have now...
+
+\subsection{Additional resources for QML}
+
+[GitHub repository listing papers, books and online courses](https://github.com/Christophe-pere/Roadmap-to-QML)  
+A [panel discussion from 2021 on the Future of Quantum Machine Learning](https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w)
+
+\chapter{Grover's Algorithm}
+
+\chapter{F}
+
+$$ N = 2^n $$
+$$ \omega = e^{i2\pi /N} $$
+$$F_n = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j}} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{}\ket{1} \right)$$
+
+
+
+\section{The most powerful quantum subroutine}
+
+\textit{Mathematical analysis is as extensive as nature itself; it defines all perceptible relations, measures times, spaces, forces, temperatures: this difficult science is formed slowly, but it preserves every principle which it has once acquired; it grows and strengthens itself incessantly in the midst of the many variations and errors of the human mind. Its chief attribute is clearness; it has no marks to express confused notations. It brings together phenomena the most diverse and discovers the hidden analogies which unite them.} - Joseph Fourier, The Analytical Theory of Heat (1878) 
+
+This chapter is atypical of the rest of this textbook. Here a rather lengthy historical introduction is given in an attempt to convey the power of what could be considered the most powerful quantum algorithm. It is what drives Shor's algorithm along with every other quantum algorithm with exponential scaling. 
+
+\section{Signal processing}
+
+Waves surround us. Light travels from the sun to our eyes and sound travels from vibrating objects to our ears and those two waves comprise much of our experience of reality. For both light and sound, what we are sensitive to is small changes of intensity, the power per unit area, that the complex network of our sense organs and brain are able to process and interpret as what we see and hear. In engineering, signal processing is extremely important in telecommunications and in physics there are insights we can gain about the nature of solids by performing a similar analysis. In the latter two cases, the mathematics we use to accomplish these tasks is described by various Fourier Transforms. 
+
+In 1822, French mathematician, Joseph Fourier proposed a method for 
+
+\section{Turning the Tide}
+\section{A change of perspective }
+\section{The quantum mechanical treatment}
+
+\section{Quantum Phase Estimation}
+\section{The power behind Shor's Algorithm}
+
+
+
+
+\chapter{Shor's Algorithm}
+
+
+Probably the most famous quantum algorithm, Shor's algorithm is an example of a quantum algorithm \textit{exponentially} faster than the best classical algorithm. 
+
+In addition to being fast, Shor's algorithm has immense practical utility. 
+
+\section{Decrypting encryption & Y2Q}
+
+\chapter{Distributed Quantum Computing}
 
 
 \end{document}
