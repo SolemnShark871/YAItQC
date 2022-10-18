@@ -865,7 +865,7 @@ Using the vector representation of $\ket{H}, \ket{T}$ we can write the matrix $Z
 
 $$ Z = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} $$
 
-It turns out $Z$ is an important quantum logic gate!
+It turns out $Z$ is an important quantum logic gate.
 
 
 We can invent another operator to perform the coin flip, we will call $F$ for now can be represented as 
@@ -1335,7 +1335,7 @@ Keeping with the number 5, the state vector for this number
 
 $$ \ket{5} = \ket{101} = \begin{bmatrix} 0 \\ 0\\ 0\\ 0\\ 0\\ 1\\0\\0 \end{bmatrix} $$
 
-For each qubit we add, the number of rows in this column vector doubles! This is what makes it difficult to simulate quantum algorithms on classical computers. 
+For each qubit we add, the number of rows in this column vector doubles. This is what makes it difficult to simulate quantum algorithms on classical computers. 
 
 > \subsection{}Exercise 6.3 
 > 
@@ -1408,7 +1408,7 @@ The answer comes from combining superposition with entanglement.
 
 \subsection{ If statements with spicy sauce }
 
-In general programming, if statements allow you to include logic in a program. If a statement is true, the algorithm will do one thing, otherwise, if the statement is false, it will do something else. The computer first has to check the variables value before executing the next step of the algorithm. We can do this on a quantum computer by measuring our qubits, collapsing the superposition and then performing our next quantum gates accordingly. For example, [in quantum teleportation this is done](https://qiskit.org/textbook/ch-algorithms/teleportation.html). 
+In general programming, if statements allow you to include logic in a program. If a statement is true, the algorithm will do one thing, otherwise, if the statement is false, it will do something else. The computer first has to check the variables value before executing the next step of the algorithm. We can do this on a quantum computer by measuring our qubits, collapsing the superposition and then performing our next quantum gates accordingly. For example, \href{https://qiskit.org/textbook/ch-algorithms/teleportation.html}{in quantum teleportation this is done}. 
 
  For example, in section 4.3.1 there was a game where if a coin landed up we got +1 dollar, otherwise (if it were tails up) we got -1 dollars. This works as a classical if statement, provided we add the value after the coin is landed and observed. 
 
@@ -1428,17 +1428,21 @@ Entanglement can be created by gates that act on multiple qubits together. This 
 We can represent this with a table
 
 \begin{center}
-\begin{tabular}{ c c c c c}
- Control & target & $\rightarrow{}$ & control & target \\ 
+\begin{tabular}{ | c | c | c | c | c |}
+\hline
+ Control & Target & $\rightarrow{}$ & Control & Target \\ 
+  \hline\hline
  0 & 0 &  & 0 & 0 \\ 
+ \hline
  0 & 1 &  & 0 & 1 \\
+ \hline
  1 & 0 &  & 1 & 1 \\
+ \hline
  1 & 1 &  & 1 & 0 \\
+ \hline
   
 \end{tabular}
 \end{center}
-
-
 
 If we have two qubits $\ket{\psi_1}_1\ket{\psi_0}_0$ where qubit 0 is in the state $\ket{\psi_0}$ and qubit 1 is in the state $\ket{\psi_1}$, there are two CNOT's we can have. One where qubit 0 is the target and qubit 1 is control or the other way around, qubit 1 is the control and qubit 0 is the target. Each of these has a different 4x4 matrix
 
@@ -1473,7 +1477,7 @@ $$ \ket{\Psi^-} = \frac{1}{2} \left( \ket{01} - \ket{01} \right) $$
 
 For each of these states, we can't separate out our two qubits as a product state. 
 
-<!-- 
+
 The following circuit generates the Bell states
 
 \includegraphics{Chapters/Images/Bell_State_circuit.png}
@@ -1506,7 +1510,7 @@ The Toffoli gate is the same as the controlled-not gate but with two qubits need
 $^*$ There have been proposals for using a base other than 2 for quantum computing. This has some advantages but the difficulty in constructing algorithms combined with the difficulties in error correction such a device has prevented any significant machine from being built.
 \section{References}
 
-[1] L.Vivah, [Learn How to Read Binary in 5 minutes](https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e), 2018
+[1] L.Vivah,\href{https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e}{Learn How to Read Binary in 5 minutes}, 2018
 
 \chapter{Quantum Circuits}
 \chapter{Quantum Random Number Generators}
@@ -1522,12 +1526,12 @@ Humans are really bad at picking random numbers. For instance, choosing 1 or 10 
 \section{Why do we want random numbers?}
 
 For much of human history, random numbers were only used in games of chance. Dice go back 5,000 years (Piovano, 2011/2016). During WW2, random numbers became an important statistical tool for von Neumann when he was working on the Manhattan project (Metropolis, 1987) and for use by the Germans in sending encrypted messages. 
-From the Manhattan project (Metropolis, 1987) came Monte Carlo methods. These are simulations that take a large number of samples from a model using random numbers to compute something that would be difficult to solve otherwise. They are a powerful and ubiquitous tool in physics, economics and data science. It became clear that random numbers were increasingly useful in areas of science, cryptography and statistics. More recently, with the abundance of private information sent over the internet, there is considerable need to generate a large number of random numbers for various encryptions standards (Zhou & Tang, 2011).
+From the Manhattan project (Metropolis, 1987) came Monte Carlo methods. These are simulations that take a large number of samples from a model using random numbers to compute something that would be difficult to solve otherwise. They are a powerful and ubiquitous tool in physics, economics and data science. It became clear that random numbers were increasingly useful in areas of science, cryptography and statistics. More recently, with the abundance of private information sent over the internet, there is considerable need to generate a large number of random numbers for various encryption standards (Zhou & Tang, 2011).
 
 \section{The limitations of peudorandom number generators} 
 
 
-Pseudorandom number generators (PRNGs) and do not actually produce random numbers. Anyone who knows the seed (initial random number) and the algorithm can generate the entire sequence with complete certainty. If left to run for long enough, both the middle square method and linear congruential method will repeat. This is fine for videogames where it is the feeling of randomness which matters, but not so great for encrypting communications (Li, 2013). With insider knowledge of the PRNG, an attacker could decrypt the communication.
+Pseudo-random number generators (PRNGs) and do not actually produce random numbers. Anyone who knows the seed (initial random number) and the algorithm can generate the entire sequence with complete certainty. If left to run for long enough, both the middle square method and linear congruential method will repeat. This is fine for videogames where it is the feeling of randomness which matters, but not so great for encrypting communications (Li, 2013). With insider knowledge of the PRNG, an attacker could decrypt the communication.
 
 \section{Quantum RNG}
 
@@ -1542,9 +1546,6 @@ The TRNG implemented here is hardly the most practical implementation. It is rat
 \chapter{Quantum Algorithms}
 
 
-<<<<<<< HEAD
-\end{document}
-=======
 \section{ Complexity theory isn't that complicated}
 
 When doing a computation, we are really interested in how long it will take. How long it takes to solve a problem depends on the algorithm. If the algorithm has a lot of steps, it will take the computer longer to solve them problem. It also depends on how fast the computers is/ speed of the memory or ability to use hardware acceleration (GPUs) or parallelise the problem. 
@@ -1653,7 +1654,7 @@ There are a few reasons motivating the use of quantum computers for machine lear
     \item Better sampling from true randomness of quantum states
     \item Higher dimensionality from $2^n$ dimension only requiring $n$ qubits
     \item Entanglement could be better for modelling correlations in joint-probability distributions
-    \item For data generated by quantum systems can be used much [more effectively on a quantum model](https://www.science.org/doi/10.1126/science.abn7293)
+    \item For data generated by quantum systems can be used much \href{https://www.science.org/doi/10.1126/science.abn7293}{more effectively on a quantum model}
 \end{itemize}
 
 \section{Variants of QML} 
@@ -1675,11 +1676,9 @@ There are quite a few things to consider with QML
     \item There are no proven advantages to using QML over classical ML 
     \item Quantum computers struggle to load large classical data sets 
     \item Many proposed quantum algorithms depend on quantum ram, which has yet to be scaled and integrated into QPU's. 
-    \item There is significant academic scepticism, [even in companies that promote QML](https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w)
+    \item There is significant academic scepticism, \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{even in companies that promote QML}
     \item If a classical ML solution works perfectly well for a given problem, it is much better to use that than a quantum version. 
 \end{itemize}
-
-
 
 
 Some optimism: 
@@ -1691,9 +1690,10 @@ Conventional ML doesn't have much theoretical guarantees, but we know it works r
 Even if our current QML approaches don't offer any value at the moment, further research may uncover models better suited to the hardware we have now...
 
 \subsection{Additional resources for QML}
-
-[GitHub repository listing papers, books and online courses](https://github.com/Christophe-pere/Roadmap-to-QML)  
-A [panel discussion from 2021 on the Future of Quantum Machine Learning](https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w)
+\begin{itemize}
+    \item \href{https://github.com/Christophe-pere/Roadmap-to-QML}{GitHub repository listing papers, books and online courses}
+    \item \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{A panel discussion from 2021 on the Future of Quantum Machine Learning}
+\end{itemize}
 
 \chapter{Grover's Algorithm}
 
@@ -1701,9 +1701,7 @@ A [panel discussion from 2021 on the Future of Quantum Machine Learning](https:/
 
 $$ N = 2^n $$
 $$ \omega = e^{i2\pi /N} $$
-$$F_n = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j}} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{}\ket{1} \right)$$
-
-
+$$F_n = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
 
 \section{The most powerful quantum subroutine}
 
@@ -1723,8 +1721,6 @@ In 1822, French mathematician, Joseph Fourier proposed a method for
 
 \section{Quantum Phase Estimation}
 \section{The power behind Shor's Algorithm}
-
-
 
 
 \chapter{Shor's Algorithm}
