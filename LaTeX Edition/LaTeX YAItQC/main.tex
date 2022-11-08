@@ -1667,11 +1667,11 @@ For example, adding two n-digit numbers will require on the order of n operation
 
 
 
-## 8.5 How much do we need?
+\subsection{How much do we need?}
 
 It is extremely important to keep track of the resource requirements for any quantum algorithm. 
 
-If it turns out that an algorithm requires thousands of qubits with circuit depths in the thousands, or millions, this will not be feasable with a quantum computer in the next decade. 
+If it turns out that an algorithm requires thousands of qubits with circuit depths in the thousands, or millions, this will not be feasible with a quantum computer in the next decade. 
 
 Across many of the proposed quantum algorithms, significant work has been done in reducing the requirements. This can be done by making circuits more efficient- using fewer gates and fewer qubits.  It is hoped that continued progress in circuit optimisation and improved hardware specifications will allow for better quantum algorithms to be implemented in the near-term. 
 
@@ -1790,8 +1790,8 @@ Even if our current QML approaches don't offer any value at the moment, further 
 \chapter{F}
 
 $$ N = 2^n $$
-$$ \omega = e^{i2\pi /N} $$
-$$F_n = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
+$$ \omega = e^{-i2\pi /N} $$
+$$F_n = QFT^{\dagger} = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
 
 \section{The most powerful quantum subroutine}
 
@@ -1811,7 +1811,65 @@ In 1822, French mathematician, Joseph Fourier proposed a method for
 
 \section{Quantum Phase Estimation}
 \section{The power behind Shor's Algorithm}
+\section{A new limit of machine precision}
 
+
+[Qiskit Lab 5: Accuracy of Quantum Phase Estimation](https://learn.qiskit.org/course/ch-labs/lab-5-accuracy-of-quantum-phase-estimation)
+
+Digital computers are fundamentally limited in the precision they can achieve. Floating point numbers carry a finite number of bits. 32 bit for single precision, 64 for double precision. What this means is that every number stored on every computer is stored to a finite number of decimal points. Even for analogue computers, there is some arbitrary degree to which the precision of a given value can be stored. 
+
+Perhaps one of the most remarkable differences between quantum & classical information is phase. 
+
+Phases can be stored classically using complex data structures: a complex number is merely 2 real numbers where one is the real component & the other is the imaginary component. The difference with quantum states is that the phase is realised physically. In that sense it is fundamentally analogue. 
+
+$F$ is defined with some limit:
+
+$$ F = QFT^\dagger \frac{1}{\sqrt{N}}\sum_{j,k = 0}^{N-1} \omega^{-jk}\ket{k}\bra{j}$$
+
+With $ N = 2^n$ ($n$ being the number of logical qubits) & $\omega = e^{i2\pi/N}$
+
+Since we know that $\omega$ is quantised, there is a limit to which the phase can be specified. Therefore, for some arbitrary phase angle $\phi$, and for a given number of qubits, there is a limit to the accuracy this phase can be estimated (using QPE). The maximum error to which this phase can be measured is given by the angular distance $\Delta$
+
+$$ \Delta = | \phi - 2\pi jk/N | $$
+
+In the best case, $\phi = 0 $, so simply picking $ j = k = 0 $ allows $\Delta = | 0 - 0 | = 0 $. In that case, there is no phase and therefore no error ($\Delta_{min} = 0$). 
+
+In the worst case, $\phi_{worst}$ falls between two of the roots of unity: $\phi_{worst} = 2\pi jk/2N$. This maximises the angular distance $\Delta$
+
+
+$$ \Delta_{max} = | 2\pi jk/2N - 2\pi jk/N | $$
+
+Since we can always rotate the Bloch sphere by some integer number of $ 2\pi/N $ without changing $ \Delta $, we can simplify this to take $j = k = 1$
+
+$$ \Delta_{max} = 2\pi \left| \frac{1}{2N} - \frac{1}{N} \right| $$
+
+Multiplying by $-1$ makes this positive
+
+$$ \Delta_{max} = 2\pi\left( \frac{1}{N} - \frac{1}{2N} \right) $$
+$$ = 2\pi\left(  \frac{ 2 -1}{2N}   \right) = \frac{\pi}{N} $$
+
+Leaving us with the worst case error 
+
+
+$$ \Delta_{max} = \frac{\pi}{N} $$
+
+Assuming an ideal (full-scale fault-tolerant) quantum computer, the (phase) limit of machine precision can be given by:
+$$
+\lim_{n \rightarrow \infty} \Delta_{max} = \frac{\pi}{2^n} \rightarrow 0
+$$
+
+At first glance, it would seem that it is as simple as setting having as many qubits as possible such that $N = 2^n$ goes to infinity and $\Delta_{max}$ goes to zero. Alas, there are a few more considerations:
+
+\begin{itemize}
+   \item Connectivity: All-to-all connectivity is required by $F$. This can be overcome with SWAP gates at some overhead that scales with $n$ depending on local (logical) qubit connectivity.
+   \item Phase control: Controlled $R_z$ gates with at least $2\pi/N$ precision. Effectively this defines a limit on the maximum phase noise that can be tolerated by 2-qubit gates. Practically speaking, this demands effective quantum error correcting codes.
+   \item Coherence times: For any given $n$, $F$ requires $O(n^3)$ circuit layers. Thus the minimum depth of the circuit also scales with $O(n^3)$. Each layer of the circuit requires some time to be processed. Thus it is necessary to maintain a coherent phase for at least the time taken to complete the QPE algorithm. 
+   \item SPAM: State Preparation And Measurement. The quantum circuit has to start from the fiduciary state $\ket{0}^{\otimes n}$, prepare the phase corresponding to $\phi_{worst}$, carry out QPE and them perform a measurement in the computational basis. Any error in preparing the state or measuring it will in turn raise the error beyond $\Delta_{max}$.
+\end{itemize}
+
+
+
+At this point it is worth pointing out that there is no major consideration for speed. Whether QPE is implemented very quickly or extremely slowly, all other things being equal, it doesn't affect $\Delta $. Intuitively this makes sense. Precision does not require speed. 
 
 \chapter{Shor's Algorithm}
 
@@ -1821,6 +1879,16 @@ Probably the most famous quantum algorithm, Shor's algorithm is an example of a 
 In addition to being fast, Shor's algorithm has immense practical utility. 
 
 \section{Decrypting encryption \& Y2Q}
+
+
+
+\chapter{Benchmarks for computers}
+
+\section{Why do we need benchmarks}
+
+\section{Classical computing benchmarks}
+
+\section{How powerful is your quantum computer?}
 
 \chapter{Distributed Quantum Computing}
 
