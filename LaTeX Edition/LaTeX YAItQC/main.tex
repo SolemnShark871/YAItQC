@@ -19,7 +19,7 @@
 
 \title{Yet Another Introduction to Quantum Computing}
 \author{Thomas R Clarke}
-\date{October 2022}
+\date{\today}
 
 \begin{document}
 \maketitle
@@ -501,7 +501,7 @@ The inner product depends on the angle between the vectors. If the vectors are p
 
 \subsection{ Perpendicular vectors }
 
-If two vectors have no components in common, their inner product will be zero. This can be shown by two vectors that have an angle of $ 90\degree $ between them.  We call these vectors perpendicular. In quantum mechanics, the preferred term is \textbf{orthogonal} which means the same thing but applies to more than just vectors. 
+If two vectors have no components in common, their inner product will be zero. This can be shown by two vectors that have an angle of $ 90^{\circ} $ between them.  We call these vectors perpendicular. In quantum mechanics, the preferred term is \textbf{orthogonal} which means the same thing but applies to more than just vectors. 
 
 For example the vectors $\ket{p} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ \& $\ket{q} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$ have a inner product  of 0. 
 
@@ -781,7 +781,7 @@ $$
 Just as with the column vector, we can write a general expression for any bra
 
 $$
-\bra{\psi} = \begin{bmatrix} c_0^* \& c_1^* \& c_2^* \& \dots \& c_{N-2}^* \& c_{N-1}^* \end{bmatrix}
+\bra{\psi} = \begin{bmatrix} c_0^* & c_1^* & c_2^* & \dots & c_{N-2}^* & c_{N-1}^* \end{bmatrix}
 $$
 
 
@@ -806,7 +806,7 @@ The state we want to measure $\ket{H}$ is always on the left (in a bra) and the 
 First we do the inner product $\braket{H|\psi}$
 
 $$
-\braket{H|\psi} = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \& 0 \end{bmatrix} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+\braket{H|\psi} = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
 $$
 
 $$ = \frac{1}{\sqrt{2}} (1 + 0 ) = \frac{1}{\sqrt{2}}$$
@@ -836,7 +836,7 @@ $$ P(T) = |\braket{T|\psi}|^2 $$
 where the coin is in the state $\ket{\psi}$ = $\ket{H}$. 
 
 $$  
-\left| \begin{bmatrix} 0 \& 1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} \right|^2 
+\left| \begin{bmatrix} 0  1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} \right|^2 
 $$
 
 $$
@@ -844,7 +844,7 @@ $$
 $$
 
 
-On the other hand, the proability of measuring a heads is 1. Whilst this result may seem obvious, it is worth emphasising that for any quantum state, the probability of measuring it in that state should be 1 (neglecting measurement error). This leaves us the important result
+On the other hand, the probability of measuring a heads is 1. Whilst this result may seem obvious, it is worth emphasising that for any quantum state, the probability of measuring it in that state should be 1 (neglecting measurement error). This leaves us the important result
 
 $$ |\braket{\psi|\psi}|^2 = 1 $$
 
@@ -860,22 +860,20 @@ This simplifies a lot of the maths.
 
 An operator is a mathematical object that acts on a ket and returns a new ket. Operators are matrices that allow us to process quantum states. This is how we do quantum computing. 
 
-Our operators are denoted by a capital letter, such as  $O$. They act on a quantum state $\ket{\psi}$ to return a new state $\ket{\psi'}$ as 
+Our operators are denoted by a capital letter, such as  $\hat{O}$. They act on a quantum state $\ket{\psi}$ to return a new state $\ket{\psi'}$ as 
 
-$$O\ket{\psi} = \ket{\psi'}$$
+$$\hat{O}\ket{\psi} = \ket{\psi'}$$
 
 This is just a matrix-vector product. 
 
-
-
 In gambling, the outcome of some event results in the gambler winning or losing money. Imagine a very simple game where every time you roll a heads you win \$1, every time you roll a tails, you lose \$1. 
 
-We can define an operator, let's call it $Z$ that encodes the winnings and loses for each coin toss. 
+We can define an operator, let's call it $\hat{Z}$ that encodes the winnings and loses for each coin toss. 
 
 If we roll a heads $\ket{H}$ we should get +1, so we can encode that as 
 
 $$
-Z\ket{H} = +1 \ket{H}
+\hat{Z}\ket{H} = +1 \ket{H}
 $$
 
 Where the coefficient +1 is the winnings and the final state $\ket{H}$ is what we end up with. 
@@ -883,20 +881,20 @@ Where the coefficient +1 is the winnings and the final state $\ket{H}$ is what w
 Similarly for tails we lose a dollar so 
 
 $$
-Z\ket{T} = -1 \ket{T}
+\hat{Z}\ket{T} = -1 \ket{T}
 $$
 
-Using the vector representation of $\ket{H}, \ket{T}$ we can write the matrix $Z$
+Using the vector representation of $\ket{H}, \ket{T}$ we can write the matrix $\hat{Z}$
 
-$$ Z = \begin{bmatrix} 1 \& 0 \\ 0 \& -1 \end{bmatrix} $$
+$$ \hat{Z} = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} $$
 
-It turns out $Z$ is an important quantum logic gate.
+It turns out $\hat{Z}$ is an important quantum logic gate. Note: since the symbol $Z$ has no other major uses, it's common to see the operator without the hat as just $Z$.
 
 
-We can invent another operator to perform the coin flip, we will call $F$ for now can be represented as 
+We can invent another operator to perform the coin flip, we will call $\hat{F}$ for now can be represented as 
 
 $$
-F =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \& 1 \\ 1 \& -1 \end{bmatrix}
+\hat{F} =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
 
 \hline
@@ -904,7 +902,7 @@ $$
 
 By applying the flip operator to a coin that is heads up, show that it gives us the superposition state.  
 
-Hint: compute the matrix-vector product of $F\ket{H}$.   
+Hint: compute the matrix-vector product of $\hat{F}\ket{H}$.   
   
 Bonus question: what would you get if you did the same with the coin starting tails up?  
 
@@ -971,10 +969,10 @@ $$
 We have defined the expectation value of the operator $Z$. Assuming our coin is unbiased, it has the general superposition state. We can then compute the expectation value as
 
 $$
-\frac{1}{\sqrt{2}} \begin{bmatrix} 1 \& 1 \end{bmatrix} \begin{bmatrix} 1 \& 0 \\ 0 \& -1 \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+\frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
 $$
 $$
-= \frac{1}{2}\begin{bmatrix} 1 \& 1 \end{bmatrix} \begin{bmatrix} 1 \\ -1 \end{bmatrix}
+= \frac{1}{2}\begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ -1 \end{bmatrix}
 $$
 $$ = \frac{1}{2} ( 1 - 1) = 0 $$ 
 
@@ -1002,7 +1000,7 @@ Having introduced some of the basic mathematics to describe quantum computing, l
 
 Almost all articles or news reports talking about quantum computing start off by explaining how qubits are different from classical bits. This chapter will use the maths from previous chapters to give a better description of these qubits. 
 
-Earlier, the coin example was introduced with the heads \& tails outcomes we can observe. A qubit also has 2 outcomes called $\ket{0}$ \& $\ket{1}$, we can just replace $\ket{H}$ with $\ket{0}$ and $\ket{T}$ with $\ket{1}$. 
+Earlier, the coin example was introduced with the heads & tails outcomes we can observe. A qubit also has 2 outcomes called $\ket{0}$ & $\ket{1}$, we can just replace $\ket{H}$ with $\ket{0}$ and $\ket{T}$ with $\ket{1}$. 
 
 $$
 \ket{0} = \begin{bmatrix} 1 \\ 0 \end{bmatrix} ; \ket{1} = \begin{bmatrix} 0 \\ 1 \end{bmatrix} 
@@ -1010,9 +1008,7 @@ $$
 
 These two states are called the computational basis
 
-Just as with the coins, our qubits can be in a superposition of $\ket{0}$ \& $\ket{1}$. We can have any probability of measuring $\ket{0}$ \& $\ket{1}$ (so long as all the probabilities are real positive numbers which add to 1). 
-
-
+Just as with the coins, our qubits can be in a superposition of $\ket{0}$ & $\ket{1}$. We can have any probability of measuring $\ket{0}$ & $\ket{1}$ (so long as all the probabilities are real positive numbers which add to 1). 
 
 \section{ The Bloch Sphere }
 
@@ -1023,9 +1019,21 @@ The Bloch sphere is a useful tool used to represent the state of a qubit. Below,
 
 \includegraphics[scale=0.5]{images/Bloch_Sphere.png}
 
-At the top of the sphere  is the state $\ket{0}$, at the botom is the state $\ket{1}$. Our state $\ket{\psi}$ is somewhere in between so it is a superposition of $\ket{0}$ \& $\ket{1}$. The closer $\ket{\psi}$  is to the top, the greater the probability of measuring $\ket{0}$, the same is true for the bottom with $\ket{1}$. The angle $\theta$ between the $\ket{0}$ \& $\ket{\psi}$ gives us these probabilities. 
 
-Notice how $\ket{0}$ and $\ket{1}$ are seperated by $180\degree (\pi)$ on the sphere, but they are perpendicular, so the angle between them is actually $90\degree (\pi/2)$. The angles on the Bloch sphere are twice as large as the angles for the qubits.
+\subsection{The north \& south poles}
+
+
+In 1922 one of the quintessential experiments led to a remarkable breakthrough in our understanding of quantum theory. 
+
+\begin{enumerate}
+    \item Electron spin up & down
+    \item Separation by magnetic field
+    \item Relation to state preparation, superposition & measurement 
+\end{enumerate}
+
+At the top of the sphere  is the state $\ket{0}$, at the bottom is the state $\ket{1}$. Our state $\ket{\psi}$ is somewhere in between so it is a superposition of $\ket{0}$ & $\ket{1}$. The closer $\ket{\psi}$  is to the top, the greater the probability of measuring $\ket{0}$, the same is true for the bottom with $\ket{1}$. The angle $\theta$ between the $\ket{0}$ \& $\ket{\psi}$ gives us these probabilities. 
+
+Notice how $\ket{0}$ and $\ket{1}$ are separated by $180^{\circ} (\pi)$ on the sphere, but they are perpendicular, so the angle between them is actually $90 ^{\circ} (\pi/2)$. The angles on the Bloch sphere are twice as large as the angles for the qubits.
 
 \textbf{The angle $\theta$ on the Bloch sphere gives the probabilities with angle $\theta/2$}
 
@@ -1061,7 +1069,7 @@ Two quantum states can have the same probabilities, but be completely different 
 For example, earlier the flip coin operator $F$ had this form:
 
 $$
-F =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \& 1 \\ 1 \& -1 \end{bmatrix}
+F =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
 
 In quantum computing, this operator is known as a Hadamard gate with symbol $H$. 
@@ -1101,17 +1109,6 @@ So if we apply $H$ once to $\ket{0}$ we get $\ket{+}$ and then applying it again
 This implies applying $H$ twice does nothing. $H^2 = I$.
 
 So if we ever have $\ket{+}$ we apply $H$ and get $\ket{0}$ 100\% of the time. If we get $\ket{1}$ we must have had another state to begin with. If we had $\ket{-}$ would measure 1 100\% of the time. 
-\hline
-
-\subsection{Exercise 5.2 Back to the start}
-
-Apply $H$ twice to $\ket{1}$ and verify the state we end up with is $\ket{1}$. 
-
-\subsection{Exercise 5.3 The coin doesn't work}
-
-When we apply the Hadamard twice to a state, we get the same state back. Without doing any maths, consider throwing a coin. Why does throwing the coin twice not guarantee you get back the side you started with?
-
-\hline
 
 In this example, where is the phase? 
 
@@ -1141,28 +1138,40 @@ Phases can be used to encode information, such as with the quantum Fourier trans
 
 \textbf{Phases only matter when they are relative. This means a phase difference between the different states.} 
 
-\section{Qubit gates }
+\hline
+
+\subsection{Exercise 5.2 Back to the start}
+
+Apply $H$ twice to $\ket{1}$ and verify the state we end up with is $\ket{1}$. 
+
+\subsection{Exercise 5.3 The coin doesn't work}
+
+When we apply the Hadamard twice to a state, we get the same state back. Without doing any maths, consider throwing a coin. Why does throwing the coin twice not guarantee you get back the side you started with? 
+
+\vspace{5mm} %5mm vertical space
+
+\hline \section{Qubit gates }
 
 As mentioned in Chapter 4, operators are what allow us to do things to quantum states. Below are a collection of the most common single qubit operators. 
 
 \begin{center}
 \begin{tabular}{||m{1cm}| m{5cm} | m{3cm} | m{3cm} | m{2cm}||} 
  \hline
- Gate \& Description& Effect on $\ket{0}$& Effect on $\ket{1}$ \& Matrix \\ [0.5ex] 
+ Gate & Description & Effect on $\ket{0}$ & Effect on $\ket{1}$ & Matrix \\ [0.5ex] 
  \hline\hline
- $I$ \& Identity: do nothing \& $\ket{0} \rightarrow  \ket{0} $ \& $\ket{1} \rightarrow \ket{1}$ \& $\begin{bmatrix} 1 \& 0 \\ 0 \& 1 \end{bmatrix}$ \\ 
+ $I$ & Identity: do nothing & $\ket{0} \rightarrow  \ket{0} $ & $\ket{1} \rightarrow \ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$ \\ 
  \hline
- $X$ \& Not: Swaps $\ket{0}$ with $\ket{1}$   &$\ket{0} \rightarrow \ket{1}$ &$\ket{1} \rightarrow  \ket{0}$ \& $\begin{bmatrix} 0 \& 1 \\ 1 \& 0 \end{bmatrix}$ \\
+ $X$ & Not: Swaps $\ket{0}$ with $\ket{1}$   &$\ket{0} \rightarrow \ket{1}$ &$\ket{1} \rightarrow  \ket{0}$ & $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ \\
  \hline
- $Y$ \& Y: Rotation by angle $\pi$ around the y-axis of the Bloch sphere \& $\ket{0} \rightarrow  i\ket{1} $ &$\ket{1} \rightarrow -i\ket{0} $ \& $\begin{bmatrix} 0 \& -i \\ i \& 0 \end{bmatrix}$ \\
+ $Y$ & Y: Rotation by angle $\pi$ around the y-axis of the Bloch sphere & $\ket{0} \rightarrow  i\ket{1} $ & $\ket{1} \rightarrow -i\ket{0} $ & $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ \\
  \hline
- $Z$ \& Z: Adds a phase of $e^{i\pi}$ to $\ket{1}$&$\ket{0} \rightarrow \ket{0}$&$\ket{1} \rightarrow -\ket{1}$ &$\begin{bmatrix} 1 \& 0 \\ 0 \& -1 \end{bmatrix}$  \\
+ $Z$ & Z: Adds a phase of $e^{i\pi}$ to $\ket{1}$&$\ket{0} \rightarrow \ket{0}$&$\ket{1} \rightarrow -\ket{1}$ &$\begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$  \\
  \hline
- $H$ \& Hadamard: Creates the superposition state \& $\ket{0} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} + \ket{1})$ \& $\ket{1} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} - \ket{1})$ \& $\frac{1}{\sqrt{2}}\begin{bmatrix} 1 \& 1 \\ 1 \& -1 \end{bmatrix} $\\
+ $H$ & Hadamard: Creates the superposition state & $\ket{0} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} + \ket{1})$ & $\ket{1} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} - \ket{1})$ & $\frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} $\\
  \hline
- $S$ \& Adds a phase of $e^{\pi/2}$ between $\ket{0}$ &$\ket{0} \rightarrow  \ket{0} $ &$\ket{1} \rightarrow e^{i\pi/2}\ket{1}$  \& $\begin{bmatrix} 1 \& 0 \\ 0 \& e^{i\pi/2} \end{bmatrix}$\\
+ $S$ & Adds a phase of $e^{\pi/2}$ between $\ket{0}$ &$\ket{0} \rightarrow  \ket{0} $ &$\ket{1} \rightarrow e^{i\pi/2}\ket{1}$  & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/2} \end{bmatrix}$\\
  \hline
- $T$ \& Adds a phase of $e^{\pi/4}$ between $\ket{0}$ \&  $\ket{0} \rightarrow  \ket{0} $& $\ket{1} \rightarrow e^{i\pi/4}\ket{1}$ \& $\begin{bmatrix} 1 \& 0 \\ 0 \& e^{i\pi/4} \end{bmatrix}$\\ [1ex] 
+ $T$ & Adds a phase of $e^{\pi/4}$ between $\ket{0}$ &  $\ket{0} \rightarrow  \ket{0} $& $\ket{1} \rightarrow e^{i\pi/4}\ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{bmatrix}$\\ [1ex] 
  \hline
 \end{tabular}
 \end{center}
@@ -1198,17 +1207,17 @@ In addition to these fixed quantum gates, there are quantum gates we can specify
 For instance, we might want to get more than a 50\% chance of measuring an output. We can see on the Bloch sphere that if we rotate our quantum state by some angle towards $\ket{0}$ or $\ket{1}$ we can boost the probability of measuring those. The matrix that does this rotation is known as $R_x$
 
 $$
-R_y(\theta) = \begin{bmatrix} \cos(\theta /2) \& -\sin(\theta /2) \\ \sin(\theta /2) \& \cos(\theta /2) \end{bmatrix}
+R_y(\theta) = \begin{bmatrix} \cos(\theta /2) & -\sin(\theta /2) \\ \sin(\theta /2) & \cos(\theta /2) \end{bmatrix}
 $$
 
 \textbf{The angle we give as input (on the Bloch Sphere) is $\theta$ the angle we perform the rotation is $\theta/2$.}
 
-We also have rotations for the x \& y axis too. In fact, the X,Y gates are special cases of $R_x(\theta)$ \& $R_y(\theta)$ with $\theta = \pi$. 
+We also have rotations for the x \& y axis too. In fact, the X,Y gates are special cases of $R_x(\theta)$ & $R_y(\theta)$ with $\theta = \pi$. 
 
 $R_z(\phi)$ (also known as P) is also useful because it allows us to give any phase to a qubit. 
 
 $$
-R_z(\phi) = P(\phi) = \begin{bmatrix} 1 \& 0 \\ 0 \& e^{i\phi} \end{bmatrix}
+R_z(\phi) = P(\phi) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\phi} \end{bmatrix}
 $$
 
 This gives a phase shift of $\phi$ between $\ket{0}$ \& $\ket{1}$
@@ -1226,7 +1235,7 @@ The X gate turns $\ket{0}$ to $\ket{1}$ and $\ket{1}$ to $\ket{0}$. By consideri
 Just as we can represent any single qubit state with two parameters, we can also represent any single qubit gate using parameters. 
 
 $$
-U(\theta, \phi, \lambda) = \begin{bmatrix} \cos(\theta/2) \& -e^{i\lambda}\sin(\theta/2) \\ e^{i\phi}\sin(\theta/2) \& e^{i(\phi + \lambda)}\cos(\theta) \end{bmatrix} 
+U(\theta, \phi, \lambda) = \begin{bmatrix} \cos(\theta/2) & -e^{i\lambda}\sin(\theta/2) \\ e^{i\phi}\sin(\theta/2) & e^{i(\phi + \lambda)}\cos(\theta) \end{bmatrix} 
 $$
 
 Just as we can reach any point on the Bloch Sphere with $\theta$ \& $\phi$ we can get any quantum gate using $U$. 
@@ -1239,7 +1248,10 @@ Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,
 
 \section{ Operators in Ket-Bra Form}
 
-There is a very elegant way to express operators
+
+
+
+There is a very elegant way to express operators using Dirac notation. If one 
 
 \section{ Bonus: Beyond Bits }
 
@@ -1274,16 +1286,19 @@ Qudits are much less commonly used than qubits for a few reasons
 
 \section{ More than the sum of its parts}
 
-If quantum computing was nothing more than a collection of qubits processed individually, there would be little point in building a quantum computer. A single qubit can be modelled using 2x2 matrices - you can even work these out by hand! Even if we were to have a large number of these in parallel, it would still be very easy to simulate a large number of qubits. 
+If quantum computing was nothing more than a collection of qubits processed individually, there would be little point in building a quantum computer. A single qubit can be modelled using 2x2 matrices - you can even work these out by hand! Even if we were to have a large number of these in parallel, it would still be very easy to simulate a large number of qubits. You might prefer to use a classical computer that is very efficient at evaluating linear algebra rather than pen & paper. 
 
-Having qubits interact with one another allows for more complex algorithms. Thanks to entanglement, one qubit can control what happens to another. This has some interesting implications for quantum algorithms. 
+What makes qubits difficult to simulate is the interactions between them. Having qubits interact with one another allows for more complex algorithms. Thanks to entanglement, one qubit can control what happens to another. This has some interesting implications for quantum algorithms. 
 
 \section{Back to Binary }
 
+
+To describe many qubits, we need to add something to Dirac notation. For instance, if we were to label our qubits alphabetically, we'd run out of letters after just 26 qubits. Thankfully, we can leverage the binary system from classical computing to describe as many qubits as we want to. 
+
+
 Everyone is familiar with the decimal system where counting goes as 0,1,2,...,8,9 and then we repeat from 10,11,12,... . Computers, classical or quantum $^*$ count in base 2. 
 
-Binary works the same way as the decimal system but instead the count repeats every 2. Numbers go as 
-
+Binary works the same way as the decimal system but instead the count repeats every 2. Numbers go as    
 
 0,1,10,11,100,101,110,111 \newline
 
@@ -1465,15 +1480,15 @@ We can represent this with a table
 \begin{center}
 \begin{tabular}{ | c | c | c | c | c |}
 \hline
- Control \& Target \& $\rightarrow{}$ \& Control \& Target \\ 
+ Control & Target & $\rightarrow{}$ & Control & Target \\ 
   \hline\hline
- 0 \& 0 \&  \& 0 \& 0 \\ 
+ 0 & 0 &  & 0 & 0 \\ 
  \hline
- 0 \& 1 \&  \& 0 \& 1 \\
+ 0 & 1 &  & 0 & 1 \\
  \hline
- 1 \& 0 \&  \& 1 \& 1 \\
+ 1 & 0 &  & 1 & 1 \\
  \hline
- 1 \& 1 \&  \& 1 \& 0 \\
+ 1 & 1 &  & 1 & 0 \\
  \hline
   
 \end{tabular}
@@ -1484,18 +1499,18 @@ If we have two qubits $\ket{\psi_1}_1\ket{\psi_0}_0$ where qubit 0 is in the sta
 
 The first has the control on the 
 $$
-CNOT_{0, 1} = \begin{bmatrix} 1 \& 0 \& 0 \& 0 \\
-0 \& 0 \& 0 \& 1 \\
-0 \& 0 \& 1 \& 0 \\
-0 \& 1 \& 0 \& 0 \\
+CNOT_{0, 1} = \begin{bmatrix} 1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
 \end{bmatrix}
 $$
 
 $$
-CNOT_{1, 0} = \begin{bmatrix} 1 \& 0 \& 0 \& 0 \\
-0 \& 0 \& 0 \& 0 \\
-0 \& 0 \& 0 \& 1 \\
-0 \& 0 \& 1 \& 0 \\
+CNOT_{1, 0} = \begin{bmatrix} 1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
 \end{bmatrix}
 $$
 
