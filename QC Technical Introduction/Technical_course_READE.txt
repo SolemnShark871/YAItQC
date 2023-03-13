@@ -1,0 +1,3 @@
+In this folder, all the accompanying slides from the 2022 Quantum Computing Technical Foundations course I taught as part of the quantum initiative at Equinox AI Lab. The class recordings can be found at: 
+
+https://www.youtube.com/watch?v=THwrTTWZKko&list=PLmr0XRZtylgbjhh4Fkiv-d1OSetSsz97G
