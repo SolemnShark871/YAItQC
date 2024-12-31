@@ -1,0 +1,134 @@
+\documentclass{book}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage[utf8]{inputenc}
+\usepackage{braket}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{array}
+\graphicspath{ {./images/} }
+
+
+
+
+\begin{document}
+
+
+\textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
+\chapter{What is quantum?}
+
+
+Before we can talk about quantum computing, we first have to understand the basic concepts of quantum that make it work. 
+
+\section{Common misconceptions about quantum}
+ 
+In science fiction \textit{quantum} is often used to explain away a technology that seems to defy the laws of physics. In the 2018 superhero movie \textit{Ant-Man}, the protagonist is able to become smaller and smaller until they enter the mysterious \textit{Quantum Realm}, described as “a reality where all concepts of time and space become irrelevant”. 
+
+If this was how subatomic physics worked, there would be no subatomic physics $^*$.
+
+Quantum mechanics is described by the Schrödinger equation that is built on space and time. There are some differences to classical physics, the physics everyone is used to experiencing in everyday life. Quantum it is not some magical concept which allows for anything that violates classical physics to be explained away. There are however, some small but significant features of quantum mechanics that allow for the development of new technologies. 
+
+
+\section{How many physicists does it take to change a light bulb?}
+
+In the early 20th century, a German physicist (by the cool name of Max Planck) was tasked with modelling the emission of light from a filament bulb (basically a wire that gets hot enough to glow). He came up with what is known as the black body radiation spectrum. It turns out, from his model, the energy emitted by an object with a finite temperature is not emitted in a continuous spectrum. That's to say rather than all possible wavelengths of light being emitted by this bulb only certain wavelengths were allowed. This is known as a discrete spectrum. What this in turn means is that energy is emitted are chunks, or \textit{quanta}, with a well-defined energy. We can't have energy between these chunks. It's a bit like taking the lift (elevator in American English). One can only get on or off the lift at specific heights corresponding to the floor level. Each floor is separated by a distance and the lift can go up or down in any multiple of these distances limited by the number of floors. In between those levels the doors of the lift won't open.
+
+\includegraphics{images/Energy_Levels.png}
+
+\includegraphics{images/Light_bulb_quantised.png}
+
+This concept of quantisation of energy is where the quantum comes from. Whilst this concept is less significant to quantum computing, it is still worth mentioning. The reason for this is that the transistor that powers all digital electronics is built upon this concept. Thus all computations using this technology (the integrated circuit) are computers running on quantum mechanics. Which is not to say they are quantum computers simply that they are fundamentally built upon quantum physics, as are you, I, and everything we can see and touch. 
+
+Quantum is nothing more than a limit, beyond which classical physics fails to provide an explanation. \textit{Quantum technologies supersede the limits of what is possible with classical technologies.}
+
+Beyond the quantisation of energy, there are quantum phenomena which are very much more significant to quantum computing: \textit{superposition \& entanglement}. 
+
+\section{So what happened to Schrödinger’s cat?}
+
+You may have heard of a very special cat associated with another German physicist, Schrödinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released and the cat dies. otherwise the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
+\includegraphics[scale=0.3]{images/standard_cat.png}
+[2]
+
+Schrödinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. In quantum mechanics we call this particular state a \textit{superposition}. And this is the state we say the Schrodinger's cat is in before the box is opened.This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
+
+
+It is as simple as tossing a coin.  
+
+While the coin spins in the air, someone looking at it can't resolve which side is facing upwards. It is a blur of motion where the side facing up can't be determined. It is as if the coin were in a combination of being \textit{both heads and tails at the same time}.  This coin can be described as being in a superposition of heads and tails. In reality there are not two coins, one with the heads facing up and another with the tails facing up, but only one coin with this special state\footnote{According to the many worlds interpretation of quantum mechanics it is not quite so simple...}.
+
+When the coin lands, it faces either heads or tails up. Now there is no uncertainty in the state of the coin. If we were to cover the coin and then look at it again some time later, it would still have the same side facing up. The superposition the coin was in before has been collapsed. The concept of looking at the coin, or opening the box, is what in quantum mechanics calls \textit{performing a measurement}.
+
+
+\section{Spooky action at a distance}
+
+
+The more conceptually difficult phenomena quintessential to quantum computing can also be explained using coins (but with one small modification). In truth this is a gross simplification, as the classical analogy does not accurately represent the intricacies of quantum theory. It serves only as an analogy of the probabilistic nature of entanglement. And even then the analogy fails to manifest the Bell inequalities. 
+
+For this example 2 coins will be required. 
+
+Tossing two unbiased coins is effectively the same as tossing the same coin twice and recording the outcome each time. Guessing whether the coin is H or T is 50\% for each coin or 25\% for getting both of them correct. 
+
+For the next step some removable adhesive, like Blu-tac, will be required. Imagine sticking the two coins together with each coin having the H facing outwards and the T's stuck together to make one coin twice as thick. Tossing this combined coin will always result in the top coin having the H facing upwards. The coin at th bottom must also have the H side facing into the ground. 
+
+But before the combined coin is revealed, the two coins are separated. Since the coin at the bottom has H facing into the ground, it must have its T side facing upwards. This leaves us 2 coins one H and the other T. After shuffling the coins they are separated. 
+
+\includegraphics[scale=0.4]{images/Entanglement.png}
+
+At this point, guessing either of the coin would have a 50\% chance of getting the right outcome- the same as for two coins tossed separately. 
+
+But if only one of the coins is revealed, say the H coin, then it is instantly known that the other one must be a T. Suddenly guessing the state of the second coin has a 100\% chance of success whereas with the separate coin tosses revealing one made no difference to guessing the other. These linked probabilities are analogous (with some significant caveats) to an entangled quantum state.
+
+The coins here are classical objects, 
+
+\section{Interpretations of Quantum Theory}
+
+\subsection{The Copenhagen Interpretation}
+
+The Copenhagen interpretation of quantum mechanics is the oldest and most boring. Simply put, it does not really do anything but state what the theory predicts. It is a bit agnostic because there is no attempt made to answer the big question of \textbf{why}.
+
+\subsection{Marvelous Many Worlds}
+
+One way of dealing with the paradoxes of superposition and entanglement is to make a rather bold proposition about the nature of reality. Since quantum mechanics is hard to reconcile with our intuitive understanding of the world,the many worlds interpretation seeks to overhaul the concept of reality.
+
+
+
+\subsection{Quantum Bayesienism}
+
+If quantum mechanics is interpreted as a purely statistical reality, quantum Bayesienism is a very natural conclusion. 
+
+\subsection{The Relational Interpretation}
+
+Perhaps an easier way of reformulating our understanding of reality, such that it is consistent with quantum theory, is to redefine how we consider properties to be defined. \newline
+
+For example. In classical mechanics, speed, or velocity are properties of objects defined relative to something else. How fast someone walking along a moving train travels depends on the frame of reference. A passenger sitting on the same carriage would consider the person to be moving at a walking pace whereas a farmer standing in a field watching the train go by might describe the person as moving with a much faster speed. \newline
+
+The relational interpretation boldly suggests that all physical properties of all objects are only defined relative to another object. 
+
+\textit{``If a tree falls in a forest and no one is around to hear it, does it make a sound ?''}
+
+
+\section{Quantum Technologies}
+
+Quantum Technologies, as they are defined by John Morton, director of UCLQ (as of the time of writing) are \textit{ ``ones which exploit quantum superposition and entanglement to achieve major advances over current technologies in areas including communication, sensing and information processing'' }
+
+These are devices that take advantage of the aforementioned phenomena for practical applications to do something better than what can be done without using them. Quantum computation is one of the most exciting quantum technologies even if it is much less mature than others like quantum metrology (sensing) and communication (encryption).
+
+
+\section{Chapter 1 Summary} 
+
+\begin{itemize}
+
+    \item The word quantum comes from quantised or in discrete units 
+    \item A superposition happens when there are two possible states
+    \item Entanglement happens when the outcomes of two individually random systems are correlated very strongly 
+    \item Quantum technologies use superposition \& entanglement in their operation 
+    
+\end{itemize}
+\end{document}
