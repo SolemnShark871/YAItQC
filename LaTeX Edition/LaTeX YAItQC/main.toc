@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {1}How many physicists does it take to change a light bulb?}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}So what happened to Schrödinger’s cat?}{8}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spooky action at a distance}{9}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Quantum Technologies}{10}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Chapter 1 Summary}{10}{section.1.4}%
+=======
+\contentsline {chapter}{\numberline {1}What is quantum?}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Common misconceptions about quantum}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}How many physicists does it take to change a light bulb?}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}So what happened to Schrödinger’s cat?}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Spooky action at a distance}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Interpretations of Quantum Theory}{8}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}The Copenhagen Interpretation}{8}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Marvelous Many Worlds}{8}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Quantum Bayesienism}{8}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}The Relational Interpretation}{8}{subsection.1.5.4}%
+\contentsline {section}{\numberline {1.6}Quantum Technologies}{8}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Chapter 1 Summary}{9}{section.1.7}%
+>>>>>>> origin/main
 \contentsline {chapter}{\numberline {2}What is Quantum Computing?}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}What computers do}{11}{section.2.1}%
 \contentsline {section}{\numberline {2.2}More than flipping coins}{11}{section.2.2}%
@@ -10,8 +25,13 @@
 \contentsline {section}{\numberline {2.4}Quantum Advantage}{12}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Applications of Quantum Computing}{13}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Chapter 2 Summary}{13}{section.2.6}%
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {3}The Mathematical Minimum}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Real and imaginary quantities}{15}{section.3.1}%
+=======
+\contentsline {chapter}{\numberline {3}The Mathematical Minimum for QC}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Complex Numbers}{15}{section.3.1}%
+>>>>>>> origin/main
 \contentsline {subsection}{\numberline {3.1.1} The square root of -1}{15}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2} Complex numbers}{15}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3} The Argand Diagram}{16}{subsection.3.1.3}%
@@ -27,10 +47,17 @@
 \contentsline {subsection}{\numberline {3.2.2} Adding vectors }{19}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3} Multiplying a vector by a scalar }{19}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Exercise 3.3}{19}{subsection.3.2.4}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.2.5}The inner product}{19}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6} Perpendicular vectors }{20}{subsection.3.2.6}%
 \contentsline {subsection}{\numberline {3.2.7}Exercise 3.4}{20}{subsection.3.2.7}%
 \contentsline {subsection}{\numberline {3.2.8}Exercise 3.5}{20}{subsection.3.2.8}%
+=======
+\contentsline {subsection}{\numberline {3.2.5}The inner product}{20}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6} Perpendicular vectors }{20}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Exercise 3.4}{20}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Exercise 3.5}{21}{subsection.3.2.8}%
+>>>>>>> origin/main
 \contentsline {subsection}{\numberline {3.2.9} Matrices}{21}{subsection.3.2.9}%
 \contentsline {subsection}{\numberline {3.2.10} Matrix-vector product}{21}{subsection.3.2.10}%
 \contentsline {subsection}{\numberline {3.2.11} Inverse matrices }{21}{subsection.3.2.11}%
@@ -82,10 +109,17 @@
 \contentsline {subsection}{\numberline {6.2.4} Reading quantum states }{36}{subsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.2.5}6.2.3 Column vectors for multiple qubits}{36}{subsection.6.2.5}%
 \contentsline {subsection}{\numberline {6.2.6}Exercise 6.3}{36}{subsection.6.2.6}%
+<<<<<<< HEAD
 \contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{37}{section.6.3}%
 \contentsline {section}{\numberline {6.4} Product States }{37}{section.6.4}%
 \contentsline {section}{\numberline {6.5} The Tensor Product }{37}{section.6.5}%
 \contentsline {section}{\numberline {6.6} Entanglement }{38}{section.6.6}%
+=======
+\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{36}{section.6.3}%
+\contentsline {section}{\numberline {6.4} Product States }{37}{section.6.4}%
+\contentsline {section}{\numberline {6.5} The Tensor Product }{37}{section.6.5}%
+\contentsline {section}{\numberline {6.6} Entanglement }{37}{section.6.6}%
+>>>>>>> origin/main
 \contentsline {subsection}{\numberline {6.6.1} If statements with spicy sauce }{38}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2} Can the qubit not? }{38}{subsection.6.6.2}%
 \contentsline {subsection}{\numberline {6.6.3} Ring the Bell (states)}{38}{subsection.6.6.3}%
@@ -125,7 +159,11 @@
 \contentsline {section}{\numberline {11.5}Additional considerations}{50}{section.11.5}%
 \contentsline {subsection}{\numberline {11.5.1}Additional resources for QML}{50}{subsection.11.5.1}%
 \contentsline {chapter}{\numberline {12}Grover's Algorithm}{51}{chapter.12}%
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {13}Fourier Transforms}{53}{chapter.13}%
+=======
+\contentsline {chapter}{\numberline {13}F}{53}{chapter.13}%
+>>>>>>> origin/main
 \contentsline {section}{\numberline {13.1}The most powerful quantum subroutine}{53}{section.13.1}%
 \contentsline {section}{\numberline {13.2}Signal processing}{53}{section.13.2}%
 \contentsline {section}{\numberline {13.3}Turning the Tide}{54}{section.13.3}%

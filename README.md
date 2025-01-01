@@ -1,6 +1,6 @@
 # YAItQC: Yet Another Introduction to Quantum Computing 
 
-A series of Jupyter notebooks intended to be merged into a Jupyterbook at a later date.This is intended as a basic introduction to quantum computing for a non-specialist (assuming no undergraduate physics experience) audeince. Some preliminary mathematics will be covered in chapter 3 making this an almost completely self-contained guide. 
+A series of Jupyter notebooks intended to be merged into a Jupyterbook at a later date.This is intended as a basic introduction to quantum computing for a non-specialist (assuming no undergraduate physics experience) audience. Some preliminary mathematics will be covered in chapter 3 making this an almost completely self-contained guide. 
 
 The intended audience should have a basic understanding of trigonometry and linear algebra including vectors and matrices as well as a curious and creative attitude to learning. 
 
