@@ -23,7 +23,8 @@
 \tableofcontents
 
 \textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
-\chapter{Preface}
+
+\chapter*{Preface}
 
 In science fiction \textit{quantum} is often used to explain away a technology that seems to defy the laws of physics. In the 2018 superhero movie \textit{Ant-Man}, the protagonist is able to become smaller and smaller until they enter the mysterious \textit{Quantum Realm}, described as “a reality where all concepts of time and space become irrelevant”. Perhaps the writers have a consistent set of logical explanations to describe how their worlds work. Our notions of space and time in our world might not be true in their world. 
 
@@ -98,7 +99,6 @@ Quantum Technologies, as they are defined by John Morton, director of UCLQ (as o
 
 These are devices that take advantage of the aforementioned phenomena for practical applications to do something better than what can be done without using them. Quantum computation is one of the most exciting quantum technologies even if it is much less mature than others like quantum metrology (sensing) and communication (encryption).
 
-
 \section{Chapter 1 Summary} 
 
 \begin{itemize}
@@ -111,7 +111,6 @@ These are devices that take advantage of the aforementioned phenomena for practi
 \end{itemize}
 
 \chapter{What is Quantum Computing?}
-
 
 In the previous chapter, the fundamental concepts of quantum mechanics were demystified and their relevance to quantum computing was explained. Building on that, this chapter will explain how quantum computers can unlock real-world value.
 
@@ -266,7 +265,9 @@ ii. What is $Im(m)$?
 
 
 $$m = -2 - 2i $$ 
-iii. Sketch z,y,m on the Argand diagram \hrule
+iii. Sketch z,y,m on the Argand diagram 
+
+\hrule
 
 \subsection{ Complex conjugate}
 
@@ -295,7 +296,8 @@ In the figure below the complex number $z$ is shown along with its complex conju
 
  With $z = x + yi$. 
 
- The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.\hrule
+ The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.
+\hrule
 
 \subsection{Exercise 3.2}
 
@@ -363,14 +365,11 @@ The factor in front of the $e$ is the magnitude of the complex number. This is t
 
 $$ 13 = \sqrt{ 5^2 + 12^2} $$
 
-
 Using Euler's formula, any complex number can be written in terms of its magnitude and an angle. This gives us 
 
 $$z = x + iy = re^{i\theta}$$ 
 
 Where $r$ is the magnitude of the complex number $r = |z| = \sqrt{x^2 + y^2}$ and $\theta$ is the angle made between the real and the imaginary plane
-
-
 
 \section{Linear Algebra}
 
@@ -407,8 +406,7 @@ Where the subscript $v_i$ indicates the i $^{th}$ component of $\ket{v}$.
 
 It can be useful to add vectors. All this requires is adding the corresponding components of each vector. Adding two vectors, $\ket{a}$ \& $\ket{b}$
 
-$$\ket{a} + \ket{b} = \begin{bmatrix} a_0 \\ a_1 \\ \vdots \\ a_{n-1} \end{bmatrix} + \begin{bmatrix} b_0 \\ b_1 \\ \vdots \\ b_{n-1} \end{bmatrix} = \begin{bmatrix} a_0 + b_0 \\ a_1 + b_1 \\ \vdots \\ a_{n-1} + b_{n-1} \end{bmatrix} 
-$$
+$$\ket{a} + \ket{b} = \begin{bmatrix} a_0 \\ a_1 \\ \vdots \\ a_{n-1} \end{bmatrix} + \begin{bmatrix} b_0 \\ b_1 \\ \vdots \\ b_{n-1} \end{bmatrix} = \begin{bmatrix} a_0 + b_0 \\ a_1 + b_1 \\ \vdots \\ a_{n-1} + b_{n-1} \end{bmatrix} $$
 
 The same can be done in reverse, a vector can be split into different components. For example 
 
@@ -425,9 +423,7 @@ Vectors can be made smaller or bigger by enlarging them by some scale factor. To
 $$
 a \ket{v} = a\begin{bmatrix} v_0 \\ v_1 \\ \vdots \\ v_{n-1} \end{bmatrix} = \begin{bmatrix} a \times v_0 \\ a \times v_1 \\ \vdots \\ a \times v_{n-1} \end{bmatrix} 
 $$
-
-Note: having a negative scalar $ a \rightarrow -a $ will invert the direction of the vector (flip $\ket{v}$). 
-\hrule
+\hlint
 \subsection{Exercise 3.3}
 
 Imagine the vector $\ket{v}$ given by 
@@ -690,7 +686,6 @@ $$
 
 
 \hrule
-
 \subsection{Exercise 4.1 }
 
 Imagine a biased coin which is three times more likely to land on tails than on heads. Write down the corresponding state vector for such a coin.
@@ -1096,8 +1091,6 @@ Phases can be used to encode information, such as with the quantum Fourier trans
 
 \textbf{Phases only matter when they are relative.}
 
-Here "relatively" refers to the different states within a superposition.
-
 \hrule
 
 \subsection{Exercise 5.2 Back to the start}
@@ -1116,23 +1109,23 @@ As mentioned in Chapter 4, operators are what allow us to do things to quantum s
 
 \begin{center}
 \begin{tabular}{||m{1cm}| m{5cm} | m{3cm} | m{3cm} | m{2cm}||} 
- \hrule
+ \hline
  Gate & Description & Effect on $\ket{0}$ & Effect on $\ket{1}$ & Matrix \\ [0.5ex] 
- \hrule\hrule
+ \hline\hline
  $I$ & Identity: do nothing & $\ket{0} \rightarrow  \ket{0} $ & $\ket{1} \rightarrow \ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$ \\ 
- \hrule
+ \hline
  $X$ & Not: Swaps $\ket{0}$ with $\ket{1}$   &$\ket{0} \rightarrow \ket{1}$ &$\ket{1} \rightarrow  \ket{0}$ & $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ \\
- \hrule
+ \hline
  $Y$ & Y: Rotation by angle $\pi$ around the y-axis of the Bloch sphere & $\ket{0} \rightarrow  i\ket{1} $ & $\ket{1} \rightarrow -i\ket{0} $ & $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ \\
- \hrule
+ \hline
  $Z$ & Z: Adds a phase of $e^{i\pi}$ to $\ket{1}$&$\ket{0} \rightarrow \ket{0}$&$\ket{1} \rightarrow -\ket{1}$ &$\begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$  \\
- \hrule
+ \hline
  $H$ & Hadamard: Creates the superposition state & $\ket{0} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} + \ket{1})$ & $\ket{1} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} - \ket{1})$ & $\frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} $\\
- \hrule
+ \hline
  $S$ & Adds a phase of $e^{\pi/2}$ between $\ket{0}$ &$\ket{0} \rightarrow  \ket{0} $ &$\ket{1} \rightarrow e^{i\pi/2}\ket{1}$  & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/2} \end{bmatrix}$\\
- \hrule
+ \hline
  $T$ & Adds a phase of $e^{\pi/4}$ between $\ket{0}$ &  $\ket{0} \rightarrow  \ket{0} $& $\ket{1} \rightarrow e^{i\pi/4}\ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{bmatrix}$\\ [1ex] 
- \hrule
+ \hline
 \end{tabular}
 \end{center}
 
@@ -1264,7 +1257,6 @@ Which in decimal would be
 
 To read a binary number:  
   
-  
 1. Count the number of digits in the number and take this number -1 as n
 2. Starting from the first digit on the left, if that digit is 1, calculate $2^n$. 
 3. Moving to the next digit on the right, if that digit has a 1, calculate $2^{n-1}$. 
@@ -1274,7 +1266,7 @@ To read a binary number:
 An example of this is shown below
 
 
-\includegraphics[scale=0.5]{Chapters/Images/binary_conversion.png}
+\includegraphics[scale=0.5]{images/binary_conversion.png}
 [1]
 
 1. Here there are 8 digits, so we take $n = 8 - 1 = 7 $. 
@@ -1433,17 +1425,17 @@ We can represent this with a table
 
 \begin{center}
 \begin{tabular}{ | c | c | c | c | c |}
-\hrule
+\hline
  Control & Target & $\rightarrow{}$ & Control & Target \\ 
-  \hrule\hrule
+  \hline\hline
  0 & 0 &  & 0 & 0 \\ 
- \hrule
+ \hline
  0 & 1 &  & 0 & 1 \\
- \hrule
+ \hline
  1 & 0 &  & 1 & 1 \\
- \hrule
+ \hline
  1 & 1 &  & 1 & 0 \\
- \hrule
+ \hline
   
 \end{tabular}
 \end{center}
@@ -1484,7 +1476,7 @@ For each of these states, we can't separate out our two qubits as a product stat
 
 The following circuit generates the Bell states
 
-\includegraphics{Chapters/Images/Bell_State_circuit.png}
+\includegraphics{images/Bell_State_circuit.png}
 
 
 \subsection{General controlled unitaries }
@@ -1758,14 +1750,8 @@ Even if our current QML approaches don't offer any value at the moment, further 
 
 Using the standard conventions, we first define the dimensionality of the state space for an ensemble of qubits as: 
 $$ N = 2^n $$
-
-Now we define some angular frequency, essentially describing how much phase changes with each unit of "time". 
-
 $$ \omega = e^{-i2\pi /N} $$
-
-Finally we obtain an expression for the operator defining a change of basis from the computational basis to the Fourier basis:
-
-$$\hat{F_n} = \hat{QFT}^{\dagger} = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
+$$F_n = QFT^{\dagger} = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
 
 The inverse of this operator is known as the Quantum Fourier Transform ($\hat{QFT}$).  
 
@@ -1863,15 +1849,7 @@ In addition to being fast, Shor's algorithm has immense practical utility.
 \chapter{Distributed Quantum Computing}
 
 
-\chapter{Photonic Quantum Computing}
-
-
-Up till this point, we have only considered the circuit model of quantum computing, generally built on masssive systems, atoms, electrons, or superconducting circuits. Photons, being massless, naturally behave fundamentally differently to massive objects. 
-
-Measuring the energy state of an atom
-
-\chapter{ Quantum Annealing}
-
+Testing
 
 \end{document}
 >>>>>>> b66926ea1358fb90a7e8176ff5ecc88125a9083a

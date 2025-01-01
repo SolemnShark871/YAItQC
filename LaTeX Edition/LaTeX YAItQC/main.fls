@@ -623,7 +623,16 @@ INPUT ./images/Bloch_Sphere.png
 INPUT images/Bloch_Sphere.png
 INPUT ./images/Bloch_Sphere.png
 INPUT ./images/Bloch_Sphere.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./images/binary_conversion.png
+INPUT ./images/binary_conversion.png
+INPUT images/binary_conversion.png
+INPUT ./images/binary_conversion.png
+INPUT ./images/binary_conversion.png
+INPUT ./images/Bell_State_circuit.png
+INPUT ./images/Bell_State_circuit.png
+INPUT images/Bell_State_circuit.png
+INPUT ./images/Bell_State_circuit.png
+INPUT ./images/Bell_State_circuit.png
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
@@ -645,4 +654,3 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

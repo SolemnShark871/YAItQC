@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  1 JAN 2025 01:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  1 JAN 2025 19:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -339,21 +339,19 @@ LaTeX Info: Redefining \nameref on input line 21.
 
  [3] [4
 
-]
-Chapter 1.
-[5] [6
+] [5] [6
 
 ]
-Chapter 2.
+Chapter 1.
 <images/Energy_Levels.png, id=37, 298.83646pt x 215.3646pt>
 File: images/Energy_Levels.png Graphic file (type png)
 <use images/Energy_Levels.png>
-Package pdftex.def Info: images/Energy_Levels.png  used on input line 43.
+Package pdftex.def Info: images/Energy_Levels.png  used on input line 44.
 (pdftex.def)             Requested size: 298.83572pt x 215.36406pt.
 <images/Light_bulb_quantised.png, id=39, 298.83646pt x 268.8444pt>
 File: images/Light_bulb_quantised.png Graphic file (type png)
 <use images/Light_bulb_quantised.png>
-Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 45.
+Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 46.
 (pdftex.def)             Requested size: 298.83572pt x 268.84375pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -362,69 +360,78 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <images/standard_cat.png, id=47, 1204.5pt x 640.3925pt>
 File: images/standard_cat.png Graphic file (type png)
 <use images/standard_cat.png>
-Package pdftex.def Info: images/standard_cat.png  used on input line 56.
+Package pdftex.def Info: images/standard_cat.png  used on input line 57.
 (pdftex.def)             Requested size: 361.35278pt x 192.11923pt.
  [8 <./images/Light_bulb_quantised.png> <./images/standard_cat.png>]
 <images/Entanglement.png, id=55, 664.73344pt x 424.58624pt>
 File: images/Entanglement.png Graphic file (type png)
 <use images/Entanglement.png>
-Package pdftex.def Info: images/Entanglement.png  used on input line 79.
+Package pdftex.def Info: images/Entanglement.png  used on input line 80.
 (pdftex.def)             Requested size: 265.88867pt x 169.83148pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 [9 <./images/Entanglement.png>] [10]
-Chapter 3.
+Chapter 2.
 [11
 
 ]
 <images/Q_advantage.png, id=80, 773.13844pt x 350.81062pt>
 File: images/Q_advantage.png Graphic file (type png)
 <use images/Q_advantage.png>
-Package pdftex.def Info: images/Q_advantage.png  used on input line 183.
+Package pdftex.def Info: images/Q_advantage.png  used on input line 182.
 (pdftex.def)             Requested size: 386.56828pt x 175.40488pt.
  [12 <./images/Q_advantage.png>] [13] [14
 
 ]
-Chapter 4.
+Chapter 3.
 [15]
 <images/Complex_conjugate_picture.svg.png, id=116, 324.46219pt x 456.95718pt>
 File: images/Complex_conjugate_picture.svg.png Graphic file (type png)
 <use images/Complex_conjugate_picture.svg.png>
-Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 283.
+Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 284.
 (pdftex.def)             Requested size: 162.23068pt x 228.47803pt.
  [16 <./images/Complex_conjugate_picture.svg.png>]
 <images/Polar_Argand-diagram.png, id=128, 240.00778pt x 232.57259pt>
 File: images/Polar_Argand-diagram.png Graphic file (type png)
 <use images/Polar_Argand-diagram.png>
-Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 351.
+Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 353.
 (pdftex.def)             Requested size: 240.00719pt x 232.572pt.
- [17 <./images/Polar_Argand-diagram.png>] [18] [19]
-<images/Dot_product_visualisation.png, id=153, 478.03593pt x 416.30531pt>
+ [17 <./images/Polar_Argand-diagram.png>] [18]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:426: Undefined control sequence.
+l.426 \hlint
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<images/Dot_product_visualisation.png, id=144, 478.03593pt x 416.30531pt>
 File: images/Dot_product_visualisation.png Graphic file (type png)
 <use images/Dot_product_visualisation.png>
-Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 472.
+Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 468.
 (pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
- [20 <./images/Dot_product_visualisation.png>] [21] [22]
-Chapter 5.
+[19] [20 <./images/Dot_product_visualisation.png>] [21] [22]
+Chapter 4.
 [23
 
 ] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:797: Illegal unit of measure (pt inserted).
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:792: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.797 \hspace{10}
+l.792 \hspace{10}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -434,192 +441,113 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 905--906
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
 
  []
 
 [27] [28]
-Chapter 6.
+Chapter 5.
 <images/Bloch_Sphere.png, id=224, 385.44pt x 409.53pt>
 File: images/Bloch_Sphere.png Graphic file (type png)
 <use images/Bloch_Sphere.png>
-Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 985.
+Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 980.
 (pdftex.def)             Requested size: 192.71953pt x 204.7645pt.
 [29
 
  <./images/Bloch_Sphere.png>] [30] [31] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 
  []
 
 [33] [34
 
 ]
-Chapter 7.
+Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+
+ []
+
+<images/binary_conversion.png, id=275, 403.5075pt x 191.71625pt>
+File: images/binary_conversion.png Graphic file (type png)
+<use images/binary_conversion.png>
+Package pdftex.def Info: images/binary_conversion.png  used on input line 1269.
+(pdftex.def)             Requested size: 201.75325pt x 95.85788pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1282--1283
+
+ []
+
+[35 <./images/binary_conversion.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
 
  []
 
 
-LaTeX Warning: File `Chapters/Images/binary_conversion.png' not found on input line 1277.
-
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1277: Package pdftex.def Error: File `Chapters/Images/binary_conversion.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1277 ...]{Chapters/Images/binary_conversion.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
-
- []
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1314--1315
+Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
-
- []
-
-[36] [37]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1436: You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.1436 \hrule
-             
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1438: You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.1438   \hrule
-               \hrule
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1438: You can't use `\hrule' here except with leaders.
-l.1438   \hrule\hrule
-                     
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1440: You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.1440  \hrule
-              
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1442: You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.1442  \hrule
-              
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1444: You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.1444  \hrule
-              
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1446: You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.1446  \hrule
-              
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-
-LaTeX Warning: File `Chapters/Images/Bell_State_circuit.png' not found on input line 1487.
-
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1487: Package pdftex.def Error: File `Chapters/Images/Bell_State_circuit.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1487 ...{Chapters/Images/Bell_State_circuit.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[38] [39] [40
+[36] [37] [38]
+<images/Bell_State_circuit.png, id=311, 213.79875pt x 154.5775pt>
+File: images/Bell_State_circuit.png Graphic file (type png)
+<use images/Bell_State_circuit.png>
+Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1479.
+(pdftex.def)             Requested size: 213.79822pt x 154.5771pt.
+ [39 <./images/Bell_State_circuit.png>] [40
 
 ]
-Chapter 8.
+Chapter 7.
 [41] [42
 
 ]
-Chapter 9.
+Chapter 8.
 [43] [44]
-Chapter 10.
+Chapter 9.
 [45
 
 ] [46
 
 ]
-Chapter 11.
+Chapter 10.
 [47] [48]
-Chapter 12.
+Chapter 11.
 [49
 
 ] [50]
-Chapter 13.
+Chapter 12.
 [51
 
 ] [52
 
 ]
-Chapter 14.
-[53] [54] [55] [56
+Chapter 13.
+
+Underfull \vbox (badness 1454) has occurred while \output is active []
+
+ [53] [54] [55] [56
 
 ]
-Chapter 15.
+Chapter 14.
 [57] [58
 
 ]
-Chapter 16.
+Chapter 15.
 [59] [60
 
 ]
-Chapter 17.
-[61] [62
-
-]
-Chapter 18.
-[63] [64
-
-]
-Chapter 19.
-[65] (./main.aux)
+Chapter 16.
+[61] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -627,23 +555,23 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3E25520FE725913BAFBB43C6F3F72791;26491.
+(rerunfilecheck)             After:  6B4D77769991047DF492BCD55EBC7C2E;26082.
  ) 
 Here is how much of TeX's memory you used:
- 9857 strings out of 480171
- 156084 string characters out of 5894490
- 464093 words of memory out of 5000000
- 27441 multiletter control sequences out of 15000+600000
- 477415 words of font info for 56 fonts, out of 8000000 for 9000
+ 9784 strings out of 480171
+ 153420 string characters out of 5894490
+ 463093 words of memory out of 5000000
+ 27391 multiletter control sequences out of 15000+600000
+ 477247 words of font info for 55 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  60i,16n,63p,1146b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
 
- </home/thomas/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (65 pages, 951153 bytes).
+ </home/thomas/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (61 pages, 947612 bytes).
 PDF statistics:
- 623 PDF objects out of 1000 (max. 8388607)
- 496 compressed objects within 5 object streams
- 229 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 602 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
+ 223 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
