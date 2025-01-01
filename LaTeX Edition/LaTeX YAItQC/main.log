@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  31 DEC 2024 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  1 JAN 2025 01:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -240,24 +240,24 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -312,7 +312,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 21.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -322,10 +322,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
- (./main.out) (./main.out)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -334,316 +333,98 @@ LaTeX Info: Redefining \nameref on input line 24.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] (./main.toc [3] [4])
+]
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] [6]
+ [3] [4
+
+]
 Chapter 1.
-<images/Energy_Levels.png, id=801, 298.83646pt x 215.3646pt>
+[5] [6
+
+]
+Chapter 2.
+<images/Energy_Levels.png, id=37, 298.83646pt x 215.3646pt>
 File: images/Energy_Levels.png Graphic file (type png)
 <use images/Energy_Levels.png>
-Package pdftex.def Info: images/Energy_Levels.png  used on input line 48.
+Package pdftex.def Info: images/Energy_Levels.png  used on input line 43.
 (pdftex.def)             Requested size: 298.83572pt x 215.36406pt.
-<images/Light_bulb_quantised.png, id=803, 298.83646pt x 268.8444pt>
+<images/Light_bulb_quantised.png, id=39, 298.83646pt x 268.8444pt>
 File: images/Light_bulb_quantised.png Graphic file (type png)
 <use images/Light_bulb_quantised.png>
-Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 50.
+Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 45.
 (pdftex.def)             Requested size: 298.83572pt x 268.84375pt.
-[7
 
- <./images/Energy_Levels.png>]
-<images/standard_cat.png, id=811, 1204.5pt x 640.3925pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./images/Energy_Levels.png>]
+<images/standard_cat.png, id=47, 1204.5pt x 640.3925pt>
 File: images/standard_cat.png Graphic file (type png)
 <use images/standard_cat.png>
-Package pdftex.def Info: images/standard_cat.png  used on input line 61.
+Package pdftex.def Info: images/standard_cat.png  used on input line 56.
 (pdftex.def)             Requested size: 361.35278pt x 192.11923pt.
  [8 <./images/Light_bulb_quantised.png> <./images/standard_cat.png>]
-<images/Entanglement.png, id=818, 664.73344pt x 424.58624pt>
+<images/Entanglement.png, id=55, 664.73344pt x 424.58624pt>
 File: images/Entanglement.png Graphic file (type png)
 <use images/Entanglement.png>
-Package pdftex.def Info: images/Entanglement.png  used on input line 87.
+Package pdftex.def Info: images/Entanglement.png  used on input line 79.
 (pdftex.def)             Requested size: 265.88867pt x 169.83148pt.
- [9 <./images/Entanglement.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-[10]
-Chapter 2.
+[9 <./images/Entanglement.png>] [10]
+Chapter 3.
 [11
 
 ]
-<images/Q_advantage.png, id=838, 773.13844pt x 350.81062pt>
+<images/Q_advantage.png, id=80, 773.13844pt x 350.81062pt>
 File: images/Q_advantage.png Graphic file (type png)
 <use images/Q_advantage.png>
-Package pdftex.def Info: images/Q_advantage.png  used on input line 210.
+Package pdftex.def Info: images/Q_advantage.png  used on input line 183.
 (pdftex.def)             Requested size: 386.56828pt x 175.40488pt.
  [12 <./images/Q_advantage.png>] [13] [14
 
 ]
-Chapter 3.
+Chapter 4.
 [15]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:284: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.284 \hline
-            {}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:298: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.298 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-<images/Complex_conjugate_picture.svg.png, id=865, 324.46219pt x 456.95718pt>
+<images/Complex_conjugate_picture.svg.png, id=116, 324.46219pt x 456.95718pt>
 File: images/Complex_conjugate_picture.svg.png Graphic file (type png)
 <use images/Complex_conjugate_picture.svg.png>
-Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 312.
+Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 283.
 (pdftex.def)             Requested size: 162.23068pt x 228.47803pt.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:328: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.328 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[16 <./images/Complex_conjugate_picture.svg.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:340: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.340 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:347: Missing $ inserted.
-<inserted text> 
-                $
-l.347 ![Unit_
-             circle\includegraphics[scale=0.65]{images/TrigonometryUnitCircl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<images/TrigonometryUnitCircle_700.png, id=872, 361.35pt x 329.23pt>
-File: images/TrigonometryUnitCircle_700.png Graphic file (type png)
-<use images/TrigonometryUnitCircle_700.png>
-Package pdftex.def Info: images/TrigonometryUnitCircle_700.png  used on input line 347.
-(pdftex.def)             Requested size: 234.87471pt x 213.99695pt.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:349: Missing $ inserted.
-<inserted text> 
-                $
-l.349 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<images/Polar_Argand-diagram.png, id=873, 240.00778pt x 232.57259pt>
+ [16 <./images/Complex_conjugate_picture.svg.png>]
+<images/Polar_Argand-diagram.png, id=128, 240.00778pt x 232.57259pt>
 File: images/Polar_Argand-diagram.png Graphic file (type png)
 <use images/Polar_Argand-diagram.png>
-Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 383.
+Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 351.
 (pdftex.def)             Requested size: 240.00719pt x 232.572pt.
-[17 <./images/TrigonometryUnitCircle_700.png>] [18 <./images/Polar_Argand-diagram.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:460: Undefined control sequence.
-l.460 \hlint
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:477: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.477 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[19]
-<images/Dot_product_visualisation.png, id=889, 478.03593pt x 416.30531pt>
+ [17 <./images/Polar_Argand-diagram.png>] [18] [19]
+<images/Dot_product_visualisation.png, id=153, 478.03593pt x 416.30531pt>
 File: images/Dot_product_visualisation.png Graphic file (type png)
 <use images/Dot_product_visualisation.png>
-Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 502.
+Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 472.
 (pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:515: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.515 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[20 <./images/Dot_product_visualisation.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:546: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.546 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[21] [22]
-Chapter 4.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:683: Missing $ inserted.
-<inserted text> 
-                $
-l.683 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:683: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.683 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:684: Missing $ inserted.
-<inserted text> 
-                $
-l.684 \begin{bmatrix}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:686: Missing $ inserted.
-<inserted text> 
-                $
-l.686 \end{bmatrix}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:688: Missing $ inserted.
-<inserted text> 
-                $
-l.688 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:688: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.688 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:693: Missing $ inserted.
-<inserted text> 
-                $
-l.693 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:693: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.693 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:694: Missing $ inserted.
-<inserted text> 
-                $
-l.694 \begin{bmatrix}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:696: Missing $ inserted.
-<inserted text> 
-                $
-l.696 \end{bmatrix}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:698: Missing $ inserted.
-<inserted text> 
-                $
-l.698 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:698: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.698 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
+ [20 <./images/Dot_product_visualisation.png>] [21] [22]
+Chapter 5.
 [23
 
-]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:731: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.731 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:736: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.736 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[24]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:828: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.828 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 832--833
+] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 794--795
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:834: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.834 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:835: Illegal unit of measure (pt inserted).
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:797: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.835 \hspace{10}
+l.797 \hspace{10}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -652,326 +433,140 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-[25]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:905: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.905 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[26]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:914: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.914 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:940: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.940 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 943--944
+[25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 905--906
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:945: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.945 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
 [27] [28]
-Chapter 5.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1008: Misplaced alignment tab character &.
-l.1008 ... example was introduced with the heads &
-                                                   tails outcomes we can obs...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1008: Misplaced alignment tab character &.
-l.1008 ...t also has 2 outcomes called $\ket{0}$ &
-                                                   $\ket{1}$, we can just re...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1016: Misplaced alignment tab character &.
-l.1016 ...can be in a superposition of $\ket{0}$ &
-                                                   $\ket{1}$. We can have an...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1016: Misplaced alignment tab character &.
-l.1016 ...any probability of measuring $\ket{0}$ &
-                                                   $\ket{1}$ (so long as all...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<images/Bloch_Sphere.png, id=935, 385.44pt x 409.53pt>
+Chapter 6.
+<images/Bloch_Sphere.png, id=224, 385.44pt x 409.53pt>
 File: images/Bloch_Sphere.png Graphic file (type png)
 <use images/Bloch_Sphere.png>
-Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 1025.
+Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 985.
 (pdftex.def)             Requested size: 192.71953pt x 204.7645pt.
 [29
 
- <./images/Bloch_Sphere.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1034: Misplaced alignment tab character &.
-l.1034     \item Electron spin up &
-                                    down
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1036: Misplaced alignment tab character &.
-l.1036 ...on to state preparation, superposition &
-                                                   measurement
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1039: Misplaced alignment tab character &.
-l.1039 ... so it is a superposition of $\ket{0}$ &
-                                                   $\ket{1}$. The closer $\k...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1057: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1057 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1062: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1062 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[30]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1146: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1146 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1158: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1158 \hline
-              \section{Qubit gates }
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[31]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1191: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1191 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1199: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1199 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1220: Misplaced alignment tab character &.
-l.1220 ...tes are special cases of $R_x(\theta)$ &
-                                                   $R_y(\theta)$ with $\thet...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1230: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1230 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1236: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1236 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[32]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1249: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1249 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
+ <./images/Bloch_Sphere.png>] [30] [31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1252: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1252 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
 
  []
 
 [33] [34
 
 ]
-Chapter 6.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1294: Misplaced alignment tab character &.
-l.1294 ...luating linear algebra rather than pen &
-                                                   paper.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Chapter 7.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
+Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
 
  []
 
 
-LaTeX Warning: File `Chapters/Images/binary_conversion.png' not found on input line 1328.
+LaTeX Warning: File `Chapters/Images/binary_conversion.png' not found on input line 1277.
 
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1328: Package pdftex.def Error: File `Chapters/Images/binary_conversion.png' not found: using draft setting.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1277: Package pdftex.def Error: File `Chapters/Images/binary_conversion.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1328 ...]{Chapters/Images/binary_conversion.png}
+l.1277 ...]{Chapters/Images/binary_conversion.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
 
  []
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1343: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1343 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
+Underfull \hbox (badness 10000) in paragraph at lines 1314--1315
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1367: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1367 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1392: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1392 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1397
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
 
  []
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1398: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1398 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
 [36] [37]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1436: You can't use `\hrule' here except with leaders.
+<recently read> \hrule 
+                       
+l.1436 \hrule
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
 
-LaTeX Warning: File `Chapters/Images/Bell_State_circuit.png' not found on input line 1538.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1438: You can't use `\hrule' here except with leaders.
+<recently read> \hrule 
+                       
+l.1438   \hrule
+               \hrule
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1438: You can't use `\hrule' here except with leaders.
+l.1438   \hrule\hrule
+                     
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1440: You can't use `\hrule' here except with leaders.
+<recently read> \hrule 
+                       
+l.1440  \hrule
+              
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1442: You can't use `\hrule' here except with leaders.
+<recently read> \hrule 
+                       
+l.1442  \hrule
+              
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1444: You can't use `\hrule' here except with leaders.
+<recently read> \hrule 
+                       
+l.1444  \hrule
+              
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1446: You can't use `\hrule' here except with leaders.
+<recently read> \hrule 
+                       
+l.1446  \hrule
+              
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
 
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1538: Package pdftex.def Error: File `Chapters/Images/Bell_State_circuit.png' not found: using draft setting.
+LaTeX Warning: File `Chapters/Images/Bell_State_circuit.png' not found on input line 1487.
+
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1487: Package pdftex.def Error: File `Chapters/Images/Bell_State_circuit.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1538 ...{Chapters/Images/Bell_State_circuit.png}
+l.1487 ...{Chapters/Images/Bell_State_circuit.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -979,80 +574,76 @@ If that doesn't work, type  X <return>  to quit.
 [38] [39] [40
 
 ]
-Chapter 7.
+Chapter 8.
 [41] [42
 
 ]
-Chapter 8.
-[43] [44]
 Chapter 9.
+[43] [44]
+Chapter 10.
 [45
 
 ] [46
 
 ]
-Chapter 10.
-[47] [48]
 Chapter 11.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1758: Misplaced alignment tab character &.
-l.1758  Given the very limited number (&
-                                         quality) of qubits available there ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
+[47] [48]
+Chapter 12.
 [49
 
 ] [50]
-Chapter 12.
+Chapter 13.
 [51
 
 ] [52
 
 ]
-Chapter 13.
+Chapter 14.
 [53] [54] [55] [56
 
 ]
-Chapter 14.
+Chapter 15.
 [57] [58
 
 ]
-Chapter 15.
+Chapter 16.
 [59] [60
 
 ]
-Chapter 16.
+Chapter 17.
 [61] [62
 
 ]
-Chapter 17.
+Chapter 18.
 [63] [64
 
 ]
-Chapter 18.
+Chapter 19.
 [65] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DEDAB29CC2B37A6A6D158B5169878EBF;27705.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  3E25520FE725913BAFBB43C6F3F72791;26491.
  ) 
 Here is how much of TeX's memory you used:
- 10029 strings out of 480171
- 158823 string characters out of 5894490
- 463427 words of memory out of 5000000
- 27600 multiletter control sequences out of 15000+600000
+ 9857 strings out of 480171
+ 156084 string characters out of 5894490
+ 464093 words of memory out of 5000000
+ 27441 multiletter control sequences out of 15000+600000
  477415 words of font info for 56 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,16n,63p,1146b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,63p,1146b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
 
  </home/thomas/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (65 pages, 981047 bytes).
+Output written on main.pdf (65 pages, 951153 bytes).
 PDF statistics:
- 1248 PDF objects out of 1440 (max. 8388607)
- 1112 compressed objects within 12 object streams
- 235 named destinations out of 1000 (max. 500000)
- 1267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
