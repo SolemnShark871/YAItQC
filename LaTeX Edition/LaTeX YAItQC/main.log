@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  1 JAN 2025 19:33
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.4)  7 NOV 2024 14:22
->>>>>>> origin/main
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  11 JAN 2025 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-<<<<<<< HEAD
 **"/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex"
 (/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex
 LaTeX2e <2021-11-15> patch level 1
@@ -130,153 +125,11 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-=======
-**"c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex"
-(c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-10-09>
-(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count196
-\c@chapter=\count197
-\c@section=\count198
-\c@subsection=\count199
-\c@subsubsection=\count266
-\c@paragraph=\count267
-\c@subparagraph=\count268
-\c@figure=\count269
-\c@table=\count270
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count271
-\Gm@cntv=\count272
-\c@Gm@tempcnt=\count273
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
-\Gm@dimlist=\toks18
-) (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
-) (c:/texlive/2024/texmf-dist/tex/latex/braket/braket.sty) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
-) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/10/30 v2.17s AMS math features
-\@mathmargin=\skip51
-
-For additional information on amsmath, use the `?' option.
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
- (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen152
-)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
-) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count274
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count275
-\leftroot@=\count276
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count277
-\DOTSCASE@=\count278
-LaTeX Info: Redefining \ldots on input line 502.
-LaTeX Info: Redefining \dots on input line 505.
-LaTeX Info: Redefining \cdots on input line 638.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-LaTeX Info: Redefining \big on input line 740.
-LaTeX Info: Redefining \Big on input line 741.
-LaTeX Info: Redefining \bigg on input line 742.
-LaTeX Info: Redefining \Bigg on input line 743.
-\big@size=\dimen154
-LaTeX Font Info:    Redeclaring font encoding OML on input line 761.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 762.
-\macc@depth=\count279
-LaTeX Info: Redefining \bmod on input line 923.
-LaTeX Info: Redefining \pmod on input line 928.
-LaTeX Info: Redefining \smash on input line 958.
-LaTeX Info: Redefining \relbar on input line 988.
-LaTeX Info: Redefining \Relbar on input line 989.
-\c@MaxMatrixCols=\count280
-\dotsspace@=\muskip17
-\c@parentequation=\count281
-\dspbrk@lvl=\count282
-\tag@help=\toks22
-\row@=\count283
-\column@=\count284
-\maxfields@=\count285
-\andhelp@=\toks23
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
-\@envbody=\toks24
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2972.
-LaTeX Info: Redefining \] on input line 2973.
-) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-10-30 v7.01k Hypertext links for LaTeX
- (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
->>>>>>> origin/main
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-<<<<<<< HEAD
 ) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -406,134 +259,6 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 
-=======
-)) (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count286
-) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
-) (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-)
-\@linkdim=\dimen161
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-10-30 v7.01k Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-\Hy@SavedSpaceFactor=\count290
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-10-30 v7.01k Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count291
- (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen162
- (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-))
-\Fld@menulength=\count292
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
- (c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-10-30 v7.01k Hyperref driver for pdfTeX
- (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-)
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
- (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
-)
-\Hy@SectionHShift=\skip54
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks26
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen165
-\ar@mcellbox=\box54
-\extrarowheight=\dimen166
-\NC@list=\toks27
-\extratabsurround=\skip55
-\backup@length=\skip56
-\ar@cellbox=\box55
-) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count298
-\l__pdf_internal_box=\box56
-)
-No file main.aux.
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
->>>>>>> origin/main
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -568,7 +293,6 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
@@ -646,94 +370,10 @@ Package pdftex.def Info: images/Entanglement.png  used on input line 80.
 (pdftex.def)             Requested size: 265.88867pt x 169.83148pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
-=======
-(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen167
-\scratchbox=\box57
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen168
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks29
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-Package hyperref Info: Link coloring OFF on input line 24.
-\@outlinefile=\write3
-\openout3 = `main.out'.
-
-
-
-[1
-
-
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-[2
-
-]
-No file main.toc.
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
-
-
-[3]
-
-[4
-
-]
-Chapter 1.
-<images/Energy_Levels.png, id=27, 298.83646pt x 215.3646pt>
-File: images/Energy_Levels.png Graphic file (type png)
-<use images/Energy_Levels.png>
-Package pdftex.def Info: images/Energy_Levels.png  used on input line 47.
-(pdftex.def)             Requested size: 298.83572pt x 215.36406pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[5]
-<images/Light_bulb_quantised.png, id=38, 298.83646pt x 268.8444pt>
-File: images/Light_bulb_quantised.png Graphic file (type png)
-<use images/Light_bulb_quantised.png>
-Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 49.
-(pdftex.def)             Requested size: 298.83572pt x 268.84375pt.
-<images/standard_cat.png, id=39, 1204.5pt x 640.3925pt>
-File: images/standard_cat.png Graphic file (type png)
-<use images/standard_cat.png>
-Package pdftex.def Info: images/standard_cat.png  used on input line 60.
-(pdftex.def)             Requested size: 361.35278pt x 192.11923pt.
-
-
-[6 <./images/Energy_Levels.png> <./images/Light_bulb_quantised.png>]
-<images/Entanglement.png, id=48, 664.73344pt x 424.58624pt>
-File: images/Entanglement.png Graphic file (type png)
-<use images/Entanglement.png>
-Package pdftex.def Info: images/Entanglement.png  used on input line 86.
-(pdftex.def)             Requested size: 265.88867pt x 169.83148pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[7 <./images/standard_cat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
->>>>>>> origin/main
 
  []
 
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
@@ -746,268 +386,131 @@ Chapter 2.
 <images/Q_advantage.png, id=80, 773.13844pt x 350.81062pt>
 File: images/Q_advantage.png Graphic file (type png)
 <use images/Q_advantage.png>
-Package pdftex.def Info: images/Q_advantage.png  used on input line 182.
+Package pdftex.def Info: images/Q_advantage.png  used on input line 185.
 (pdftex.def)             Requested size: 386.56828pt x 175.40488pt.
- [12 <./images/Q_advantage.png>] [13] [14
+ [12] [13 <./images/Q_advantage.png>] [14
 
 ]
 Chapter 3.
 [15]
-<images/Complex_conjugate_picture.svg.png, id=116, 324.46219pt x 456.95718pt>
-File: images/Complex_conjugate_picture.svg.png Graphic file (type png)
-<use images/Complex_conjugate_picture.svg.png>
-Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 284.
-(pdftex.def)             Requested size: 162.23068pt x 228.47803pt.
- [16 <./images/Complex_conjugate_picture.svg.png>]
-<images/Polar_Argand-diagram.png, id=128, 240.00778pt x 232.57259pt>
-File: images/Polar_Argand-diagram.png Graphic file (type png)
-<use images/Polar_Argand-diagram.png>
-Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 353.
-(pdftex.def)             Requested size: 240.00719pt x 232.572pt.
- [17 <./images/Polar_Argand-diagram.png>] [18]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:426: Undefined control sequence.
-l.426 \hlint
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:272: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.272 \hline
             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-<images/Dot_product_visualisation.png, id=144, 478.03593pt x 416.30531pt>
-File: images/Dot_product_visualisation.png Graphic file (type png)
-<use images/Dot_product_visualisation.png>
-Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 468.
-(pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
-[19] [20 <./images/Dot_product_visualisation.png>] [21] [22]
-Chapter 4.
-[23
-
-] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 789--790
-
- []
-
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:792: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.792 \hspace{10}
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-
-[8 <./images/Entanglement.png>]
-
-[9{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-[10
-
-]
-Chapter 2.
-
-
-[11]
-<images/Q_advantage.png, id=88, 773.13844pt x 350.81062pt>
-File: images/Q_advantage.png Graphic file (type png)
-<use images/Q_advantage.png>
-Package pdftex.def Info: images/Q_advantage.png  used on input line 209.
-(pdftex.def)             Requested size: 386.56828pt x 175.40488pt.
-
-
-[12 <./images/Q_advantage.png>]
-
-[13]
-
-[14
-
-]
-Chapter 3.
-
-
-[15]
-<images/Complex_conjugate_picture.svg.png, id=123, 324.46219pt x 456.95718pt>
+<images/Complex_conjugate_picture.svg.png, id=115, 324.46219pt x 456.95718pt>
 File: images/Complex_conjugate_picture.svg.png Graphic file (type png)
 <use images/Complex_conjugate_picture.svg.png>
-Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 311.
+Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 286.
 (pdftex.def)             Requested size: 162.23068pt x 228.47803pt.
-
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:302: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.302 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [16 <./images/Complex_conjugate_picture.svg.png>]
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:346: Missing $ inserted.
-<inserted text> 
-                $
-l.346 ![Unit_
-             circle\includegraphics[scale=0.65]{images/TrigonometryUnitCircl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:314: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.314 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-<images/TrigonometryUnitCircle_700.png, id=134, 361.35pt x 329.23pt>
-File: images/TrigonometryUnitCircle_700.png Graphic file (type png)
-<use images/TrigonometryUnitCircle_700.png>
-Package pdftex.def Info: images/TrigonometryUnitCircle_700.png  used on input line 346.
-(pdftex.def)             Requested size: 234.87471pt x 213.99695pt.
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:348: Missing $ inserted.
-<inserted text> 
-                $
-l.348 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<images/Polar_Argand-diagram.png, id=135, 240.00778pt x 232.57259pt>
+<images/Polar_Argand-diagram.png, id=127, 240.00778pt x 232.57259pt>
 File: images/Polar_Argand-diagram.png Graphic file (type png)
 <use images/Polar_Argand-diagram.png>
-Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 382.
+Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 355.
 (pdftex.def)             Requested size: 240.00719pt x 232.572pt.
 
+Underfull \vbox (badness 3407) has occurred while \output is active []
 
-[17 <./images/TrigonometryUnitCircle_700.png>]
-
-[18 <./images/Polar_Argand-diagram.png>]
+ [17] [18 <./images/Polar_Argand-diagram.png>]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:445: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.445 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [19]
-<images/Dot_product_visualisation.png, id=161, 478.03593pt x 416.30531pt>
+<images/Dot_product_visualisation.png, id=151, 478.03593pt x 416.30531pt>
 File: images/Dot_product_visualisation.png Graphic file (type png)
 <use images/Dot_product_visualisation.png>
-Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 501.
+Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 470.
 (pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
 
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:483: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.483 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [20 <./images/Dot_product_visualisation.png>]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:514: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.514 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[21]
-
-[22]
+[21] [22]
 Chapter 4.
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:682: Missing $ inserted.
-<inserted text> 
-                $
-l.682 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:682: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.682 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:683: Missing $ inserted.
-<inserted text> 
-                $
-l.683 \begin{bmatrix}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:685: Missing $ inserted.
-<inserted text> 
-                $
-l.685 \end{bmatrix}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:687: Missing $ inserted.
-<inserted text> 
-                $
-l.687 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:687: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.687 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:692: Missing $ inserted.
-<inserted text> 
-                $
-l.692 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:692: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.692 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:693: Missing $ inserted.
-<inserted text> 
-                $
-l.693 \begin{bmatrix}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:695: Missing $ inserted.
-<inserted text> 
-                $
-l.695 \end{bmatrix}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:697: Missing $ inserted.
-<inserted text> 
-                $
-l.697 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:697: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.697 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-
 [23
 
 ]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:690: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.690 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:695: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.695 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [24]
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:788: Extra \fi.
-\mdots@@ ...haracter@ \fi \fi \fi \fi \fi \fi \fi 
-                                                  \thedots@ 
-l.788 ...{bmatrix} c_0^* & c_1^* & c_2^* & \dots &
-                                                   c_{N-2}^* & c_{N-1}^* \en...
-I'm ignoring this; it doesn't match any \if.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:786: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.786 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--832
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:834: Illegal unit of measure (pt inserted).
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:792: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.792 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:793: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.834 \hspace{10}
->>>>>>> origin/main
+l.793 \hspace{10}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1016,145 +519,145 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<<<<<<< HEAD
-[25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
+[25]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:863: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.863 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[26]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:872: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.872 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:898: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.898 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:903: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.903 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [27] [28]
 Chapter 5.
-<images/Bloch_Sphere.png, id=224, 385.44pt x 409.53pt>
+<images/Bloch_Sphere.png, id=223, 385.44pt x 409.53pt>
 File: images/Bloch_Sphere.png Graphic file (type png)
 <use images/Bloch_Sphere.png>
-Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 980.
+Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 981.
 (pdftex.def)             Requested size: 192.71953pt x 204.7645pt.
-[29
-
- <./images/Bloch_Sphere.png>] [30] [31] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
-=======
-
-
-[25]
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 942--943
-
- []
-
-
-
-[27]
-
-[28]
-Chapter 5.
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1007: Misplaced alignment tab character &.
-l.1007 ... example was introduced with the heads &
-                                                   tails outcomes we can obs...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1007: Misplaced alignment tab character &.
-l.1007 ...t also has 2 outcomes called $\ket{0}$ &
-                                                   $\ket{1}$, we can just re...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1015: Misplaced alignment tab character &.
-l.1015 ...can be in a superposition of $\ket{0}$ &
-                                                   $\ket{1}$. We can have an...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1015: Misplaced alignment tab character &.
-l.1015 ...any probability of measuring $\ket{0}$ &
-                                                   $\ket{1}$ (so long as all...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<images/Bloch_Sphere.png, id=232, 385.44pt x 409.53pt>
-File: images/Bloch_Sphere.png Graphic file (type png)
-<use images/Bloch_Sphere.png>
-Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 1024.
-(pdftex.def)             Requested size: 192.71953pt x 204.7645pt.
-
-
 [29
 
  <./images/Bloch_Sphere.png>]
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1033: Misplaced alignment tab character &.
-l.1033     \item Electron spin up &
-                                    down
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1011: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1011 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1035: Misplaced alignment tab character &.
-l.1035 ...on to state preparation, superposition &
-                                                   measurement
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1038: Misplaced alignment tab character &.
-l.1038 ... so it is a superposition of $\ket{0}$ &
-                                                   $\ket{1}$. The closer $\k...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1016: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1016 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [30]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1095: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1095 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1107: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1107 \hline
+              \section{Qubit gates }
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [31]
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1219: Misplaced alignment tab character &.
-l.1219 ...tes are special cases of $R_x(\theta)$ &
-                                                   $R_y(\theta)$ with $\thet...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1138: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1138 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1146: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1146 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1176: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1176 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1182: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1182 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
->>>>>>> origin/main
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1195: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1195 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
 
  []
 
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1198: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1198 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
+
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 
  []
 
@@ -1163,85 +666,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 ]
 Chapter 6.
 
-=======
->>>>>>> origin/main
-Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
 
  []
 
-<<<<<<< HEAD
-<images/binary_conversion.png, id=275, 403.5075pt x 191.71625pt>
+<images/binary_conversion.png, id=274, 403.5075pt x 191.71625pt>
 File: images/binary_conversion.png Graphic file (type png)
 <use images/binary_conversion.png>
-Package pdftex.def Info: images/binary_conversion.png  used on input line 1269.
+Package pdftex.def Info: images/binary_conversion.png  used on input line 1270.
 (pdftex.def)             Requested size: 201.75325pt x 95.85788pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1282--1283
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
 
  []
 
 [35 <./images/binary_conversion.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
-=======
-
-
-[33]
-
-[34
-
-]
-Chapter 6.
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1293: Misplaced alignment tab character &.
-l.1293 ...luating linear algebra rather than pen &
-                                                   paper.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1285: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1285 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
->>>>>>> origin/main
 
  []
 
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
-=======
-LaTeX Warning: File `Chapters/Images/binary_conversion.png' not found on input line 1327.
-
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1327: Package pdftex.def Error: File `Chapters/Images/binary_conversion.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1327 ...]{Chapters/Images/binary_conversion.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1309: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1309 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
->>>>>>> origin/main
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 
  []
 
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1334: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1334 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
+
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
 
  []
+
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1340: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1340 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 [36] [37] [38]
-<images/Bell_State_circuit.png, id=311, 213.79875pt x 154.5775pt>
+<images/Bell_State_circuit.png, id=310, 213.79875pt x 154.5775pt>
 File: images/Bell_State_circuit.png Graphic file (type png)
 <use images/Bell_State_circuit.png>
-Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1479.
+Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1480.
 (pdftex.def)             Requested size: 213.79822pt x 154.5771pt.
  [39 <./images/Bell_State_circuit.png>] [40
 
@@ -1268,117 +759,14 @@ Chapter 12.
 [51
 
 ] [52
-=======
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1364--1365
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1396
-
- []
-
-
-
-[36]
-
-[37]
-
-LaTeX Warning: File `Chapters/Images/Bell_State_circuit.png' not found on input line 1537.
-
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1537: Package pdftex.def Error: File `Chapters/Images/Bell_State_circuit.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1537 ...{Chapters/Images/Bell_State_circuit.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[38]
-
-[39]
-
-[40
-
-]
-Chapter 7.
-
-
-[41]
-
-[42
-
-]
-Chapter 8.
-
-
-[43]
-
-[44]
-Chapter 9.
-
-
-[45
-
-]
-
-[46
-
-]
-Chapter 10.
-
-
-[47]
-
-[48]
-Chapter 11.
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1757: Misplaced alignment tab character &.
-l.1757  Given the very limited number (&
-                                         quality) of qubits available there ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-
-[49
-
-]
-
-[50]
-Chapter 12.
-
-
-[51
-
-]
-
-[52
->>>>>>> origin/main
 
 ]
 Chapter 13.
 
-<<<<<<< HEAD
-Underfull \vbox (badness 1454) has occurred while \output is active []
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1759.
 
- [53] [54] [55] [56
+[53] [54] [55] [56
 
 ]
 Chapter 14.
@@ -1391,77 +779,6 @@ Chapter 15.
 ]
 Chapter 16.
 [61] (./main.aux)
-=======
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[53]
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1844: Misplaced alignment tab character &.
-l.1844 ...remarkable differences between quantum &
-                                                   classical information is ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1846: Misplaced alignment tab character &.
-l.1846 ...umbers where one is the real component &
-                                                   the other is the imaginar...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Thomas/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1852: Misplaced alignment tab character &.
-l.1852 ...n$ being the number of logical qubits) &
-                                                   $\omega = e^{i2\pi/N}$
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-
-[54]
-
-[55]
-
-[56
-
-]
-Chapter 14.
-
-
-[57]
-
-[58
-
-]
-Chapter 15.
-
-
-[59]
-
-[60
-
-]
-Chapter 16.
-
-
-[61] (./main.aux)
- ***********
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-10-09>
- ***********
-
->>>>>>> origin/main
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -1469,46 +786,23 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-<<<<<<< HEAD
-(rerunfilecheck)             After:  6B4D77769991047DF492BCD55EBC7C2E;26082.
+(rerunfilecheck)             After:  EDB3BF082C3EA7C311098083D39546AA;26264.
  ) 
 Here is how much of TeX's memory you used:
  9784 strings out of 480171
- 153420 string characters out of 5894490
+ 153426 string characters out of 5894490
  463093 words of memory out of 5000000
  27391 multiletter control sequences out of 15000+600000
  477247 words of font info for 55 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,16n,63p,1146b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,63p,1146b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
 
  </home/thomas/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (61 pages, 947612 bytes).
+Output written on main.pdf (61 pages, 950271 bytes).
 PDF statistics:
  602 PDF objects out of 1000 (max. 8388607)
  478 compressed objects within 5 object streams
  223 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-(rerunfilecheck)             After:  DA46C7E2F6E6A51F17ECC10413553598;27334.
- ) 
-Here is how much of TeX's memory you used:
- 10174 strings out of 473382
- 158293 string characters out of 5725273
- 577803 words of memory out of 5000000
- 32929 multiletter control sequences out of 15000+600000
- 566225 words of font info for 64 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,16n,79p,1141b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
-
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (61 pages, 959927 bytes).
-PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 229 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/main
 
