@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  11 JAN 2025 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.3)  24 JAN 2025 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -386,17 +386,17 @@ Chapter 2.
 <images/Q_advantage.png, id=80, 773.13844pt x 350.81062pt>
 File: images/Q_advantage.png Graphic file (type png)
 <use images/Q_advantage.png>
-Package pdftex.def Info: images/Q_advantage.png  used on input line 185.
+Package pdftex.def Info: images/Q_advantage.png  used on input line 183.
 (pdftex.def)             Requested size: 386.56828pt x 175.40488pt.
  [12] [13 <./images/Q_advantage.png>] [14
 
 ]
 Chapter 3.
 [15]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:272: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:270: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.272 \hline
+l.270 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -404,21 +404,21 @@ an alignment. Proceed, and I'll ignore this case.
 <images/Complex_conjugate_picture.svg.png, id=115, 324.46219pt x 456.95718pt>
 File: images/Complex_conjugate_picture.svg.png Graphic file (type png)
 <use images/Complex_conjugate_picture.svg.png>
-Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 286.
+Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 284.
 (pdftex.def)             Requested size: 162.23068pt x 228.47803pt.
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:302: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:300: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.302 \hline
+l.300 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [16 <./images/Complex_conjugate_picture.svg.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:314: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:312: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.314 \hline
+l.312 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -426,16 +426,16 @@ an alignment. Proceed, and I'll ignore this case.
 <images/Polar_Argand-diagram.png, id=127, 240.00778pt x 232.57259pt>
 File: images/Polar_Argand-diagram.png Graphic file (type png)
 <use images/Polar_Argand-diagram.png>
-Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 355.
+Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 353.
 (pdftex.def)             Requested size: 240.00719pt x 232.572pt.
 
 Underfull \vbox (badness 3407) has occurred while \output is active []
 
  [17] [18 <./images/Polar_Argand-diagram.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:445: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:443: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.445 \hline
+l.443 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -444,22 +444,22 @@ an alignment. Proceed, and I'll ignore this case.
 <images/Dot_product_visualisation.png, id=151, 478.03593pt x 416.30531pt>
 File: images/Dot_product_visualisation.png Graphic file (type png)
 <use images/Dot_product_visualisation.png>
-Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 470.
+Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 468.
 (pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:483: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:481: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.483 \hline
+l.481 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [20 <./images/Dot_product_visualisation.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:514: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:512: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.514 \hline
+l.512 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -469,48 +469,48 @@ Chapter 4.
 [23
 
 ]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:690: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:688: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.690 \hline
+l.688 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:695: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:693: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.695 \hline
+l.693 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [24]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:786: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:784: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.786 \hline
+l.784 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--791
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:792: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:790: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.792 \hline
+l.790 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:793: Illegal unit of measure (pt inserted).
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:791: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.793 \hspace{10}
+l.791 \hspace{10}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -520,40 +520,40 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 [25]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:863: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:861: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.863 \hline
+l.861 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [26]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:872: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:870: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.872 \hline
+l.870 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:898: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:896: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.898 \hline
+l.896 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 901--902
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:903: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:901: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.903 \hline
+l.901 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -563,78 +563,91 @@ Chapter 5.
 <images/Bloch_Sphere.png, id=223, 385.44pt x 409.53pt>
 File: images/Bloch_Sphere.png Graphic file (type png)
 <use images/Bloch_Sphere.png>
-Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 981.
+Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 978.
 (pdftex.def)             Requested size: 192.71953pt x 204.7645pt.
 [29
 
  <./images/Bloch_Sphere.png>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1011: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1008: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1011 \hline
+l.1008 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1016: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1013: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1016 \hline
+l.1013 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [30]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1095: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1092: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1095 \hline
+l.1092 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1107: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1104: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1107 \hline
+l.1104 \hline
               \section{Qubit gates }
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [31]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1138: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1135: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1138 \hline
+l.1135 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1146: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1143: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1146 \hline
+l.1143 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1176: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1173: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1176 \hline
+l.1173 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1182: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1179: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1182 \hline
+l.1179 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [32]
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1192: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1192 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
+
+ []
+
 /home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1195: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
@@ -648,82 +661,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1198: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1198 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
-
- []
-
 [33] [34
 
 ]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
 
  []
 
 <images/binary_conversion.png, id=274, 403.5075pt x 191.71625pt>
 File: images/binary_conversion.png Graphic file (type png)
 <use images/binary_conversion.png>
-Package pdftex.def Info: images/binary_conversion.png  used on input line 1270.
+Package pdftex.def Info: images/binary_conversion.png  used on input line 1266.
 (pdftex.def)             Requested size: 201.75325pt x 95.85788pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
 
  []
 
 [35 <./images/binary_conversion.png (PNG copy)>]
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1285: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1281: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1285 \hline
+l.1281 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1309: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1305: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1309 \hline
+l.1305 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1329
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1334: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1330: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1334 \hline
+l.1330 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
 
  []
 
-/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1340: Misplaced \noalign.
+/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1336: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1340 \hline
+l.1336 \hline
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -732,7 +732,7 @@ an alignment. Proceed, and I'll ignore this case.
 <images/Bell_State_circuit.png, id=310, 213.79875pt x 154.5775pt>
 File: images/Bell_State_circuit.png Graphic file (type png)
 <use images/Bell_State_circuit.png>
-Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1480.
+Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1476.
 (pdftex.def)             Requested size: 213.79822pt x 154.5771pt.
  [39 <./images/Bell_State_circuit.png>] [40
 
@@ -746,27 +746,27 @@ Chapter 8.
 Chapter 9.
 [45
 
-] [46
-
-]
+] [46]
 Chapter 10.
-[47] [48]
+[47
+
+] [48]
 Chapter 11.
 [49
 
-] [50]
-Chapter 12.
-[51
+] [50
 
-] [52
+]
+Chapter 12.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1743.
+
+[51] [52] [53] [54
 
 ]
 Chapter 13.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1759.
-
-[53] [54] [55] [56
+[55] [56
 
 ]
 Chapter 14.
@@ -786,11 +786,11 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EDB3BF082C3EA7C311098083D39546AA;26264.
+(rerunfilecheck)             After:  8237BC7389A81590FA85BB9D59B987A1;26252.
  ) 
 Here is how much of TeX's memory you used:
  9784 strings out of 480171
- 153426 string characters out of 5894490
+ 153420 string characters out of 5894490
  463093 words of memory out of 5000000
  27391 multiletter control sequences out of 15000+600000
  477247 words of font info for 55 fonts, out of 8000000 for 9000
@@ -799,7 +799,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
 
  </home/thomas/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (61 pages, 950271 bytes).
+Output written on main.pdf (61 pages, 950281 bytes).
 PDF statistics:
  602 PDF objects out of 1000 (max. 8388607)
  478 compressed objects within 5 object streams

@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1736624744 "/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" "main.pdf" "main" 1736624744
+["pdflatex"] 1737762863 "/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" "main.pdf" "main" 1737762863
   "/etc/texmf/web2c/texmf.cnf" 1710951610 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/thomas/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1711365700 11524 3867f0a99fec744fcf56b5f470c0e4b9 ""
-  "/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" 1736624735 106151 07cfc6629a898c59ca774022a0c280f1 ""
+  "/home/thomas/Desktop/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" 1737762854 105839 e4fe23c64fbc2ca09c0344583302b6b4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -108,9 +108,9 @@
   "images/Q_advantage.png" 1722725419 125793 47c74016aa4438462ce3d41a7f43b462 ""
   "images/binary_conversion.png" 1722725419 8727 f204b9b0fe3f3662188c100abd94b92e ""
   "images/standard_cat.png" 1722725419 160542 9530f5fc791221051d7492acbc5ffcf6 ""
-  "main.aux" 1736624744 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.aux" 1737762863 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1736624735 106151 07cfc6629a898c59ca774022a0c280f1 ""
+  "main.tex" 1737762854 105839 e4fe23c64fbc2ca09c0344583302b6b4 ""
   (generated)
   "main.aux"
   "main.log"
