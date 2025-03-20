@@ -13,16 +13,16 @@
 \usepackage{hyperref}
 \usepackage{enumerate}
 \usepackage{array}
+\usepackage{titlepic}
+\usepackage{bookmark}
 \graphicspath{ {./images/} }
 
+\titlepic{\includegraphics[width=0.8\textwidth]{images/YAItQC.png}}
 \title{Yet Another Introduction to Quantum Computing}
 \author{Thomas R Clarke}
 \date{\today}
 \begin{document}
 \maketitle
-\tableofcontents
-
-\textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
 
 \chapter*{Preface}
 
@@ -35,6 +35,10 @@ This revolution, like the industrial revolution, or the digital revolution that 
 No single book could do justice to all the categories of quantum technologies, so this book will focus on computing in the most concise explanation, accepting the simple reality that the field is changing too rapidly for most of the content to be anywhere close to state-of-the-art. 
 
 If all this book can accomplish for the reader is to develop an honest and intuitive appreciation for quantum information processing, it would have been worth writing. Least of all for myself. 
+
+\tableofcontents
+
+% \textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
 
 
 \chapter{How many physicists does it take to change a light bulb?}
@@ -267,11 +271,6 @@ ii. What is $Im(m)$?
 $$m = -2 - 2i $$ 
 iii. Sketch z,y,m on the Argand diagram 
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{ Complex conjugate}
 
@@ -301,11 +300,6 @@ In the figure below the complex number $z$ is shown along with its complex conju
  With $z = x + yi$. 
 
  The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{Exercise 3.2}
 
@@ -317,11 +311,7 @@ i. What is the complex conjugate of $z$, $z^*$?
 ii. What is the magnitude of $z$?
 
 iii. What is the magnitude of $z^*$?
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{ Interlude on Trigonometry } 
 
 Trigonometry is defined as \textit{the branch of mathematics dealing with the relations of the sides and angles of triangles and with the relevant functions of any angles} but for our use it is much better to consider trigonometry the study of rotations. In later chapters, quantum gates will be described as rotations. Consider a circle with radius 1. Any point on the circle can be reached by rotating on the surface by an angle. The figure below shows how we can reach any point.
@@ -452,11 +442,7 @@ $$
 
 iii. Write down the vector $5\ket{v}$ and describe what has changed to the vector  
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{The inner product}
 
 It can be very useful to compare two vectors by measuring how aligned they are. Imagine two vectors pointing the same way. These two vectors would have a lot in common, and so would be perfectly aligned. The measure of how similar two vectors are is the inner product. The inner product can be calculated by multiplying each component of the vectors and adding them up. 
@@ -494,11 +480,6 @@ For example the vectors $\ket{p} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ \& $\ke
 
 $$ \begin{bmatrix} 1^* \& 0^* \end{bmatrix}  \begin{bmatrix} 0 \\ 1 \end{bmatrix} = (1 \times 0) + (0 \times 1) = 0$$
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{Exercise 3.4}
 
@@ -529,11 +510,6 @@ ii. $\braket{z|w}$
 iii. Bonus question: Compare i. ii. . Is the result the same as from Exercise 3.2 iv? 
 If not, what has changed?
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{ Matrices}
 
@@ -709,20 +685,12 @@ $$
 $$
 
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{Exercise 4.1 }
 
 Imagine a biased coin which is three times more likely to land on tails than on heads. Write down the corresponding state vector for such a coin.
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{How to describe the qubits}
 
 In general, our quantum computer can take a lot more than 2 possible outcomes. Thankfully we can just add a row to our column vector for every possible outcome. So we can describe our state in terms of each possible outcomes it can take. Our quantum computer can output any number up to some maximum.  We can write the state of any quantum computer in terms of all the possible states (numbers) we can get from it
@@ -814,22 +782,12 @@ $$
 \ket{\psi} = \begin{bmatrix} \sqrt{P} \\ \sqrt{1-P} \end{bmatrix}
 $$
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{Exercise 4.2}
 
 Using the definition of the measurement probability, calculate the probability of measuring heads and the probability of measuring tails. Verify that these add to 1. \newline
 
-<<<<<<< HEAD
-\hrule  
-=======
-  
->>>>>>> origin/main
-\hspace{10}
+\hspace{10pt}
 
 For any quantum state, the probability of measuring it to be in the state that it is must be 1. For example, if the coin were heads up, and nothing happened to the coin, the probability of measuring heads would be 1. The probability of getting a tails would be 0. This can be verified by working out the probability of measuring tails. The probability of measuring tails $P(T)$ is still given by the same equation 
 
@@ -838,13 +796,12 @@ $$ P(T) = |\braket{T|\psi}|^2 $$
 where the coin is in the state $\ket{\psi}$ = $\ket{H}$. 
 
 $$  
-\left| \begin{bmatrix} 0  1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} \right|^2 
+\left| \begin{bmatrix} 0 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} \right|^2 
 $$
 
 $$
 = \left| (0 \times 1) + (1 \times 0) \right|^2 = 0 
 $$
-
 
 On the other hand, the probability of measuring a heads is 1. Whilst this result may seem obvious, it is worth emphasising that for any quantum state, the probability of measuring it in that state should be 1 (neglecting measurement error). This leaves us the important result
 
@@ -899,11 +856,7 @@ $$
 \hat{F} =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{Exercise 4.3 Flip the coin}   
 
 By applying the flip operator to a coin that is heads up, show that it gives us the superposition state.  
@@ -912,11 +865,6 @@ Hint: compute the matrix-vector product of $\hat{F}\ket{H}$.
   
 Bonus question: what would you get if you did the same with the coin starting tails up?  
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \section{What do we expect to get?}
 
@@ -942,20 +890,11 @@ $$ \braket{W} = \sum_{i = 0}^{N-1} X_i \times P(i) $$
 
 Where $X_i$ is the outcome for event $i$ with probability $P(i)$ . 
 
-<<<<<<< HEAD
-\hrule 
-=======
- 
->>>>>>> origin/main
+
 \subsection{Exercise 4.4 Expectation value}  
   
 For this question, we're graduating from a coin to a dice. Let's call $N$ the number on a dice. Work out the expectation value by working out the number on each dice multiplied by the probability of rolling that number. \newline
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{ A quantum description of probability }
 
@@ -1063,20 +1002,11 @@ The z-axis is where the $\ket{0}$ \& $\ket{1}$ are, for that reason the z-axis i
 
 A useful tool for understanding the Bloch sphere [can be found here](https://javafxpert.github.io/grok-bloch/)
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{Exercise 5.1: Where on the sphere}
 
 We know the superposition state $\ket{+}$ has equal probabilities of $\ket{0}$ \& $\ket{1}$. Where on the Bloch sphere would this state be represented? What is the angle $\theta$ that would describe this state?
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \section{It's not just a phase!} 
 
@@ -1155,11 +1085,6 @@ Phases can be used to encode information, such as with the quantum Fourier trans
 
 \textbf{Phases only matter when they are relative.}
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{Exercise 5.2 Back to the start}
 
@@ -1171,11 +1096,8 @@ When we apply the Hadamard twice to a state, we get the same state back. Without
 
 \vspace{5mm} %5mm vertical space
 
-<<<<<<< HEAD
-\hrule \section{Qubit gates }
-=======
+
  \section{Qubit gates }
->>>>>>> origin/main
 
 As mentioned in Chapter 4, operators are what allow us to do things to quantum states. Below are a collection of the most common single qubit operators. 
 
@@ -1201,16 +1123,8 @@ As mentioned in Chapter 4, operators are what allow us to do things to quantum s
 \end{tabular}
 \end{center}
 
-Sometimes it is easier to perform gates by knowing what they do to the $\ket{0}$, $\ket{1}$ states, sometimes it is easier to do the matrix multiplication. 
-
-A more comprehensive list of gates \href{https://raw.githubusercontent.com/qiskit-community/qiskit-textbook/main/content/ch-states/supplements/single-gates-cheatsheet.pdf}{can be found here}
 
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 \subsection{Exercise 5.4}
 
 By considering the effect on $\ket{0}$ \& $ \ket{1}$, or by doing matrix multiplication, calculate the following states:
@@ -1218,11 +1132,7 @@ By considering the effect on $\ket{0}$ \& $ \ket{1}$, or by doing matrix multipl
 a. $ XZ\ket{1}$  
 b. $ XH\ket{+} $  
 c. $ XYZ\ket{0} $
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 
 \subsection{Aside: gates vs operators}
 
@@ -1252,21 +1162,13 @@ $$
 
 This gives a phase shift of $\phi$ between $\ket{0}$ \& $\ket{1}$
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{Exercise 5.5}
 By using $\theta = \pi/2$ apply $R_y(\pi/2)$ to the state $\ket{1}$. What gate does $R_y(\pi/2)$ do? 
  
 \subsection{Exercise 5.6} 
 The X gate turns $\ket{0}$ to $\ket{1}$ and $\ket{1}$ to $\ket{0}$. By considering angles on the Bloch sphere, what is the angle $\theta$ such that $R_y(\theta) = X$
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 
 \section{ The Universal Quantum Gate }
 
@@ -1278,18 +1180,12 @@ $$
 
 Just as we can reach any point on the Bloch Sphere with $\theta$ \& $\phi$ we can get any quantum gate using $U$. 
 
-The set of all gates that can be made from $U$ are known as $SU(2)$. \newline
-<<<<<<< HEAD
-\hrule
-\subsection{Exercise 5.7}
-Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,0,0)$ \newline 
-\hrule
-=======
+The set of all gates that can be made from $U$ are known as $SU(2)$. 
+
 
 \subsection{Exercise 5.7}
 Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,0,0)$ \newline 
 
->>>>>>> origin/main
 
 \section{ Operators in Ket-Bra Form}
 
@@ -1376,11 +1272,6 @@ $$
 
 Here we needed at least 6 digits in binary to represent a number with 2 digits in decimal. The decimal notation is much more efficient. \newline
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{Exercise 6.1}
 
@@ -1404,11 +1295,7 @@ b. 5
 
 c. 6 \newline
 
-<<<<<<< HEAD
-\hrule
-=======
 
->>>>>>> origin/main
 \subsection{ Reading quantum states }
 
 Let's say we wanted to encode the number 5 onto a quantum state. 
@@ -1433,21 +1320,11 @@ $$ \ket{5} = \ket{101} = \begin{bmatrix} 0 \\ 0\\ 0\\ 0\\ 0\\ 1\\0\\0 \end{bmatr
 
 For each qubit we add, the number of rows in this column vector doubles. This is what makes it difficult to simulate quantum algorithms on classical computers. \newline
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \subsection{Exercise 6.3}
 
 For n qubits, we need a vector with $2^n$ rows to describe the state. What shape of matrix (rows, columns) do we need to describe the operator (i.e. multi-qubit gate) that acts on this vector? \newline
 
-<<<<<<< HEAD
-\hrule
-=======
-
->>>>>>> origin/main
 
 \section{ Multiple qubits, multiple gates }
 
@@ -1698,7 +1575,9 @@ The TRNG implemented here is hardly the most practical implementation. It is rat
 
 \section{1990's to 2022}
 
-\section{The million qubit challenge}
+\section{The Million Qubit Challenge}
+
+\section{Distributed Quantum Computing}
 
 
 \chapter{Quantum Algorithms}
@@ -1731,9 +1610,6 @@ For example, adding two n-digit numbers will require on the order of n operation
 \subsection{ Grover's Search Algorithm}
 
 
-\
-
-
 
 \subsection{How much do we need?}
 
@@ -1746,25 +1622,27 @@ Across many of the proposed quantum algorithms, significant work has been done i
 
 \section{Practical considerations: Quantum Strategy}
 
-- Try a small-scale proof of concept project first 
-    - Small scale QC can be simulated on a classical computer. This can be a lot cheaper than buying access to an expensive QPU
+\begin{itemize}
+    \item Try a small-scale proof of concept project first. Small scale QC can be simulated on a classical computer. If the quantum algorithm can be 
 
-
-- Does the problem require QC?
-    - Quantum computing is a rather exotic solution proposed largely for problems tackled by supercomputers. Consider more conventional solutions before trying quantum
-    - How strong is the evidence that QC has an advantage for this problem. 
-
-- Hardware 
-
-    - Number of qubits (is it enough to run our algorithm)
-    - Quality of qubits (are the outputs reliable or just noise)
-    - Pricing/ availability (can you afford it)
-    - Software features/support (how user-friendly is it, is it compatible with qiksit/ML libraries, does it support optimisation of quantum circuits ect)
-
-
-- Cost 
-    - Currently, access to QPU time is dominated by fixed cloud overheads (i.e. the provider). This means the costs can come down very quickly as the hardware scales. 
-    - Energy costs are a large part of the costs of running conventional HPC clusters. For QPU's almost all the energy requirements are in cooling (with very little in control electronics). How this scales in the future depends on the qubit type. Optimistically, energy requirements could remain fixed for the next few years as the cooling requirements are constant for a significant growth in qubit quantity \& quality. 
+    \item Does the problem require QC?
+        \begin{itemize}
+            \item Quantum computing is a rather exotic solution proposed largely for problems tackled by supercomputers. Consider more conventional solutions before trying quantum.
+            \item How strong is the evidence that QC has an advantage for this problem.
+        \end{itemize}
+    \item Hardware
+        \begin{itemize}
+            \item Number of qubits (is it enough to run our algorithm)
+            \item Quality of qubits (are the outputs reliable or just noise)
+            \item Pricing/availability (can you afford it)
+            \item Software features/support (how user-friendly is it, is it compatible with qiksit/ML libraries, does it support optimisation of quantum circuits etc.)
+        \end{itemize}
+    \item Cost
+        \begin{itemize}
+            \item Currently, access to QPU time is dominated by fixed cloud overheads (i.e. the provider). This means the costs can come down very quickly as the hardware scales.
+            \item Energy costs are a large part of the costs of running conventional HPC clusters. For QPU's almost all the energy requirements are in cooling (with very little in control electronics). How this scales in the future depends on the qubit type. Optimistically, energy requirements could remain fixed for the next few years as the cooling requirements are constant for a significant growth in qubit quantity \& quality.
+        \end{itemize}
+\end{itemize}
 
 \section{Limitations of quantum computing}
 
@@ -1847,7 +1725,7 @@ Conventional ML doesn't have much theoretical guarantees, but we know it works r
 
 Even if our current QML approaches don't offer any value at the moment, further research may uncover models better suited to the hardware we have now...
 
-\subsection{Additional resources for QML}
+\subsection{Additional resources}
 \begin{itemize}
     \item \href{https://github.com/Christophe-pere/Roadmap-to-QML}{GitHub repository listing papers, books and online courses}
     \item \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{A panel discussion from 2021 on the Future of Quantum Machine Learning}
@@ -1944,6 +1822,13 @@ At this point it is worth pointing out that there is no major consideration for 
 
 Practically speaking speed is essential because of dephasing. The longer the coherence time, the slower the QFT can be implemented for an acceptable minimum fidelity. 
 
+
+
+\section{Additional resources}
+\begin{itemize}
+    \item \href{https://www.3blue1brown.com/lessons/fourier-transforms}{3blue1brown But What is the Fourier Transform? A visual introduction}
+\end{itemize}
+
 \chapter{Shor's Algorithm}
 
 Probably the most famous quantum algorithm, Shor's algorithm is an example of a quantum algorithm \textit{exponentially} faster than the best classical algorithm. 
@@ -1955,18 +1840,9 @@ In addition to being fast, Shor's algorithm has immense practical utility.
 
 \chapter{Benchmarks for computers}
 
-\section{Why do we need benchmarks}
-
-\section{Classical computing benchmarks}
-
 \section{How powerful is your quantum computer?}
 
-\chapter{Distributed Quantum Computing}
+\section{Classical computing benchmarks}
  
 
-Testing
-
-Testing
-
 \end{document}
->>>>>>> b66926ea1358fb90a7e8176ff5ecc88125a9083a
