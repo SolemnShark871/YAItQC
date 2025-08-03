@@ -34,8 +34,10 @@ This revolution, like the industrial revolution, or the digital revolution that 
 
 No single book could do justice to all the categories of quantum technologies, so this book will focus on computing in the most concise explanation, accepting the simple reality that the field is changing too rapidly for most of the content to be anywhere close to state-of-the-art. 
 
+If this were how subatomic physics worked, there would be no subatomic physics $^*$.
 If all this book can accomplish for the reader is to develop an honest and intuitive appreciation for quantum information processing, it would have been worth writing. Least of all for myself. 
 
+Quantum mechanics is described by the Schrödinger equation built on space and time. There are some differences to classical physics; the physics everyone is used to experiencing in everyday life. Quantum is not some magical concept which allows for anything that violates classical physics to be explained away. There are, however, some small but significant features of quantum mechanics that allow for the development of new technologies. 
 \tableofcontents
 
 % \textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
@@ -49,33 +51,33 @@ In the early 20th century, a German physicist (by the cool name of Max Planck) w
 
 \includegraphics{images/Light_bulb_quantised.png}
 
-This concept of quantisation of energy is where the quantum comes from. Whilst this concept is less significant to quantum computing, it is still worth mentioning. The reason for this is that the transistor that powers all digital electronics is built upon this concept. Thus all computations using this technology (the integrated circuit) are computers running on quantum mechanics. Which is not to say they are quantum computers simply that they are fundamentally built upon quantum physics, as are you, I, and everything we can see and touch. 
+This concept of quantisation of energy is where the quantum comes from. Whilst this concept is less significant to quantum computing, it is still worth mentioning. The reason for this is that the transistor that powers all digital electronics is built upon this concept. Thus all computations using this technology (the integrated circuit) are computers running on quantum mechanics. This is not to say they are quantum computers simply that they are fundamentally built upon quantum physics, as are you, I, and everything we can see and touch. Quantum is nothing more than a limit, beyond which classical physics fails to provide an explanation. \textit{Quantum technologies supersede the limits of what is possible with classical technologies.}
 
-Quantum is nothing more than a limit, beyond which classical physics fails to provide an explanation. \textit{Quantum technologies supersede the limits of what is possible with classical technologies.}
-
-Beyond the quantisation of energy, there are quantum phenomena which are very much more significant to quantum computing: \textit{superposition \& entanglement}. 
+Beyond the quantisation of energy, there are quantum phenomena which are much more significant to quantum computing: \textit{superposition \& entanglement}. 
 
 \section{So what happened to Schrödinger’s cat?}
 
-You may have heard of a very special cat associated with another German physicist, Schrödinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released and the cat dies. otherwise the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
+You may have heard of a very special cat associated with another German physicist, Schrodinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released, and the cat dies. otherwise, the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
 \includegraphics[scale=0.3]{images/standard_cat.png}
 [2]
 
-Schrodinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. In quantum mechanics we call this particular state a \textit{superposition}. And this is the state we say the Schrodinger's cat is in before the box is opened.This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
+Schrodinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. In quantum mechanics, we call this particular state a \textit{superposition}. And this is the state we say the Schrodinger's cat is in before the box is opened. This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
+
 
 It is as simple as tossing a coin.  
 
-While the coin spins in the air, someone looking at it can't resolve which side is facing upwards. It is a blur of motion where the side facing up can't be determined. It is as if the coin were in a combination of being \textit{both heads and tails at the same time}.  This coin can be described as being in a superposition of heads and tails. In reality there are not two coins, one with the heads facing up and another with the tails facing up, but only one coin with this special state\footnote{According to the many worlds interpretation of quantum mechanics it is not quite so simple...}.
+While the coin spins in the air, someone looking at it can't resolve which side is facing upwards. It is a blur of motion where the side facing up can't be determined. It is as if the coin were in a combination of being \textit{both heads and tails at the same time}.  This coin can be described as being in a superposition of heads and tails. In reality, there are not two coins, one with the heads facing up and another with the tails facing up, but only one coin with this special state\footnote{According to the many worlds interpretation of quantum mechanics it is not quite so simple...}.
 
-When the coin lands, it faces either heads or tails up. Now there is no uncertainty in the state of the coin. If we were to cover the coin and then look at it again some time later, it would still have the same side facing up. The superposition the coin was in before has been collapsed. The concept of looking at the coin, or opening the box, is what in quantum mechanics calls \textit{performing a measurement}.
+When the coin lands, it faces either heads or tails up. Now there is no uncertainty in the state of the coin. If we were to cover the coin and then look at it again sometime later, it would still have the same side facing up. The superposition the coin was in before has been collapsed. The concept of looking at the coin, or opening the box, is what in quantum mechanics is known as \textit{performing a measurement}.
+
 
 \section{Spooky action at a distance}
 
 The more conceptually difficult phenomena quintessential to quantum computing can also be explained using coins (but with one small modification). In truth this is a gross simplification, as the classical analogy does not accurately represent the intricacies of quantum theory. It serves only as an analogy of the probabilistic nature of entanglement. And even then the analogy fails to manifest the Bell inequalities. 
 
-For this example 2 coins will be required. 
+For this example, 2 coins will be required. 
 
-Tossing two unbiased coins is effectively the same as tossing the same coin twice and recording the outcome each time. Guessing whether the coin is H or T is 50\% for each coin or 25\% for getting both of them correct. 
+Tossing two unbiased coins is effectively the same as tossing the same coin twice and recording the outcome each time. Guessing whether the coin is H or T is 50\% for each coin or 25\% for getting both correct. 
 
 For the next step some removable adhesive, like Blu-tac, will be required. Imagine sticking the two coins together with each coin having the H facing outwards and the T's stuck together to make one coin twice as thick. Tossing this combined coin will always result in the top coin having the H facing upwards. The coin at th bottom must also have the H side facing into the ground. 
 
@@ -83,10 +85,29 @@ But before the combined coin is revealed, the two coins are separated. Since the
 
 \includegraphics[scale=0.4]{images/Entanglement.png}
 
-At this point, guessing either of the coin would have a 50\% chance of getting the right outcome- the same as for two coins tossed separately. 
+At this point, guessing either of the coins would have a 50\% chance of getting the right outcome- the same as for two coins tossed separately. 
 
 But if only one of the coins is revealed, say the H coin, then it is instantly known that the other one must be a T. Suddenly guessing the state of the second coin has a 100\% chance of success whereas with the separate coin tosses revealing one made no difference to guessing the other. These linked probabilities are analogous (with some significant caveats) to an entangled quantum state.
 
+The coins here are classical objects, 
+
+\section{Interpretations of Quantum Theory}
+
+\subsection{The Copenhagen Interpretation}
+
+The Copenhagen interpretation of quantum mechanics is the oldest and most boring. Simply put, it does not really do anything but state what the theory predicts. It is a bit agnostic because there is no attempt made to answer the big question of \textbf{why}.
+
+\subsection{Marvelous Many Worlds}
+
+One way of dealing with the paradoxes of superposition and entanglement is to make a rather bold proposition about the nature of reality. Since quantum mechanics is hard to reconcile with our intuitive understanding of the world, the many worlds' interpretation seeks to overhaul the concept of reality.
+
+
+
+\subsection{Quantum Bayesienism}
+
+If quantum mechanics is interpreted as a purely statistical reality, quantum Bayesienism is a very natural conclusion. 
+
+\subsection{The Relational Interpretation}
 The coins here are classical objects, but if we are loose with out concept of reality being real, whatever that means, we can reconcile the classical (or intuitive) with the quantum (or counter-intuitive). 
 
 \textit{``If a tree falls in a forest and no one is around to hear it, does it make a sound ?''}
@@ -108,8 +129,8 @@ These are devices that take advantage of the aforementioned phenomena for practi
 \begin{itemize}
 
     \item The word quantum comes from quantised or in discrete units 
-    \item A superposition happens when there are two possible states
-    \item Entanglement happens when the outcomes of two individually random systems are correlated very strongly 
+    \item A superposition occurs when a system must be described in terms of all the possible states it can occupy
+    \item Entanglement happens when the outcomes of two individually random systems are correlated more strongly than can be explained with classical physics 
     \item Quantum technologies use superposition \& entanglement in their operation 
     
 \end{itemize}
@@ -144,7 +165,8 @@ These coins represent the qubits in a quantum computer. We should be able to con
 \begin{itemize}
 \item Perform operations on qubits quickly 
 \item Have a precise control over the probabilities 
-\item Be able to effectively control multiple qubits at once 
+\item Be able to effectively control multiple qubits at once
+\item Cause interference effects between the coins (this requires phase, to be introduced in chapter 5.1).
 \end{itemize}
 
 
@@ -176,16 +198,18 @@ There are a few different ways a quantum computer could add value:
 \begin{itemize}
     \item Solve a problem faster for better decision making
     \item Provide more accurate solutions that are more useful 
-    \item Consume less energy and thus cost less to run 
-    \item Enable entirely new models \& solutions to solve problems that previously couldn't be solved
+    \item Consume less energy over the entire process and thus cost less to run 
+    \item Enable entirely new computational models \& solutions to solve problems that previously couldn't be solved
 \end{itemize}
 
     
-Quantum advantage is described in terms of how the solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some 
+If quantum advantage is realised in terms of how speed, it is described in terms of how the time taken to get a solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some problem size for which the quantum algorithm can solve it in fewer steps. For any problem above this crossover size, the time saved using a quantum algorithm grows with the problem size. 
 
 \includegraphics[scale = 0.5]{images/Q_advantage.png}
 
-As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
+Since classical computing is so much more mature, the timescales to execute steps of an algorithm can be on the order of nanoseconds (up to billions of steps per second). Quantum computers of today cannot match this speed and there remains a long way to reach comparable maturity. Taking into account limitations of the hardware makes quantum advantage much more difficult to achieve. Furthermore, since state-of-the-art quantum computers have fewer than 1,000 qubits (as of 2022), the maximum problem size that can be encoded onto the quantum computer remains very small. If the crossover size is beyond the limits of the quantum computer, there can be no quantum advantage (at least from speed). 
+
+In recent years, hardware providers have made a big emphasis of increasing the scale of their quantum computers, predominantly by raising qubit counts. As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
 
 
 \section{Applications of Quantum Computing}
@@ -243,7 +267,7 @@ These numbers that can be written as $ai$ are known as imaginary numbers.
 
 \subsection{ Complex numbers}
 
-Imaginary numbers work similarly to the real numbers everyone uses on a  daily basis. One can divide, multiply, add \& subtract them just as you can for real numbers. What this also means is that any of $ \div ,\times, +, - $ operations can be applied to a combination of both real and imaginary numbers. For instance, the positive root of $-4$, $2i$ can be added to $3$ as $3 + 2i $. Any such number that can be written as a sum of a real and imaginary number is called a *complex number*. More generally we can define this mathematically as:
+Imaginary numbers work similarly to the real numbers everyone uses on a  daily basis. One can divide, multiply, add \& subtract them just as you can for real numbers. What this also means is that any of $ \div ,\times, +, - $ operations can be applied to a combination of both real and imaginary numbers. For instance, the positive root of $-4$, $2i$ can be added to $3$ as $3 + 2i $. Any such number that can be written as a sum of a real and imaginary number is called a \textit{complex number}. More generally we can define this mathematically as:
 
 $$ z = a + ib $$
 
@@ -319,7 +343,10 @@ Trigonometry is defined as \textit{the branch of mathematics dealing with the re
 % ![Unit_circle\includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
 % [2]
 
-The point P is reached by the angle $ \theta $. It has coordinates $ x = \cos(\theta) $ and $ y = \sin(\theta $.
+\includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
+[2]
+
+The point P is reached by the angle $\theta$. It has coordinates $x = \cos(\theta)$ and $ y = \sin(\theta)$.
 
 In chapter 5, quantum gates will be described in terms of rotations around a higher dimensional sphere. 
 
