@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742510921.35404 "c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" "main.pdf" "main" 1742510923.9585 0
-  "c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" 1742510917 104817 1a3a3283b359d2676fba32ab38258747 ""
+["pdflatex"] 1754238064.0614 "c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" "main.pdf" "main" 1754238066.57543 2
+  "c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" 1754238059 111272 6d297bd8ec68c41de1377b8c604f6c70 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1739315515 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1739316375 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1739315998 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -107,12 +107,13 @@
   "images/Light_bulb_quantised.png" 1738509501 80179 b95c00583fa541284c61a59587cedee7 ""
   "images/Polar_Argand-diagram.png" 1738509501 57199 b90e962f64a571b0e1fbe665e1eaafd3 ""
   "images/Q_advantage.png" 1738509501 125793 b6ddee9685da1164326f3fcb55215f7d ""
+  "images/TrigonometryUnitCircle_700.png" 1738509501 7625 b7235e4b75cc86e17307ebf83e057f31 ""
   "images/YAItQC.png" 1738509465 112042 f67ae7db08c4d2b54a030d8f9d9cf8db ""
   "images/binary_conversion.png" 1738509501 8727 5ac98c1f929a200cedf62ffae6ac5e1a ""
   "images/standard_cat.png" 1738509501 160542 c16f7026ccb3d85d594ba4ba0350e0e0 ""
-  "main.aux" 1742510923 67605 007fc4d352cd4a7fa6326659b3beb9a5 "pdflatex"
-  "main.tex" 1742510917 104817 1a3a3283b359d2676fba32ab38258747 ""
-  "main.toc" 1742510923 12666 3a0b54544d870180790d8742ad43b8bf "pdflatex"
+  "main.aux" 1754238066 71187 5b5b08706eca9c8614ff7fa0bebc2cea "pdflatex"
+  "main.tex" 1754238059 111272 6d297bd8ec68c41de1377b8c604f6c70 ""
+  "main.toc" 1754238066 13269 8fe880e75bcaf996a1768c5fbf93920f "pdflatex"
   (generated)
   "main.aux"
   "main.log"

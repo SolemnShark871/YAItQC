@@ -111,9 +111,6 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./main.aux
-INPUT ./main.aux
-INPUT main.aux
 OUTPUT main.aux
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -148,10 +145,6 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT main.toc
@@ -179,6 +172,8 @@ INPUT ./images/Entanglement.png
 INPUT ./images/Entanglement.png
 INPUT ./images/Entanglement.png
 INPUT ./images/Entanglement.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
@@ -187,12 +182,16 @@ INPUT ./images/Q_advantage.png
 INPUT ./images/Q_advantage.png
 INPUT ./images/Q_advantage.png
 INPUT ./images/Q_advantage.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./images/Complex_conjugate_picture.svg.png
 INPUT ./images/Complex_conjugate_picture.svg.png
 INPUT ./images/Complex_conjugate_picture.svg.png
 INPUT ./images/Complex_conjugate_picture.svg.png
 INPUT ./images/Complex_conjugate_picture.svg.png
+INPUT ./images/TrigonometryUnitCircle_700.png
+INPUT ./images/TrigonometryUnitCircle_700.png
+INPUT ./images/TrigonometryUnitCircle_700.png
+INPUT ./images/TrigonometryUnitCircle_700.png
+INPUT ./images/TrigonometryUnitCircle_700.png
 INPUT ./images/Polar_Argand-diagram.png
 INPUT ./images/Polar_Argand-diagram.png
 INPUT ./images/Polar_Argand-diagram.png
