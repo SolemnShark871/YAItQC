@@ -606,7 +606,7 @@ The conjugate transpose is the same process as it is to turn a ket (column vecto
 All quantum gates are unitary matrices, it is very common to see the term unitary when talking about any quantum circuit. 
 
 
-\subsection{Chapter 3 Part 2 Summary }
+\section{Chapter 3 Summary }
 \begin{itemize} 
     \item Vectors are a collection of numbers stored in a row or column
     \item Vectors can be added to each other or multiplied by a scalar
@@ -1270,7 +1270,7 @@ $$
 0 + 2^6 +0  + 2^4 + 2^3+ 0 + 0 + 2^0 = 89 
 $$
 
-Here we needed at least 6 digits in binary to represent a number with 2 digits in decimal. The decimal notation is much more efficient. \newline
+Here we needed at least 6 digits in binary to represent a number with 2 digits in decimal. The decimal notation is much more efficient. 
 
 
 \subsection{Exercise 6.1}
@@ -1318,13 +1318,12 @@ Keeping with the number 5, the state vector for this number
 
 $$ \ket{5} = \ket{101} = \begin{bmatrix} 0 \\ 0\\ 0\\ 0\\ 0\\ 1\\0\\0 \end{bmatrix} $$
 
-For each qubit we add, the number of rows in this column vector doubles. This is what makes it difficult to simulate quantum algorithms on classical computers. \newline
+For each qubit we add, the number of rows in this column vector doubles. This is what makes it difficult to simulate quantum algorithms on classical computers. 
 
 
 \subsection{Exercise 6.3}
 
-For n qubits, we need a vector with $2^n$ rows to describe the state. What shape of matrix (rows, columns) do we need to describe the operator (i.e. multi-qubit gate) that acts on this vector? \newline
-
+For n qubits, we need a vector with $2^n$ rows to describe the state. What shape of matrix (rows, columns) do we need to describe the operator (i.e. multi-qubit gate) that acts on this vector? 
 
 \section{ Multiple qubits, multiple gates }
 
@@ -1348,7 +1347,7 @@ $$  \ket{00} \rightarrow \ket{1+} $$
 
 So far we have acted on all our qubits separately, what happens to one doesn't affect the others. If we were to measure one of the qubits, it wouldn't tell us anything about the other qubits. 
 
-Such states where we can seperate the qubits out are called product states (or pure states). 
+Such states where we can separate the qubits out are called product states (or pure states). 
 
 In general a product state can be written as 
 
@@ -1397,8 +1396,6 @@ In general programming, if statements allow you to include logic in a program. I
  For example, in section 4.3.1 there was a game where if a coin landed up we got +1 dollar, otherwise (if it were tails up) we got -1 dollars. This works as a classical if statement, provided we add the value after the coin is landed and observed. 
 
 What makes quantum operators different is that we can apply them to the superposition. What this means is we can act on both the $\ket{H}$ and $\ket{T}$ amplitudes at once. 
-
-
 
 Entanglement allows the superposition of one qubit to define the superposition of another
 
@@ -1497,13 +1494,12 @@ $^*$ There have been proposals for using a base other than 2 for quantum computi
 
 \chapter{Quantum Circuits}
 
-For this chapter, it is recommended to view the Jupyter notebook version instead. You can find the link here: 
+For this chapter, it is recommended to view the Jupyter notebook version as a supplementary resource. \href{https://github.com/SolemnShark871/YAItQC/blob/main/Chapters/7_Quantum_circuits.ipynb}{You can find the link here.}
+ 
 
 \section{What do you need for a quantum computation?}
 
-The predominant model of quantum computing is the circuit model. 
-
-A quantum circuit is a diagram showing the operations that act on qubits to carry out a computation. All quantum circuits have 3 parts:
+The logic on which both  classical and quantum computing is built requires a mathematical formalism that can be an effective and consistent representation. For both, the circuit model makes it easier to visualise how information can be created and processed classical and quantum computing. A quantum circuit is a diagram showing the operations that act on qubits to carry out a computation. Quantum circuits are like how electronic circuits show how currents and voltages can be calculated. All quantum circuits have 3 parts:
 
 \begin{enumerate}
     \item Initialisation: Start your qubits in an initial quantum state
@@ -1515,20 +1511,38 @@ A quantum circuit is a diagram showing the operations that act on qubits to carr
 Many quantum algorithms will also interface with a classical computer. This is very application-specific so it will be covered later. 
 
 
-\subsection{Hello quantum world}
+\subsection{  1 + 1 = 2 (most of the time )}
 
-In this course the open-source quantum development kit, Qiskit (pronounced kiss-ket) will be used. It is developed by IBM and has the greatest support including: 
+A simple quantum circuit can be used to add 2 bits. This example illustrates a basic quantum algorithm, but you would never want to do this. There is no advantage in doing addition on a quantum computer, but this is a useful example of a quantum circuit. The adder should do the following: take two qubits and return their sum. This is simply adding 1 + 1 in binary.
 
-\begin{itemize}
 
-    \item An entire [textbook on how to use it](https://qiskit.org/textbook/preface.html) 
-    \item Many YouTube tutorials (by IBM and 3rd parties)
-    \item Many hackathons organised by IBM and others use Qikist
-    \item Excellent [documentation](https://qiskit.org/documentation/) 
-    \item Good compatibility with other gate-based quantum computers
+\begin{center}
+\begin{tabular}{ | c | c | c | c | c |}
 
-There are two ways to use Qiskit. It can be installed on your local machine or accessed over the cloud (for free) thanks to IBM
-\end{itemize}
+ Input 1 & Input 0 & $\rightarrow{}$ & Output 1 & Output 0 \\ 
+  
+ 0 & 0 &  & 0 & 0 \\ 
+ 
+ 0 & 1 &  & 0 & 1 \\
+ 
+ 1 & 0 &  & 0 & 1 \\
+ 
+ 1 & 1 &  & 1 & 0 \\
+ 
+  
+\end{tabular}
+\end{center}
+
+
+How do we construct a circuit that can implement this table? 
+
+For both inputs and outputs, each bit of information is represented as a qubit. The states of the output qubits, $q_2, q_3$ must be determined by the states of the input qubits to be added $q_0, q_1$. The circuit that implements this requires controlled nots and a new gate known as the Toffoli gate.
+
+For the circuit below, we'll have the top two qubits be the input, and the bottom two qubits be the output. This means when we measure our qubits, the bits to the left will be the output and the bits to the right will be the input. 
+
+
+% \includegraphics{images/quantum_adder.svg}
+
 \section{Chapter 7 Summary}
 
 \begin{itemize}
@@ -1750,6 +1764,7 @@ The inverse of this operator is known as the Quantum Fourier Transform ($\hat{QF
 
 \section{The most powerful quantum subroutine}
 
+
 This chapter is atypical of the rest of this textbook. Here a rather lengthy historical introduction is given in an attempt to convey the power of what could be considered the most powerful quantum algorithm. As a subroutine, the QFT is vital in period finding for Shor's algorithm along with the HHL algorithm and quantum phase estimation. The QFT requires fully entangled qubits and can transform any pure state in the computational basis to a maximally mixed state in the Fourier basis. 
 
 \section{Signal processing}
@@ -1760,12 +1775,27 @@ In the natural sciences, we process light and sound to extract insights into the
 
 In 1822, French mathematician, Joseph Fourier proposed a method for 
 
-\section{Turning the Tide}
+\section{Predicting the tides: From Newton to D-Day}
+
+As the earth spins on its axis, the gravitational attraction from the moon pulls ever so slightly more on one side of the planet than the other. At the same time, the centripetal acceleration of the rotation exerts a force on the oceans that is almost perfectly provided for by gravity. The combination of these two effects are what lead to the high and low tides occuring twice per day. In this simplified model, it might be assumed that the tides would occur at the same time each day. In reality, the timings of high and low tide drift from one day to the next. 
+
+For millenia, the only way to predict the timings of the tides was to consult previous observations. The earliest printed record going back to China in 1056. When he published the Principia, Issac Newton introduced his theory of gravitation, providing the first scientific explanation for the motion of the tides. Nearly a century passed before Laplace described a set of equations that could model the slow dynamic response of the oceans to the gravitational attraction of the moon and the sun. The complexity of Laplaces equations meant that nearly another century was required before they could be solved. 
+
+William Thompson, better known later as Lord Kelvin, developed Laplace's approach using the harmonic method. Kelvin's insight was to treat the complex solution as a series of oscillations that could be put together to form the complex solution. Harmonics, like how strings on a guitar can be plucked together to form a chord, consist of frequencies where each frequency carries some energy. The amplitudes and phases, like the notes and timings of a song, determine how the tidal behaviour can be predicted. Whilst this method made the problem solvable, it was still beyond what could be calculated by hand. To solve this problem, an analogue computer was designed and built.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/KelvinHarmonicAnalyser.jpg}
+    \caption{Kelvin's Harmonic Analyser: A mechanical device built in 1878 to compute Fourier series coefficients for tidal predictions. This machine could analyze up to 11 harmonic components simultaneously.}
+    \label{fig:kelvin_analyser}
+\end{figure}
+
+A far cry from the digital electronic computers of today, the brass machines of the 19th century was built on gears and spheres. A network of pulleys and wires connected the spheres to a pen that would graph out the solution onto paper. The 11 gears in turn correspnd to 5 sets of 2 with a final gear corresponding to the mean water level. The speeds at which the shafts rotated was proportional to the frequencies of these physical effefcs. 
+
 \section{A change of perspective }
 \section{The quantum mechanical treatment}
 
 \section{Quantum Phase Estimation}
-\section{The power behind Shor's Algorithm}
 \section{A new limit of machine precision}
 
 \href{https://learn.qiskit.org/course/ch-labs/lab-5-accuracy-of-quantum-phase-estimation}{Qiskit Lab 5: Accuracy of Quantum Phase Estimation}

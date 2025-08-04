@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.2.10} Matrix-vector product}{23}{subsection.3.2.10}%
 \contentsline {subsection}{\numberline {3.2.11} Inverse matrices }{23}{subsection.3.2.11}%
 \contentsline {subsection}{\numberline {3.2.12} Unitary matrices}{24}{subsection.3.2.12}%
-\contentsline {subsection}{\numberline {3.2.13}Chapter 3 Part 2 Summary }{24}{subsection.3.2.13}%
+\contentsline {section}{\numberline {3.3}Chapter 3 Summary }{24}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Dirac Notation}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1} Information inside a computer }{25}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1} How to describe qubits?}{25}{subsection.4.1.1}%
@@ -82,10 +82,10 @@
 \contentsline {subsection}{\numberline {6.2.4} Reading quantum states }{38}{subsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.2.5}6.2.3 Column vectors for multiple qubits}{38}{subsection.6.2.5}%
 \contentsline {subsection}{\numberline {6.2.6}Exercise 6.3}{38}{subsection.6.2.6}%
-\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{39}{section.6.3}%
+\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{38}{section.6.3}%
 \contentsline {section}{\numberline {6.4} Product States }{39}{section.6.4}%
 \contentsline {section}{\numberline {6.5} The Tensor Product }{39}{section.6.5}%
-\contentsline {section}{\numberline {6.6} Entanglement }{40}{section.6.6}%
+\contentsline {section}{\numberline {6.6} Entanglement }{39}{section.6.6}%
 \contentsline {subsection}{\numberline {6.6.1} If statements with spicy sauce }{40}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2} Can the qubit not? }{40}{subsection.6.6.2}%
 \contentsline {subsection}{\numberline {6.6.3} Ring the Bell (states)}{40}{subsection.6.6.3}%
@@ -95,7 +95,7 @@
 \contentsline {section}{\numberline {6.8}References}{41}{section.6.8}%
 \contentsline {chapter}{\numberline {7}Quantum Circuits}{43}{chapter.7}%
 \contentsline {section}{\numberline {7.1}What do you need for a quantum computation?}{43}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Hello quantum world}{43}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.1} 1 + 1 = 2 (most of the time )}{43}{subsection.7.1.1}%
 \contentsline {section}{\numberline {7.2}Chapter 7 Summary}{43}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Quantum Random Number Generators}{45}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Why do we want random numbers?}{45}{section.8.1}%
@@ -129,13 +129,12 @@
 \contentsline {chapter}{\numberline {13}Fourier Transforms}{55}{chapter.13}%
 \contentsline {section}{\numberline {13.1}The most powerful quantum subroutine}{55}{section.13.1}%
 \contentsline {section}{\numberline {13.2}Signal processing}{55}{section.13.2}%
-\contentsline {section}{\numberline {13.3}Turning the Tide}{56}{section.13.3}%
+\contentsline {section}{\numberline {13.3}Predicting the tides: From Newton to D-Day}{55}{section.13.3}%
 \contentsline {section}{\numberline {13.4}A change of perspective }{56}{section.13.4}%
 \contentsline {section}{\numberline {13.5}The quantum mechanical treatment}{56}{section.13.5}%
 \contentsline {section}{\numberline {13.6}Quantum Phase Estimation}{56}{section.13.6}%
-\contentsline {section}{\numberline {13.7}The power behind Shor's Algorithm}{56}{section.13.7}%
-\contentsline {section}{\numberline {13.8}A new limit of machine precision}{56}{section.13.8}%
-\contentsline {section}{\numberline {13.9}Additional resources}{57}{section.13.9}%
+\contentsline {section}{\numberline {13.7}A new limit of machine precision}{56}{section.13.7}%
+\contentsline {section}{\numberline {13.8}Additional resources}{58}{section.13.8}%
 \contentsline {chapter}{\numberline {14}Shor's Algorithm}{59}{chapter.14}%
 \contentsline {section}{\numberline {14.1}Decrypting encryption \& Y2Q}{59}{section.14.1}%
 \contentsline {chapter}{\numberline {15}Benchmarks for computers}{61}{chapter.15}%
