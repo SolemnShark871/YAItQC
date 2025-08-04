@@ -112,9 +112,6 @@ INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex.def
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
 OUTPUT main.aux
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -150,10 +147,6 @@ INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tf
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
-INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT main.toc
@@ -189,6 +182,8 @@ INPUT .\images\Entanglement.png
 INPUT .\images\Entanglement.png
 INPUT .\images\Entanglement.png
 INPUT .\images\Entanglement.png
+INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\images\Q_advantage.png
@@ -198,7 +193,6 @@ INPUT .\images\Q_advantage.png
 INPUT .\images\Q_advantage.png
 INPUT .\images\Q_advantage.png
 INPUT .\images\Q_advantage.png
-INPUT C:\Users\Thoma\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\images\Complex_conjugate_picture.svg.png
 INPUT .\images\Complex_conjugate_picture.svg.png
 INPUT .\images\Complex_conjugate_picture.svg.png
@@ -206,6 +200,13 @@ INPUT .\images\Complex_conjugate_picture.svg.png
 INPUT .\images\Complex_conjugate_picture.svg.png
 INPUT .\images\Complex_conjugate_picture.svg.png
 INPUT .\images\Complex_conjugate_picture.svg.png
+INPUT .\images\TrigonometryUnitCircle_700.png
+INPUT .\images\TrigonometryUnitCircle_700.png
+INPUT .\images\TrigonometryUnitCircle_700.png
+INPUT .\images\TrigonometryUnitCircle_700.png
+INPUT .\images\TrigonometryUnitCircle_700.png
+INPUT .\images\TrigonometryUnitCircle_700.png
+INPUT .\images\TrigonometryUnitCircle_700.png
 INPUT .\images\Polar_Argand-diagram.png
 INPUT .\images\Polar_Argand-diagram.png
 INPUT .\images\Polar_Argand-diagram.png
@@ -241,13 +242,6 @@ INPUT .\images\Bell_State_circuit.png
 INPUT .\images\Bell_State_circuit.png
 INPUT .\images\Bell_State_circuit.png
 INPUT .\images\Bell_State_circuit.png
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
-INPUT .\Images\KelvinHarmonicAnalyser.jpg
 INPUT main.aux
 INPUT C:\Users\Thoma\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Thoma\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk

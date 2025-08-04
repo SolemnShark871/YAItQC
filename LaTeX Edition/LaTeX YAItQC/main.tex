@@ -34,8 +34,10 @@ This revolution, like the industrial revolution, or the digital revolution that 
 
 No single book could do justice to all the categories of quantum technologies, so this book will focus on computing in the most concise explanation, accepting the simple reality that the field is changing too rapidly for most of the content to be anywhere close to state-of-the-art. 
 
+If this were how subatomic physics worked, there would be no subatomic physics $^*$.
 If all this book can accomplish for the reader is to develop an honest and intuitive appreciation for quantum information processing, it would have been worth writing. Least of all for myself. 
 
+Quantum mechanics is described by the Schrödinger equation built on space and time. There are some differences to classical physics; the physics everyone is used to experiencing in everyday life. Quantum is not some magical concept which allows for anything that violates classical physics to be explained away. There are, however, some small but significant features of quantum mechanics that allow for the development of new technologies. 
 \tableofcontents
 
 % \textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
@@ -49,33 +51,32 @@ In the early 20th century, a German physicist (by the cool name of Max Planck) w
 
 \includegraphics{images/Light_bulb_quantised.png}
 
-This concept of quantisation of energy is where the quantum comes from. Whilst this concept is less significant to quantum computing, it is still worth mentioning. The reason for this is that the transistor that powers all digital electronics is built upon this concept. Thus all computations using this technology (the integrated circuit) are computers running on quantum mechanics. Which is not to say they are quantum computers simply that they are fundamentally built upon quantum physics, as are you, I, and everything we can see and touch. 
+This concept of quantisation of energy is where the quantum comes from. Whilst this concept is less significant to quantum computing, it is still worth mentioning. The reason for this is that the transistor that powers all digital electronics is built upon this concept. Thus all computations using this technology (the integrated circuit) are computers running on quantum mechanics. This is not to say they are quantum computers simply that they are fundamentally built upon quantum physics, as are you, I, and everything we can see and touch. Quantum is nothing more than a limit, beyond which classical physics fails to provide an explanation. \textit{Quantum technologies supersede the limits of what is possible with classical technologies.}
 
-Quantum is nothing more than a limit, beyond which classical physics fails to provide an explanation. \textit{Quantum technologies supersede the limits of what is possible with classical technologies.}
-
-Beyond the quantisation of energy, there are quantum phenomena which are very much more significant to quantum computing: \textit{superposition \& entanglement}. 
+Beyond the quantisation of energy, there are quantum phenomena which are much more significant to quantum computing: \textit{superposition \& entanglement}. 
 
 \section{So what happened to Schrödinger’s cat?}
 
-You may have heard of a very special cat associated with another German physicist, Schrödinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released and the cat dies. otherwise the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
+You may have heard of a very special cat associated with another German physicist, Schrodinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released, and the cat dies. otherwise, the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
 \includegraphics[scale=0.3]{images/standard_cat.png}
 [2]
 
-Schrodinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. In quantum mechanics we call this particular state a \textit{superposition}. And this is the state we say the Schrodinger's cat is in before the box is opened.This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
+Schrödinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. In quantum mechanics we call this particular state a \textit{superposition}. And this is the state we say the Schrödinger's cat is in before the box is opened.This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
 
 It is as simple as tossing a coin.  
 
-While the coin spins in the air, someone looking at it can't resolve which side is facing upwards. It is a blur of motion where the side facing up can't be determined. It is as if the coin were in a combination of being \textit{both heads and tails at the same time}.  This coin can be described as being in a superposition of heads and tails. In reality there are not two coins, one with the heads facing up and another with the tails facing up, but only one coin with this special state\footnote{According to the many worlds interpretation of quantum mechanics it is not quite so simple...}.
+While the coin spins in the air, someone looking at it can't resolve which side is facing upwards. It is a blur of motion where the side facing up can't be determined. It is as if the coin were in a combination of being \textit{both heads and tails at the same time}.  This coin can be described as being in a superposition of heads and tails. In reality, there are not two coins, one with the heads facing up and another with the tails facing up, but only one coin with this special state\footnote{According to the many worlds interpretation of quantum mechanics it is not quite so simple...}.
 
-When the coin lands, it faces either heads or tails up. Now there is no uncertainty in the state of the coin. If we were to cover the coin and then look at it again some time later, it would still have the same side facing up. The superposition the coin was in before has been collapsed. The concept of looking at the coin, or opening the box, is what in quantum mechanics calls \textit{performing a measurement}.
+When the coin lands, it faces either heads or tails up. Now there is no uncertainty in the state of the coin. If we were to cover the coin and then look at it again sometime later, it would still have the same side facing up. The superposition the coin was in before has been collapsed. The concept of looking at the coin, or opening the box, is what in quantum mechanics is known as \textit{performing a measurement}.
+
 
 \section{Spooky action at a distance}
 
 The more conceptually difficult phenomena quintessential to quantum computing can also be explained using coins (but with one small modification). In truth this is a gross simplification, as the classical analogy does not accurately represent the intricacies of quantum theory. It serves only as an analogy of the probabilistic nature of entanglement. And even then the analogy fails to manifest the Bell inequalities. 
 
-For this example 2 coins will be required. 
+For this example, 2 coins will be required. 
 
-Tossing two unbiased coins is effectively the same as tossing the same coin twice and recording the outcome each time. Guessing whether the coin is H or T is 50\% for each coin or 25\% for getting both of them correct. 
+Tossing two unbiased coins is effectively the same as tossing the same coin twice and recording the outcome each time. Guessing whether the coin is H or T is 50\% for each coin or 25\% for getting both correct. 
 
 For the next step some removable adhesive, like Blu-tac, will be required. Imagine sticking the two coins together with each coin having the H facing outwards and the T's stuck together to make one coin twice as thick. Tossing this combined coin will always result in the top coin having the H facing upwards. The coin at th bottom must also have the H side facing into the ground. 
 
@@ -83,10 +84,29 @@ But before the combined coin is revealed, the two coins are separated. Since the
 
 \includegraphics[scale=0.4]{images/Entanglement.png}
 
-At this point, guessing either of the coin would have a 50\% chance of getting the right outcome- the same as for two coins tossed separately. 
+At this point, guessing either of the coins would have a 50\% chance of getting the right outcome- the same as for two coins tossed separately. 
 
 But if only one of the coins is revealed, say the H coin, then it is instantly known that the other one must be a T. Suddenly guessing the state of the second coin has a 100\% chance of success whereas with the separate coin tosses revealing one made no difference to guessing the other. These linked probabilities are analogous (with some significant caveats) to an entangled quantum state.
 
+The coins here are classical objects, 
+
+\section{Interpretations of Quantum Theory}
+
+\subsection{The Copenhagen Interpretation}
+
+The Copenhagen interpretation of quantum mechanics is the oldest and most boring. Simply put, it does not really do anything but state what the theory predicts. It is a bit agnostic because there is no attempt made to answer the big question of \textbf{why}.
+
+\subsection{Marvelous Many Worlds}
+
+One way of dealing with the paradoxes of superposition and entanglement is to make a rather bold proposition about the nature of reality. Since quantum mechanics is hard to reconcile with our intuitive understanding of the world, the many worlds' interpretation seeks to overhaul the concept of reality.
+
+
+
+\subsection{Quantum Bayesienism}
+
+If quantum mechanics is interpreted as a purely statistical reality, quantum Bayesienism is a very natural conclusion. 
+
+\subsection{The Relational Interpretation}
 The coins here are classical objects, but if we are loose with out concept of reality being real, whatever that means, we can reconcile the classical (or intuitive) with the quantum (or counter-intuitive). 
 
 \textit{``If a tree falls in a forest and no one is around to hear it, does it make a sound ?''}
@@ -99,8 +119,6 @@ The relational interpretation boldly suggests that all physical properties of al
 
 \section{Quantum Technologies}
 
-Quantum Technologies, as they are defined by John Morton, director of UCLQ (as of the time of writing) are \textit{ ``ones which exploit quantum superposition and entanglement to achieve major advances over current technologies in areas including communication, sensing and information processing'' }
-
 These are devices that take advantage of the aforementioned phenomena for practical applications to do something better than what can be done without using them. Quantum computation is one of the most exciting quantum technologies even if it is much less mature than others like quantum metrology (sensing) and communication (encryption).
 
 \section{Chapter 1 Summary} 
@@ -108,17 +126,13 @@ These are devices that take advantage of the aforementioned phenomena for practi
 \begin{itemize}
 
     \item The word quantum comes from quantised or in discrete units 
-    \item A superposition happens when there are two possible states
-    \item Entanglement happens when the outcomes of two individually random systems are correlated very strongly 
+    \item A superposition occurs when a system must be described in terms of all the possible states it can occupy
+    \item Entanglement happens when the outcomes of two individually random systems are correlated more strongly than can be explained with classical physics 
     \item Quantum technologies use superposition \& entanglement in their operation 
     
 \end{itemize}
 
 \chapter{What is Quantum Computing?}
-
-In the previous chapter, the fundamental concepts of quantum mechanics were demystified and their relevance to quantum computing was explained. Building on that, this chapter will explain how quantum computers can unlock real-world value.
-
-\section{What computers do}
 
 Before we add quantum spice to our computers, it would be wise to first describe what it is that our classical computers do. 
 
@@ -128,7 +142,7 @@ Going back to the coins here, this is a bit like laying them out in a row and th
 
 \section{More than flipping coins} 
 
-The example of coins being flipped can be helpful in explaining how quantum effects behave but it would not be practical to use coins for quantum computation. There are a few obvious reasons for this: 
+In the last chapter, the analogy of flipping coins was used to illustrate the phenomena on which classical information and quantum information behave differently. Alas, our quantum computers of today cannot be built from a handful of loose change. They are generally quite expensive to buy. Before outlining how quantum computers execute quantum algorithms, let's first consider some drawbacks of our coin quantum computers: 
 
 \begin{itemize}
     \item Flipping coins is not very fast. Modern computers have clock speeds in the GHz or billions of complete clock cycles per second. We would need an astronomical number of coins to try and replicate that. 
@@ -136,6 +150,9 @@ The example of coins being flipped can be helpful in explaining how quantum effe
     \item Tossing coins can only really be used to generate random numbers. Beyond the conventional deterministic computing operations we can already do, the only real advantage from quantum theory would be the `random' nature of the coin flips. 
     
     \item Sticking coins together is even slower than just flipping them. Not to mention the part where they get shuffled in a pseudo random way. 
+    
+    \item Coins take up a lot of space. Imagine a piece of paper the size of a laptop. A few dozen coins could realistically be placed on that surface. For a few hundred coins, you'd need a small table. By comparison, flash storage can store billions or trillions of bits of information in a form factor smaller than a fingernail. 
+ 
 \end{itemize}
 
 
@@ -144,9 +161,9 @@ These coins represent the qubits in a quantum computer. We should be able to con
 \begin{itemize}
 \item Perform operations on qubits quickly 
 \item Have a precise control over the probabilities 
-\item Be able to effectively control multiple qubits at once 
+\item Be able to effectively control multiple qubits at once
+\item Cause interference effects between the coins (this requires phase, to be introduced in chapter 5.1).
 \end{itemize}
-
 
 \section{Quantum Algorithms} 
 
@@ -165,27 +182,43 @@ These coins represent the qubits in a quantum computer. We should be able to con
 
 \emph{ Quantum computers are \textbf{not} used to run conventional algorithms, or do things that are already very well done on a classical computer }
 
+For a quantum computer to be useful it has to be able to execute some algorithm that serves a purpose and take a time that is short enough for the solution to be valuable. Going beyond the limits of the coins, we can consider what an ideal quantum information processor should be capable of. 
+
+Such an ideal quantum processor would be built of a collection of ideal quantum, bits, called qubits, along with the necessary classical information resources needed to precisely and reliably control them. Such a list might include these points:
+
+\begin{itemize}
+\item Perform quantum operations on individual qubits instantaneously with perfect precision
+\item Be capable of inputting and outputting classical and or quantum information
+\item Generate entanglement between any and all of the qubits instantaneously and with unlimited precision 
+\end{itemize}
+
+If physics were perfect, perfect qubits would exist in nature and we could just pluck qubits out of free space like taking grapes from the vine. Alas, the real world is a chaotic mess of information constantly coming into and out of existence. Everything takes some time, and nothing can be repeated the same way every time. 
+
+Whilst physics is far from perfect, the limits of physics are quite generous, at least in theory. Engineering can push the limits of technology ever closer to the physical limits. Meanwhile physicists derive clever tricks to beat the standard quantum limit and demonstrate these feats of precision experimentally. Physics and engineering requires the people, the time, and ultimately the funding to go beyond what is possible with today's technology. 
+
 \section{Quantum Advantage} 
 
-If our conventional computers perform so many tasks better, there must be some motivation for quantum computing being such an exciting area of research. Aside from the elegance of manipulating quantum states, quantum computing is expected to be more useful than a glorified coin tossing simulator. Despite the limitations in state-of-the-art quantum computing machines, it is known of a few valuable applications where quantum algorithms \textit{theoretically outperform} the best available classical solution.
+If our conventional computers perform so many tasks better, there must be some motivation for quantum computing being such an exciting area of research. The maths is beautiful, the physics is exotic, and the engineers will never run out of problems to solve. But the funding has to come from somewhere. Quantum computing is expected to be more useful than a glorified coin tossing simulator. Despite the limitations in state-of-the-art quantum computing machines, it is known of a few valuable applications where quantum algorithms could \textit{theoretically outperform} the best available classical solution. Under this condition, we could define quantum advantage. 
 
 \textbf{Quantum advantage occurs when a quantum computer gives significant benefit to the user compared to the best available purely classical alternative.} 
 
-There are a few different ways a quantum computer could add value: 
+The choice of "significant benefit" is arbitrary and ultimately up to the people who use the quantum computer. There are a few different ways a quantum computer could add value: 
 
 \begin{itemize}
     \item Solve a problem faster for better decision making
     \item Provide more accurate solutions that are more useful 
-    \item Consume less energy and thus cost less to run 
-    \item Enable entirely new models \& solutions to solve problems that previously couldn't be solved
+    \item Consume less energy over the entire process and thus cost less to run 
+    \item Enable entirely new computational models \& solutions to solve problems that previously couldn't be solved
 \end{itemize}
 
     
-Quantum advantage is described in terms of how the solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some 
+If quantum advantage is realised in terms of how speed, it is described in terms of how the time taken to get a solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some problem size for which the quantum algorithm can solve it in fewer steps. For any problem above this crossover size, the time saved using a quantum algorithm grows with the problem size. 
 
 \includegraphics[scale = 0.5]{images/Q_advantage.png}
 
-As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
+Since classical computing is so much more mature, the timescales to execute steps of an algorithm can be on the order of nanoseconds (up to billions of steps per second). Quantum computers of today cannot match this speed and there remains a long way to reach comparable maturity. Taking into account limitations of the hardware makes quantum advantage much more difficult to achieve. Furthermore, since state-of-the-art quantum computers have fewer than 1,000 qubits (as of 2022), the maximum problem size that can be encoded onto the quantum computer remains very small. If the crossover size is beyond the limits of the quantum computer, there can be no quantum advantage (at least from speed). 
+
+In recent years, hardware providers have made a big emphasis of increasing the scale of their quantum computers, predominantly by raising qubit counts. As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
 
 
 \section{Applications of Quantum Computing}
@@ -219,15 +252,16 @@ In addition to potential direct impacts, there are a lot of potential benefits t
     \item When a quantum computer completes a task better than the best available classical solution, there is quantum advantage
 \end{itemize}
 \chapter{The Mathematical Minimum}
+
+Up till now, this book as described quantum computing qualitatively. An introduction to the introduction. To continue this journey, it is essential to give a mathematical description that illustrates the beauty of the symmetry and showcases the power of the theory. To begin with, we must go beyond the limits of reality. 
+
 \section{Real and imaginary quantities}
 
 So far everything in this textbook has been described using real numbers- that is the set numbers you can produce on most calculators. For quantum computing, we require going beyond to complex numbers. You may be wondering why we need imaginary numbers. The most important equation in all of quantum mechanics, the Schrödinger equation, features imaginary numbers. 
 
 $$ i\hbar \frac{\partial{}}{\partial{t}}\ket{\psi} = \hat{H}\ket{\psi} $$
 
-Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planck constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the statevector for the quantum system. 
-
-This equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, it is not needed for this introductory course. Neither will there be any calculus.
+Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planck constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the statevector for the quantum system. All of those words will make more sense in the coming chapters. The iconic Schrödinger equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, the physics is beyond the scope of this course. 
 
 \subsection{ The square root of -1}
 
@@ -243,7 +277,7 @@ These numbers that can be written as $ai$ are known as imaginary numbers.
 
 \subsection{ Complex numbers}
 
-Imaginary numbers work similarly to the real numbers everyone uses on a  daily basis. One can divide, multiply, add \& subtract them just as you can for real numbers. What this also means is that any of $ \div ,\times, +, - $ operations can be applied to a combination of both real and imaginary numbers. For instance, the positive root of $-4$, $2i$ can be added to $3$ as $3 + 2i $. Any such number that can be written as a sum of a real and imaginary number is called a *complex number*. More generally we can define this mathematically as:
+Imaginary numbers work similarly to the real numbers everyone uses on a  daily basis. One can divide, multiply, add \& subtract them just as you can for real numbers. What this also means is that any of $ \div ,\times, +, - $ operations can be applied to a combination of both real and imaginary numbers. For instance, the positive root of $-4$, $2i$ can be added to $3$ as $3 + 2i $. Any such number that can be written as a sum of a real and imaginary number is called a \textit{complex number}. More generally we can define this mathematically as:
 
 $$ z = a + ib $$
 
@@ -267,10 +301,9 @@ $$ z = 4 + 5i , y = -3 + i $$
 i.What is $Re(z)$? 
 ii. What is $Im(m)$? 
 
-
 $$m = -2 - 2i $$ 
 iii. Sketch z,y,m on the Argand diagram 
-
+\hline
 
 \subsection{ Complex conjugate}
 
@@ -300,6 +333,7 @@ In the figure below the complex number $z$ is shown along with its complex conju
  With $z = x + yi$. 
 
  The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.
+\hline
 
 \subsection{Exercise 3.2}
 
@@ -311,7 +345,7 @@ i. What is the complex conjugate of $z$, $z^*$?
 ii. What is the magnitude of $z$?
 
 iii. What is the magnitude of $z^*$?
-
+\hline
 \subsection{ Interlude on Trigonometry } 
 
 Trigonometry is defined as \textit{the branch of mathematics dealing with the relations of the sides and angles of triangles and with the relevant functions of any angles} but for our use it is much better to consider trigonometry the study of rotations. In later chapters, quantum gates will be described as rotations. Consider a circle with radius 1. Any point on the circle can be reached by rotating on the surface by an angle. The figure below shows how we can reach any point.
@@ -319,7 +353,10 @@ Trigonometry is defined as \textit{the branch of mathematics dealing with the re
 % ![Unit_circle\includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
 % [2]
 
-The point P is reached by the angle $ \theta $. It has coordinates $ x = \cos(\theta) $ and $ y = \sin(\theta $.
+\includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
+[2]
+
+The point P is reached by the angle $\theta$. It has coordinates $x = \cos(\theta)$ and $ y = \sin(\theta)$.
 
 In chapter 5, quantum gates will be described in terms of rotations around a higher dimensional sphere. 
 
@@ -442,7 +479,7 @@ $$
 
 iii. Write down the vector $5\ket{v}$ and describe what has changed to the vector  
 
-
+\hline
 \subsection{The inner product}
 
 It can be very useful to compare two vectors by measuring how aligned they are. Imagine two vectors pointing the same way. These two vectors would have a lot in common, and so would be perfectly aligned. The measure of how similar two vectors are is the inner product. The inner product can be calculated by multiplying each component of the vectors and adding them up. 
@@ -480,6 +517,7 @@ For example the vectors $\ket{p} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ \& $\ke
 
 $$ \begin{bmatrix} 1^* \& 0^* \end{bmatrix}  \begin{bmatrix} 0 \\ 1 \end{bmatrix} = (1 \times 0) + (0 \times 1) = 0$$
 
+\hline
 
 \subsection{Exercise 3.4}
 
@@ -510,6 +548,7 @@ ii. $\braket{z|w}$
 iii. Bonus question: Compare i. ii. . Is the result the same as from Exercise 3.2 iv? 
 If not, what has changed?
 
+\hline
 
 \subsection{ Matrices}
 
@@ -685,12 +724,12 @@ $$
 $$
 
 
-
+\hline
 \subsection{Exercise 4.1 }
 
 Imagine a biased coin which is three times more likely to land on tails than on heads. Write down the corresponding state vector for such a coin.
 
-
+\hline
 \subsection{How to describe the qubits}
 
 In general, our quantum computer can take a lot more than 2 possible outcomes. Thankfully we can just add a row to our column vector for every possible outcome. So we can describe our state in terms of each possible outcomes it can take. Our quantum computer can output any number up to some maximum.  We can write the state of any quantum computer in terms of all the possible states (numbers) we can get from it
@@ -731,7 +770,7 @@ First, all the imaginary numbers in $\ket{\psi}$ get a minus sign in front
 
 Then we transpose, shown by the $^T$, by swapping the rows with the columns. We're left with our bra
 
-$$\bra{\psi} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \& -i \end{bmatrix} $$
+$$\bra{\psi} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & -i \end{bmatrix} $$
 
 
 In the same way, we can get the coin bras. The $\bra{H}$ is the same as the ket $\ket{H} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ but a row vector where the imaginary part of the complex numbers are all multiplied by $-1$. Since there are no imaginary numbers in $\ket{H}$, the bra $\bra{H}$ is just the transpose of the column vector as
@@ -745,7 +784,6 @@ Just as with the column vector, we can write a general expression for any bra
 $$
 \bra{\psi} = \begin{bmatrix} c_0^* & c_1^* & c_2^* & \dots & c_{N-2}^* & c_{N-1}^* \end{bmatrix}
 $$
-
 
 \section{ Probability of measurement}
 
@@ -782,12 +820,14 @@ $$
 \ket{\psi} = \begin{bmatrix} \sqrt{P} \\ \sqrt{1-P} \end{bmatrix}
 $$
 
+\hline
 
 \subsection{Exercise 4.2}
 
 Using the definition of the measurement probability, calculate the probability of measuring heads and the probability of measuring tails. Verify that these add to 1. \newline
 
-\hspace{10pt}
+\hline  
+\hspace{10}
 
 For any quantum state, the probability of measuring it to be in the state that it is must be 1. For example, if the coin were heads up, and nothing happened to the coin, the probability of measuring heads would be 1. The probability of getting a tails would be 0. This can be verified by working out the probability of measuring tails. The probability of measuring tails $P(T)$ is still given by the same equation 
 
@@ -856,7 +896,7 @@ $$
 \hat{F} =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
 
-
+\hline
 \subsection{Exercise 4.3 Flip the coin}   
 
 By applying the flip operator to a coin that is heads up, show that it gives us the superposition state.  
@@ -865,6 +905,7 @@ Hint: compute the matrix-vector product of $\hat{F}\ket{H}$.
   
 Bonus question: what would you get if you did the same with the coin starting tails up?  
 
+\hline
 
 \section{What do we expect to get?}
 
@@ -890,11 +931,12 @@ $$ \braket{W} = \sum_{i = 0}^{N-1} X_i \times P(i) $$
 
 Where $X_i$ is the outcome for event $i$ with probability $P(i)$ . 
 
-
+\hline 
 \subsection{Exercise 4.4 Expectation value}  
   
 For this question, we're graduating from a coin to a dice. Let's call $N$ the number on a dice. Work out the expectation value by working out the number on each dice multiplied by the probability of rolling that number. \newline
 
+\hline
 
 \subsection{ A quantum description of probability }
 
@@ -944,7 +986,6 @@ $$ = \frac{1}{2} ( 1 - 1) = 0 $$
     \item Operators transform quantum states and are represented by matrices
     \item The expectation value for any operator, $\hat{O}$  is given by $\braket{\hat{O}} = \braket{\psi|\hat{O}|\psi}$
 \end{itemize}
-
 
 \chapter{Single Qubits}
 
@@ -1002,11 +1043,12 @@ The z-axis is where the $\ket{0}$ \& $\ket{1}$ are, for that reason the z-axis i
 
 A useful tool for understanding the Bloch sphere [can be found here](https://javafxpert.github.io/grok-bloch/)
 
-
+\hline
 \subsection{Exercise 5.1: Where on the sphere}
 
 We know the superposition state $\ket{+}$ has equal probabilities of $\ket{0}$ \& $\ket{1}$. Where on the Bloch sphere would this state be represented? What is the angle $\theta$ that would describe this state?
 
+\hline
 
 \section{It's not just a phase!} 
 
@@ -1085,6 +1127,7 @@ Phases can be used to encode information, such as with the quantum Fourier trans
 
 \textbf{Phases only matter when they are relative.}
 
+\hline
 
 \subsection{Exercise 5.2 Back to the start}
 
@@ -1123,8 +1166,12 @@ As mentioned in Chapter 4, operators are what allow us to do things to quantum s
 \end{tabular}
 \end{center}
 
+Sometimes it is easier to perform gates by knowing what they do to the $\ket{0}$, $\ket{1}$ states, sometimes it is easier to do the matrix multiplication. 
+
+A more comprehensive list of gates \href{https://raw.githubusercontent.com/qiskit-community/qiskit-textbook/main/content/ch-states/supplements/single-gates-cheatsheet.pdf}{can be found here}
 
 
+\hline
 \subsection{Exercise 5.4}
 
 By considering the effect on $\ket{0}$ \& $ \ket{1}$, or by doing matrix multiplication, calculate the following states:
@@ -1132,7 +1179,7 @@ By considering the effect on $\ket{0}$ \& $ \ket{1}$, or by doing matrix multipl
 a. $ XZ\ket{1}$  
 b. $ XH\ket{+} $  
 c. $ XYZ\ket{0} $
-
+\hline
 
 \subsection{Aside: gates vs operators}
 
@@ -1162,13 +1209,13 @@ $$
 
 This gives a phase shift of $\phi$ between $\ket{0}$ \& $\ket{1}$
 
-
+\hline
 \subsection{Exercise 5.5}
 By using $\theta = \pi/2$ apply $R_y(\pi/2)$ to the state $\ket{1}$. What gate does $R_y(\pi/2)$ do? 
  
 \subsection{Exercise 5.6} 
 The X gate turns $\ket{0}$ to $\ket{1}$ and $\ket{1}$ to $\ket{0}$. By considering angles on the Bloch sphere, what is the angle $\theta$ such that $R_y(\theta) = X$
-
+\hline
 
 \section{ The Universal Quantum Gate }
 
@@ -1180,12 +1227,11 @@ $$
 
 Just as we can reach any point on the Bloch Sphere with $\theta$ \& $\phi$ we can get any quantum gate using $U$. 
 
-The set of all gates that can be made from $U$ are known as $SU(2)$. 
-
-
+The set of all gates that can be made from $U$ are known as $SU(2)$. \newline
+\hline
 \subsection{Exercise 5.7}
 Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,0,0)$ \newline 
-
+\hline
 
 \section{ Operators in Ket-Bra Form}
 
@@ -1218,7 +1264,6 @@ Qudits are much less commonly used than qubits for a few reasons
 \section{References}
 
 [1] Chetan Wake, 2019, Introduction to quantum computing part -1 Representation of qubit using Bloch sphere
-
 
 \chapter{Multiple Qubits}
 
@@ -1272,6 +1317,7 @@ $$
 
 Here we needed at least 6 digits in binary to represent a number with 2 digits in decimal. The decimal notation is much more efficient. 
 
+\hline
 
 \subsection{Exercise 6.1}
 
@@ -1295,7 +1341,7 @@ b. 5
 
 c. 6 \newline
 
-
+\hline
 \subsection{ Reading quantum states }
 
 Let's say we wanted to encode the number 5 onto a quantum state. 
@@ -1320,6 +1366,7 @@ $$ \ket{5} = \ket{101} = \begin{bmatrix} 0 \\ 0\\ 0\\ 0\\ 0\\ 1\\0\\0 \end{bmatr
 
 For each qubit we add, the number of rows in this column vector doubles. This is what makes it difficult to simulate quantum algorithms on classical computers. 
 
+\hline
 
 \subsection{Exercise 6.3}
 
@@ -1491,7 +1538,6 @@ $^*$ There have been proposals for using a base other than 2 for quantum computi
 \section{References}
 
 [1] L.Vivah,\href{https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e}{Learn How to Read Binary in 5 minutes}, 2018
-
 \chapter{Quantum Circuits}
 
 For this chapter, it is recommended to view the Jupyter notebook version as a supplementary resource. \href{https://github.com/SolemnShark871/YAItQC/blob/main/Chapters/7_Quantum_circuits.ipynb}{You can find the link here.}
@@ -1559,7 +1605,6 @@ For the circuit below, we'll have the top two qubits be the input, and the botto
 \end{itemize}
 \chapter{Quantum Random Number Generators}
 
-
 Pick a random number between 1 and 10. 
 
 Was it 7?    
@@ -1585,14 +1630,6 @@ Quantum computers can also be used for this purpose. They are effectively contro
 Below is an example of how n random numbers (from 0 to nmax) can be generated using IBM’s quantum computer. The code creates a quantum circuit with enough qubits to represent the power of 2 greater than nmax. The qubits are then put into a superposition and measured to obtain the random number. This process is repeated 1000 times and sampled n times to produce the numbers.  
 
 The TRNG implemented here is hardly the most practical implementation. It is rather slow, requires access to IBM’s cloud infrastructure, is vulnerable to interception, and runs on a device cooled to nearly absolute zero. A more useful implementation of this concept was done 20 years ago by the Swiss company ID Quantique, using a photonic chip. Newer models can be integrated in desktop PCs with PCIe connectivity or even USB (ID Quantique, n.d.).
-\chapter{Quantum computers now and of the future}
-
-\section{1990's to 2022}
-
-\section{The Million Qubit Challenge}
-
-\section{Distributed Quantum Computing}
-
 
 \chapter{Quantum Algorithms}
 
@@ -1668,7 +1705,6 @@ Across many of the proposed quantum algorithms, significant work has been done i
 
 
 \section{Chapter 10 Summary}
-
 
 \chapter{Quantum Machine Learning}
 
@@ -1747,20 +1783,31 @@ Even if our current QML approaches don't offer any value at the moment, further 
 
 \chapter{Grover's Algorithm}
 
-\chapter{Fourier Transforms}
+\chapter{The Discrete Quantum Fourier Transform}
 
 \textit{Mathematical analysis is as extensive as nature itself; it defines all perceptible relations, measures times, spaces, forces, temperatures: this difficult science is formed slowly, but it preserves every principle which it has once acquired; it grows and strengthens itself incessantly in the midst of the many variations and errors of the human mind. Its chief attribute is clearness; it has no marks to express confused notations. It brings together phenomena the most diverse and discovers the hidden analogies which unite them.} - Joseph Fourier, The Analytical Theory of Heat (1878) 
+
+Waves surround us. Light travels from the sun to our eyes and sound travels from vibrating objects to our ears and the superposition of those waves comprise much of our experience of reality. For both light and sound, what we are sensitive to is small changes of intensity, the power of the light or sound per unit area, that the complex network of our sense organs and brain are able to process and interpret as what we see and hear. From incomprehensibly large numbers of photons, we can make sense of our 3D space. From a cacophony of noises we can appreciate the sound of a symphony. From single photons to simple phonons, our reality can be decomposed into functions of waves that describe the motion of the particles we believe to exist. With the full power of the electromagnetic spectrum we can let fly photons through optical fibres and free space so that we can communicate at the speed of light; with sound beyond the frequency of human hearing we can separate out tissues and see unborn babies before they are born. 
+
+Both cases require a mathematical technique originally developed in 1822. 
+
+\subsection{The Analytical Theory of Heat}
+
+In an attempt to understand the means by which heat propagates through various substances, a French mathematician, Joseph Fourier proposed a thought experiment. Imagine a bar of some material, let's imagine a metal bar with some rectangular cross section. 
+
+Rather than going into the thermodynamics, it suffices to explain the problem that when hot bodies come into contact with cooler bodies, there is heat transfer from hot to cold. By the 19th century, chemistry had developed sufficiently where molecules were widely believed to exist and from which all the solids, liquids, and gassses could be composed. 
+
+He was able to derive an analytical solution to the set of 
+$$
+v = \Sigma^{i = infinity}_{i = 1} a_ie^{-(2i-1)x}\cos(2i-1)y
+$$
 
 Using the standard conventions, we first define the dimensionality of the state space for an ensemble of qubits as: 
 $$ N = 2^n $$
 
 We can define some phase given by:
 $$ \omega = e^{-i2\pi /N} $$
-
-
-$$\hat{F}_n = QFT^{\dagger} = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
-
-The inverse of this operator is known as the Quantum Fourier Transform ($\hat{QFT}$).  
+$$F_n = QFT^{\dagger} = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
 
 \section{The most powerful quantum subroutine}
 
@@ -1769,9 +1816,9 @@ This chapter is atypical of the rest of this textbook. Here a rather lengthy his
 
 \section{Signal processing}
 
-Waves surround us. Light travels from the sun to our eyes and sound travels from vibrating objects to our ears and the superposition of those waves comprise much of our experience of reality. For both light and sound, what we are sensitive to is small changes of intensity, the power of the light or sound per unit area, that the complex network of our sense organs and brain are able to process and interpret as what we see and hear. From incomprehensibly large numbers of photons, we can make sense of our 3D space. From a cacophony of noises we can appreciate the sound of a symphony. 
+\section{Turning the Tide}
 
-In the natural sciences, we process light and sound to extract insights into the physical world.In engineering, signal processing is extremely important in telecommunications and in physics there are insights we can gain about the nature of solids by performing a similar analysis. In the latter two cases, the mathematics we use to accomplish these tasks is described by various Fourier Transforms. 
+During the second world war 
 
 In 1822, French mathematician, Joseph Fourier proposed a method for 
 
@@ -1806,9 +1853,9 @@ Perhaps one of the most remarkable differences between quantum \& classical info
 
 $F$ is defined with some limit:
 
-$$ F = QFT^\dagger \frac{1}{\sqrt{N}}\sum_{j,k = 0}^{N-1} \omega^{-jk}\ket{k}\bra{j}$$
+$$ \hat{F} \frac{1}{\sqrt{N}}\sum_{j,k = 0}^{N-1} \omega^{-jk}\ket{k}\bra{j}$$
 
-With $ N = 2^n$ ($n$ being the number of logical qubits) \& $\omega = e^{i2\pi/N}$
+With $ N = 2^n$ ($n$ being the number of 'logical' qubits) \& $\omega = e^{i2\pi/N}$
 
 Since we know that $\omega$ is quantised, there is a limit to which the phase can be specified. Therefore, for some arbitrary phase angle $\phi$, and for a given number of qubits, there is a limit to the accuracy this phase can be estimated (using QPE). The maximum error to which this phase can be measured is given by the angular distance $\Delta$
 
@@ -1867,12 +1914,23 @@ In addition to being fast, Shor's algorithm has immense practical utility.
 
 \section{Decrypting encryption \& Y2Q}
 
-
 \chapter{Benchmarks for computers}
 
 \section{How powerful is your quantum computer?}
 
 \section{Classical computing benchmarks}
- 
+
+\section{How powerful is your quantum computer?}
+
+\chapter{Quantum computers now and of the future}
+
+\section{1990's to 2022}
+
+\section{The million qubit challenge}
+
+\chapter{Distributed Quantum Computing}
+
+
+Testing
 
 \end{document}

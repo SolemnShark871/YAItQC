@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753627994.53071 "c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" "main.pdf" "main" 1753628000.21204 0
+["pdflatex"] 1754298221.69143 "c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" "main.pdf" "main" 1754298227.05409 2
   "C:/Users/Thoma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1751529833 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Thoma/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1751529838 11548 9e52f4085e1b3c4aa0f82b5d575f30b2 ""
   "C:/Users/Thoma/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1747944740 13157641 bb82a6d86255cd1337135a3f2d6315fd ""
@@ -94,8 +94,7 @@
   "C:/Users/Thoma/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/Thoma/AppData/Local/Programs/MiKTeX/tex/latex/tools/enumerate.sty" 1730400552 3468 ad69b54642e68f9fdf39ec1a16dd7341 ""
   "C:/Users/Thoma/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Images/KelvinHarmonicAnalyser.jpg" 1753089912 194849 f0531ff4ef920ce18cb14c89511290e6 ""
-  "c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" 1753627983 108494 e19b04e852728b85d712966d703b80f4 ""
+  "c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex" 1754298215 112422 f556e291d196931681974b8c4d97f61b ""
   "images/Bell_State_circuit.png" 1751529730 2608 87fcc97d89cc52039ae5a7b55aa15f50 ""
   "images/Bloch_Sphere.png" 1751529730 15755 6f80220a70dabd4d72e7e234474c549b ""
   "images/Complex_conjugate_picture.svg.png" 1751529730 62532 4373243a447f989ffdd1bb161784a4e8 ""
@@ -105,12 +104,13 @@
   "images/Light_bulb_quantised.png" 1751529730 80179 b95c00583fa541284c61a59587cedee7 ""
   "images/Polar_Argand-diagram.png" 1751529730 57199 b90e962f64a571b0e1fbe665e1eaafd3 ""
   "images/Q_advantage.png" 1751529730 125793 b6ddee9685da1164326f3fcb55215f7d ""
+  "images/TrigonometryUnitCircle_700.png" 1751529730 7625 b7235e4b75cc86e17307ebf83e057f31 ""
   "images/YAItQC.png" 1751529730 112042 f67ae7db08c4d2b54a030d8f9d9cf8db ""
   "images/binary_conversion.png" 1751529730 8727 5ac98c1f929a200cedf62ffae6ac5e1a ""
   "images/standard_cat.png" 1751529730 160542 c16f7026ccb3d85d594ba4ba0350e0e0 ""
-  "main.aux" 1753627999 67975 d32728be6e26b2c05874f25df365ce0e "pdflatex"
-  "main.tex" 1753627983 108494 e19b04e852728b85d712966d703b80f4 ""
-  "main.toc" 1753627999 12588 e2bebe5e6088915cd635be08fc5e7153 "pdflatex"
+  "main.aux" 1754298226 71056 c2308cafafedcc58f98f07248a626bd9 "pdflatex"
+  "main.tex" 1754298215 112422 f556e291d196931681974b8c4d97f61b ""
+  "main.toc" 1754298226 13244 bf60df3cef4e0f889995a3fc7beb51d7 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
