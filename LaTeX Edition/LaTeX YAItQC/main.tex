@@ -15,7 +15,10 @@
 \usepackage{array}
 \usepackage{titlepic}
 \usepackage{bookmark}
-\graphicspath{ {./images/} }
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+
+% \graphicspath{ {./images/} }
 
 \titlepic{\includegraphics[width=0.8\textwidth]{images/YAItQC.png}}
 \title{Yet Another Introduction to Quantum Computing}
@@ -121,7 +124,7 @@ The relational interpretation boldly suggests that all physical properties of al
 
 These are devices that take advantage of the aforementioned phenomena for practical applications to do something better than what can be done without using them. Quantum computation is one of the most exciting quantum technologies even if it is much less mature than others like quantum metrology (sensing) and communication (encryption).
 
-\section{Chapter 1 Summary} 
+\section{Chapter Summary} 
 
 \begin{itemize}
 
@@ -243,7 +246,7 @@ Across each of these areas, there are multiple established companies and start-u
 In addition to potential direct impacts, there are a lot of potential benefits to developing the hardware. Being able to measure qubits better can help develop quantum sensors with applications in healthcare \& navigation. 
 
 
-\section{Chapter 2 Summary}
+\section{Chapter Summary}
 \begin{itemize}
     \item Quantum computers are more than just random objects that have superposition
     \item Algorithms are sets of instructions that we give a computer to process information 
@@ -303,7 +306,7 @@ ii. What is $Im(m)$?
 
 $$m = -2 - 2i $$ 
 iii. Sketch z,y,m on the Argand diagram 
-\hline
+
 
 \subsection{ Complex conjugate}
 
@@ -333,7 +336,7 @@ In the figure below the complex number $z$ is shown along with its complex conju
  With $z = x + yi$. 
 
  The magnitude of a complex number is important for figuring out the probability of getting an output from a quantum computation. This will be explored in the next chapter.
-\hline
+
 
 \subsection{Exercise 3.2}
 
@@ -345,7 +348,7 @@ i. What is the complex conjugate of $z$, $z^*$?
 ii. What is the magnitude of $z$?
 
 iii. What is the magnitude of $z^*$?
-\hline
+
 \subsection{ Interlude on Trigonometry } 
 
 Trigonometry is defined as \textit{the branch of mathematics dealing with the relations of the sides and angles of triangles and with the relevant functions of any angles} but for our use it is much better to consider trigonometry the study of rotations. In later chapters, quantum gates will be described as rotations. Consider a circle with radius 1. Any point on the circle can be reached by rotating on the surface by an angle. The figure below shows how we can reach any point.
@@ -479,7 +482,7 @@ $$
 
 iii. Write down the vector $5\ket{v}$ and describe what has changed to the vector  
 
-\hline
+
 \subsection{The inner product}
 
 It can be very useful to compare two vectors by measuring how aligned they are. Imagine two vectors pointing the same way. These two vectors would have a lot in common, and so would be perfectly aligned. The measure of how similar two vectors are is the inner product. The inner product can be calculated by multiplying each component of the vectors and adding them up. 
@@ -517,7 +520,7 @@ For example the vectors $\ket{p} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ \& $\ke
 
 $$ \begin{bmatrix} 1^* \& 0^* \end{bmatrix}  \begin{bmatrix} 0 \\ 1 \end{bmatrix} = (1 \times 0) + (0 \times 1) = 0$$
 
-\hline
+
 
 \subsection{Exercise 3.4}
 
@@ -548,7 +551,7 @@ ii. $\braket{z|w}$
 iii. Bonus question: Compare i. ii. . Is the result the same as from Exercise 3.2 iv? 
 If not, what has changed?
 
-\hline
+
 
 \subsection{ Matrices}
 
@@ -724,12 +727,12 @@ $$
 $$
 
 
-\hline
+
 \subsection{Exercise 4.1 }
 
 Imagine a biased coin which is three times more likely to land on tails than on heads. Write down the corresponding state vector for such a coin.
 
-\hline
+
 \subsection{How to describe the qubits}
 
 In general, our quantum computer can take a lot more than 2 possible outcomes. Thankfully we can just add a row to our column vector for every possible outcome. So we can describe our state in terms of each possible outcomes it can take. Our quantum computer can output any number up to some maximum.  We can write the state of any quantum computer in terms of all the possible states (numbers) we can get from it
@@ -820,14 +823,13 @@ $$
 \ket{\psi} = \begin{bmatrix} \sqrt{P} \\ \sqrt{1-P} \end{bmatrix}
 $$
 
-\hline
+
 
 \subsection{Exercise 4.2}
 
-Using the definition of the measurement probability, calculate the probability of measuring heads and the probability of measuring tails. Verify that these add to 1. \newline
+Using the definition of the measurement probability, calculate the probability of measuring heads and the probability of measuring tails. Verify that these add to 1. 
+  
 
-\hline  
-\hspace{10}
 
 For any quantum state, the probability of measuring it to be in the state that it is must be 1. For example, if the coin were heads up, and nothing happened to the coin, the probability of measuring heads would be 1. The probability of getting a tails would be 0. This can be verified by working out the probability of measuring tails. The probability of measuring tails $P(T)$ is still given by the same equation 
 
@@ -896,7 +898,7 @@ $$
 \hat{F} =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
 
-\hline
+
 \subsection{Exercise 4.3 Flip the coin}   
 
 By applying the flip operator to a coin that is heads up, show that it gives us the superposition state.  
@@ -905,7 +907,7 @@ Hint: compute the matrix-vector product of $\hat{F}\ket{H}$.
   
 Bonus question: what would you get if you did the same with the coin starting tails up?  
 
-\hline
+
 
 \section{What do we expect to get?}
 
@@ -931,12 +933,12 @@ $$ \braket{W} = \sum_{i = 0}^{N-1} X_i \times P(i) $$
 
 Where $X_i$ is the outcome for event $i$ with probability $P(i)$ . 
 
-\hline 
+ 
 \subsection{Exercise 4.4 Expectation value}  
   
 For this question, we're graduating from a coin to a dice. Let's call $N$ the number on a dice. Work out the expectation value by working out the number on each dice multiplied by the probability of rolling that number. \newline
 
-\hline
+
 
 \subsection{ A quantum description of probability }
 
@@ -1043,12 +1045,12 @@ The z-axis is where the $\ket{0}$ \& $\ket{1}$ are, for that reason the z-axis i
 
 A useful tool for understanding the Bloch sphere [can be found here](https://javafxpert.github.io/grok-bloch/)
 
-\hline
+
 \subsection{Exercise 5.1: Where on the sphere}
 
 We know the superposition state $\ket{+}$ has equal probabilities of $\ket{0}$ \& $\ket{1}$. Where on the Bloch sphere would this state be represented? What is the angle $\theta$ that would describe this state?
 
-\hline
+
 
 \section{It's not just a phase!} 
 
@@ -1127,7 +1129,7 @@ Phases can be used to encode information, such as with the quantum Fourier trans
 
 \textbf{Phases only matter when they are relative.}
 
-\hline
+
 
 \subsection{Exercise 5.2 Back to the start}
 
@@ -1171,7 +1173,7 @@ Sometimes it is easier to perform gates by knowing what they do to the $\ket{0}$
 A more comprehensive list of gates \href{https://raw.githubusercontent.com/qiskit-community/qiskit-textbook/main/content/ch-states/supplements/single-gates-cheatsheet.pdf}{can be found here}
 
 
-\hline
+
 \subsection{Exercise 5.4}
 
 By considering the effect on $\ket{0}$ \& $ \ket{1}$, or by doing matrix multiplication, calculate the following states:
@@ -1179,7 +1181,7 @@ By considering the effect on $\ket{0}$ \& $ \ket{1}$, or by doing matrix multipl
 a. $ XZ\ket{1}$  
 b. $ XH\ket{+} $  
 c. $ XYZ\ket{0} $
-\hline
+
 
 \subsection{Aside: gates vs operators}
 
@@ -1209,13 +1211,13 @@ $$
 
 This gives a phase shift of $\phi$ between $\ket{0}$ \& $\ket{1}$
 
-\hline
+
 \subsection{Exercise 5.5}
 By using $\theta = \pi/2$ apply $R_y(\pi/2)$ to the state $\ket{1}$. What gate does $R_y(\pi/2)$ do? 
  
 \subsection{Exercise 5.6} 
 The X gate turns $\ket{0}$ to $\ket{1}$ and $\ket{1}$ to $\ket{0}$. By considering angles on the Bloch sphere, what is the angle $\theta$ such that $R_y(\theta) = X$
-\hline
+
 
 \section{ The Universal Quantum Gate }
 
@@ -1228,10 +1230,10 @@ $$
 Just as we can reach any point on the Bloch Sphere with $\theta$ \& $\phi$ we can get any quantum gate using $U$. 
 
 The set of all gates that can be made from $U$ are known as $SU(2)$. \newline
-\hline
+
 \subsection{Exercise 5.7}
 Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,0,0)$ \newline 
-\hline
+
 
 \section{ Operators in Ket-Bra Form}
 
@@ -1317,7 +1319,7 @@ $$
 
 Here we needed at least 6 digits in binary to represent a number with 2 digits in decimal. The decimal notation is much more efficient. \newline
 
-\hline
+
 
 \subsection{Exercise 6.1}
 
@@ -1341,7 +1343,7 @@ b. 5
 
 c. 6 \newline
 
-\hline
+
 \subsection{ Reading quantum states }
 
 Let's say we wanted to encode the number 5 onto a quantum state. 
@@ -1366,13 +1368,13 @@ $$ \ket{5} = \ket{101} = \begin{bmatrix} 0 \\ 0\\ 0\\ 0\\ 0\\ 1\\0\\0 \end{bmatr
 
 For each qubit we add, the number of rows in this column vector doubles. This is what makes it difficult to simulate quantum algorithms on classical computers. \newline
 
-\hline
+
 
 \subsection{Exercise 6.3}
 
 For n qubits, we need a vector with $2^n$ rows to describe the state. What shape of matrix (rows, columns) do we need to describe the operator (i.e. multi-qubit gate) that acts on this vector? \newline
 
-\hline
+
 
 \section{ Multiple qubits, multiple gates }
 
@@ -1437,7 +1439,6 @@ You might have noticed that it's really easy to apply single qubit gates to a co
 
 The answer comes from combining superposition with entanglement. 
 
-
 \subsection{ If statements with spicy sauce }
 
 In general programming, if statements allow you to include logic in a program. If a statement is true, the algorithm will do one thing, otherwise, if the statement is false, it will do something else. The computer first has to check the variables value before executing the next step of the algorithm. We can do this on a quantum computer by measuring our qubits, collapsing the superposition and then performing our next quantum gates accordingly. For example, \href{https://qiskit.org/textbook/ch-algorithms/teleportation.html}{in quantum teleportation this is done}. 
@@ -1445,7 +1446,6 @@ In general programming, if statements allow you to include logic in a program. I
  For example, in section 4.3.1 there was a game where if a coin landed up we got +1 dollar, otherwise (if it were tails up) we got -1 dollars. This works as a classical if statement, provided we add the value after the coin is landed and observed. 
 
 What makes quantum operators different is that we can apply them to the superposition. What this means is we can act on both the $\ket{H}$ and $\ket{T}$ amplitudes at once. 
-
 
 
 Entanglement allows the superposition of one qubit to define the superposition of another
@@ -1496,7 +1496,6 @@ CNOT_{1, 0} = \begin{bmatrix} 1 & 0 & 0 & 0 \\
 \end{bmatrix}
 $$
 
-
 \subsection{ Ring the Bell (states)}
 
 
@@ -1517,7 +1516,7 @@ The following circuit generates the Bell states
 
 \subsection{General controlled unitaries }
 
-Instead of having a not-gate being applied, we can have any single quantum gate. 
+Instead of having a not-gate being applied, we can have any single quantum gate.
 
 \subsection{Multiple-control qubit gates }
 
@@ -1525,7 +1524,7 @@ We can have controlled quantum gates where there are more than one qubit as cont
 
 The Toffoli gate is the same as the controlled-not gate but with two qubits needing to be 1.
 
-\section{Chapter 6 Summary}
+\section{Chapter Summary}
 
 \begin{itemize}
     \item Quantum computers work in binary
@@ -1536,7 +1535,6 @@ The Toffoli gate is the same as the controlled-not gate but with two qubits need
     \item When one qubit influences the state of another qubit they are entangled 
     \item We can use entanglement to apply logic gates
 \end{itemize}
-
 
 $^*$ There have been proposals for using a base other than 2 for quantum computing. This has some advantages but the difficulty in constructing algorithms combined with the difficulties in error correction such a device has prevented any significant machine from being built.
 \section{References}
@@ -1558,7 +1556,6 @@ A quantum circuit is a diagram showing the operations that act on qubits to carr
     \item Measurement: Measure the qubits and return their projected states as classical variables
 \end{enumerate}
 
-
 Many quantum algorithms will also interface with a classical computer. This is very application-specific so it will be covered later. 
 
 
@@ -1576,7 +1573,7 @@ In this course the open-source quantum development kit, Qiskit (pronounced kiss-
 
 There are two ways to use Qiskit. It can be installed on your local machine or accessed over the cloud (for free) thanks to IBM
 \end{itemize}
-\section{Chapter 7 Summary}
+\section{Chapter Summary}
 
 \begin{itemize}
 \item A quantum circuit is a diagram that encodes all the steps of a quantum algorithm
@@ -1691,7 +1688,8 @@ Across many of the proposed quantum algorithms, significant work has been done i
 - QC is not a solution to every problem. For the vast majority of computational tasks, there is no proposed quantum algorithm. Thus, the vast majority of consumers are unlikely to benefit from QC in the medium term.
 
 
-\section{Chapter 10 Summary}
+\section{Chapter Summary}
+
 
 \chapter{Quantum Machine Learning}
 
@@ -1770,107 +1768,90 @@ Even if our current QML approaches don't offer any value at the moment, further 
 
 \chapter{Grover's Algorithm}
 
-\chapter{The Discrete Quantum Fourier Transform}
+\chapter{Fourier Transforms} 
 
-\textit{Mathematical analysis is as extensive as nature itself; it defines all perceptible relations, measures times, spaces, forces, temperatures: this difficult science is formed slowly, but it preserves every principle which it has once acquired; it grows and strengthens itself incessantly in the midst of the many variations and errors of the human mind. Its chief attribute is clearness; it has no marks to express confused notations. It brings together phenomena the most diverse and discovers the hidden analogies which unite them.} - Joseph Fourier, The Analytical Theory of Heat (1878) 
 
-Waves surround us. Light travels from the sun to our eyes and sound travels from vibrating objects to our ears and the superposition of those waves comprise much of our experience of reality. For both light and sound, what we are sensitive to is small changes of intensity, the power of the light or sound per unit area, that the complex network of our sense organs and brain are able to process and interpret as what we see and hear. From incomprehensibly large numbers of photons, we can make sense of our 3D space. From a cacophony of noises we can appreciate the sound of a symphony. From single photons to simple phonons, our reality can be decomposed into functions of waves that describe the motion of the particles we believe to exist. With the full power of the electromagnetic spectrum we can let fly photons through optical fibres and free space so that we can communicate at the speed of light; with sound beyond the frequency of human hearing we can separate out tissues and see unborn babies before they are born. 
+\vspace{3cm}
 
-Both cases require a mathematical technique originally developed in 1822. 
+Waves surround us. Light travels from the sun to our eyes and sound travels from vibrating objects to our ears. Those waves come together to make up our experience of reality. For both light and sound, what we are sensitive to is small changes of intensity, the power of the light or sound per unit area, that the complex network of our sense organs and brain are able to process and interpret as what we see and hear. From incomprehensibly large numbers of photons, we can make sense of our 3D space. From a cacophony of noises we can appreciate the sound of a symphony. In the natural sciences, we process light and sound to extract insights into the physical world. In engineering, signal processing is extremely important in telecommunications and in physics there are insights we can gain about the nature of solids by performing a similar analysis. 
 
-\subsection{The Analytical Theory of Heat}
-
-In an attempt to understand the means by which heat propagates through various substances, a French mathematician, Joseph Fourier proposed a thought experiment. Imagine a bar of some material, let's imagine a metal bar with some rectangular cross section. 
-
-Rather than going into the thermodynamics, it suffices to explain the problem that when hot bodies come into contact with cooler bodies, there is heat transfer from hot to cold. By the 19th century, chemistry had developed sufficiently where molecules were widely believed to exist and from which all the solids, liquids, and gassses could be composed. 
-
-He was able to derive an analytical solution to the set of 
-$$
-v = \Sigma^{i = infinity}_{i = 1} a_ie^{-(2i-1)x}\cos(2i-1)y
-$$
-
-Using the standard conventions, we first define the dimensionality of the state space for an ensemble of qubits as: 
-$$ N = 2^n $$
-
-We can define some phase given by:
-$$ \omega = e^{-i2\pi /N} $$
-$$F_n = QFT^{\dagger} = \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
-
-\section{The most powerful quantum subroutine}
-
-This chapter is atypical of the rest of this textbook. Here a rather lengthy historical introduction is given in an attempt to convey the power of what could be considered the most powerful quantum algorithm. As a subroutine, the QFT is vital in period finding for Shor's algorithm along with the HHL algorithm and quantum phase estimation. The QFT requires fully entangled qubits and can transform any pure state in the computational basis to a maximally mixed state in the Fourier basis. 
-
-\section{Signal processing}
+In 1822, French mathematician, Joseph Fourier proposed a method for 
 
 \section{Turning the Tide}
 
-During the second world war 
 
-\section{A change of perspective }
-\section{The quantum mechanical treatment}
+\section{The Fast Fourier Transform}
 
-\section{Quantum Phase Estimation}
-\section{The power behind Shor's Algorithm}
-\section{A new limit of machine precision}
 
-\href{https://learn.qiskit.org/course/ch-labs/lab-5-accuracy-of-quantum-phase-estimation}{Qiskit Lab 5: Accuracy of Quantum Phase Estimation}
+Soon after the second world war ended, the cold war began. Both digital computing and nuclear weapons would transform the nature of warfare. Like how nuclear weapons redefined the unit of explosive power to kilo and megatons of TNT, digital computers would redefine the infomration processing speed from manual or analogue calculations. 
+
+
+When a measurement is made, some data can be extracted from the measurement device. The data is typically a series of points, seperated in increments of space and time. As the separation betwen each increment gets smaller, the resolution of this discrete dataset improves. 
+
+
+\section{A quantum mechanical treatment}
+
 
 Digital computers are fundamentally limited in the precision they can achieve. Floating point numbers carry a finite number of bits. 32 bit for single precision, 64 for double precision. What this means is that every number stored on every computer is stored to a finite number of decimal points. Even for analogue computers, there is some arbitrary degree to which the precision of a given value can be stored. 
 
 Perhaps one of the most remarkable differences between quantum \& classical information is phase. Phases can be stored classically using complex data structures: a complex number is merely 2 real numbers where one is the real component \& the other is the imaginary component. The difference with quantum states is that the phase is realised physically. In that sense it is fundamentally analogue. 
 
-$F$ is defined with some limit:
+We can define some phase given by:
+$$ \omega = e^{-i2\pi /N} $$
 
-$$ \hat{F} \frac{1}{\sqrt{N}}\sum_{j,k = 0}^{N-1} \omega^{-jk}\ket{k}\bra{j}$$
+$\hat{F}$ is defined with some limit:
 
-With $ N = 2^n$ ($n$ being the number of 'logical' qubits) \& $\omega = e^{i2\pi/N}$
+$$\hat{F}_n =  \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} $$
+
+These basis states can also be expressed as a tensor product as: 
+
+$$ = \frac{1}{\sqrt{N}}\bigotimes_{j,k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
+
+
+\section{A new limit of machine precision Quantum Phase Estimation}
 
 Since we know that $\omega$ is quantised, there is a limit to which the phase can be specified. Therefore, for some arbitrary phase angle $\phi$, and for a given number of qubits, there is a limit to the accuracy this phase can be estimated (using QPE). The maximum error to which this phase can be measured is given by the angular distance $\Delta$
 
 $$ \Delta = | \phi - 2\pi jk/N | $$
 
-In the best case, $\phi = 0 $, so simply picking $ j = k = 0 $ allows $\Delta = | 0 - 0 | = 0 $. In that case, there is no phase and therefore no error ($\Delta_{min} = 0$). 
-
-In the worst case, $\phi_{worst}$ falls between two of the roots of unity: $\phi_{worst} = 2\pi jk/2N$. This maximises the angular distance $\Delta$
+In the best case, $\phi = 0 $, so simply picking $ j = k = 0 $ allows $\Delta = | 0 - 0 | = 0 $. In that case, there is no phase and therefore no error ($\Delta_{min} = 0$). In the worst case, $\phi_{worst}$ falls between two of the roots of unity: $\phi_{worst} = 2\pi jk/2N$. This maximises the angular distance $\Delta$
 
 $$ \Delta_{max} = | 2\pi jk/2N - 2\pi jk/N | $$
 
-Since we can always rotate the Bloch sphere by some integer number of $ 2\pi/N $ without changing $ \Delta $, we can simplify this to take $j = k = 1$
+Since we can always rotate the Bloch sphere by some integer number of $ 2\pi/N $ without changing $ \Delta $, we can simplify this to take $j = k + 1$
 
 $$ \Delta_{max} = 2\pi \left| \frac{1}{2N} - \frac{1}{N} \right| $$
-
-Multiplying by $-1$ makes this positive
-
-$$ \Delta_{max} = 2\pi\left( \frac{1}{N} - \frac{1}{2N} \right) $$
-$$ = 2\pi\left(  \frac{ 2 -1}{2N}   \right) = \frac{\pi}{N} $$
 
 Leaving us with the worst case error 
 
 $$ \Delta_{max} = \frac{\pi}{N} $$
 
-Assuming an ideal (full-scale fault-tolerant) quantum computer, the (phase) limit of machine precision can be given by:
+Assuming an ideal FSFT quantum computer, the (phase) limit of machine precision can be given by:
 $$
 \lim_{n \rightarrow \infty} \Delta_{max} = \frac{\pi}{2^n} \rightarrow 0
 $$
 
-At first glance, it would seem that it is as simple as setting having as many qubits as possible such that $N = 2^n$ goes to infinity and $\Delta_{max}$ goes to zero. Alas, there are a few more considerations:
+Since $\Delta_{max}$ only depends on $n$, it might seem as simple as setting having as many qubits as possible such that $N = 2^n$ goes to infinity and $\Delta_{max}$ goes to zero. Alas, there are a few more considerations:
 
 \begin{itemize}
    \item Connectivity: All-to-all connectivity is required by $F$. This can be overcome with SWAP gates at some overhead that scales with $n$ depending on local (logical) qubit connectivity.
    \item Phase control: Controlled $R_z$ gates with at least $2\pi/N$ precision. Effectively this defines a limit on the maximum phase noise that can be tolerated by 2-qubit gates. Practically speaking, this demands effective quantum error correcting codes.
    \item Coherence times: For any given $n$, $F$ requires $O(n^3)$ circuit layers. Thus the minimum depth of the circuit also scales with $O(n^3)$. Each layer of the circuit requires some time to be processed. Thus it is necessary to maintain a coherent phase for at least the time taken to complete the QPE algorithm.significantly from the  
-   \item SPAM: State Preparation And Measurement. The quantum circuit has to start from the fiduciary state $\ket{0}^{\otimes n}$, prepare the phase corresponding to $\phi_{worst}$, carry out QPE and them perform a measurement in the computational basis. Any error in preparing the state or measuring it will in turn raise the error beyond $\Delta_{max}$.
+   \item SPAM: State Preparation And Measurement. The quantum circuit has to start from the fiduciary state $\ket{0}^{\otimes n}$, prepare the phase corresponding to $\phi_{worst}$, carry out QPE and them perform a measurement in the computational basis. Any error in preparing the state or measuring it will in turn raise the error beyond $\Delta_{max}$. Whilst repeated measurements can reduce shot noise, SPAM fidelity will still be a limiting factor, especially if each shot takes a long time to compute.
    \item Phase coherence time: If the phase of the qubit being measured deviates from when the QPE algorithm is started to when the algorithm is run, the QPE will output a correct measurement of the qubit from its initial state, but an incorrect measurement of the state the qubit finds itself in by the time the algorithm has been executed. 
 \end{itemize}
 
-At this point it is worth pointing out that there is no major consideration for speed. Whether QPE is implemented very quickly or extremely slowly, all other things being equal, it doesn't affect $\Delta $. Intuitively this makes sense. Precision does not require speed. 
+At this point it is worth pointing out that there is no major consideration for speed. Whether QPE is implemented very quickly or extremely slowly, all other things being equal, it doesn't affect $\Delta $. Intuitively this makes sense. Precision does not require speed. Practically speaking speed is essential because of dephasing. The longer the coherence time, the slower the QFT can be implemented for an acceptable minimum fidelity. 
 
-Practically speaking speed is essential because of dephasing. The longer the coherence time, the slower the QFT can be implemented for an acceptable minimum fidelity. 
+\section{Faster QFTs}
 
+In almost all problems, the set of useful results is much smaller than the total set of possible results. There are many ways I can fit my clothes into my wardrobe, but very few where my shirts don't end up looking like an accordion when some poor sould opens the doors. Often, knowledge of the problem can provide a set of shortcuts. Instead of brute forcing every possible way to fit a shirt in a box, using a hanger greatly reduces the number of possible configurations. Where the quantum computers today have each qubit as a short-lived, expensive and noisy resource, clever tricks can be made to squeeze out every (qu)bit of performance. As the FFT enabled 20th century computers to vastly expand their problem solving capability, perhaps faster QFTs can accelerate the adoption of quantum computing in the 21st century.  
 
 
 \section{Additional resources}
 \begin{itemize}
+    \item \href{https://learn.qiskit.org/course/ch-labs/lab-5-accuracy-of-quantum-phase-estimation}{Qiskit Lab 5: Accuracy of Quantum Phase Estimation}
+
     \item \href{https://www.3blue1brown.com/lessons/fourier-transforms}{3blue1brown But What is the Fourier Transform? A visual introduction}
 \end{itemize}
 
@@ -1882,23 +1863,20 @@ In addition to being fast, Shor's algorithm has immense practical utility.
 
 \section{Decrypting encryption \& Y2Q}
 
-\chapter{Benchmarks for computers}
+\chapter{Quantum computers now and of the future}
 
-\section{How powerful is your quantum computer?}
+
+\section{How powerful is your computer?}
 
 \section{Classical computing benchmarks}
 
 \section{How powerful is your quantum computer?}
 
-\chapter{Quantum computers now and of the future}
+\subsection{1990's to 2022}
 
-\section{1990's to 2022}
+\subsection{The million qubit challenge}
 
-\section{The million qubit challenge}
+\section{Distributed Quantum Computing}
 
-\chapter{Distributed Quantum Computing}
-
-
-Testing
 
 \end{document}

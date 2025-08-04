@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  3 AUG 2025 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  3 AUG 2025 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,32 +254,41 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count298
-)) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (c:/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 27.
+ (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 27.
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box56
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -333,520 +342,320 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 27.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 28.
 <images/YAItQC.png, id=4, 688.5725pt x 406.51875pt>
 File: images/YAItQC.png Graphic file (type png)
 <use images/YAItQC.png>
-Package pdftex.def Info: images/YAItQC.png  used on input line 25.
+Package pdftex.def Info: images/YAItQC.png  used on input line 28.
 (pdftex.def)             Requested size: 386.95894pt x 228.44913pt.
 
 
 [1
 
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/YAItQC.png>]
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/YAItQC.png>]
 
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 30.
 [2
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 30.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 30.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 32.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 32.
+
 
 [3]
 
 [4
 
-]
-No file main.toc.
+] (./main.toc
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 1.
+
+
+[5]
+
+[6])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
 
 
-[5]
+[7]
 
-[6
+[8
 
 ]
 Chapter 1.
-<images/Energy_Levels.png, id=41, 298.83646pt x 215.3646pt>
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 19.70294pt on input line 49.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 19.70294pt on input line 49.
+<images/Energy_Levels.png, id=336, 298.83646pt x 215.3646pt>
 File: images/Energy_Levels.png Graphic file (type png)
 <use images/Energy_Levels.png>
-Package pdftex.def Info: images/Energy_Levels.png  used on input line 50.
+Package pdftex.def Info: images/Energy_Levels.png  used on input line 53.
 (pdftex.def)             Requested size: 298.83572pt x 215.36406pt.
-<images/Light_bulb_quantised.png, id=42, 298.83646pt x 268.8444pt>
+<images/Light_bulb_quantised.png, id=337, 298.83646pt x 268.8444pt>
 File: images/Light_bulb_quantised.png Graphic file (type png)
 <use images/Light_bulb_quantised.png>
-Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 52.
+Package pdftex.def Info: images/Light_bulb_quantised.png  used on input line 55.
 (pdftex.def)             Requested size: 298.83572pt x 268.84375pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[7 <./images/Energy_Levels.png>]
-<images/standard_cat.png, id=50, 1204.5pt x 640.3925pt>
+[9 <./images/Energy_Levels.png>]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 61.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 61.
+<images/standard_cat.png, id=343, 1204.5pt x 640.3925pt>
 File: images/standard_cat.png Graphic file (type png)
 <use images/standard_cat.png>
-Package pdftex.def Info: images/standard_cat.png  used on input line 61.
+Package pdftex.def Info: images/standard_cat.png  used on input line 64.
 (pdftex.def)             Requested size: 361.35278pt x 192.11923pt.
 
+Overfull \hbox (65.12651pt too wide) in paragraph at lines 63--66
+\OT1/phv/m/n/10 box they don't know if the cat is dead or alive. []
+ []
 
-[8 <./images/Light_bulb_quantised.png> <./images/standard_cat.png>]
-<images/Entanglement.png, id=58, 664.73344pt x 424.58624pt>
+
+
+[10 <./images/Light_bulb_quantised.png> <./images/standard_cat.png>]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 71.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 71.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 71.
+<images/Entanglement.png, id=350, 664.73344pt x 424.58624pt>
 File: images/Entanglement.png Graphic file (type png)
 <use images/Entanglement.png>
-Package pdftex.def Info: images/Entanglement.png  used on input line 85.
+Package pdftex.def Info: images/Entanglement.png  used on input line 88.
 (pdftex.def)             Requested size: 265.88867pt x 169.83148pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 98.
 
 
-[9 <./images/Entanglement.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[11 <./images/Entanglement.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
-[10{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 131.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 131.
+
+
+[12]
 Chapter 2.
 
 
-[11
+[13
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 184.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 9.49997pt on input line 184.
 
-[12]
-<images/Q_advantage.png, id=97, 773.13844pt x 350.81062pt>
+
+[14]
+<images/Q_advantage.png, id=375, 773.13844pt x 350.81062pt>
 File: images/Q_advantage.png Graphic file (type png)
 <use images/Q_advantage.png>
-Package pdftex.def Info: images/Q_advantage.png  used on input line 217.
+Package pdftex.def Info: images/Q_advantage.png  used on input line 220.
 (pdftex.def)             Requested size: 386.56828pt x 175.40488pt.
 
 
-[13 <./images/Q_advantage.png>]
+[15 <./images/Q_advantage.png>]
 
-[14]
+[16]
 Chapter 3.
 
 
-[15
+[17
 
 ]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:306: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.306 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-<images/Complex_conjugate_picture.svg.png, id=123, 324.46219pt x 456.95718pt>
+<images/Complex_conjugate_picture.svg.png, id=394, 324.46219pt x 456.95718pt>
 File: images/Complex_conjugate_picture.svg.png Graphic file (type png)
 <use images/Complex_conjugate_picture.svg.png>
-Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 320.
+Package pdftex.def Info: images/Complex_conjugate_picture.svg.png  used on input line 323.
 (pdftex.def)             Requested size: 162.23068pt x 228.47803pt.
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:336: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.336 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
 
-
-[16 <./images/Complex_conjugate_picture.svg.png>]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:348: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.348 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-<images/TrigonometryUnitCircle_700.png, id=134, 361.35pt x 329.23pt>
+[18 <./images/Complex_conjugate_picture.svg.png>]
+<images/TrigonometryUnitCircle_700.png, id=402, 361.35pt x 329.23pt>
 File: images/TrigonometryUnitCircle_700.png Graphic file (type png)
 <use images/TrigonometryUnitCircle_700.png>
-Package pdftex.def Info: images/TrigonometryUnitCircle_700.png  used on input line 356.
+Package pdftex.def Info: images/TrigonometryUnitCircle_700.png  used on input line 359.
 (pdftex.def)             Requested size: 234.87471pt x 213.99695pt.
 
 
-[17 <./images/TrigonometryUnitCircle_700.png>]
-<images/Polar_Argand-diagram.png, id=143, 240.00778pt x 232.57259pt>
+[19 <./images/TrigonometryUnitCircle_700.png>]
+<images/Polar_Argand-diagram.png, id=409, 240.00778pt x 232.57259pt>
 File: images/Polar_Argand-diagram.png Graphic file (type png)
 <use images/Polar_Argand-diagram.png>
-Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 392.
+Package pdftex.def Info: images/Polar_Argand-diagram.png  used on input line 395.
 (pdftex.def)             Requested size: 240.00719pt x 232.572pt.
 
 
-[18 <./images/Polar_Argand-diagram.png>]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:482: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.482 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-
-[19]
-<images/Dot_product_visualisation.png, id=160, 478.03593pt x 416.30531pt>
-File: images/Dot_product_visualisation.png Graphic file (type png)
-<use images/Dot_product_visualisation.png>
-Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 507.
-(pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:520: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.520 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-
-[20 <./images/Dot_product_visualisation.png>]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:551: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.551 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
+[20 <./images/Polar_Argand-diagram.png>]
 
 [21]
+<images/Dot_product_visualisation.png, id=419, 478.03593pt x 416.30531pt>
+File: images/Dot_product_visualisation.png Graphic file (type png)
+<use images/Dot_product_visualisation.png>
+Package pdftex.def Info: images/Dot_product_visualisation.png  used on input line 510.
+(pdftex.def)             Requested size: 239.01738pt x 208.15215pt.
 
-[22]
+
+[22 <./images/Dot_product_visualisation.png>]
+
+[23]
+
+[24]
 Chapter 4.
 
 
-[23
+[25
 
 ]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:727: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.727 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:732: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.732 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-
-[24]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:823: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.823 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
-
- []
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:829: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.829 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:830: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.830 \hspace{10}
-                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-
-[25]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:899: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.899 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
 
 [26]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:908: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.908 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:934: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.934 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
-
- []
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:939: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.939 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
 
 [27]
 
 [28]
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
+
+ []
+
+
+
+[29]
+
+[30]
 Chapter 5.
-<images/Bloch_Sphere.png, id=232, 385.44pt x 409.53pt>
+<images/Bloch_Sphere.png, id=465, 385.44pt x 409.53pt>
 File: images/Bloch_Sphere.png Graphic file (type png)
 <use images/Bloch_Sphere.png>
-Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 1016.
+Package pdftex.def Info: images/Bloch_Sphere.png  used on input line 1018.
 (pdftex.def)             Requested size: 192.71953pt x 204.7645pt.
 
 
-[29
+[31
 
  <./images/Bloch_Sphere.png>]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1046: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1046 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1051: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1051 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-
-[30]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1130: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1130 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-
-[31]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1174: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1174 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1182: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1182 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1212: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1212 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1218: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1218 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
 
 [32]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1231: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1231 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
-
- []
-
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1234: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1234 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1233--1234
-
- []
-
-
 
 [33]
 
-[34
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1235--1236
+
+ []
+
+
+
+[35]
+
+[36
 
 ]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1286--1287
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
 
  []
 
-<images/binary_conversion.png, id=283, 403.5075pt x 191.71625pt>
+<images/binary_conversion.png, id=496, 403.5075pt x 191.71625pt>
 File: images/binary_conversion.png Graphic file (type png)
 <use images/binary_conversion.png>
-Package pdftex.def Info: images/binary_conversion.png  used on input line 1305.
+Package pdftex.def Info: images/binary_conversion.png  used on input line 1307.
 (pdftex.def)             Requested size: 201.75325pt x 95.85788pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1321
 
  []
 
 
 
-[35 <./images/binary_conversion.png (PNG copy)>]
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1320: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1320 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
+[37 <./images/binary_conversion.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
 
  []
 
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1344: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1344 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
 
  []
 
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1369: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1369 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1373--1374
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
 
  []
 
-c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex:1375: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.1375 \hline
-             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-
-[36]
-
-[37]
 
 [38]
-<images/Bell_State_circuit.png, id=319, 213.79875pt x 154.5775pt>
+
+[39]
+
+[40]
+<images/Bell_State_circuit.png, id=516, 213.79875pt x 154.5775pt>
 File: images/Bell_State_circuit.png Graphic file (type png)
 <use images/Bell_State_circuit.png>
-Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1515.
+Package pdftex.def Info: images/Bell_State_circuit.png  used on input line 1514.
 (pdftex.def)             Requested size: 213.79822pt x 154.5771pt.
 
 
-[39 <./images/Bell_State_circuit.png>]
+[41 <./images/Bell_State_circuit.png>]
 
-[40
+[42
 
 ]
 Chapter 7.
 
 
-[41]
+[43]
 
-[42
+[44
 
 ]
 Chapter 8.
 
 
-[43]
-
-[44]
-Chapter 9.
-
-
-[45
-
-]
+[45]
 
 [46]
-Chapter 10.
+Chapter 9.
 
 
 [47
@@ -854,37 +663,37 @@ Chapter 10.
 ]
 
 [48]
-Chapter 11.
+Chapter 10.
 
 
 [49
 
 ]
 
-[50
+[50]
+Chapter 11.
+
+
+[51
+
+]
+
+[52
 
 ]
 Chapter 12.
 
 
-[51]
-
-[52]
-
 [53]
 
-[54
-
-]
-Chapter 13.
-
+[54]
 
 [55]
 
 [56
 
 ]
-Chapter 14.
+Chapter 13.
 
 
 [57]
@@ -892,39 +701,31 @@ Chapter 14.
 [58
 
 ]
-Chapter 15.
+Chapter 14.
 
 
-[59]
-
-[60
-
-]
-Chapter 16.
-
-
-[61] (./main.aux)
+[59] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10570 strings out of 473201
- 161953 string characters out of 5720299
- 583208 words of memory out of 5000000
- 33479 multiletter control sequences out of 15000+600000
- 566825 words of font info for 63 fonts, out of 8000000 for 9000
+ 10688 strings out of 473201
+ 163958 string characters out of 5720299
+ 583560 words of memory out of 5000000
+ 33579 multiletter control sequences out of 15000+600000
+ 587202 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,1166b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
 
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (61 pages, 1056247 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (59 pages, 958662 bytes).
 PDF statistics:
- 1067 PDF objects out of 1200 (max. 8388607)
- 934 compressed objects within 10 object streams
- 229 named destinations out of 1000 (max. 500000)
- 1258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1152 PDF objects out of 1200 (max. 8388607)
+ 1032 compressed objects within 11 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 1218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
