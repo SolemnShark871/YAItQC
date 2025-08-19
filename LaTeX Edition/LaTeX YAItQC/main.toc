@@ -117,10 +117,10 @@
 \contentsline {subsection}{\numberline {10.4.4}Quantum SVM}{50}{subsection.10.4.4}%
 \contentsline {section}{\numberline {10.5}Additional considerations}{50}{section.10.5}%
 \contentsline {subsection}{\numberline {10.5.1}Additional resources}{50}{subsection.10.5.1}%
-\contentsline {chapter}{\numberline {11}Fourier Transforms}{51}{chapter.11}%
+\contentsline {chapter}{\numberline {11}The Fourier Transform}{51}{chapter.11}%
 \contentsline {section}{\numberline {11.1}Predicting the tides: From Newton to D-Day}{51}{section.11.1}%
 \contentsline {section}{\numberline {11.2}The Fast Fourier Transform}{52}{section.11.2}%
 \contentsline {section}{\numberline {11.3}A quantum mechanical treatment}{52}{section.11.3}%
-\contentsline {section}{\numberline {11.4}A new limit of machine precision Quantum Phase Estimation}{52}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Faster QFTs}{53}{section.11.5}%
-\contentsline {section}{\numberline {11.6}Additional resources}{53}{section.11.6}%
+\contentsline {section}{\numberline {11.4}A new limit of machine precision: Quantum Phase Estimation}{52}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Faster QFTs}{54}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Additional resources}{54}{section.11.6}%

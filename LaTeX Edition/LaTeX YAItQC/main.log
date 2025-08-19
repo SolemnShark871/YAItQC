@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  4 AUG 2025 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  19 AUG 2025 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex"
-(c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex
+**"c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex"
+(c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
@@ -650,38 +650,46 @@ Chapter 11.
 <Images/KelvinHarmonicAnalyser.jpg, id=538, 371.25993pt x 246.5398pt>
 File: Images/KelvinHarmonicAnalyser.jpg Graphic file (type jpg)
 <use Images/KelvinHarmonicAnalyser.jpg>
-Package pdftex.def Info: Images/KelvinHarmonicAnalyser.jpg  used on input line 1788.
+Package pdftex.def Info: Images/KelvinHarmonicAnalyser.jpg  used on input line 1786.
 (pdftex.def)             Requested size: 386.95894pt x 256.9709pt.
 
 
 [51
 
  <./images/KelvinHarmonicAnalyser.jpg>]
+<images/f_7_indices.png, id=544, 454.5783pt x 348.3414pt>
+File: images/f_7_indices.png Graphic file (type png)
+<use images/f_7_indices.png>
+Package pdftex.def Info: images/f_7_indices.png  used on input line 1819.
+(pdftex.def)             Requested size: 386.95894pt x 296.53275pt.
+
 
 [52]
 
-[53] (./main.aux)
+[53 <./images/f_7_indices.png>]
+
+[54] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10658 strings out of 473201
- 163925 string characters out of 5720299
- 583783 words of memory out of 5000000
- 33572 multiletter control sequences out of 15000+600000
+ 10669 strings out of 473201
+ 164128 string characters out of 5720299
+ 584044 words of memory out of 5000000
+ 33581 multiletter control sequences out of 15000+600000
  587202 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,1256b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,1237b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://www.youtube.com/watch?v=jA7iopqDm94} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (53 pages, 1150586 bytes).
+Output written on main.pdf (54 pages, 1203905 bytes).
 PDF statistics:
- 1034 PDF objects out of 1200 (max. 8388607)
- 920 compressed objects within 10 object streams
- 199 named destinations out of 1000 (max. 500000)
- 1079 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1042 PDF objects out of 1200 (max. 8388607)
+ 925 compressed objects within 10 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 1084 words of extra memory for PDF output out of 10000 (max. 10000000)
 

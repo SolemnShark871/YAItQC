@@ -1,8 +1,8 @@
-PWD c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC
+PWD c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Thoma/OneDrive/Documents/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex
+INPUT c:/Users/Thoma/GitHub/YAItQC/LaTeX Edition/LaTeX YAItQC/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
@@ -267,6 +267,11 @@ INPUT ./images/KelvinHarmonicAnalyser.jpg
 INPUT ./images/KelvinHarmonicAnalyser.jpg
 INPUT ./images/KelvinHarmonicAnalyser.jpg
 INPUT ./images/KelvinHarmonicAnalyser.jpg
+INPUT ./images/f_7_indices.png
+INPUT ./images/f_7_indices.png
+INPUT ./images/f_7_indices.png
+INPUT ./images/f_7_indices.png
+INPUT ./images/f_7_indices.png
 INPUT main.aux
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

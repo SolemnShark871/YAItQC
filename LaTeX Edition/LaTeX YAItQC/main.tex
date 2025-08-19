@@ -1050,7 +1050,7 @@ We know the superposition state $\ket{+}$ has equal probabilities of $\ket{0}$ \
 
 
 
-\section{It's not just a phase!} 
+\section{It's not just a phase!} \label{It's not just a phase!}
 
 To show probabilities, a single angle is enough. So why do we need a sphere? 
 
@@ -1770,18 +1770,16 @@ Even if our current QML approaches don't offer any value at the moment, further 
 
 % \chapter{Grover's Algorithm}
 
-\chapter{Fourier Transforms} 
+\chapter{The Fourier Transform} 
 % \vspace{3cm}
+One of the most powerful tools mathematics has brought us is the ability to break down a large system into manageable components. This chapter describes a method that has literally transformed our understanding of the natural world, opening up oppertunities in engineering and computer science that has delivered great benefit to humanity. 
 
-% Waves surround us. Light travels from the sun to our eyes and sound travels from vibrating objects to our ears. Those waves come together to make up our experience of reality. For both light and sound, what we are sensitive to is small changes of intensity, the power of the light or sound per unit area, that the complex network of our sense organs and brain are able to process and interpret as what we see and hear. From incomprehensibly large numbers of photons, we can make sense of our 3D space. From a cacophony of noises we can appreciate the sound of a symphony. In the natural sciences, we process light and sound to extract insights into the physical world. In engineering, signal processing is extremely important in telecommunications and in physics there are insights we can gain about the nature of solids by performing a similar analysis. 
-% \newpage
+
 \section{Predicting the tides: From Newton to D-Day}
 
 As the earth spins on its axis, the gravitational attraction from the moon pulls ever so slightly more on one side of the planet than the other. At the same time, the centripetal acceleration of the rotation exerts a force on the oceans that is almost perfectly provided for by gravity. The combination of these two effects are what lead to the high and low tides occuring twice per day. In this simplified model, it might be assumed that the tides would occur at the same time each day. In reality, the timings of high and low tide drift from one day to the next. 
 
 For millenia, the only way to predict the timings of the tides was to consult previous observations. The earliest printed record going back to China in 1056. When he published the Principia, Issac Newton introduced his theory of gravitation, providing the first scientific explanation for the motion of the tides. Nearly a century passed before Laplace described a set of equations that could model the slow dynamic response of the oceans to the gravitational attraction of the moon and the sun. The complexity of Laplaces equations meant that nearly another century was required before they could be solved. 
-
-William Thompson, better known later as Lord Kelvin, developed Laplace's approach using the harmonic method. Kelvin's insight was to treat the complex solution as a series of oscillations that could be put together to form the complex solution. Harmonics, like how strings on a guitar can be plucked together to form a chord, consist of frequencies where each frequency carries some energy. The amplitudes and phases, like the notes and timings of a song, determine how the tidal behaviour can be predicted. Whilst this method made the problem solvable, it was still beyond what could be calculated by hand. To solve this problem, an analogue computer was designed and built.
 
 \begin{figure}[ht!]
     \centering
@@ -1789,6 +1787,9 @@ William Thompson, better known later as Lord Kelvin, developed Laplace's approac
     \caption{Kelvin's Harmonic Analyser: A mechanical device built in 1878 to compute Fourier series coefficients for tidal predictions. This machine could analyze up to 11 harmonic components simultaneously.}
     \label{fig:kelvin_analyser}
 \end{figure}
+
+William Thompson, better known later as Lord Kelvin, developed Laplace's approach using the harmonic method. Kelvin's insight was to treat the complex solution as a series of oscillations that could be put together to form the complex solution. Harmonics, like how strings on a guitar can be plucked together to form a chord, consist of frequencies where each frequency carries some energy. The amplitudes and phases, like the notes and timings of a song, determine how the tidal behaviour can be predicted. Whilst this method made the problem solvable, it was still beyond what could be calculated by hand. To solve this problem, an analogue computer was designed and built.
+
 
 A far cry from the digital electronic computers of today, the brass machines of the 19th century was built on gears and spheres. A network of pulleys and wires connected the spheres to a pen that would graph out the solution onto paper. The 11 gears in turn correspnd to 5 sets of 2 with a final gear corresponding to the mean water level. The speeds at which the shafts rotated was proportional to the frequencies of these physical effefcs. 
 
@@ -1801,9 +1802,26 @@ When a measurement is made, some data can be extracted from the measurement devi
 
 Digital computers are fundamentally limited in the precision they can achieve. Floating point numbers carry a finite number of bits. 32 bit for single precision, 64 for double precision. What this means is that every number stored on every computer is stored to a finite number of decimal points. Even for analogue computers, there is some arbitrary degree to which the precision of a given value can be stored. 
 
+
 \section{A quantum mechanical treatment}
 
- Phases can be stored classically using complex data structures: a complex number is merely 2 real numbers where one is the real component \& the other is the imaginary component. For a classical computer, complex numbers are usually stored as 2 real numbers. The difference with quantum states is that the phase is realised physically. The phase on a qubit can be thought of like the time that has passed during some physical interaction. Unlike a phase stored on a digital (classical) computer the phase on a qubit is fundamentally analogue. Just like any analogue quantity, we can describe phase in binary. For $n$ bits of precision, we can discretise phase by breaking down the equator of the Bloch sphere into a series of $N = 2^n$ equally spaced points. Each point corresponds to a specific phase and is separated from neighbouring phases by $\Delta\phi = 2\pi/N$. To simplify the maths further on, the convention of using $\omega$ to represent the exponential of this distance between the phase points is given as 
+
+Whenever a qubit is measured the probabilities of measuring $\ket{0}$ or $\ket{1}$ are completley independent of whatever phase the qubit might have. When the measurement projects the qubit into either outcome, the phase is effectively destroyed. If the phase the qubit has right before it is measured doesn't change the probabilities, why does it matter?
+
+The phase on a qubit can be thought of like the time that has passed during some physical interaction. Like the time read by a clock, this phase contains some information about what happened to the qubit. Just like the time of day is defined by the number of seconds since midnight, the phase represents the total "time" that has passed for a qubit since the quantum circuit was started. 
+When all the qubits are measured, the arrow on the Bloch sphere is projected onto either the top or bottom of the Bloch sphere. 
+
+Unlike the number of seconds on a classical clock, the phase on a qubit is analogue. As with any analogue quantity, we can approximate phase as a binary number. For $n$ bits of precision, we can discretise phase by breaking down the equator of the Bloch sphere into a series of $N = 2^n$ equally spaced points. 
+ 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/f_7_indices.png}
+    \caption{Visualization of the phases that can be reprsented using $\hat{F}_n$. For $n$ qubits, the Fourier basis contains a discrete set of $2^n$ phases (points) represented on the complex plane.}
+    \label{fig:f7_indices}
+\end{figure}
+ 
+  Each point in Figure~\ref{fig:f7_indices} corresponds to a specific phase and is separated from neighbouring phases by $\Delta\phi = \frac{2\pi}{N}$. To simplify the maths further on, the convention of using $\omega$ to represent the exponential of this distance between the phase points is given as 
 
 $$ \omega = e^{-i2\pi /N} $$
 
@@ -1815,9 +1833,9 @@ These basis states can also be expressed as a tensor product as
 
 $$ \hat{F}\ket{j}= \frac{1}{\sqrt{N}}\bigotimes_{k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
 
-Where $j$ is any of the number states in the computational (Z) basis represneted as an integer in binary.
+Where $j$ is any of the number states in the computational (Z) basis represented as an integer in binary. 
 
-\section{A new limit of machine precision Quantum Phase Estimation}
+\section{A new limit of machine precision: Quantum Phase Estimation}
 
 Since we know that $\omega$ is quantised, there is a limit to which the phase can be specified. Therefore, for some arbitrary phase angle $\phi$, and for a given number of qubits, there is a limit to the accuracy this phase can be estimated (using QPE). The maximum error to which this phase can be measured is given by the angular distance $\Delta$
 
@@ -1844,18 +1862,16 @@ Since $\Delta_{max}$ only depends on $n$, it might seem as simple as setting hav
 
 \begin{itemize}
    \item Connectivity: All-to-all connectivity is required to implement $\hat{F}$. This can be overcome with SWAP gates at some overhead that scales with $n$ depending on local (logical) qubit connectivity.
-   \item Phase control: Controlled $R_z$ gates with at least $2\pi/N$ precision. Effectively this defines a limit on the maximum phase noise that can be tolerated by 2-qubit gates. Practically speaking, this demands effective quantum error correcting codes.
-   \item Coherence times: For any given $n$, $F$ requires $O(n^3)$ circuit layers. Thus the minimum depth of the circuit also scales with $O(n^3)$. Each layer of the circuit requires some time to be processed. Thus it is necessary to maintain a coherent phase for at least the time taken to complete the QPE algorithm.
    \item SPAM: State Preparation And Measurement. The quantum circuit has to start from the fiduciary state $\ket{0}^{\otimes n}$, prepare the phase corresponding to $\phi_{worst}$, carry out QPE and them perform a measurement in the computational basis. Any error in preparing the state or measuring it will in turn raise the error beyond $\Delta_{max}$. Whilst repeated measurements can reduce shot noise, SPAM fidelity will still be a limiting factor, especially if each shot takes a long time to compute.
-   \item Phase coherence time: If the phase of the qubit being measured deviates from when the QPE algorithm is started to when the algorithm is run, the QPE will output a correct measurement of the qubit from its initial state, but an incorrect measurement of the state the qubit finds itself in by the time the algorithm has been executed. 
-\end{itemize}
+   \item Phase control: Controlled $R_z$ gates with at least $2\pi/N$ precision. Effectively this defines a limit on the maximum phase noise that can be tolerated by 2-qubit gates. Practically speaking, this sets stringent requirements on the fidelity of the Hadamard gates and the controlled Z rotations. In practice, this fidelity requirement demands effective quantum error correcting codes.
+   \item Coherence times: For any given $n$, $F$ requires $O(n^3)$ circuit layers. Thus the minimum depth of the circuit also scales with $O(n^3)$. Each layer of the circuit requires some time to be processed. Thus it is necessary to maintain a coherent phase for at least the time taken to complete the QPE algorithm.
+   \item Gate speed: QPE needs to act much faster than the qubit can dephase. The single qubit and entangling operations that comprise QPE must occur much, much faster than the phase of the qubit can change (say by $\phi_{worst}$ ).
 
-At this point it is worth pointing out that there is no major consideration for speed. Whether QPE is implemented very quickly or extremely slowly, all other things being equal, it doesn't affect $\Delta $. Intuitively this makes sense. Precision does not require speed. Practically speaking speed is essential because of dephasing. The longer the coherence time, the slower the QFT can be implemented for an acceptable minimum fidelity. 
+\end{itemize}
 
 \section{Faster QFTs}
 
-In almost all problems, the set of useful results is much smaller than the total set of possible results. There are many ways I can fit my clothes into my wardrobe, but very few where my shirts don't end up looking like an accordion when some poor sould opens the doors. Often, knowledge of the problem can provide a set of shortcuts. Instead of brute forcing every possible way to fit a shirt in a box, using a hanger greatly reduces the number of possible configurations. Where the quantum computers today have each qubit as a short-lived, expensive and noisy resource, clever tricks can be made to squeeze out every (qu)bit of performance. As the FFT enabled 20th century computers to vastly expand their problem solving capability, perhaps faster QFTs can accelerate the adoption of quantum computing in the 21st century.  
-
+In almost all problems, the set of useful results is much smaller than the total set of possible results. There are many ways I can fit my clothes into my wardrobe, but very few where my shirts don't end up looking like an accordion when some poor soul opens the doors. Often, knowledge of the problem can provide a set of shortcuts. Instead of brute forcing every possible way to fit a shirt in a box, using a hanger greatly reduces the number of possible configurations. Where the quantum computers today have each qubit as a short-lived, expensive and noisy resource, clever tricks can be made to squeeze out every (qu)bit of performance. The considerations outlined in the previous section pose some daunting engineering challenges before the QFT can be of any practical use to anyone. As the FFT enabled 20th century computers to vastly expand their problem solving capability, perhaps faster QFTs can accelerate the adoption of quantum computing in the 21st century.  
 
 \section{Additional resources}
 \begin{itemize}
