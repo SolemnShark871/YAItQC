@@ -60,8 +60,14 @@ Beyond the quantisation of energy, there are quantum phenomena which are much mo
 
 \section{So what happened to Schrödinger’s cat?}
 
-You may have heard of a very special cat associated with another German physicist, Schrodinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released, and the cat dies. otherwise, the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
-\includegraphics[scale=0.3]{images/standard_cat.png}
+You may have heard of a very special cat associated with another German physicist, Schrödinger. In this analogy, a cat is kept inside a black box that the observer can't view inside. Within the box, there is also a vial of poison with a radioactive source. The radioactive source has an equal probability of decaying or not decaying in some time. If the source decays, the poison is released, and the cat dies. otherwise, the cat is just fine. Until the observer opens the box they don't know if the cat is dead or alive. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.4]{images/standard_cat.png}
+    \caption{Schrödinger's cat thought experiment: the cat is in a superposition of alive and dead until observed.}
+    \label{fig:schrodinger_cat}
+\end{figure}
 [2]
 
 Schrödinger came up with this analogy to explain why quantum mechanics was so controversial for physicists that had been able to do very well with classical physics until the turn of the 20th century. In quantum mechanics we call this particular state a \textit{superposition}. And this is the state we say the Schrödinger's cat is in before the box is opened.This analogy is effective but is far removed from the everyday experiences one has, so another analogy can be made that encapsulates the same physics. 
@@ -99,13 +105,13 @@ The coins here are classical objects,
 
 % The Copenhagen interpretation of quantum mechanics is the oldest and most boring. Simply put, it does not really do anything but state what the theory predicts. It is a bit agnostic because there is no attempt made to answer the big question of \textbf{why}.
 
-% \subsection{Marvelous Many Worlds}
+% \subsection{Marvellous Many Worlds}
 
 % One way of dealing with the paradoxes of superposition and entanglement is to make a rather bold proposition about the nature of reality. Since quantum mechanics is hard to reconcile with our intuitive understanding of the world, the many worlds' interpretation seeks to overhaul the concept of reality.
 
-% \subsection{Quantum Bayesienism}
+% \subsection{Quantum Bayesianism}
 
-% If quantum mechanics is interpreted as a purely statistical reality, quantum Bayesienism is a very natural conclusion. 
+% If quantum mechanics is interpreted as a purely statistical reality, quantum Bayesianism is a very natural conclusion. 
 
 % \subsection{The Relational Interpretation}
 % The coins here are classical objects, but if we are loose with out concept of reality being real, whatever that means, we can reconcile the classical (or intuitive) with the quantum (or counter-intuitive). 
@@ -262,7 +268,7 @@ So far everything in this textbook has been described using real numbers- that i
 
 $$ i\hbar \frac{\partial{}}{\partial{t}}\ket{\psi} = \hat{H}\ket{\psi} $$
 
-Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planck constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the statevector for the quantum system. All of those words will make more sense in the coming chapters. The iconic Schrödinger equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, the physics is beyond the scope of this course. 
+Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planck constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the state vector for the quantum system. All of those words will make more sense in the coming chapters. The iconic Schrödinger equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, the physics is beyond the scope of this course. 
 
 \subsection{ The square root of -1}
 
@@ -934,8 +940,7 @@ Where $X_i$ is the outcome for event $i$ with probability $P(i)$ .
  
 \subsection{Exercise 4.4 Expectation value}  
   
-For this question, we're graduating from a coin to a dice. Let's call $N$ the number on a dice. Work out the expectation value by working out the number on each dice multiplied by the probability of rolling that number. \newline
-
+For this question, we're graduating from a coin to a dice. Let's call $N$ the number on a dice. Work out the expectation value by working out the number on each dice multiplied by the probability of rolling that number.
 
 
 \subsection{ A quantum description of probability }
@@ -1187,7 +1192,7 @@ In the last chapter, operators were introduced as matrices that act on a quantum
 For instance, the creation operator $\hat{a}^\dagger$ creates a photon from the vacuum but can't be represented by a matrix. The momentum operator $\hat{p} = -i\hbar\frac{\partial}{\partial x}$ is a partial derivative. 
 
 
-\section{Parameterised quantum gates }
+\section{Parametrised quantum gates }
 
 In addition to these fixed quantum gates, there are quantum gates we can specify ourselves. These gates are described by a parameter we can control to change what the gate does. These gates are very similar to nodes in a neural network where we can change the weights (we will see a lot more about these in a chapter on quantum machine learning).
 
@@ -1227,10 +1232,10 @@ $$
 
 Just as we can reach any point on the Bloch Sphere with $\theta$ \& $\phi$ we can get any quantum gate using $U$. 
 
-The set of all gates that can be made from $U$ are known as $SU(2)$. \newline
+The set of all gates that can be made from $U$ are known as $SU(2)$.
 
 \subsection{Exercise 5.7}
-Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,0,0)$ \newline 
+Which gate in the list above is represented by  $U(\theta, \phi, \lambda) = U(0,0,0)$ 
 
 
 \section{ Operators in Ket-Bra Form}
@@ -1283,7 +1288,7 @@ Everyone is familiar with the decimal system where counting goes as 0,1,2,...,8,
 
 Binary works the same way as the decimal system but instead the count repeats every 2. Numbers go as    
 
-0,1,10,11,100,101,110,111 \newline
+0,1,10,11,100,101,110,111 
 
 Which in decimal would be 
 
@@ -1404,7 +1409,6 @@ Let's say we measure the first qubit (qubit 0) and get a 0. The remaining qubits
 
 $$ \ket{\Psi} = \ket{0}\ket{\psi_1}...\ket{\psi_{n-1}}$$
 
-
 \section{ The Tensor Product }
 
 Mathematically there is a very satisfying way of representing this with linear algebra. The tensor product allows us to do this. This is a little beyond the scope of this course, but I'll include it anyway. 
@@ -1447,7 +1451,6 @@ Entanglement allows the superposition of one qubit to define the superposition o
 
 This means we can't treat our qubits as separate 2x1 vectors any more. 
 
-
 \subsection{ Can the qubit not? }
 
 Entanglement can be created by gates that act on multiple qubits together. This can create an entangled state. The most common way this is done is by using a 2 qubit gate called the controlled-not, usually shown as CNOT or CX. The CNOT acts on two qubits, the control qubit and the target qubit. If the control qubit is in the state $\ket{0}$, it will do nothing, if the control qubit is in the state $\ket{1}$ it will perform the not (X) gate on the target qubit. In both cases, the state of the control qubit is unchanged. 
@@ -1473,7 +1476,6 @@ We can represent this with a table
 
 If we have two qubits $\ket{\psi_1}_1\ket{\psi_0}_0$ where qubit 0 is in the state $\ket{\psi_0}$ and qubit 1 is in the state $\ket{\psi_1}$, there are two CNOT's we can have. One where qubit 0 is the target and qubit 1 is control or the other way around, qubit 1 is the control and qubit 0 is the target. Each of these has a different 4x4 matrix
 
-
 The first has the control on the 
 $$
 CNOT_{0, 1} = \begin{bmatrix} 1 & 0 & 0 & 0 \\
@@ -1492,7 +1494,6 @@ CNOT_{1, 0} = \begin{bmatrix} 1 & 0 & 0 & 0 \\
 $$
 
 \subsection{ Ring the Bell (states)}
-
 
 There are many ways we can entangle two qubits, and some qubits can be more entangled than others. The most common entangled states are known as the Bell states, and can be written like
 
@@ -1597,7 +1598,7 @@ For the circuit below, we'll have the top two qubits be the input, and the botto
     \item Measurement: collapsing the superposition of the qubits into either |0> or |1> to get a classical output 
 \end{enumerate}
 \item Qiskit is a free, open-source development kit for creating quantum circuits and running them on simulators or on real quantum computers
-\item Quantum gates can have parameters and this allows us to make parameterised quantum circuits 
+\item Quantum gates can have parameters and this allows us to make parametrised quantum circuits 
 
 \end{itemize}
 \chapter{Quantum Random Number Generators}
@@ -1614,7 +1615,7 @@ Humans are really bad at picking random numbers. For instance, choosing 1 or 10 
 For much of human history, random numbers were only used in games of chance. Dice go back 5,000 years (Piovano, 2011/2016). During WW2, random numbers became an important statistical tool for von Neumann when he was working on the Manhattan project (Metropolis, 1987) and for use by the Germans in sending encrypted messages. 
 From the Manhattan project (Metropolis, 1987) came Monte Carlo methods. These are simulations that take a large number of samples from a model using random numbers to compute something that would be difficult to solve otherwise. They are a powerful and ubiquitous tool in physics, economics and data science. It became clear that random numbers were increasingly useful in areas of science, cryptography and statistics. More recently, with the abundance of private information sent over the internet, there is considerable need to generate a large number of random numbers for various encryption standards (Zhou \& Tang, 2011).
 
-\section{The limitations of peudorandom number generators} 
+\section{The limitations of pseudorandom number generators} 
 
 
 Pseudo-random number generators (PRNGs) and do not actually produce random numbers. Anyone who knows the seed (initial random number) and the algorithm can generate the entire sequence with complete certainty. If left to run for long enough, both the middle square method and linear congruential method will repeat. This is fine for videogames where it is the feeling of randomness which matters, but not so great for encrypting communications (Li, 2013). With insider knowledge of the PRNG, an attacker could decrypt the communication.
@@ -1644,12 +1645,21 @@ For example, adding two n-digit numbers will require on the order of n operation
 \section{ Types of quantum algorithms} 
 
 
-- NISQ quantum algorithms 
-- Variational quantum algorithms 
-    -Variational Quantum Eigensolver, Quantum Approximate Optimisation Ansatz
-- Fault-tolerant quantum algorithms 
-    - Shor's Algorithm, Grover's algorithm, Quantum Monte Carlo,  HHL algorithm 
-
+\begin{itemize}
+    \item NISQ quantum algorithms
+    \item Variational quantum algorithms
+        \begin{itemize}
+            \item Variational Quantum Eigensolver (VQE)
+            \item Quantum Approximate Optimisation Ansatz (QAOA)
+        \end{itemize}
+    \item Fault-tolerant quantum algorithms
+        \begin{itemize}
+            \item Shor's Algorithm
+            \item Grover's Algorithm
+            \item Quantum Monte Carlo
+            \item HHL Algorithm
+        \end{itemize}
+\end{itemize}
 
 \subsection{How much do we need?}
 
@@ -1694,13 +1704,12 @@ Across many of the proposed quantum algorithms, significant work has been done i
 
 % \section{Chapter Summary}
 
-
 \chapter{Quantum Machine Learning}
 
 \section{Mysteries of machine learning}
 
 
-In recent decades the rapid development of cheap and powerful classical processing units has transformed all aspects of society. Artificial intelligence has been pondered by humanity from as far back as the 1800's but has remained the realm of science fiction until numerous great advances in the capability of computers has facilitated many implementations of AI across various industries from medicine to the military. Many of these AI technologies are based on machine learning. 
+In recent decades the rapid development of cheap and powerful classical processing units has transformed all aspects of society. Artificial intelligence has been pondered by humanity from as far back as the 1800's but has remained the realm of science fiction until numerous great advances in the capability of computers has facilitated many implementations of AI across various industries from medicine to the military. Many of these AI technologies are based on machine learning (ML). 
 
 \section{QC is a lot like machine learning}
 
@@ -1709,16 +1718,16 @@ There are quite a few similarities between quantum computing \& machine learning
 \begin{itemize}
     \item Built on linear algebra
     \item Held back by expensive computational resource
-    \item Sometimes very difficult to explain outcomes 
+    \item Sometimes difficult to explain outcomes 
     \item Likely to go through period of hype \& stagnation as technological development pace changes
     \item Often associated with optimisation problems 
-    \item Using Python \& Jupyter notebooks 
+    \item Typically developed in a user-friendly environment using Python \& Jupyter notebooks 
 \end{itemize}
 
 
-It's an open question as to whether or not quantum computing can improve machine learning. There have been some early experiments showing quantum machine learning performing better, but there have equally been experiments showing classical machine learning outperforming quantum machine learning. 
+It's an open question as to whether or not quantum computing can improve machine learning. There have been some early experiments showing quantum ML outperforming classical ML, but there have equally been experiments showing classical machine learning outperforming quantum machine learning. 
 
- Given the very limited number (\& quality) of qubits available there haven't been any large-scale tests yet. This is likely to change in the near future...
+ Given the very limited number (\& quality) of qubits available there haven't been any large-scale tests yet. This might change in the near future...
 
 \section{Why machine learning could benefit from a quantum advantage}
 
@@ -1772,14 +1781,14 @@ Even if our current QML approaches don't offer any value at the moment, further 
 
 \chapter{The Fourier Transform} 
 % \vspace{3cm}
-One of the most powerful tools mathematics has brought us is the ability to break down a large system into manageable components. This chapter describes a method that has literally transformed our understanding of the natural world, opening up oppertunities in engineering and computer science that has delivered great benefit to humanity. 
+One of the most powerful tools mathematics has brought us is the ability to break down a large system into manageable components. This chapter describes a method that has literally transformed our understanding of the natural world, opening up opportunities in engineering and computer science that has delivered great benefit to humanity. 
 
 
 \section{Predicting the tides: From Newton to D-Day}
 
-As the earth spins on its axis, the gravitational attraction from the moon pulls ever so slightly more on one side of the planet than the other. At the same time, the centripetal acceleration of the rotation exerts a force on the oceans that is almost perfectly provided for by gravity. The combination of these two effects are what lead to the high and low tides occuring twice per day. In this simplified model, it might be assumed that the tides would occur at the same time each day. In reality, the timings of high and low tide drift from one day to the next. 
+As the earth spins on its axis, the gravitational attraction from the moon pulls ever so slightly more on one side of the planet than the other. At the same time, the centripetal acceleration of the rotation exerts a force on the oceans that is almost perfectly provided for by gravity. The combination of these two effects are what lead to the high and low tides occurring twice per day. In this simplified model, it might be assumed that the tides would occur at the same time each day. In reality, the timings of high and low tide drift from one day to the next. 
 
-For millenia, the only way to predict the timings of the tides was to consult previous observations. The earliest printed record going back to China in 1056. When he published the Principia, Issac Newton introduced his theory of gravitation, providing the first scientific explanation for the motion of the tides. Nearly a century passed before Laplace described a set of equations that could model the slow dynamic response of the oceans to the gravitational attraction of the moon and the sun. The complexity of Laplaces equations meant that nearly another century was required before they could be solved. 
+For millennia, the only way to predict the timings of the tides was to consult previous observations. The earliest printed record going back to China in 1056. When he published the Principia, Isaac Newton introduced his theory of gravitation, providing the first scientific explanation for the motion of the tides. Nearly a century passed before Laplace described a set of equations that could model the slow dynamic response of the oceans to the gravitational attraction of the moon and the sun. The complexity of Laplaces equations meant that nearly another century was required before they could be solved. 
 
 \begin{figure}[ht!]
     \centering
@@ -1791,14 +1800,14 @@ For millenia, the only way to predict the timings of the tides was to consult pr
 William Thompson, better known later as Lord Kelvin, developed Laplace's approach using the harmonic method. Kelvin's insight was to treat the complex solution as a series of oscillations that could be put together to form the complex solution. Harmonics, like how strings on a guitar can be plucked together to form a chord, consist of frequencies where each frequency carries some energy. The amplitudes and phases, like the notes and timings of a song, determine how the tidal behaviour can be predicted. Whilst this method made the problem solvable, it was still beyond what could be calculated by hand. To solve this problem, an analogue computer was designed and built.
 
 
-A far cry from the digital electronic computers of today, the brass machines of the 19th century was built on gears and spheres. A network of pulleys and wires connected the spheres to a pen that would graph out the solution onto paper. The 11 gears in turn correspnd to 5 sets of 2 with a final gear corresponding to the mean water level. The speeds at which the shafts rotated was proportional to the frequencies of these physical effefcs. 
+A far cry from the digital electronic computers of today, the brass machines of the 19th century was built on gears and spheres. A network of pulleys and wires connected the spheres to a pen that would graph out the solution onto paper. The 11 gears in turn correspond to 5 sets of 2 with a final gear corresponding to the mean water level. The speeds at which the shafts rotated was proportional to the frequencies of these physical effects. 
 
 \section{The Fast Fourier Transform}
 
 
-Soon after the second world war ended, the cold war began. Both digital computing and nuclear weapons would transform the nature of warfare. Like how nuclear weapons redefined the unit of explosive power to kilo and megatons of TNT, digital computers would redefine the infomration processing speed from manual or analogue calculations. 
+Soon after the second world war ended, the cold war began. Both digital computing and nuclear weapons would transform the nature of warfare. Like how nuclear weapons redefined the unit of explosive power to kilo and megatons of TNT, digital computers would redefine the information processing speed from manual or analogue calculations. 
 
-When a measurement is made, some data can be extracted from the measurement device. The data is typically a series of points, seperated in increments of space and time. As the separation betwen each increment gets smaller, the resolution of this discrete dataset improves. 
+When a measurement is made, some data can be extracted from the measurement device. The data is typically a series of points, separated in increments of space and time. As the separation between each increment gets smaller, the resolution of this discrete dataset improves. 
 
 Digital computers are fundamentally limited in the precision they can achieve. Floating point numbers carry a finite number of bits. 32 bit for single precision, 64 for double precision. What this means is that every number stored on every computer is stored to a finite number of decimal points. Even for analogue computers, there is some arbitrary degree to which the precision of a given value can be stored. 
 
@@ -1806,7 +1815,7 @@ Digital computers are fundamentally limited in the precision they can achieve. F
 \section{A quantum mechanical treatment}
 
 
-Whenever a qubit is measured the probabilities of measuring $\ket{0}$ or $\ket{1}$ are completley independent of whatever phase the qubit might have. When the measurement projects the qubit into either outcome, the phase is effectively destroyed. If the phase the qubit has right before it is measured doesn't change the probabilities, why does it matter?
+Whenever a qubit is measured the probabilities of measuring $\ket{0}$ or $\ket{1}$ are completely independent of whatever phase the qubit might have. When the measurement projects the qubit into either outcome, the phase is effectively destroyed. If the phase the qubit has right before it is measured doesn't change the probabilities, why does it matter?
 
 The phase on a qubit can be thought of like the time that has passed during some physical interaction. Like the time read by a clock, this phase contains some information about what happened to the qubit. Just like the time of day is defined by the number of seconds since midnight, the phase represents the total "time" that has passed for a qubit since the quantum circuit was started. 
 When all the qubits are measured, the arrow on the Bloch sphere is projected onto either the top or bottom of the Bloch sphere. 
@@ -1817,18 +1826,19 @@ Unlike the number of seconds on a classical clock, the phase on a qubit is analo
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.8\textwidth]{images/f_7_indices.png}
-    \caption{Visualization of the phases that can be reprsented using $\hat{F}_n$. For $n$ qubits, the Fourier basis contains a discrete set of $2^n$ phases (points) represented on the complex plane.}
+    \caption{Visualization of the phases that can be represented using $\hat{F}_n$. For $n$ qubits, the Fourier basis contains a discrete set of $2^n$ phases (points) represented on the complex plane.}
     \label{fig:f7_indices}
 \end{figure}
  
-  Each point in Figure~\ref{fig:f7_indices} corresponds to a specific phase and is separated from neighbouring phases by $\Delta\phi = \frac{2\pi}{N}$. To simplify the maths further on, the convention of using $\omega$ to represent the exponential of this distance between the phase points is given as 
+Each point in Figure~\ref{fig:f7_indices} corresponds to a specific phase. The angles chosen around the unit circle have a specific pattern. For $n$ qubits, each circle on \ref{fig:f7_indices} has $2^n$ points given by $\phi_n^0,\phi_n^1, ..., \phi_n^{N-1} $ 
 
-$$ \omega = e^{-i2\pi /N} $$
+These angles can easily be computed as $$\phi_n^j = \frac{2\pi j}{2^n}$$. Starting from the horizontal line on the $n^{th}$ circle, $j = 0$ is the first point on the right side. $j = 1$ is reached by going counter-clockwise to the next point. Then going along each rotation of $j+1$ until the last point before the first point at $j = N-1 $. 
 
-% $\hat{F}$ is defined with some limit
+Each point on the circle is separated from its neighbour by $\Delta\phi = \phi_n^{j+1} - \phi_n^j = \frac{2\pi}{N}$. To simplify the maths further on, the convention of using $\omega$ to represent the exponential of this distance between the phase points is given as 
 
-% $$\hat{F}_n =  \frac{1}{\sqrt{N}} \sum_{j,k = 0}^{N-1}\omega^{jk} \ket{k}\bra{j} $$
+$$ \omega = e^{-\Delta\phi} =  e^{-i2\pi /N} $$
 
+In the computational basis, all these phases result in the same measurement outcomes. By transforming to the Fourier basis, the phases become distinguishable. 
 These basis states can also be expressed as a tensor product as 
 
 $$ \hat{F}\ket{j}= \frac{1}{\sqrt{N}}\bigotimes_{k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
