@@ -20,5 +20,5 @@ To my first cohort of students, who not only survived my incoherent ramblings, f
 For my friends in London who have provided me with both minor corrections and substantial philisophical insights:
 
 - Thanking Eric (@Passawis) for his grammatical corrections to chapters 1,2,3... as well as his encouraging feedback.
-- To Shaan Mehmood (@SM-3000), I give thanks for his advice on how to bring up the challenging question of interpretations of quantum mechanics. As well as his insights into classical Fourier transformes.
+- To Shaan Mehmood (@SM-3000), I give thanks for his advice on how to bring up the challenging question of interpretations of quantum mechanics. As well as his insights into classical Fourier transforms.
 - As a humanities enthusiast who can't go without pointing out my spelling mistake(s) on the README itself, I am grateful for Chiara Seed.

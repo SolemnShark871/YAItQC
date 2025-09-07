@@ -11,5 +11,8 @@
         "qubits",
         "qudits",
         "unitaries"
+    ],
+    "cSpell.ignoreWords": [
+        "Vivah"
     ]
 }

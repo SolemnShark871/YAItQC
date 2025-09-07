@@ -31,16 +31,10 @@
 
 In science fiction \textit{quantum} is often used to explain away a technology that seems to defy the laws of physics. In the 2018 superhero movie \textit{Ant-Man}, the protagonist is able to become smaller and smaller until they enter the mysterious \textit{Quantum Realm}, described as “a reality where all concepts of time and space become irrelevant”. Perhaps the writers have a consistent set of logical explanations to describe how their worlds work. Our notions of space and time in our world might not be true in their world. 
 
-The set of rules that define quantum mechanics are a subject of intense creative destruction. Theoretically, defining space and time on the quantum level is a subject for higher dimensions and exotic symmetries. Experimentally, pushing the limits of technology to define every greater precision in measurement has given birth to the current information revolution. 
+The set of rules that define quantum mechanics are a subject of intense creative destruction. Theoretically, defining space and time on the quantum level is a subject for higher dimensions and exotic symmetries. Experimentally, pushing the limits of technology to define every greater precision in measurement has given birth to the current information revolution. This revolution, like the industrial revolution, or the digital revolution that brought forth the world wide web, is as exciting as it is poorly understood. The quantum revolution offers exciting new technologies that could transform how we view the world (sensing), process it (computing) and share those insights (communications). 
 
-This revolution, like the industrial revolution, or the digital revolution that brought forth the world wide web, is as exciting as it is poorly understood. The quantum revolution offers exciting new technologies that could transform how we view the world (sensing), process it (computing) and share those insights (communications). 
+No single book could do justice to all the categories of quantum technologies, so this book will focus on computing in the most concise explanation, accepting the simple reality that the field is changing too rapidly for most of the content to be anywhere close to state-of-the-art. If all this book can accomplish for the reader is to develop an honest and intuitive appreciation for quantum information processing, it would have been worth writing. Least of all for myself. 
 
-No single book could do justice to all the categories of quantum technologies, so this book will focus on computing in the most concise explanation, accepting the simple reality that the field is changing too rapidly for most of the content to be anywhere close to state-of-the-art. 
-
-If this were how subatomic physics worked, there would be no subatomic physics $^*$.
-If all this book can accomplish for the reader is to develop an honest and intuitive appreciation for quantum information processing, it would have been worth writing. Least of all for myself. 
-
-Quantum mechanics is described by the Schrödinger equation built on space and time. There are some differences to classical physics; the physics everyone is used to experiencing in everyday life. Quantum is not some magical concept which allows for anything that violates classical physics to be explained away. There are, however, some small but significant features of quantum mechanics that allow for the development of new technologies. 
 \tableofcontents
 
 % \textit{“I am no poet, but if you think for yourselves, as I proceed, the facts will form a poem in your minds.”} - Michael Faraday
@@ -203,34 +197,10 @@ If physics were perfect, perfect qubits would exist in nature and we could just 
 
 Whilst physics is far from perfect, the limits of physics are quite generous, at least in theory. Engineering can push the limits of technology ever closer to the physical limits. Meanwhile physicists derive clever tricks to beat the standard quantum limit and demonstrate these feats of precision experimentally. Physics and engineering requires the people, the time, and ultimately the funding to go beyond what is possible with today's technology. 
 
-\section{Quantum Advantage} 
-
-If our conventional computers perform so many tasks better, there must be some motivation for quantum computing being such an exciting area of research. The maths is beautiful, the physics is exotic, and the engineers will never run out of problems to solve. But the funding has to come from somewhere. Quantum computing is expected to be more useful than a glorified coin tossing simulator. Despite the limitations in state-of-the-art quantum computing machines, it is known of a few valuable applications where quantum algorithms could \textit{theoretically outperform} the best available classical solution. Under this condition, we could define quantum advantage. 
-
-\textbf{Quantum advantage occurs when a quantum computer gives significant benefit to the user compared to the best available purely classical alternative.} 
-
-The choice of "significant benefit" is arbitrary and ultimately up to the people who use the quantum computer. There are a few different ways a quantum computer could add value: 
-
-\begin{itemize}
-    \item Solve a problem faster for better decision making
-    \item Provide more accurate solutions that are more useful 
-    \item Consume less energy over the entire process and thus cost less to run 
-    \item Enable entirely new computational models \& solutions to solve problems that previously couldn't be solved
-\end{itemize}
-
-    
-If quantum advantage is realised in terms of how speed, it is described in terms of how the time taken to get a solution scales with the size of the problem. As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some problem size for which the quantum algorithm can solve it in fewer steps. For any problem above this crossover size, the time saved using a quantum algorithm grows with the problem size. 
-
-\includegraphics[scale = 0.5]{images/Q_advantage.png}
-
-Since classical computing is so much more mature, the timescales to execute steps of an algorithm can be on the order of nanoseconds (up to billions of steps per second). Quantum computers of today cannot match this speed and there remains a long way to reach comparable maturity. Taking into account limitations of the hardware makes quantum advantage much more difficult to achieve. Furthermore, since state-of-the-art quantum computers have fewer than 1,000 qubits (as of 2022), the maximum problem size that can be encoded onto the quantum computer remains very small. If the crossover size is beyond the limits of the quantum computer, there can be no quantum advantage (at least from speed). 
-
-In recent years, hardware providers have made a big emphasis of increasing the scale of their quantum computers, predominantly by raising qubit counts. As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
-
-
 \section{Applications of Quantum Computing}
 
-There are a great many practical difficulties in implementing QC. Even still, in 2021 \href{https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/quantum-computing-funding-remains-strong-but-talent-gap-raises-concern}{over \$3 billion was invested into quantum computing}. Why is there so much hype around such an early-stage technology? 
+
+For quantum computing to be useful, there has to be a well-defined problem where using a quantum computer will help. Figuring out which problems can benefit from quantum computing, how to effectively use the quantum computer, and even just how to build and control such a machine remain very open questions. These questions pose a great practical challenge in making QC useful. Even still, in 2021 \href{https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/quantum-computing-funding-remains-strong-but-talent-gap-raises-concern}{over \$3 billion was invested into quantum computing}. Why is there so much hype around such an early-stage technology? 
 
 There are many industries expecting significant value creation from quantum computing: 
 
@@ -244,11 +214,34 @@ There are many industries expecting significant value creation from quantum comp
     
 \end{itemize}
 
+Across each of these areas, and many that have yet to be discovered, established tech companies and start-ups are working to come up with new ideas on how QC can be used. Predicting when these solutions might become availible, or how valuable they might be, is a guessing game for investors and governments. In addition to potential direct impacts, there are a lot of potential benefits to developing the technology to engineer qubits. Being able to measure qubits better can help develop quantum sensors with applications in healthcare \& navigation. 
 
-Across each of these areas, there are multiple established companies and start-ups developing quantum solutions. It is expected that the combined value creation by 2030 will be in the \$10's of billions. 
+\section{Quantum Advantage} 
 
-In addition to potential direct impacts, there are a lot of potential benefits to developing the hardware. Being able to measure qubits better can help develop quantum sensors with applications in healthcare \& navigation. 
+If our conventional computers perform so many tasks better, there must be some motivation for quantum computing being such an exciting area of research. The maths is beautiful, the physics is exotic, and the engineers will never run out of problems to solve. But the funding has to come from somewhere. Quantum computing is expected to be more useful than a glorified coin tossing simulator. Despite the limitations in state-of-the-art quantum computing machines, it is known of a few valuable applications where quantum algorithms could \textit{theoretically outperform} the best available classical solution. Under this condition, we could define quantum advantage. 
 
+\textbf{Quantum advantage occurs when adding a quantum computer gives significant benefit to the user compared to the best available purely classical alternative.} 
+
+The choice of "significant benefit" is arbitrary and ultimately up to the people who use the computer. For example, a few different ways a quantum computer could add value: 
+
+\begin{itemize}
+    \item Speed: Solve a problem faster for better decision making
+    \item Accuracy: Provide more accurate solutions that are more useful 
+    \item Efficiency: Consume less energy over the entire process and thus cost less to run 
+    \item New approaches: Enable entirely new computational models \& solutions to solve problems that previously couldn't be solved
+\end{itemize}
+    
+As a theoretical research area, the question of what could be done with a perfect quantum computer can provide some reasoning for how speed could provide the advantage. 
+
+
+
+As the problem becomes bigger and more complicated, the time taken for the computer, classical or quantum, to find a solution increases. If there is a speedup for a quantum algorithm, there is some problem size for which the quantum algorithm can solve it in fewer steps. For any problem above this crossover size, the time saved using a quantum algorithm grows with the problem size. 
+
+\includegraphics[scale = 0.5]{images/Q_advantage.png}
+
+Since classical computing is so much more mature, the timescales to execute steps of an algorithm can be on the order of nanoseconds (up to billions of steps per second). Quantum computers of today cannot match this speed and there remains a long way to reach comparable maturity. Taking into account limitations of the hardware makes quantum advantage much more difficult to achieve. Furthermore, since state-of-the-art quantum computers have fewer than 1,000 qubits (as of 2022), the maximum problem size that can be encoded onto the quantum computer remains very small. If the crossover size is beyond the limits of the quantum computer, there can be no quantum advantage (at least from speed). 
+
+In recent years, hardware providers have made a big emphasis of increasing the scale of their quantum computers, predominantly by raising qubit counts. As of the time of writing, there has been no practical demonstration of a problem with real world (outside physics) problem where using a quantum computer was better than using the best classical solution. As quantum computers become increasingly powerful it is hoped that this threshold will be crossed in the next few years...
 
 \section{Chapter Summary}
 \begin{itemize}
@@ -268,7 +261,7 @@ So far everything in this textbook has been described using real numbers- that i
 
 $$ i\hbar \frac{\partial{}}{\partial{t}}\ket{\psi} = \hat{H}\ket{\psi} $$
 
-Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planck constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the state vector for the quantum system. All of those words will make more sense in the coming chapters. The iconic Schrödinger equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, the physics is beyond the scope of this course. 
+Where $i = \sqrt{-1}$, $\hbar$ is the reduced Planck constant, $\hat{H}$ is a special operator called the Hamiltonian, and $\ket{\psi}$ is the state vector for the quantum system. All of those words will make more sense in the coming chapters. The Schrödinger equation describes how quantum systems change with time. Whilst it is very important for quantum mechanics, the physics is beyond the scope of this course. 
 
 \subsection{ The square root of -1}
 
@@ -293,8 +286,6 @@ Where $a$ and $b$ are purely real numbers. The real part of $z$ is known as $ Re
 \subsection{ The Argand Diagram}
 
 Complex numbers can be represented on a graph by splitting them into their real \& imaginary parts. In the Argand diagram the x axis represents the real part and the y axis represents the imaginary part. 
-
-
 
 If a were negative, the real part would be negative so the arrow would point to the left instead. If b were negative, the imaginary part would be negative, so the arrow would point downwards instead. 
 
@@ -324,8 +315,11 @@ $z^* = x - iy$
 
 In the figure below the complex number $z$ is shown along with its complex conjugate. In this diagram $\bar{z}$ is used rather than $z^*$ but it means the same thing.  
 
-\includegraphics[scale=0.5]{images/Complex_conjugate_picture.svg.png}
- [3]
+
+\begin{center}
+    \includegraphics[scale=0.5]{images/Complex_conjugate_picture.svg.png}
+     [3]
+\end{center}
 
  Note how the real part is the same, but the imaginary part is on the negative axis. 
 
@@ -357,11 +351,10 @@ iii. What is the magnitude of $z^*$?
 
 Trigonometry is defined as \textit{the branch of mathematics dealing with the relations of the sides and angles of triangles and with the relevant functions of any angles} but for our use it is much better to consider trigonometry the study of rotations. In later chapters, quantum gates will be described as rotations. Consider a circle with radius 1. Any point on the circle can be reached by rotating on the surface by an angle. The figure below shows how we can reach any point.
 
-% ![Unit_circle\includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
-% [2]
-
-\includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
-[2]
+\begin{center}
+    \includegraphics[scale=0.65]{images/TrigonometryUnitCircle_700.png}
+    [2]
+\end{center}
 
 The point P is reached by the angle $\theta$. It has coordinates $x = \cos(\theta)$ and $ y = \sin(\theta)$.
 
@@ -396,8 +389,10 @@ We can represent any complex number on the \textit{Argand diagram} in terms of i
 
 Euler's formula allows us to put these two together, representing any complex number as a point on a circle. 
 
-\includegraphics{images/Polar_Argand-diagram.png}
-[4]
+\begin{center}
+    \includegraphics{images/Polar_Argand-diagram.png}
+    [4]
+\end{center}
 
 There are some complex numbers that are too big to be written as $e^{i\theta}$. For instance, the complex number z = 5 + 12i cannot be written as $cos(\theta)$ because $cos(\theta)$ only goes up to 1. To overcome this, we can multiply by some magnitude to allow for bigger numbers. By multiplying by 13 we can write 
 
@@ -652,7 +647,7 @@ The conjugate transpose is the same process as it is to turn a ket (column vecto
 All quantum gates are unitary matrices, it is very common to see the term unitary when talking about any quantum circuit. 
 
 
-\section{Chapter 3 Summary }
+\section{Chapter Summary }
 \begin{itemize} 
     \item Vectors are a collection of numbers stored in a row or column
     \item Vectors can be added to each other or multiplied by a scalar
@@ -896,12 +891,11 @@ $$ \hat{Z} = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} $$
 It turns out $\hat{Z}$ is an important quantum logic gate. Note: since the symbol $Z$ has no other major uses, it's common to see the operator without the hat as just $Z$.
 
 
-We can invent another operator to perform the coin flip, we will call $\hat{F}$ for now can be represented as 
+We can invent another operator to perform the coin flip, we will call $\hat{F}$ for now\footnote{We will meet this seemingly trivial flip operator in Chapter~\ref{Fourier} in a much more powerful form.} can be represented as 
 
 $$
 \hat{F} =  \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
 $$
-
 
 \subsection{Exercise 4.3 Flip the coin}   
 
@@ -1018,7 +1012,12 @@ Dirac notation is really useful for doing algebra with quantum states. We can mo
 
 The Bloch sphere is a useful tool used to represent the state of a qubit. Below, the quantum state $\ket{\psi}$ is represented on the Bloch Sphere. 
 
-\includegraphics[scale=0.5]{images/Bloch_Sphere.png}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.5]{images/Bloch_Sphere.png}
+    \caption{The Bloch Sphere: a geometric representation of the state space of a qubit.}
+    \label{fig:bloch_sphere}
+\end{figure}
 
 
 \subsection{The north \& south poles}
@@ -1150,24 +1149,24 @@ When we apply the Hadamard twice to a state, we get the same state back. Without
 As mentioned in Chapter 4, operators are what allow us to do things to quantum states. Below are a collection of the most common single qubit operators. 
 
 \begin{center}
-\begin{tabular}{||m{1cm}| m{5cm} | m{3cm} | m{3cm} | m{2cm}||} 
- 
+\begin{tabular}{|m{1cm}| m{5cm} | m{3cm} | m{3cm} | m{2cm}|} 
+\hline
  Gate & Description & Effect on $\ket{0}$ & Effect on $\ket{1}$ & Matrix \\ [0.5ex] 
- 
+\hline
  $I$ & Identity: do nothing & $\ket{0} \rightarrow  \ket{0} $ & $\ket{1} \rightarrow \ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$ \\ 
- 
+\hline
  $X$ & Not: Swaps $\ket{0}$ with $\ket{1}$   &$\ket{0} \rightarrow \ket{1}$ &$\ket{1} \rightarrow  \ket{0}$ & $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$ \\
- 
+\hline
  $Y$ & Y: Rotation by angle $\pi$ around the y-axis of the Bloch sphere & $\ket{0} \rightarrow  i\ket{1} $ & $\ket{1} \rightarrow -i\ket{0} $ & $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ \\
- 
+\hline
  $Z$ & Z: Adds a phase of $e^{i\pi}$ to $\ket{1}$&$\ket{0} \rightarrow \ket{0}$&$\ket{1} \rightarrow -\ket{1}$ &$\begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$  \\
- 
+\hline
  $H$ & Hadamard: Creates the superposition state & $\ket{0} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} + \ket{1})$ & $\ket{1} \rightarrow \frac{1}{\sqrt{2}} ( \ket{0} - \ket{1})$ & $\frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} $\\
- 
+\hline
  $S$ & Adds a phase of $e^{\pi/2}$ between $\ket{0}$ &$\ket{0} \rightarrow  \ket{0} $ &$\ket{1} \rightarrow e^{i\pi/2}\ket{1}$  & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/2} \end{bmatrix}$\\
- 
- $T$ & Adds a phase of $e^{\pi/4}$ between $\ket{0}$ &  $\ket{0} \rightarrow  \ket{0} $& $\ket{1} \rightarrow e^{i\pi/4}\ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{bmatrix}$\\ [1ex] 
- 
+\hline
+ $T$ & Adds a phase of $e^{\pi/4}$ between $\ket{0}$ &  $\ket{0} \rightarrow  \ket{0} $& $\ket{1} \rightarrow e^{i\pi/4}\ket{1}$ & $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{bmatrix}$\\ 
+\hline
 \end{tabular}
 \end{center}
 
@@ -1215,12 +1214,12 @@ $$
 This gives a phase shift of $\phi$ between $\ket{0}$ \& $\ket{1}$
 
 
+
 \subsection{Exercise 5.5}
 By using $\theta = \pi/2$ apply $R_y(\pi/2)$ to the state $\ket{1}$. What gate does $R_y(\pi/2)$ do? 
  
 \subsection{Exercise 5.6} 
-The X gate turns $\ket{0}$ to $\ket{1}$ and $\ket{1}$ to $\ket{0}$. By considering angles on the Bloch sphere, what is the angle $\theta$ such that $R_y(\theta) = X$
-
+The X gate turns $\ket{0}$ to $\ket{1}$ and $\ket{1}$ to $\ket{0}$. By considering angles on the Bloch sphere, what is the angle $\theta$ such th
 
 \section{ The Universal Quantum Gate }
 
@@ -1254,6 +1253,10 @@ Qudits are much less commonly used than qubits for a few reasons
 
 \item Quantum error correction for qudits is much more complicated. With qubits $\ket{0}$ can only go to $\ket{1}$ but for a 3-level system there are 2 possible states $\ket{0}$ could go to. And that's just one qutrit (a qudit with d = 3). Correlations between all 3 states of two or more qudits means the different combinations of errors scale exponentially. This is also true with qubits, but at least they have a base of 2 rather than 3 or more.
 \end{itemize}
+
+\section{Chapter Exercises}
+at $R_y(\theta) = X$
+
 
 \section{Chapter 5 Summary }
 
@@ -1542,20 +1545,20 @@ $^*$ There have been proposals for using a base other than 2 for quantum computi
 For this chapter, it is recommended to view the Jupyter notebook version as a supplementary resource. \href{https://github.com/SolemnShark871/YAItQC/blob/main/Chapters/7_Quantum_circuits.ipynb}{You can find the link here.}
  
 
-\section{What do you need for a quantum computation?}
+\section{Introducing the circuit model}
 
-The logic on which both  classical and quantum computing is built requires a mathematical formalism that can be an effective and consistent representation. For both, the circuit model makes it easier to visualise how information can be created and processed classical and quantum computing. A quantum circuit is a diagram showing the operations that act on qubits to carry out a computation. Quantum circuits are like how electronic circuits show how currents and voltages can be calculated. All quantum circuits have 3 parts:
+So far the description of quantum computing has been very algebraic. States are represented as vectors, gates are matrices, and by applying the corresponding indices we can implement single qubit gates on an array of qubits. This description has been fine so far because linear algebra is very efficient when it comes to single qubit operations. Even a CNOT can be done quite easily. Where linear algebra becomes inconvenient is when we want to talk about how we can solve problems, i.e. useful computation. For this we can turn to a new model. Using diagrams to encode a model can be more intuitive, for example, an electronic circuit can make it easier to represent a large and complicated electronic system. In much the same way, a quantum circuit is a diagram showing the operations that act on qubits. Whereas electronic circuit diagrams act like a shorthand that can be useful for calculating currents and voltages, quantum circuits act like a shorthand to help keep track of the states of qubits. All quantum circuits have 3 parts:
 
 \begin{enumerate}
-    \item Initialisation: Start your qubits in an initial quantum state
-    \item Computation: Perform a series of single and 2 qubit gates
-    \item Measurement: Measure the qubits and return their projected states as classical variables
+    \item Initialisation: Start your qubits in an initial quantum state (usually in $\ket{0}^{\otimes n}$)
+    \item Computation: Perform a series of gates 
+    \item Measurement: Measure the qubits and return their projected states as classical variables (a bitstring)
 \end{enumerate}
 
-Many quantum algorithms will also interface with a classical computer. This is very application-specific so it will be covered later. 
+Since classical bits are an abstraction of quantum bits (in the limit of continuous measurement), we can generalise the aforementioned steps to any classical algorithm too. In practice, any quantum computer will need to interact with a classical computer, so the circuit model is also convenient in representing cases where classical bits can be interfaced with quantum bits.
 
 
-\subsection{  1 + 1 = 2 (most of the time )}
+\section{  1 + 1 = 2 (most of the time )}
 
 A simple quantum circuit can be used to add 2 bits. This example illustrates a basic quantum algorithm, but you would never want to do this. There is no advantage in doing addition on a quantum computer, but this is a useful example of a quantum circuit. The adder should do the following: take two qubits and return their sum. This is simply adding 1 + 1 in binary.
 
@@ -1585,6 +1588,11 @@ For both inputs and outputs, each bit of information is represented as a qubit. 
 For the circuit below, we'll have the top two qubits be the input, and the bottom two qubits be the output. This means when we measure our qubits, the bits to the left will be the output and the bits to the right will be the input. 
 
 
+\section{Quantum Teleportation}
+
+
+\section{Distributed Quantum Computing}
+
 % \includegraphics{images/quantum_adder.svg}
 
 \section{Chapter 7 Summary}
@@ -1593,9 +1601,9 @@ For the circuit below, we'll have the top two qubits be the input, and the botto
 \item A quantum circuit is a diagram that encodes all the steps of a quantum algorithm
 \item Quantum algorithms require 3 steps:
 \begin{enumerate}
-    \item Initialisation: setting all the qubits to |0>
+    \item Initialisation: setting all the qubits to $\ket{0}$
     \item Gates: a series of single qubit and entangling (multi-qubit) gates
-    \item Measurement: collapsing the superposition of the qubits into either |0> or |1> to get a classical output 
+    \item Measurement: collapsing the superposition of the qubits into either $\ket{0}$ or $\ket{1}$ to get a classical output 
 \end{enumerate}
 \item Qiskit is a free, open-source development kit for creating quantum circuits and running them on simulators or on real quantum computers
 \item Quantum gates can have parameters and this allows us to make parametrised quantum circuits 
@@ -1629,157 +1637,157 @@ Below is an example of how n random numbers (from 0 to nmax) can be generated us
 
 The TRNG implemented here is hardly the most practical implementation. It is rather slow, requires access to IBM’s cloud infrastructure, is vulnerable to interception, and runs on a device cooled to nearly absolute zero. A more useful implementation of this concept was done 20 years ago by the Swiss company ID Quantique, using a photonic chip. Newer models can be integrated in desktop PCs with PCIe connectivity or even USB (ID Quantique, n.d.).
 
-\chapter{Quantum Algorithms}
+% \chapter{Quantum Algorithms}
 
 
-\section{ Complexity theory isn't that complicated}
+% \section{ Complexity theory isn't that complicated}
 
-When doing a computation, we are really interested in how long it will take. How long it takes to solve a problem depends on the algorithm. If the algorithm has a lot of steps, it will take the computer longer to solve them problem. It also depends on how fast the computers is/ speed of the memory or ability to use hardware acceleration (GPUs) or parallelise the problem. 
+% When doing a computation, we are really interested in how long it will take. How long it takes to solve a problem depends on the algorithm. If the algorithm has a lot of steps, it will take the computer longer to solve them problem. It also depends on how fast the computers is/ speed of the memory or ability to use hardware acceleration (GPUs) or parallelise the problem. 
 
-Since the speed of the hardware varies for every computer, we prefer to consider how many steps the algorithm has. 
+% Since the speed of the hardware varies for every computer, we prefer to consider how many steps the algorithm has. 
 
-In computer science, complexity theory is the study of how hard problems are to solve. The hardness is described by the number of steps an algorithm needs to solve a problem.
+% In computer science, complexity theory is the study of how hard problems are to solve. The hardness is described by the number of steps an algorithm needs to solve a problem.
 
-For example, adding two n-digit numbers will require on the order of n operations. Multiplication 
+% For example, adding two n-digit numbers will require on the order of n operations. Multiplication 
 
-\section{ Types of quantum algorithms} 
-
-
-\begin{itemize}
-    \item NISQ quantum algorithms
-    \item Variational quantum algorithms
-        \begin{itemize}
-            \item Variational Quantum Eigensolver (VQE)
-            \item Quantum Approximate Optimisation Ansatz (QAOA)
-        \end{itemize}
-    \item Fault-tolerant quantum algorithms
-        \begin{itemize}
-            \item Shor's Algorithm
-            \item Grover's Algorithm
-            \item Quantum Monte Carlo
-            \item HHL Algorithm
-        \end{itemize}
-\end{itemize}
-
-\subsection{How much do we need?}
-
-It is extremely important to keep track of the resource requirements for any quantum algorithm. 
-
-If it turns out that an algorithm requires thousands of qubits with circuit depths in the thousands, or millions, this will not be feasible with a quantum computer in the next decade. 
-
-Across many of the proposed quantum algorithms, significant work has been done in reducing the requirements. This can be done by making circuits more efficient- using fewer gates and fewer qubits.  It is hoped that continued progress in circuit optimisation and improved hardware specifications will allow for better quantum algorithms to be implemented in the near-term. 
+% \section{ Types of quantum algorithms} 
 
 
-\section{Practical considerations: Quantum Strategy}
+% \begin{itemize}
+%     \item NISQ quantum algorithms
+%     \item Variational quantum algorithms
+%         \begin{itemize}
+%             \item Variational Quantum Eigensolver (VQE)
+%             \item Quantum Approximate Optimisation Ansatz (QAOA)
+%         \end{itemize}
+%     \item Fault-tolerant quantum algorithms
+%         \begin{itemize}
+%             \item Shor's Algorithm
+%             \item Grover's Algorithm
+%             \item Quantum Monte Carlo
+%             \item HHL Algorithm
+%         \end{itemize}
+% \end{itemize}
 
-\begin{itemize}
-    \item Try a small-scale proof of concept project first. Small scale QC can be simulated on a classical computer. If the quantum algorithm can be 
+% \subsection{How much do we need?}
 
-    \item Does the problem require QC?
-        \begin{itemize}
-            \item Quantum computing is a rather exotic solution proposed largely for problems tackled by supercomputers. Consider more conventional solutions before trying quantum.
-            \item How strong is the evidence that QC has an advantage for this problem.
-        \end{itemize}
-    \item Hardware
-        \begin{itemize}
-            \item Number of qubits (is it enough to run our algorithm)
-            \item Quality of qubits (are the outputs reliable or just noise)
-            \item Pricing/availability (can you afford it)
-            \item Software features/support (how user-friendly is it, is it compatible with qiksit/ML libraries, does it support optimisation of quantum circuits etc.)
-        \end{itemize}
-    \item Cost
-        \begin{itemize}
-            \item Currently, access to QPU time is dominated by fixed cloud overheads (i.e. the provider). This means the costs can come down very quickly as the hardware scales.
-            \item Energy costs are a large part of the costs of running conventional HPC clusters. For QPU's almost all the energy requirements are in cooling (with very little in control electronics). How this scales in the future depends on the qubit type. Optimistically, energy requirements could remain fixed for the next few years as the cooling requirements are constant for a significant growth in qubit quantity \& quality.
-        \end{itemize}
-\end{itemize}
+% It is extremely important to keep track of the resource requirements for any quantum algorithm. 
 
-\section{Limitations of quantum computing}
+% If it turns out that an algorithm requires thousands of qubits with circuit depths in the thousands, or millions, this will not be feasible with a quantum computer in the next decade. 
 
-- Quantum computers are very small scale. As of the time of writing, the gate-based quantum processing unit (QPU) with the most qubits has 127 qubits. However this machine from IBM (named eagle) is not currently available for public use. At the time of writing the QPU with the most available qubits has [INSERT REFERENCE TO QPU WITH MOST QUBITS]
-- Current QPU have high error rates. [INSERT FIGURE]
-- Quantum computing is very expensive [Reference]
-
-- QC is not a solution to every problem. For the vast majority of computational tasks, there is no proposed quantum algorithm. Thus, the vast majority of consumers are unlikely to benefit from QC in the medium term.
-
-% \section{Chapter Summary}
-
-\chapter{Quantum Machine Learning}
-
-\section{Mysteries of machine learning}
+% Across many of the proposed quantum algorithms, significant work has been done in reducing the requirements. This can be done by making circuits more efficient- using fewer gates and fewer qubits.  It is hoped that continued progress in circuit optimisation and improved hardware specifications will allow for better quantum algorithms to be implemented in the near-term. 
 
 
-In recent decades the rapid development of cheap and powerful classical processing units has transformed all aspects of society. Artificial intelligence has been pondered by humanity from as far back as the 1800's but has remained the realm of science fiction until numerous great advances in the capability of computers has facilitated many implementations of AI across various industries from medicine to the military. Many of these AI technologies are based on machine learning (ML). 
+% \section{Practical considerations: Quantum Strategy}
 
-\section{QC is a lot like machine learning}
+% \begin{itemize}
+%     \item Try a small-scale proof of concept project first. Small scale QC can be simulated on a classical computer. If the quantum algorithm can be 
 
-There are quite a few similarities between quantum computing \& machine learning. They are both:
+%     \item Does the problem require QC?
+%         \begin{itemize}
+%             \item Quantum computing is a rather exotic solution proposed largely for problems tackled by supercomputers. Consider more conventional solutions before trying quantum.
+%             \item How strong is the evidence that QC has an advantage for this problem.
+%         \end{itemize}
+%     \item Hardware
+%         \begin{itemize}
+%             \item Number of qubits (is it enough to run our algorithm)
+%             \item Quality of qubits (are the outputs reliable or just noise)
+%             \item Pricing/availability (can you afford it)
+%             \item Software features/support (how user-friendly is it, is it compatible with qiksit/ML libraries, does it support optimisation of quantum circuits etc.)
+%         \end{itemize}
+%     \item Cost
+%         \begin{itemize}
+%             \item Currently, access to QPU time is dominated by fixed cloud overheads (i.e. the provider). This means the costs can come down very quickly as the hardware scales.
+%             \item Energy costs are a large part of the costs of running conventional HPC clusters. For QPU's almost all the energy requirements are in cooling (with very little in control electronics). How this scales in the future depends on the qubit type. Optimistically, energy requirements could remain fixed for the next few years as the cooling requirements are constant for a significant growth in qubit quantity \& quality.
+%         \end{itemize}
+% \end{itemize}
 
-\begin{itemize}
-    \item Built on linear algebra
-    \item Held back by expensive computational resource
-    \item Sometimes difficult to explain outcomes 
-    \item Likely to go through period of hype \& stagnation as technological development pace changes
-    \item Often associated with optimisation problems 
-    \item Typically developed in a user-friendly environment using Python \& Jupyter notebooks 
-\end{itemize}
+% \section{Limitations of quantum computing}
 
+% - Quantum computers are very small scale. As of the time of writing, the gate-based quantum processing unit (QPU) with the most qubits has 127 qubits. However this machine from IBM (named eagle) is not currently available for public use. At the time of writing the QPU with the most available qubits has [INSERT REFERENCE TO QPU WITH MOST QUBITS]
+% - Current QPU have high error rates. [INSERT FIGURE]
+% - Quantum computing is very expensive [Reference]
 
-It's an open question as to whether or not quantum computing can improve machine learning. There have been some early experiments showing quantum ML outperforming classical ML, but there have equally been experiments showing classical machine learning outperforming quantum machine learning. 
+% - QC is not a solution to every problem. For the vast majority of computational tasks, there is no proposed quantum algorithm. Thus, the vast majority of consumers are unlikely to benefit from QC in the medium term.
 
- Given the very limited number (\& quality) of qubits available there haven't been any large-scale tests yet. This might change in the near future...
+% % \section{Chapter Summary}
 
-\section{Why machine learning could benefit from a quantum advantage}
+% \chapter{Quantum Machine Learning}
 
-There are a few reasons motivating the use of quantum computers for machine learning:
-\begin{itemize}
-    \item Better sampling from true randomness of quantum states
-    \item Higher dimensionality from $2^n$ dimension only requiring $n$ qubits
-    \item Entanglement could be better for modelling correlations in joint-probability distributions
-    \item For data generated by quantum systems can be used much \href{https://www.science.org/doi/10.1126/science.abn7293}{more effectively on a quantum model}
-\end{itemize}
-
-\section{Variants of QML} 
-
-\subsection{Variational Quantum Eigensolver}
-
-The variational quantum eigensolver (VQE) is one of the most well-known quantum algorithms. 
-
-\subsection{QAOA}
-
-\subsection{Generative Quantum Modelling}
-
-\subsection{Quantum SVM} 
-
-\section{Additional considerations}
-
-There are quite a few things to consider with QML 
-\begin{itemize}
-    \item There are no proven advantages to using QML over classical ML 
-    \item Quantum computers struggle to load large classical data sets 
-    \item Many proposed quantum algorithms depend on quantum ram, which has yet to be scaled and integrated into QPU's. 
-    \item There is significant academic scepticism, \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{even in companies that promote QML}
-    \item If a classical ML solution works perfectly well for a given problem, it is much better to use that than a quantum version. 
-\end{itemize}
+% \section{Mysteries of machine learning}
 
 
-Some optimism: 
+% In recent decades the rapid development of cheap and powerful classical processing units has transformed all aspects of society. Artificial intelligence has been pondered by humanity from as far back as the 1800's but has remained the realm of science fiction until numerous great advances in the capability of computers has facilitated many implementations of AI across various industries from medicine to the military. Many of these AI technologies are based on machine learning (ML). 
 
-Quantum machine learning is still a very new field. It may take quite some time to offer benefits, but that doesn't mean it isn't worth exploring.
+% \section{QC is a lot like machine learning}
 
-Conventional ML doesn't have much theoretical guarantees, but we know it works really well in practice. Given there are so many diverse applications of ML, one of them is likely to be well-suited to a quantum model.
+% There are quite a few similarities between quantum computing \& machine learning. They are both:
 
-Even if our current QML approaches don't offer any value at the moment, further research may uncover models better suited to the hardware we have now...
+% \begin{itemize}
+%     \item Built on linear algebra
+%     \item Held back by expensive computational resource
+%     \item Sometimes difficult to explain outcomes 
+%     \item Likely to go through period of hype \& stagnation as technological development pace changes
+%     \item Often associated with optimisation problems 
+%     \item Typically developed in a user-friendly environment using Python \& Jupyter notebooks 
+% \end{itemize}
 
-\subsection{Additional resources}
-\begin{itemize}
-    \item \href{https://github.com/Christophe-pere/Roadmap-to-QML}{GitHub repository listing papers, books and online courses}
-    \item \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{A panel discussion from 2021 on the Future of Quantum Machine Learning}
-\end{itemize}
+
+% It's an open question as to whether or not quantum computing can improve machine learning. There have been some early experiments showing quantum ML outperforming classical ML, but there have equally been experiments showing classical machine learning outperforming quantum machine learning. 
+
+%  Given the very limited number (\& quality) of qubits available there haven't been any large-scale tests yet. This might change in the near future...
+
+% \section{Why machine learning could benefit from a quantum advantage}
+
+% There are a few reasons motivating the use of quantum computers for machine learning:
+% \begin{itemize}
+%     \item Better sampling from true randomness of quantum states
+%     \item Higher dimensionality from $2^n$ dimension only requiring $n$ qubits
+%     \item Entanglement could be better for modelling correlations in joint-probability distributions
+%     \item For data generated by quantum systems can be used much \href{https://www.science.org/doi/10.1126/science.abn7293}{more effectively on a quantum model}
+% \end{itemize}
+
+% \section{Variants of QML} 
+
+% \subsection{Variational Quantum Eigensolver}
+
+% The variational quantum eigensolver (VQE) is one of the most well-known quantum algorithms. 
+
+% \subsection{QAOA}
+
+% \subsection{Generative Quantum Modelling}
+
+% \subsection{Quantum SVM} 
+
+% \section{Additional considerations}
+
+% There are quite a few things to consider with QML 
+% \begin{itemize}
+%     \item There are no proven advantages to using QML over classical ML 
+%     \item Quantum computers struggle to load large classical data sets 
+%     \item Many proposed quantum algorithms depend on quantum ram, which has yet to be scaled and integrated into QPU's. 
+%     \item There is significant academic scepticism, \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{even in companies that promote QML}
+%     \item If a classical ML solution works perfectly well for a given problem, it is much better to use that than a quantum version. 
+% \end{itemize}
+
+
+% Some optimism: 
+
+% Quantum machine learning is still a very new field. It may take quite some time to offer benefits, but that doesn't mean it isn't worth exploring.
+
+% Conventional ML doesn't have much theoretical guarantees, but we know it works really well in practice. Given there are so many diverse applications of ML, one of them is likely to be well-suited to a quantum model.
+
+% Even if our current QML approaches don't offer any value at the moment, further research may uncover models better suited to the hardware we have now...
+
+% \subsection{Additional resources}
+% \begin{itemize}
+%     \item \href{https://github.com/Christophe-pere/Roadmap-to-QML}{GitHub repository listing papers, books and online courses}
+%     \item \href{https://www.youtube.com/watch?v=5UsJV2BNj2U&list=PLOFEBzvs-VvppIb0jg5_aDbmFs36DXD9w}{A panel discussion from 2021 on the Future of Quantum Machine Learning}
+% \end{itemize}
 
 % \chapter{Grover's Algorithm}
 
-\chapter{The Fourier Transform} 
+\chapter{The Fourier Transform} \label{Fourier}
 % \vspace{3cm}
 One of the most powerful tools mathematics has brought us is the ability to break down a large system into manageable components. This chapter describes a method that has literally transformed our understanding of the natural world, opening up opportunities in engineering and computer science that has delivered great benefit to humanity. 
 
@@ -1836,7 +1844,7 @@ These angles can easily be computed as $$\phi_n^j = \frac{2\pi j}{2^n}$$. Starti
 
 Each point on the circle is separated from its neighbour by $\Delta\phi = \phi_n^{j+1} - \phi_n^j = \frac{2\pi}{N}$. To simplify the maths further on, the convention of using $\omega$ to represent the exponential of this distance between the phase points is given as 
 
-$$ \omega = e^{-\Delta\phi} =  e^{-i2\pi /N} $$
+$$ \omega = e^{-i\Delta\phi} =  e^{-i2\pi /N} $$
 
 In the computational basis, all these phases result in the same measurement outcomes. By transforming to the Fourier basis, the phases become distinguishable. 
 These basis states can also be expressed as a tensor product as 
@@ -1861,7 +1869,7 @@ $$ \Delta_{max} = 2\pi \left| \frac{1}{2N} - \frac{1}{N} \right| $$
 
 Leaving us with the worst case error 
 
-$$ \Delta_{max} = \frac{\pi}{N} $$
+$$ \Delta_{max} = \frac{\pi}{N} = \frac{\Delta\phi}{2} $$
 
 Assuming an ideal FSFT quantum computer, the (phase) limit of machine precision can be given by:
 $$
