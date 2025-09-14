@@ -1366,6 +1366,8 @@ Here we use the convention where the first qubit ($2^0$) is on the right, with t
 
 \textbf{Quantum states are read right-to-left with the first qubit next to the $\>$}
 
+This right to left notation can also be represented as a ket as $\ket{101}_{2,1,0} = \ket{1}_2\ket{0}_1\ket{1}_0$ where the subscript index specifies which qubit is in which state. Similarly, we can have our quantum gates given these subscripts so we can say which qubits they are acting on. 
+
 \subsection{6.2.3 Column vectors for multiple qubits}
 
 Keeping with the number 5, the state vector for this number 
@@ -1446,19 +1448,13 @@ The answer comes from combining superposition with entanglement.
 
 In general programming, if statements allow you to include logic in a program. If a statement is true, the algorithm will do one thing, otherwise, if the statement is false, it will do something else. The computer first has to check the variables value before executing the next step of the algorithm. We can do this on a quantum computer by measuring our qubits, collapsing the superposition and then performing our next quantum gates accordingly. For example, \href{https://qiskit.org/textbook/ch-algorithms/teleportation.html}{in quantum teleportation this is done}. 
 
- For example, in section 4.3.1 there was a game where if a coin landed up we got +1 dollar, otherwise (if it were tails up) we got -1 dollars. This works as a classical if statement, provided we add the value after the coin is landed and observed. 
-
-What makes quantum operators different is that we can apply them to the superposition. What this means is we can act on both the $\ket{H}$ and $\ket{T}$ amplitudes at once. 
-
-Entanglement allows the superposition of one qubit to define the superposition of another
-
-This means we can't treat our qubits as separate 2x1 vectors any more. 
+ For example, in section 4.3.1 there was a game where if a coin landed up we got +1 dollar, otherwise (if it were tails up) we got -1 dollars. This works as a classical if statement, provided we add the value after the coin is landed and observed. What makes quantum operators different is that we can apply them to the superposition. What this means is we can act on both the $\ket{H}$ and $\ket{T}$ amplitudes at once. 
+ 
+ In general English, we use the word entangled to suggest that a process has mixed things up in such a way that they are hard to separate. This definition works nicely for quantum states where we cannot describe one qubit without describing another. What this means, is that when two qubits are entangled, the superposition of one qubit defines the superposition of another. Mathematically, we can't treat our qubits as a product state of separate 2x1 vectors any more. 
 
 \subsection{ Can the qubit not? }
 
-Entanglement can be created by gates that act on multiple qubits together. This can create an entangled state. The most common way this is done is by using a 2 qubit gate called the controlled-not, usually shown as CNOT or CX. The CNOT acts on two qubits, the control qubit and the target qubit. If the control qubit is in the state $\ket{0}$, it will do nothing, if the control qubit is in the state $\ket{1}$ it will perform the not (X) gate on the target qubit. In both cases, the state of the control qubit is unchanged. 
-
-We can represent this with a table
+This "spooky action at a distance" can be created by gates that act on multiple qubits together to create an entangled state. The most common way this is done is by using a 2 qubit gate called the controlled-not, usually shown as CNOT or CX. The CNOT acts on two qubits, the control qubit and the target qubit. If the control qubit is in the state $\ket{0}$, it will do nothing, if the control qubit is in the state $\ket{1}$ it will perform the not (X) gate on the target qubit. In both cases, the state of the control qubit is unchanged. We can represent this with a table
 
 \begin{center}
 \begin{tabular}{ | c | c | c | c | c |}
@@ -1819,17 +1815,11 @@ When a measurement is made, some data can be extracted from the measurement devi
 
 Digital computers are fundamentally limited in the precision they can achieve. Floating point numbers carry a finite number of bits. 32 bit for single precision, 64 for double precision. What this means is that every number stored on every computer is stored to a finite number of decimal points. Even for analogue computers, there is some arbitrary degree to which the precision of a given value can be stored. 
 
-
 \section{A quantum mechanical treatment}
 
+The phase on a qubit can be thought of like the time that has passed during some physical interaction. Like the time read by a clock, this phase contains some information about what happened to the qubit. Just like the time of day is defined by the number of seconds since midnight, the phase represents the total "time" that has passed for a qubit since the quantum circuit was started. When all the qubits are measured, the arrow on the Bloch sphere is projected onto either the top or bottom of the Bloch sphere. In the computational basis, the phase angle has no effect on the measurement angle. Whenever a qubit is measured the probabilities of measuring $\ket{0}$ or $\ket{1}$ are completely independent of whatever phase the qubit might have. When the measurement projects the qubit into either outcome, the phase is effectively destroyed. If the phase the qubit has right before it is measured doesn't change the probabilities, why does it matter?
 
-Whenever a qubit is measured the probabilities of measuring $\ket{0}$ or $\ket{1}$ are completely independent of whatever phase the qubit might have. When the measurement projects the qubit into either outcome, the phase is effectively destroyed. If the phase the qubit has right before it is measured doesn't change the probabilities, why does it matter?
-
-The phase on a qubit can be thought of like the time that has passed during some physical interaction. Like the time read by a clock, this phase contains some information about what happened to the qubit. Just like the time of day is defined by the number of seconds since midnight, the phase represents the total "time" that has passed for a qubit since the quantum circuit was started. 
-When all the qubits are measured, the arrow on the Bloch sphere is projected onto either the top or bottom of the Bloch sphere. 
-
-Unlike the number of seconds on a classical clock, the phase on a qubit is analogue. As with any analogue quantity, we can approximate phase as a binary number. For $n$ bits of precision, we can discretise phase by breaking down the equator of the Bloch sphere into a series of $N = 2^n$ equally spaced points. 
- 
+In chapter \ref{It's not just a phase!} the coin flip opeator was able to disntinguish between $\ket{+},\ket{-} $ by a second application. The flip operator for single qubit gates is better referred to as a Hadamard gate. For multiple qubits, the quantum Fourier transform implements this "flipping" where the phase on the qubit can be distinguished from later measurements in the computational basis. When we add more qubits, our computational basis (also known as the dimenstion of the Hilbert space) expands exponentially. Any measurement outcome of multiple qubits in the computational basis is returned as a bitstring. Converting this bitstring to decimal gives a more readable number, the discrete set of $0,1,2,...,2^n-1$ makes up the computational basis. Unlike the number of seconds on a classical clock (whether it has "hands" or a digital display) the phase on a qubit is analogue (so far as "time" itself is continuous). As with any analogue quantity, we can approximate phase as a binary number. For $n$ bits of precision, we can discretise phase by breaking down the equator of the Bloch sphere into a series of $N = 2^n$ equally spaced points. 
 
 \begin{figure}[ht!]
     \centering
@@ -1846,13 +1836,27 @@ Each point on the circle is separated from its neighbour by $\Delta\phi = \phi_n
 
 $$ \omega = e^{-i\Delta\phi} =  e^{-i2\pi /N} $$
 
-In the computational basis, all these phases result in the same measurement outcomes. By transforming to the Fourier basis, the phases become distinguishable. 
-These basis states can also be expressed as a tensor product as 
+In the computational basis, all these phases result in the same measurement outcomes. By transforming to the Fourier basis, the phases become distinguishable. These basis states, $\{\ket{\tilde{j}}\}$ can also be expressed as a tensor product as 
+$$  
+\{\ket{\tilde{j}}\} = {\frac{1}{\sqrt{N}}\bigotimes_{k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)}
+$$
 
-$$ \hat{F}\ket{j}= \frac{1}{\sqrt{N}}\bigotimes_{k = 0}^{N-1}\left(\ket{0} + \omega^{jk}\ket{1} \right)$$
+With the Fourier basis defined, the operator which translates between the Z basis and the Fourier basis is defined as the quantum Fourier transform
 
-Where $j$ is any of the number states in the computational (Z) basis represented as an integer in binary. 
+$$ \hat{F}\ket{j}= \ket{\tilde{j}} $$
+$$ \hat{F_n} = \frac{1}{\sqrt{2^n}}\sum_{j,k =0}^{2^n-1}e^{i2\pi jk/2^n}\ket{\tilde{j}}\bra{j}  $$
 
+Where $j$ is any of the number states in the computational (Z) basis. The inverse QFT acts the opposite way, such that any state in the Fourier basis is remapped back to the computational basis. More often than the regular QFT, it is the inverse QFT that is used, as states are typically prepared and measured in the Z basis. The circuit that implements $\hat{F}$ is as 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Images/F5_circuit.png}
+    \caption{Quantum circuit implementing the (inverse) QFT for 5 qubits. Each qubit undergoes a sequence of Hadamard and controlled phase gates. Not shown are the final swap gates needed to reverse the qubit order.}
+    \label{fig:qft_circuit}
+\end{figure}
+
+
+% \newpage
 \section{A new limit of machine precision: Quantum Phase Estimation}
 
 Since we know that $\omega$ is quantised, there is a limit to which the phase can be specified. Therefore, for some arbitrary phase angle $\phi$, and for a given number of qubits, there is a limit to the accuracy this phase can be estimated (using QPE). The maximum error to which this phase can be measured is given by the angular distance $\Delta$

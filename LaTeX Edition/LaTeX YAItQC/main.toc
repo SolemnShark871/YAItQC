@@ -82,10 +82,10 @@
 \contentsline {subsection}{\numberline {6.2.4} Reading quantum states }{40}{subsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.2.5}6.2.3 Column vectors for multiple qubits}{40}{subsection.6.2.5}%
 \contentsline {subsection}{\numberline {6.2.6}Exercise 6.3}{40}{subsection.6.2.6}%
-\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{40}{section.6.3}%
+\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{41}{section.6.3}%
 \contentsline {section}{\numberline {6.4} Product States }{41}{section.6.4}%
 \contentsline {section}{\numberline {6.5} The Tensor Product }{41}{section.6.5}%
-\contentsline {section}{\numberline {6.6} Entanglement }{41}{section.6.6}%
+\contentsline {section}{\numberline {6.6} Entanglement }{42}{section.6.6}%
 \contentsline {subsection}{\numberline {6.6.1} If statements with spicy sauce }{42}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2} Can the qubit not? }{42}{subsection.6.6.2}%
 \contentsline {subsection}{\numberline {6.6.3} Ring the Bell (states)}{42}{subsection.6.6.3}%
@@ -107,6 +107,6 @@
 \contentsline {section}{\numberline {9.1}Predicting the tides: From Newton to D-Day}{49}{section.9.1}%
 \contentsline {section}{\numberline {9.2}The Fast Fourier Transform}{50}{section.9.2}%
 \contentsline {section}{\numberline {9.3}A quantum mechanical treatment}{50}{section.9.3}%
-\contentsline {section}{\numberline {9.4}A new limit of machine precision: Quantum Phase Estimation}{51}{section.9.4}%
+\contentsline {section}{\numberline {9.4}A new limit of machine precision: Quantum Phase Estimation}{52}{section.9.4}%
 \contentsline {section}{\numberline {9.5}Faster QFTs}{52}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Additional resources}{52}{section.9.6}%
+\contentsline {section}{\numberline {9.6}Additional resources}{53}{section.9.6}%
