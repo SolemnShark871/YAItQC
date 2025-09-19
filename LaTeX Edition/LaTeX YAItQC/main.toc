@@ -1,112 +1,112 @@
-\contentsline {chapter}{\numberline {1}How many physicists does it take to change a light bulb?}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}So what happened to Schrödinger’s cat?}{10}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Spooky action at a distance}{11}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Quantum Technologies}{12}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Chapter Summary}{12}{section.1.4}%
-\contentsline {chapter}{\numberline {2}What is Quantum Computing?}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}More than flipping coins}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Quantum Algorithms}{14}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Applications of Quantum Computing}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Quantum Advantage}{15}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Chapter Summary}{16}{section.2.5}%
-\contentsline {chapter}{\numberline {3}The Mathematical Minimum}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Real and imaginary quantities}{17}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1} The square root of -1}{17}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2} Complex numbers}{17}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3} The Argand Diagram}{18}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Exercise 3.1}{18}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5} Complex conjugate}{18}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6} Magnitude of complex numbers }{18}{subsection.3.1.6}%
-\contentsline {subsection}{\numberline {3.1.7}Exercise 3.2}{19}{subsection.3.1.7}%
-\contentsline {subsection}{\numberline {3.1.8} Interlude on Trigonometry }{19}{subsection.3.1.8}%
-\contentsline {subsection}{\numberline {3.1.9} Euler's formula}{19}{subsection.3.1.9}%
-\contentsline {subsection}{\numberline {3.1.10} Polar form of complex numbers}{20}{subsection.3.1.10}%
-\contentsline {section}{\numberline {3.2}Linear Algebra}{20}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1} Vectors}{21}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2} Adding vectors }{21}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3} Multiplying a vector by a scalar }{21}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Exercise 3.3}{21}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}The inner product}{22}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6} Perpendicular vectors }{22}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Exercise 3.4}{23}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Exercise 3.5}{23}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9} Matrices}{23}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10} Matrix-vector product}{23}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11} Inverse matrices }{24}{subsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.2.12} Unitary matrices}{24}{subsection.3.2.12}%
-\contentsline {section}{\numberline {3.3}Chapter Summary }{25}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Dirac Notation}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1} Information inside a computer }{27}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1} How to describe qubits?}{27}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Exercise 4.1 }{28}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}How to describe the qubits}{28}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4} Bra: Row vectors with a complex twist }{28}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2} Probability of measurement}{29}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1} Probabilities come from the inner product}{29}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Exercise 4.2}{29}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3} Operators }{30}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1} A trip to the casino}{30}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Exercise 4.3 Flip the coin}{30}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}What do we expect to get?}{31}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1} Classical probability }{31}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Exercise 4.4 Expectation value}{31}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3} A quantum description of probability }{31}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Chapter 4 Summary }{32}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Single Qubits}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1} The unit of information}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2} The Bloch Sphere }{33}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}The north \& south poles}{34}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Exercise 5.1: Where on the sphere}{34}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}It's not just a phase!}{34}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Exercise 5.2 Back to the start}{35}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Exercise 5.3 The coin doesn't work}{35}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Qubit gates }{35}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Exercise 5.4}{36}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Aside: gates vs operators}{36}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Parametrised quantum gates }{36}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Exercise 5.5}{36}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Exercise 5.6}{37}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6} The Universal Quantum Gate }{37}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Exercise 5.7}{37}{subsection.5.6.1}%
-\contentsline {section}{\numberline {5.7} Operators in Ket-Bra Form}{37}{section.5.7}%
-\contentsline {section}{\numberline {5.8} Bonus: Beyond Bits }{37}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Chapter Exercises}{37}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Chapter 5 Summary }{37}{section.5.10}%
-\contentsline {section}{\numberline {5.11}References}{37}{section.5.11}%
-\contentsline {chapter}{\numberline {6}Multiple Qubits}{39}{chapter.6}%
-\contentsline {section}{\numberline {6.1} More than the sum of its parts}{39}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Back to Binary }{39}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1} Reading binary }{39}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Exercise 6.1}{40}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Exercise 6.2}{40}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4} Reading quantum states }{40}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}6.2.3 Column vectors for multiple qubits}{40}{subsection.6.2.5}%
-\contentsline {subsection}{\numberline {6.2.6}Exercise 6.3}{40}{subsection.6.2.6}%
-\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{41}{section.6.3}%
-\contentsline {section}{\numberline {6.4} Product States }{41}{section.6.4}%
-\contentsline {section}{\numberline {6.5} The Tensor Product }{41}{section.6.5}%
-\contentsline {section}{\numberline {6.6} Entanglement }{42}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1} If statements with spicy sauce }{42}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2} Can the qubit not? }{42}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3} Ring the Bell (states)}{42}{subsection.6.6.3}%
-\contentsline {subsection}{\numberline {6.6.4}General controlled unitaries }{43}{subsection.6.6.4}%
-\contentsline {subsection}{\numberline {6.6.5}Multiple-control qubit gates }{43}{subsection.6.6.5}%
-\contentsline {section}{\numberline {6.7}Chapter Summary}{43}{section.6.7}%
-\contentsline {section}{\numberline {6.8}Additional reading}{43}{section.6.8}%
-\contentsline {chapter}{\numberline {7}Quantum Circuits}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introducing the circuit model}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2} 1 + 1 = 2 (most of the time )}{45}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Quantum Teleportation}{46}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Distributed Quantum Computing}{46}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Chapter 7 Summary}{46}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Quantum Random Number Generators}{47}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Why do we want random numbers?}{47}{section.8.1}%
-\contentsline {section}{\numberline {8.2}The limitations of pseudorandom number generators}{47}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Quantum RNG}{47}{section.8.3}%
-\contentsline {chapter}{\numberline {9}The Fourier Transform}{49}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Predicting the tides: From Newton to D-Day}{49}{section.9.1}%
-\contentsline {section}{\numberline {9.2}The Fast Fourier Transform}{50}{section.9.2}%
-\contentsline {section}{\numberline {9.3}A quantum mechanical treatment}{50}{section.9.3}%
-\contentsline {section}{\numberline {9.4}A new limit of machine precision: Quantum Phase Estimation}{52}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Faster QFTs}{52}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Additional resources}{53}{section.9.6}%
+\contentsline {chapter}{\numberline {1}How many physicists does it take to change a light bulb?}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}So what happened to Schrödinger’s cat?}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Spooky action at a distance}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Quantum Technologies}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Chapter Summary}{10}{section.1.4}%
+\contentsline {chapter}{\numberline {2}What is Quantum Computing?}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}More than flipping coins}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Quantum Algorithms}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Applications of Quantum Computing}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Quantum Advantage}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Chapter Summary}{14}{section.2.5}%
+\contentsline {chapter}{\numberline {3}The Mathematical Minimum}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Real and imaginary quantities}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1} The square root of -1}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2} Complex numbers}{15}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3} The Argand Diagram}{16}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Exercise 3.1}{16}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5} Complex conjugate}{16}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6} Magnitude of complex numbers }{16}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Exercise 3.2}{17}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.8} Interlude on Trigonometry }{17}{subsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.1.9} Euler's formula}{17}{subsection.3.1.9}%
+\contentsline {subsection}{\numberline {3.1.10} Polar form of complex numbers}{18}{subsection.3.1.10}%
+\contentsline {section}{\numberline {3.2}Linear Algebra}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1} Vectors}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2} Adding vectors }{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3} Multiplying a vector by a scalar }{19}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Exercise 3.3}{19}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}The inner product}{20}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6} Perpendicular vectors }{20}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Exercise 3.4}{21}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Exercise 3.5}{21}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9} Matrices}{21}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10} Matrix-vector product}{21}{subsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.2.11} Inverse matrices }{22}{subsection.3.2.11}%
+\contentsline {subsection}{\numberline {3.2.12} Unitary matrices}{22}{subsection.3.2.12}%
+\contentsline {section}{\numberline {3.3}Chapter Summary }{23}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Dirac Notation}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1} Information inside a computer }{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1} How to describe qubits?}{25}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Exercise 4.1 }{26}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}How to describe the qubits}{26}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4} Bra: Row vectors with a complex twist }{26}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2} Probability of measurement}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1} Probabilities come from the inner product}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Exercise 4.2}{27}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3} Operators }{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1} A trip to the casino}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Exercise 4.3 Flip the coin}{28}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}What do we expect to get?}{29}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1} Classical probability }{29}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Exercise 4.4 Expectation value}{29}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3} A quantum description of probability }{29}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Chapter 4 Summary }{30}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Single Qubits}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1} The unit of information}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2} The Bloch Sphere }{31}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}The north \& south poles}{32}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Exercise 5.1: Where on the sphere}{32}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}It's not just a phase!}{32}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Exercise 5.2 Back to the start}{33}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Exercise 5.3 The coin doesn't work}{33}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Qubit gates }{33}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Exercise 5.4}{34}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Aside: gates vs operators}{34}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Parametrised quantum gates }{34}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Exercise 5.5}{34}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Exercise 5.6}{35}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6} The Universal Quantum Gate }{35}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Exercise 5.7}{35}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7} Operators in Ket-Bra Form}{35}{section.5.7}%
+\contentsline {section}{\numberline {5.8} Bonus: Beyond Bits }{35}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Chapter Exercises}{35}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Chapter 5 Summary }{35}{section.5.10}%
+\contentsline {section}{\numberline {5.11}References}{35}{section.5.11}%
+\contentsline {chapter}{\numberline {6}Multiple Qubits}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1} More than the sum of its parts}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Back to Binary }{37}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1} Reading binary }{37}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Exercise 6.1}{38}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Exercise 6.2}{38}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4} Reading quantum states }{38}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}6.2.3 Column vectors for multiple qubits}{38}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.2.6}Exercise 6.3}{38}{subsection.6.2.6}%
+\contentsline {section}{\numberline {6.3} Multiple qubits, multiple gates }{39}{section.6.3}%
+\contentsline {section}{\numberline {6.4} Product States }{39}{section.6.4}%
+\contentsline {section}{\numberline {6.5} The Tensor Product }{39}{section.6.5}%
+\contentsline {section}{\numberline {6.6} Entanglement }{40}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1} If statements with spicy sauce }{40}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2} Can the qubit not? }{40}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3} Ring the Bell (states)}{40}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}General controlled unitaries }{41}{subsection.6.6.4}%
+\contentsline {subsection}{\numberline {6.6.5}Multiple-control qubit gates }{41}{subsection.6.6.5}%
+\contentsline {section}{\numberline {6.7}Chapter Summary}{41}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Additional reading}{41}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Quantum Circuits}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducing the circuit model}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2} 1 + 1 = 2 (most of the time )}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Quantum Teleportation}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Distributed Quantum Computing}{44}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Chapter 7 Summary}{44}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Quantum Random Number Generators}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Why do we want random numbers?}{45}{section.8.1}%
+\contentsline {section}{\numberline {8.2}The limitations of pseudorandom number generators}{45}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Quantum RNG}{45}{section.8.3}%
+\contentsline {chapter}{\numberline {9}The Fourier Transform}{47}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Predicting the tides: From Newton to D-Day}{47}{section.9.1}%
+\contentsline {section}{\numberline {9.2}The Fast Fourier Transform}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}A quantum mechanical treatment}{48}{section.9.3}%
+\contentsline {section}{\numberline {9.4}A new limit of machine precision: Quantum Phase Estimation}{50}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Faster QFTs}{51}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Additional resources}{51}{section.9.6}%
